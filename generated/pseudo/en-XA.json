@@ -1,0 +1,243 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "Pseudo (Accented)",
+    "fallback": "en",
+    "gettextCategories": [
+      "one",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=2; plural=(n != 1);",
+    "pluralCategories": [
+      "one",
+      "other"
+    ],
+    "tag": "en-XA"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧëẋŧ ŧø ŧŕåñšŀåŧë~~~~~］"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šŧøþ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šŧŕëåṁëð ŧŕåñšŀåŧïøñ øûŧþûŧ~~~~~~~~~］"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çåñçëŀ~~］"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çŀøšë šëŧŧïñĝš~~~~］"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽë þŕøṽïðëŕ~~~~］"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧë~~~］"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［ĿïñĝûåṀëšħ~~~］"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøŕë ÅƁÏ {core_abi} · Þŕøŧøçøŀ {protocol}~~~~~~~~~~~~~］"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ðïåĝñøšŧïçš~~~］"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "one": "［{count} ƒïŀë~~~~］",
+        "other": "［{count} ƒïŀëš~~~~］"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħëçķ ŧħë þŕøṽïðëŕ çŕëðëñŧïåŀ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］"
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħëçķ ŧħë çŕëðëñŧïåŀš ƒøŕ {provider} åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħïš åþþ ŕëǫûïŕëš å çøṁþåŧïƀŀë ĿïñĝûåṀëšħ Çøŕë ŀïƀŕåŕÿ.~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñŧëŕ å þŕøṽïðëŕ ñåṁë, ëñðþøïñŧ, åñð ṁøðëŀ.~~~~~~~~~~~~~~］"
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħëçķ ÿøûŕ ñëŧŵøŕķ çøññëçŧïøñ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］"
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "one": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñð.~~~~~~~~~~］",
+        "other": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñðš.~~~~~~~~~~］"
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ƒåïŀëð. Ŕëṽïëŵ ðïåĝñøšŧïçš åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［ÅÞÏ ķëÿ (øþŧïøñåŀ ƒøŕ ŀøçåŀ þŕøṽïðëŕš)~~~~~~~~~~~~］"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñðþøïñŧ~~］"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ṁøðëŀ~~］"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šøûŕçë ŧëẋŧ~~~］"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ~~~］"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "［Ħïšŧøŕÿ ïš ðïšåƀŀëð~~~~~~］",
+        "enabled": "［Ħïšŧøŕÿ ïš šåṽëð øñ ŧħïš ðëṽïçë~~~~~~~~~~］",
+        "incognito": "［Ïñçøĝñïŧø ṁøðë ðøëš ñøŧ šåṽë ŧħïš ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~］"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ïñŧëŕƒåçë ŀåñĝûåĝë: {language}~~~~~~~~~~］"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ÿøûŕ çøñŧëñŧ ĝøëš ðïŕëçŧŀÿ ŧø ŧħë þŕøṽïðëŕ ÿøû çøñƒïĝûŕë. ĿïñĝûåṀëšħ ñëṽëŕ ƀûñðŀëš åñ ÅÞÏ ķëÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøññëçŧ å ŧŕåñšŀåŧïøñ þŕøṽïðëŕ~~~~~~~~~~］"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Åçŧïṽë þŕøṽïðëŕ: {provider}~~~~~~~~~］"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ ñåṁë~~~~］"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧåŕĝëŧ ŀåñĝûåĝë~~~~~］"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħëṁë~~］"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šëŧŧïñĝš~~］"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ïñŧëŕƒåçë ŀåñĝûåĝë~~~~~~］"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ çåñçëŀŀëð. Þåŕŧïåŀ øûŧþûŧ ŵåš ķëþŧ.~~~~~~~~~~~~~~~］"
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŕëåðÿ~~］"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïñĝ…~~~~］"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ðåŕķ~~］"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŀïĝħŧ~~］"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šÿšŧëṁ~~］"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［{completed} øƒ {total} šëĝṁëñŧš ŧŕåñšŀåŧëð~~~~~~~~~~~~~~］"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

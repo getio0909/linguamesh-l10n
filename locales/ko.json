@@ -1,0 +1,239 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "Korean",
+    "fallback": "en",
+    "gettextCategories": [
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=1; plural=0;",
+    "pluralCategories": [
+      "other"
+    ],
+    "tag": "ko"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역할 텍스트"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역 중지"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "스트리밍 번역 출력"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "취소"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "설정 닫기"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "제공업체 저장"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Core ABI {core_abi} · 프로토콜 {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "진단"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "other": "파일 {count}개"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "제공업체 자격 증명을 확인하고 다시 시도하세요."
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "{provider}의 자격 증명을 확인하고 다시 시도하세요."
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "이 앱에는 호환되는 LinguaMesh Core 라이브러리가 필요합니다."
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "제공업체 이름, 엔드포인트, 모델을 입력하세요."
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "네트워크 연결을 확인하고 다시 시도하세요."
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "other": "{seconds}초 후에 다시 시도하세요."
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역에 실패했습니다. 진단을 검토하고 다시 시도하세요."
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "API 키(로컬 제공업체에서는 선택 사항)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "엔드포인트"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "모델"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "원문"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "기록이 비활성화되었습니다",
+        "enabled": "기록이 이 기기에 저장됩니다",
+        "incognito": "시크릿 모드에서는 이 번역을 저장하지 않습니다"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "인터페이스 언어: {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "텍스트 번역"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "콘텐츠는 설정한 제공업체로 직접 전송됩니다. LinguaMesh에는 API 키가 포함되어 있지 않습니다."
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역 제공업체 연결"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "활성 제공업체: {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "제공업체 이름"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "대상 언어"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "테마"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "설정"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "인터페이스 언어"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역이 취소되었습니다. 부분 출력은 유지되었습니다."
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "준비됨"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "번역 중…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "다크"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "라이트"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "시스템"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "세그먼트 {total}개 중 {completed}개 번역됨"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

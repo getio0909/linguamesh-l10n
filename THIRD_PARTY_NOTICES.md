@@ -1,7 +1,7 @@
 # Third-Party Notices
 
-The foundation checkpoint contains no bundled third-party product libraries, locale data, fonts, icons, or generated platform resources.
+The localization toolchain uses only the Python standard library and bundles no third-party runtime library, locale corpus, font, icon, or provider asset.
 
-The GitHub Actions workflow invokes `actions/checkout`, which is CI infrastructure and is governed by its own license and terms. Before adding localization data, CLDR-derived material, tooling, or runtime dependencies, review provenance and license compatibility and update this file with the distributed notices.
+The non-English strings in `locales/` were produced for LinguaMesh as machine-generated drafts. Their metadata and generated resources explicitly mark them unreviewed; they were not copied from another localization project. English source strings are original project content.
 
-Do not copy provider branding or translations from unrelated projects without documented permission and attribution review.
+GitHub Actions invokes `actions/checkout` and `actions/setup-python` as CI infrastructure under their respective licenses and terms. Reassess this file before adding CLDR-derived data, external translations, fonts, icons, or product dependencies.

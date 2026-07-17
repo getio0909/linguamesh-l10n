@@ -3,6 +3,8 @@
 .vscode/
 .codex/
 .cache/
+__pycache__/
+*.py[cod]
 coverage/
 dist/
 *.log

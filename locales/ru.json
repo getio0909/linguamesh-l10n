@@ -1,0 +1,250 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "Russian",
+    "fallback": "en",
+    "gettextCategories": [
+      "one",
+      "few",
+      "many"
+    ],
+    "gettextPluralRule": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+    "pluralCategories": [
+      "one",
+      "few",
+      "many",
+      "other"
+    ],
+    "tag": "ru"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Текст для перевода"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Остановить перевод"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Потоковый результат перевода"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Отмена"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Закрыть настройки"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Сохранить поставщика"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Перевести"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ABI ядра {core_abi} · Протокол {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Диагностика"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "{count} файла",
+        "many": "{count} файлов",
+        "one": "{count} файл",
+        "other": "{count} файла"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Проверьте учётные данные поставщика и повторите попытку."
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Проверьте учетные данные для {provider} и повторите попытку."
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Для этого приложения требуется совместимая библиотека LinguaMesh Core."
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Укажите название поставщика, конечную точку и модель."
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Проверьте подключение к сети и повторите попытку."
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "Повторите попытку через {seconds} секунды.",
+        "many": "Повторите попытку через {seconds} секунд.",
+        "one": "Повторите попытку через {seconds} секунду.",
+        "other": "Повторите попытку через {seconds} секунды."
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Не удалось выполнить перевод. Просмотрите диагностику и повторите попытку."
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ключ API (необязательно для локальных поставщиков)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Конечная точка"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Модель"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Исходный текст"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Перевод"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "История отключена",
+        "enabled": "История сохраняется на этом устройстве",
+        "incognito": "В режиме инкогнито этот перевод не сохраняется"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Язык интерфейса: {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Перевод текста"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ваш контент отправляется напрямую настроенному поставщику. LinguaMesh не содержит встроенных ключей API."
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Подключить поставщика перевода"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Активный провайдер: {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Название поставщика"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Целевой язык"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Тема"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Настройки"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Язык интерфейса"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Перевод отменён. Частичный результат сохранён."
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Готово"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Выполняется перевод…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Тёмная"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Светлая"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Системная"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Переведено сегментов: {completed} из {total}"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

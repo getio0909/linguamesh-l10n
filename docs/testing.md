@@ -1,17 +1,22 @@
 # Testing
 
-## Available now
+Python 3.13 is required; the product toolchain has no external package dependencies. On this workstation the verified interpreter is `/home/wangtinghu/miniconda3/envs/py313/bin/python`. Override `PYTHON_BIN` on other hosts.
 
-Setup requires only Bash, Git, and standard POSIX utilities. From the repository root run:
+Run each command from the repository root:
 
 ```sh
-./tools/check-foundation.sh
+make setup
+make format-check
+make lint
+make test
+make generate-check
+make build
 ```
 
-This verifies required foundation files, the global-goal revision pin, repository identity, line endings, and trailing whitespace. It is the only implemented format/lint/test check. There is no product build.
+In order, these commands verify Python and imports; check JSON formatting; validate schemas, catalogs, placeholders, branches, and syntax; run unit and fixture tests; compare independently generated output byte for byte; and build the ZIP plus SHA-256.
 
-## Unavailable until implementation
+`make check` runs all commands above and the repository foundation check. Formatting changes can be applied with `make format`; native resources can be refreshed with `make generate`.
 
-The product toolchain and its exact executable interface have not been selected, so product setup, formatting, linting, tests, generators, and builds are unavailable. Do not invent commands or report those checks as passing.
+The tests parse every generated Android and Windows XML document, load the macOS String Catalog as JSON, inspect Linux PO escaping and review metadata, validate pseudo-locales and Arabic quantities, verify all manifest hashes, and compare generated output against a fresh tree. Safety tests reject resource-identifier collisions, unsafe select branches, invalid XML characters, overstated review metadata, symbolic-link inputs and outputs, oversized JSON, and unsafe bundle versions. Fixtures under `tests/fixtures/` prove that unknown keys, placeholder drift, missing plural categories, and incompatible select branches fail validation.
 
-When the schema toolchain is implemented, this document must name exact reproducible commands for dependency setup, formatting, schema linting, unit and fixture tests, all four platform generators, deterministic-output comparison, and bundle packaging. Default CI must require no paid provider credentials.
+Default tests use no provider, network access, paid credential, or private translation content.

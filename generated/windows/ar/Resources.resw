@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+    </resheader>
+    <data name="app.title" xml:space="preserve">
+        <value>LinguaMesh</value>
+        <comment>Application name shown in native shells and About views. Translation status: draft.</comment>
+    </data>
+    <data name="nav.text_translation" xml:space="preserve">
+        <value>ترجمة النص</value>
+        <comment>Navigation label for the text translation workspace. Translation status: draft.</comment>
+    </data>
+    <data name="action.translate" xml:space="preserve">
+        <value>ترجمة</value>
+        <comment>Primary action that starts a translation. Translation status: draft.</comment>
+    </data>
+    <data name="action.cancel" xml:space="preserve">
+        <value>إلغاء</value>
+        <comment>Action that cancels the active operation. Translation status: draft.</comment>
+    </data>
+    <data name="provider.active" xml:space="preserve">
+        <value>المزوّد النشط: {0}</value>
+        <comment>Identifies the provider that will receive the next request. Translation status: draft.</comment>
+    </data>
+    <data name="translation.progress" xml:space="preserve">
+        <value>تمت ترجمة {0} من {1} مقاطع</value>
+        <comment>Progress summary for translated document segments. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.zero" xml:space="preserve">
+        <value>لم يتم تحديد أي ملفات ({0})</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.one" xml:space="preserve">
+        <value>تم تحديد ملف واحد ({0})</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.two" xml:space="preserve">
+        <value>تم تحديد ملفين ({0})</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.few" xml:space="preserve">
+        <value>تم تحديد {0} ملفات</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.many" xml:space="preserve">
+        <value>تم تحديد {0} ملفًا</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.other" xml:space="preserve">
+        <value>تم تحديد {0} ملف</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.disabled" xml:space="preserve">
+        <value>السجل معطّل</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.enabled" xml:space="preserve">
+        <value>يُحفظ السجل على هذا الجهاز</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.incognito" xml:space="preserve">
+        <value>لا يحفظ وضع التصفح الخفي هذه الترجمة</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication_failed" xml:space="preserve">
+        <value>تحقق من بيانات اعتماد {0} وحاول مرة أخرى.</value>
+        <comment>Authentication error that names the affected provider without exposing credentials. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.zero" xml:space="preserve">
+        <value>أعد المحاولة الآن ({0} ثانية).</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.one" xml:space="preserve">
+        <value>أعد المحاولة بعد ثانية واحدة ({0}).</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.two" xml:space="preserve">
+        <value>أعد المحاولة بعد ثانيتين ({0}).</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.few" xml:space="preserve">
+        <value>أعد المحاولة بعد {0} ثوانٍ.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.many" xml:space="preserve">
+        <value>أعد المحاولة بعد {0} ثانية.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.other" xml:space="preserve">
+        <value>أعد المحاولة بعد {0} ثانية.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.stop_translation" xml:space="preserve">
+        <value>إيقاف الترجمة</value>
+        <comment>Screen-reader label for stopping an active translation. Translation status: draft.</comment>
+    </data>
+    <data name="locale.current" xml:space="preserve">
+        <value>لغة الواجهة: {0}</value>
+        <comment>Names the active interface language in Settings. Translation status: draft.</comment>
+    </data>
+    <data name="error.network_unavailable" xml:space="preserve">
+        <value>تحقق من اتصال الشبكة وحاول مرة أخرى.</value>
+        <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.title" xml:space="preserve">
+        <value>الاتصال بمزوّد ترجمة</value>
+        <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.description" xml:space="preserve">
+        <value>يُرسل محتواك مباشرةً إلى المزوّد الذي تضبطه. لا يتضمن LinguaMesh أي مفتاح API.</value>
+        <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
+    </data>
+    <data name="provider.name" xml:space="preserve">
+        <value>اسم المزوّد</value>
+        <comment>Label for the provider profile name field. Translation status: draft.</comment>
+    </data>
+    <data name="field.endpoint" xml:space="preserve">
+        <value>نقطة النهاية</value>
+        <comment>Label for the provider endpoint field. Translation status: draft.</comment>
+    </data>
+    <data name="field.model" xml:space="preserve">
+        <value>النموذج</value>
+        <comment>Label for the provider model field. Translation status: draft.</comment>
+    </data>
+    <data name="field.api_key" xml:space="preserve">
+        <value>مفتاح API (اختياري للمزوّدين المحليين)</value>
+        <comment>Label for the optional provider API key field. Translation status: draft.</comment>
+    </data>
+    <data name="action.save_provider" xml:space="preserve">
+        <value>حفظ المزوّد</value>
+        <comment>Action that validates and saves a provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="field.source_text" xml:space="preserve">
+        <value>النص المصدر</value>
+        <comment>Label for the source text input field. Translation status: draft.</comment>
+    </data>
+    <data name="field.translation" xml:space="preserve">
+        <value>الترجمة</value>
+        <comment>Heading for translated output. Translation status: draft.</comment>
+    </data>
+    <data name="settings.title" xml:space="preserve">
+        <value>الإعدادات</value>
+        <comment>Heading and navigation label for application settings. Translation status: draft.</comment>
+    </data>
+    <data name="settings.theme" xml:space="preserve">
+        <value>السمة</value>
+        <comment>Heading for the interface theme preference. Translation status: draft.</comment>
+    </data>
+    <data name="theme.system" xml:space="preserve">
+        <value>النظام</value>
+        <comment>Theme option that follows the operating system setting. Translation status: draft.</comment>
+    </data>
+    <data name="theme.light" xml:space="preserve">
+        <value>فاتح</value>
+        <comment>Theme option for the light color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="theme.dark" xml:space="preserve">
+        <value>داكن</value>
+        <comment>Theme option for the dark color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="settings.ui_language" xml:space="preserve">
+        <value>لغة الواجهة</value>
+        <comment>Heading for the interface language preference. Translation status: draft.</comment>
+    </data>
+    <data name="settings.target_language" xml:space="preserve">
+        <value>اللغة الهدف</value>
+        <comment>Label for the translation target language selector. Translation status: draft.</comment>
+    </data>
+    <data name="status.ready" xml:space="preserve">
+        <value>جاهز</value>
+        <comment>Status shown when the translator is ready for input. Translation status: draft.</comment>
+    </data>
+    <data name="status.translating" xml:space="preserve">
+        <value>جارٍ الترجمة…</value>
+        <comment>Status shown while translated output is streaming. Translation status: draft.</comment>
+    </data>
+    <data name="status.cancelled" xml:space="preserve">
+        <value>أُلغيت الترجمة. تم الاحتفاظ بالمخرجات الجزئية.</value>
+        <comment>Status shown after cancellation when partial output remains available. Translation status: draft.</comment>
+    </data>
+    <data name="error.invalid_profile" xml:space="preserve">
+        <value>أدخل اسم المزوّد ونقطة النهاية والنموذج.</value>
+        <comment>Validation error for an incomplete provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication" xml:space="preserve">
+        <value>تحقق من بيانات اعتماد المزوّد وحاول مرة أخرى.</value>
+        <comment>Authentication guidance that does not expose credential content. Translation status: draft.</comment>
+    </data>
+    <data name="error.incompatible_core" xml:space="preserve">
+        <value>يتطلب هذا التطبيق مكتبة LinguaMesh Core متوافقة.</value>
+        <comment>Error shown when the native core contract is incompatible. Translation status: draft.</comment>
+    </data>
+    <data name="error.unknown" xml:space="preserve">
+        <value>فشلت الترجمة. راجع معلومات التشخيص وحاول مرة أخرى.</value>
+        <comment>Fallback translation error with actionable diagnostic guidance. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.title" xml:space="preserve">
+        <value>التشخيص</value>
+        <comment>Heading for non-sensitive compatibility diagnostics. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.summary" xml:space="preserve">
+        <value>Core ABI {0} · البروتوكول {1}</value>
+        <comment>Summary of the loaded core ABI and protocol revisions. Translation status: draft.</comment>
+    </data>
+    <data name="action.close_settings" xml:space="preserve">
+        <value>إغلاق الإعدادات</value>
+        <comment>Action that closes the settings view. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.source_content" xml:space="preserve">
+        <value>النص المطلوب ترجمته</value>
+        <comment>Accessible name for the source text editor. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.translation_output" xml:space="preserve">
+        <value>مخرجات الترجمة المتدفقة</value>
+        <comment>Accessible name for streamed translated output. Translation status: draft.</comment>
+    </data>
+</root>

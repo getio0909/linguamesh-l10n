@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+    </resheader>
+    <data name="app.title" xml:space="preserve">
+        <value>LinguaMesh</value>
+        <comment>Application name shown in native shells and About views. Translation status: draft.</comment>
+    </data>
+    <data name="nav.text_translation" xml:space="preserve">
+        <value>텍스트 번역</value>
+        <comment>Navigation label for the text translation workspace. Translation status: draft.</comment>
+    </data>
+    <data name="action.translate" xml:space="preserve">
+        <value>번역</value>
+        <comment>Primary action that starts a translation. Translation status: draft.</comment>
+    </data>
+    <data name="action.cancel" xml:space="preserve">
+        <value>취소</value>
+        <comment>Action that cancels the active operation. Translation status: draft.</comment>
+    </data>
+    <data name="provider.active" xml:space="preserve">
+        <value>활성 제공업체: {0}</value>
+        <comment>Identifies the provider that will receive the next request. Translation status: draft.</comment>
+    </data>
+    <data name="translation.progress" xml:space="preserve">
+        <value>세그먼트 {1}개 중 {0}개 번역됨</value>
+        <comment>Progress summary for translated document segments. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.other" xml:space="preserve">
+        <value>파일 {0}개</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.disabled" xml:space="preserve">
+        <value>기록이 비활성화되었습니다</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.enabled" xml:space="preserve">
+        <value>기록이 이 기기에 저장됩니다</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.incognito" xml:space="preserve">
+        <value>시크릿 모드에서는 이 번역을 저장하지 않습니다</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication_failed" xml:space="preserve">
+        <value>{0}의 자격 증명을 확인하고 다시 시도하세요.</value>
+        <comment>Authentication error that names the affected provider without exposing credentials. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.other" xml:space="preserve">
+        <value>{0}초 후에 다시 시도하세요.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.stop_translation" xml:space="preserve">
+        <value>번역 중지</value>
+        <comment>Screen-reader label for stopping an active translation. Translation status: draft.</comment>
+    </data>
+    <data name="locale.current" xml:space="preserve">
+        <value>인터페이스 언어: {0}</value>
+        <comment>Names the active interface language in Settings. Translation status: draft.</comment>
+    </data>
+    <data name="error.network_unavailable" xml:space="preserve">
+        <value>네트워크 연결을 확인하고 다시 시도하세요.</value>
+        <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.title" xml:space="preserve">
+        <value>번역 제공업체 연결</value>
+        <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.description" xml:space="preserve">
+        <value>콘텐츠는 설정한 제공업체로 직접 전송됩니다. LinguaMesh에는 API 키가 포함되어 있지 않습니다.</value>
+        <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
+    </data>
+    <data name="provider.name" xml:space="preserve">
+        <value>제공업체 이름</value>
+        <comment>Label for the provider profile name field. Translation status: draft.</comment>
+    </data>
+    <data name="field.endpoint" xml:space="preserve">
+        <value>엔드포인트</value>
+        <comment>Label for the provider endpoint field. Translation status: draft.</comment>
+    </data>
+    <data name="field.model" xml:space="preserve">
+        <value>모델</value>
+        <comment>Label for the provider model field. Translation status: draft.</comment>
+    </data>
+    <data name="field.api_key" xml:space="preserve">
+        <value>API 키(로컬 제공업체에서는 선택 사항)</value>
+        <comment>Label for the optional provider API key field. Translation status: draft.</comment>
+    </data>
+    <data name="action.save_provider" xml:space="preserve">
+        <value>제공업체 저장</value>
+        <comment>Action that validates and saves a provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="field.source_text" xml:space="preserve">
+        <value>원문</value>
+        <comment>Label for the source text input field. Translation status: draft.</comment>
+    </data>
+    <data name="field.translation" xml:space="preserve">
+        <value>번역</value>
+        <comment>Heading for translated output. Translation status: draft.</comment>
+    </data>
+    <data name="settings.title" xml:space="preserve">
+        <value>설정</value>
+        <comment>Heading and navigation label for application settings. Translation status: draft.</comment>
+    </data>
+    <data name="settings.theme" xml:space="preserve">
+        <value>테마</value>
+        <comment>Heading for the interface theme preference. Translation status: draft.</comment>
+    </data>
+    <data name="theme.system" xml:space="preserve">
+        <value>시스템</value>
+        <comment>Theme option that follows the operating system setting. Translation status: draft.</comment>
+    </data>
+    <data name="theme.light" xml:space="preserve">
+        <value>라이트</value>
+        <comment>Theme option for the light color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="theme.dark" xml:space="preserve">
+        <value>다크</value>
+        <comment>Theme option for the dark color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="settings.ui_language" xml:space="preserve">
+        <value>인터페이스 언어</value>
+        <comment>Heading for the interface language preference. Translation status: draft.</comment>
+    </data>
+    <data name="settings.target_language" xml:space="preserve">
+        <value>대상 언어</value>
+        <comment>Label for the translation target language selector. Translation status: draft.</comment>
+    </data>
+    <data name="status.ready" xml:space="preserve">
+        <value>준비됨</value>
+        <comment>Status shown when the translator is ready for input. Translation status: draft.</comment>
+    </data>
+    <data name="status.translating" xml:space="preserve">
+        <value>번역 중…</value>
+        <comment>Status shown while translated output is streaming. Translation status: draft.</comment>
+    </data>
+    <data name="status.cancelled" xml:space="preserve">
+        <value>번역이 취소되었습니다. 부분 출력은 유지되었습니다.</value>
+        <comment>Status shown after cancellation when partial output remains available. Translation status: draft.</comment>
+    </data>
+    <data name="error.invalid_profile" xml:space="preserve">
+        <value>제공업체 이름, 엔드포인트, 모델을 입력하세요.</value>
+        <comment>Validation error for an incomplete provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication" xml:space="preserve">
+        <value>제공업체 자격 증명을 확인하고 다시 시도하세요.</value>
+        <comment>Authentication guidance that does not expose credential content. Translation status: draft.</comment>
+    </data>
+    <data name="error.incompatible_core" xml:space="preserve">
+        <value>이 앱에는 호환되는 LinguaMesh Core 라이브러리가 필요합니다.</value>
+        <comment>Error shown when the native core contract is incompatible. Translation status: draft.</comment>
+    </data>
+    <data name="error.unknown" xml:space="preserve">
+        <value>번역에 실패했습니다. 진단을 검토하고 다시 시도하세요.</value>
+        <comment>Fallback translation error with actionable diagnostic guidance. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.title" xml:space="preserve">
+        <value>진단</value>
+        <comment>Heading for non-sensitive compatibility diagnostics. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.summary" xml:space="preserve">
+        <value>Core ABI {0} · 프로토콜 {1}</value>
+        <comment>Summary of the loaded core ABI and protocol revisions. Translation status: draft.</comment>
+    </data>
+    <data name="action.close_settings" xml:space="preserve">
+        <value>설정 닫기</value>
+        <comment>Action that closes the settings view. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.source_content" xml:space="preserve">
+        <value>번역할 텍스트</value>
+        <comment>Accessible name for the source text editor. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.translation_output" xml:space="preserve">
+        <value>스트리밍 번역 출력</value>
+        <comment>Accessible name for streamed translated output. Translation status: draft.</comment>
+    </data>
+</root>

@@ -1,0 +1,47 @@
+name: Localization validation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  localization:
+    name: Validate and build localization bundle
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Check setup
+        run: make setup PYTHON_BIN=python
+      - name: Check formatting
+        run: make format-check PYTHON_BIN=python
+      - name: Validate catalogs
+        run: make lint PYTHON_BIN=python
+      - name: Run tests
+        run: make test PYTHON_BIN=python
+      - name: Verify generated resources
+        run: make generate-check PYTHON_BIN=python
+      - name: Build deterministic bundle
+        run: make build PYTHON_BIN=python
+      - name: Verify bundle checksum
+        working-directory: dist
+        run: sha256sum --check linguamesh-l10n-0.1.0.zip.sha256
+      - name: Upload development bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: linguamesh-l10n-0.1.0
+          path: |
+            dist/linguamesh-l10n-0.1.0.zip
+            dist/linguamesh-l10n-0.1.0.zip.sha256
+          if-no-files-found: error
+          retention-days: 7
+      - name: Validate repository foundation
+        run: ./tools/check-foundation.sh

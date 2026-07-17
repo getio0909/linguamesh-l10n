@@ -1,7 +1,25 @@
 # Releasing
 
-No localization release can be produced from the foundation checkpoint.
+Catalog `0.1.0` is a development bundle, not a stable localization release. The eleven non-English official packs are machine-generated and unreviewed.
 
-A future release must use semantic versioning and include canonical sources, generated platform bundles, compatibility metadata, checksums, license material, and updated third-party notices. Before tagging, validate every official locale, placeholder/plural/select compatibility, fallback behavior, pseudo-locales, RTL fixtures, and deterministic regeneration.
+## Development bundle
 
-Record the localization version and compatible client/core versions in the central `linguamesh-project/release-manifest.toml`. Mark prereleases clearly. Do not publish a stable bundle until the central known-good release train and reproducible CI evidence agree.
+Run:
+
+```sh
+make check
+```
+
+This regenerates native resources, verifies committed output, creates `dist/linguamesh-l10n-0.1.0.zip`, and writes its SHA-256 file. The archive uses fixed timestamps, stable path ordering, and fixed permissions. Repeating `make build` with unchanged inputs must produce the same checksum.
+
+## Stable release gate
+
+Before tagging a stable bundle:
+
+1. obtain and record qualified human review for every locale claimed reviewed;
+2. run all commands in `docs/testing.md` in CI;
+3. verify client consumption of Android XML, Windows RESW, macOS XCStrings, and Linux PO;
+4. record compatibility, artifact checksums, limitations, and rollback guidance;
+5. update the central `linguamesh-project/release-manifest.toml` with the tested localization version and compatible clients.
+
+Do not publish drafts as reviewed, omit `generated/manifest.json`, or claim runtime locale switching and RTL client behavior from generator tests alone.

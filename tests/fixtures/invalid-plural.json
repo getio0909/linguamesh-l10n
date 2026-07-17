@@ -1,0 +1,9 @@
+{
+  "locale": "ru",
+  "message": "document.file_count",
+  "variants": {
+    "few": "{count} файла",
+    "many": "{count} файлов",
+    "one": "{count} файл"
+  }
+}

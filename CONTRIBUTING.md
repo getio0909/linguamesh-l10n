@@ -1,16 +1,16 @@
 # Contributing
 
-Read `GLOBAL_GOAL.md`, `REPOSITORY_ROLE.md`, and `AGENTS.md` before proposing changes.
+Read `AGENTS.md`, `GLOBAL_GOAL.md`, `REPOSITORY_ROLE.md`, and `docs/message-format.md` before changing localization data.
 
 ## Change process
 
 1. Inspect `git status --short` and preserve unrelated work.
-2. Explain the affected message keys, locales, placeholders, generators, and compatibility range.
-3. Keep source-message and translation changes reviewable and avoid unrelated reformatting.
-4. Run `./tools/check-foundation.sh` at the current checkpoint.
-5. Once product tooling exists, run every format, lint, test, and build command in `docs/testing.md`.
-6. Record actual evidence in `IMPLEMENTATION_STATUS.md` when changing implementation state.
+2. Explain affected keys, locales, placeholder types, plural/select branches, and compatibility impact.
+3. Keep English definitions and locale changes reviewable; never use display text as a key.
+4. Mark machine-generated translations `draft` and `unreviewed`.
+5. Run every command in `docs/testing.md` and inspect the generated diff.
+6. Update `IMPLEMENTATION_STATUS.md` only with commands that actually ran.
 
-Use short imperative commit subjects with an optional scope, for example `locales: define English fallback metadata`.
+Use short imperative commit subjects, for example `locales: add document progress messages`. Pull requests must identify reviewer language competence, generated drafts, source-revision changes, affected clients, and exact validation results.
 
-Pull requests must identify machine-generated drafts, reviewer language competence where relevant, placeholder changes, compatibility impact, and exact validation results. Never include credentials or private translation content.
+Locale packs are data-only. Never include credentials, private translation content, executable hooks, provider branding copied from another project, or unlicensed translations.

@@ -1,0 +1,243 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "Hindi",
+    "fallback": "en",
+    "gettextCategories": [
+      "one",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=2; plural=(n != 1);",
+    "pluralCategories": [
+      "one",
+      "other"
+    ],
+    "tag": "hi"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद किया जाने वाला टेक्स्ट"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद रोकें"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "स्ट्रीम किया गया अनुवाद आउटपुट"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "रद्द करें"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "सेटिंग बंद करें"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "प्रदाता सहेजें"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद करें"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Core ABI {core_abi} · प्रोटोकॉल {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "निदान"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "one": "{count} फ़ाइल",
+        "other": "{count} फ़ाइलें"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "प्रदाता क्रेडेंशियल जाँचें और फिर से प्रयास करें।"
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "{provider} के क्रेडेंशियल जाँचें और फिर से कोशिश करें।"
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "इस ऐप के लिए संगत LinguaMesh Core लाइब्रेरी आवश्यक है।"
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "प्रदाता का नाम, एंडपॉइंट और मॉडल दर्ज करें।"
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अपना नेटवर्क कनेक्शन जाँचें और फिर से कोशिश करें।"
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "one": "{seconds} सेकंड बाद फिर से कोशिश करें।",
+        "other": "{seconds} सेकंड बाद फिर से कोशिश करें।"
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद विफल रहा। निदान की समीक्षा करें और फिर से प्रयास करें।"
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "API कुंजी (स्थानीय प्रदाताओं के लिए वैकल्पिक)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "एंडपॉइंट"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "मॉडल"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "स्रोत टेक्स्ट"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "इतिहास बंद है",
+        "enabled": "इतिहास इस डिवाइस पर सहेजा जाता है",
+        "incognito": "गुप्त मोड इस अनुवाद को नहीं सहेजता"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "इंटरफ़ेस भाषा: {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "पाठ अनुवाद"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "आपकी सामग्री सीधे आपके कॉन्फ़िगर किए गए प्रदाता के पास जाती है। LinguaMesh में कोई API कुंजी शामिल नहीं होती।"
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद प्रदाता से कनेक्ट करें"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "सक्रिय प्रदाता: {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "प्रदाता का नाम"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "लक्ष्य भाषा"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "थीम"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "सेटिंग"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "इंटरफ़ेस की भाषा"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद रद्द किया गया। आंशिक आउटपुट रखा गया।"
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "तैयार"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुवाद हो रहा है…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "गहरी"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "हल्की"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "सिस्टम"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "{total} में से {completed} खंडों का अनुवाद हुआ"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

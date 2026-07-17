@@ -1,0 +1,246 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "French",
+    "fallback": "en",
+    "gettextCategories": [
+      "one",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=2; plural=(n > 1);",
+    "pluralCategories": [
+      "one",
+      "many",
+      "other"
+    ],
+    "tag": "fr"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Texte à traduire"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Arrêter la traduction"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Sortie de traduction en continu"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Annuler"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Fermer les paramètres"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Enregistrer le fournisseur"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Traduire"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ABI du Core {core_abi} · Protocole {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Diagnostics"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "many": "{count} fichiers",
+        "one": "{count} fichier",
+        "other": "{count} fichiers"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Vérifiez l’identifiant du fournisseur et réessayez."
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Vérifiez les identifiants de {provider}, puis réessayez."
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Cette application nécessite une bibliothèque LinguaMesh Core compatible."
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Saisissez un nom de fournisseur, un point de terminaison et un modèle."
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Vérifiez votre connexion réseau, puis réessayez."
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "many": "Réessayez dans {seconds} secondes.",
+        "one": "Réessayez dans {seconds} seconde.",
+        "other": "Réessayez dans {seconds} secondes."
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "La traduction a échoué. Consultez les diagnostics et réessayez."
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Clé API (facultative pour les fournisseurs locaux)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Point de terminaison"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Modèle"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Texte source"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Traduction"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "L’historique est désactivé",
+        "enabled": "L’historique est enregistré sur cet appareil",
+        "incognito": "Le mode navigation privée n’enregistre pas cette traduction"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Langue de l’interface : {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Traduction de texte"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Votre contenu est envoyé directement au fournisseur que vous configurez. LinguaMesh n’intègre jamais de clé API."
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Connecter un fournisseur de traduction"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Fournisseur actif : {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Nom du fournisseur"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Langue cible"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Thème"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Paramètres"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Langue de l’interface"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Traduction annulée. La sortie partielle a été conservée."
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Prêt"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Traduction en cours…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Sombre"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Clair"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Système"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "{completed} segments traduits sur {total}"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

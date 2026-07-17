@@ -1,0 +1,9 @@
+{
+  "locale": "de",
+  "message": "history.mode",
+  "variants": {
+    "disabled": "Der Verlauf ist deaktiviert",
+    "enabled": "Der Verlauf ist aktiviert",
+    "private": "Privater Modus"
+  }
+}

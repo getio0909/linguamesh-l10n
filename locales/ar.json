@@ -1,0 +1,259 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "rtl",
+    "englishName": "Arabic",
+    "fallback": "en",
+    "gettextCategories": [
+      "zero",
+      "one",
+      "two",
+      "few",
+      "many",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);",
+    "pluralCategories": [
+      "zero",
+      "one",
+      "two",
+      "few",
+      "many",
+      "other"
+    ],
+    "tag": "ar"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "النص المطلوب ترجمته"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "إيقاف الترجمة"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "مخرجات الترجمة المتدفقة"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "إلغاء"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "إغلاق الإعدادات"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "حفظ المزوّد"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ترجمة"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Core ABI {core_abi} · البروتوكول {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "التشخيص"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "تم تحديد {count} ملفات",
+        "many": "تم تحديد {count} ملفًا",
+        "one": "تم تحديد ملف واحد ({count})",
+        "other": "تم تحديد {count} ملف",
+        "two": "تم تحديد ملفين ({count})",
+        "zero": "لم يتم تحديد أي ملفات ({count})"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تحقق من بيانات اعتماد المزوّد وحاول مرة أخرى."
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تحقق من بيانات اعتماد {provider} وحاول مرة أخرى."
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "يتطلب هذا التطبيق مكتبة LinguaMesh Core متوافقة."
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "أدخل اسم المزوّد ونقطة النهاية والنموذج."
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تحقق من اتصال الشبكة وحاول مرة أخرى."
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "أعد المحاولة بعد {seconds} ثوانٍ.",
+        "many": "أعد المحاولة بعد {seconds} ثانية.",
+        "one": "أعد المحاولة بعد ثانية واحدة ({seconds}).",
+        "other": "أعد المحاولة بعد {seconds} ثانية.",
+        "two": "أعد المحاولة بعد ثانيتين ({seconds}).",
+        "zero": "أعد المحاولة الآن ({seconds} ثانية)."
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فشلت الترجمة. راجع معلومات التشخيص وحاول مرة أخرى."
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "مفتاح API (اختياري للمزوّدين المحليين)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "نقطة النهاية"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "النموذج"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "النص المصدر"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الترجمة"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "السجل معطّل",
+        "enabled": "يُحفظ السجل على هذا الجهاز",
+        "incognito": "لا يحفظ وضع التصفح الخفي هذه الترجمة"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "لغة الواجهة: {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ترجمة النص"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "يُرسل محتواك مباشرةً إلى المزوّد الذي تضبطه. لا يتضمن LinguaMesh أي مفتاح API."
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الاتصال بمزوّد ترجمة"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "المزوّد النشط: {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اسم المزوّد"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اللغة الهدف"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "السمة"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الإعدادات"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "لغة الواجهة"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "أُلغيت الترجمة. تم الاحتفاظ بالمخرجات الجزئية."
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جاهز"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ الترجمة…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "داكن"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فاتح"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "النظام"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تمت ترجمة {completed} من {total} مقاطع"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

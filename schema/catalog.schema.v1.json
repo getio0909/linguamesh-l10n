@@ -1,0 +1,207 @@
+{
+  "$defs": {
+    "message": {
+      "additionalProperties": false,
+      "properties": {
+        "accessibilityContext": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "key": {
+          "pattern": "^[a-z][a-z0-9]*(\\.[a-z][a-z0-9_]*)+$",
+          "type": "string"
+        },
+        "placeholders": {
+          "additionalProperties": {
+            "$ref": "#/$defs/placeholder"
+          },
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "type": "object"
+        },
+        "platforms": {
+          "items": {
+            "enum": [
+              "android",
+              "windows",
+              "macos",
+              "linux"
+            ]
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "sourceRevision": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "status": {
+          "const": "source"
+        },
+        "value": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/textValue"
+            },
+            {
+              "$ref": "#/$defs/variantValue"
+            }
+          ]
+        }
+      },
+      "required": [
+        "key",
+        "description",
+        "placeholders",
+        "value",
+        "platforms",
+        "accessibilityContext",
+        "status",
+        "sourceRevision"
+      ],
+      "type": "object"
+    },
+    "placeholder": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "else": {
+            "not": {
+              "required": [
+                "choices"
+              ]
+            }
+          },
+          "if": {
+            "properties": {
+              "type": {
+                "const": "select"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "choices"
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "choices": {
+          "items": {
+            "minLength": 1,
+            "pattern": "^[a-z][a-z0-9_]*$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "example": {},
+        "type": {
+          "enum": [
+            "string",
+            "integer",
+            "number",
+            "select"
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "example"
+      ],
+      "type": "object"
+    },
+    "textValue": {
+      "additionalProperties": false,
+      "properties": {
+        "template": {
+          "type": "string"
+        },
+        "type": {
+          "const": "text"
+        }
+      },
+      "required": [
+        "type",
+        "template"
+      ],
+      "type": "object"
+    },
+    "variantValue": {
+      "additionalProperties": false,
+      "properties": {
+        "selector": {
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "plural",
+            "select"
+          ]
+        },
+        "variants": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "minProperties": 1,
+          "type": "object"
+        }
+      },
+      "required": [
+        "type",
+        "selector",
+        "variants"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://linguamesh.dev/schema/l10n/catalog.v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "catalogVersion": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    },
+    "messages": {
+      "items": {
+        "$ref": "#/$defs/message"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "sourceLocale": {
+      "const": "en"
+    },
+    "sourceRevision": {
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "sourceRevision",
+    "sourceLocale",
+    "messages"
+  ],
+  "title": "LinguaMesh canonical localization catalog",
+  "type": "object"
+}

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+    </resheader>
+    <data name="app.title" xml:space="preserve">
+        <value>［ĿïñĝûåṀëšħ~~~］</value>
+        <comment>Application name shown in native shells and About views. Translation status: draft.</comment>
+    </data>
+    <data name="nav.text_translation" xml:space="preserve">
+        <value>［Ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~］</value>
+        <comment>Navigation label for the text translation workspace. Translation status: draft.</comment>
+    </data>
+    <data name="action.translate" xml:space="preserve">
+        <value>［Ŧŕåñšŀåŧë~~~］</value>
+        <comment>Primary action that starts a translation. Translation status: draft.</comment>
+    </data>
+    <data name="action.cancel" xml:space="preserve">
+        <value>［Çåñçëŀ~~］</value>
+        <comment>Action that cancels the active operation. Translation status: draft.</comment>
+    </data>
+    <data name="provider.active" xml:space="preserve">
+        <value>［Åçŧïṽë þŕøṽïðëŕ: {0}~~~~~~~~~］</value>
+        <comment>Identifies the provider that will receive the next request. Translation status: draft.</comment>
+    </data>
+    <data name="translation.progress" xml:space="preserve">
+        <value>［{0} øƒ {1} šëĝṁëñŧš ŧŕåñšŀåŧëð~~~~~~~~~~~~~~］</value>
+        <comment>Progress summary for translated document segments. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.one" xml:space="preserve">
+        <value>［{0} ƒïŀë~~~~］</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.other" xml:space="preserve">
+        <value>［{0} ƒïŀëš~~~~］</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.disabled" xml:space="preserve">
+        <value>［Ħïšŧøŕÿ ïš ðïšåƀŀëð~~~~~~］</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.enabled" xml:space="preserve">
+        <value>［Ħïšŧøŕÿ ïš šåṽëð øñ ŧħïš ðëṽïçë~~~~~~~~~~］</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.incognito" xml:space="preserve">
+        <value>［Ïñçøĝñïŧø ṁøðë ðøëš ñøŧ šåṽë ŧħïš ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~］</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication_failed" xml:space="preserve">
+        <value>［Çħëçķ ŧħë çŕëðëñŧïåŀš ƒøŕ {0} åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］</value>
+        <comment>Authentication error that names the affected provider without exposing credentials. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.one" xml:space="preserve">
+        <value>［Ŧŕÿ åĝåïñ ïñ {0} šëçøñð.~~~~~~~~~~］</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.other" xml:space="preserve">
+        <value>［Ŧŕÿ åĝåïñ ïñ {0} šëçøñðš.~~~~~~~~~~］</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.stop_translation" xml:space="preserve">
+        <value>［Šŧøþ ŧŕåñšŀåŧïøñ~~~~~］</value>
+        <comment>Screen-reader label for stopping an active translation. Translation status: draft.</comment>
+    </data>
+    <data name="locale.current" xml:space="preserve">
+        <value>［Ïñŧëŕƒåçë ŀåñĝûåĝë: {0}~~~~~~~~~~］</value>
+        <comment>Names the active interface language in Settings. Translation status: draft.</comment>
+    </data>
+    <data name="error.network_unavailable" xml:space="preserve">
+        <value>［Çħëçķ ÿøûŕ ñëŧŵøŕķ çøññëçŧïøñ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］</value>
+        <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.title" xml:space="preserve">
+        <value>［Çøññëçŧ å ŧŕåñšŀåŧïøñ þŕøṽïðëŕ~~~~~~~~~~］</value>
+        <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.description" xml:space="preserve">
+        <value>［Ÿøûŕ çøñŧëñŧ ĝøëš ðïŕëçŧŀÿ ŧø ŧħë þŕøṽïðëŕ ÿøû çøñƒïĝûŕë. ĿïñĝûåṀëšħ ñëṽëŕ ƀûñðŀëš åñ ÅÞÏ ķëÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］</value>
+        <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
+    </data>
+    <data name="provider.name" xml:space="preserve">
+        <value>［Þŕøṽïðëŕ ñåṁë~~~~］</value>
+        <comment>Label for the provider profile name field. Translation status: draft.</comment>
+    </data>
+    <data name="field.endpoint" xml:space="preserve">
+        <value>［Ëñðþøïñŧ~~］</value>
+        <comment>Label for the provider endpoint field. Translation status: draft.</comment>
+    </data>
+    <data name="field.model" xml:space="preserve">
+        <value>［Ṁøðëŀ~~］</value>
+        <comment>Label for the provider model field. Translation status: draft.</comment>
+    </data>
+    <data name="field.api_key" xml:space="preserve">
+        <value>［ÅÞÏ ķëÿ (øþŧïøñåŀ ƒøŕ ŀøçåŀ þŕøṽïðëŕš)~~~~~~~~~~~~］</value>
+        <comment>Label for the optional provider API key field. Translation status: draft.</comment>
+    </data>
+    <data name="action.save_provider" xml:space="preserve">
+        <value>［Šåṽë þŕøṽïðëŕ~~~~］</value>
+        <comment>Action that validates and saves a provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="field.source_text" xml:space="preserve">
+        <value>［Šøûŕçë ŧëẋŧ~~~］</value>
+        <comment>Label for the source text input field. Translation status: draft.</comment>
+    </data>
+    <data name="field.translation" xml:space="preserve">
+        <value>［Ŧŕåñšŀåŧïøñ~~~］</value>
+        <comment>Heading for translated output. Translation status: draft.</comment>
+    </data>
+    <data name="settings.title" xml:space="preserve">
+        <value>［Šëŧŧïñĝš~~］</value>
+        <comment>Heading and navigation label for application settings. Translation status: draft.</comment>
+    </data>
+    <data name="settings.theme" xml:space="preserve">
+        <value>［Ŧħëṁë~~］</value>
+        <comment>Heading for the interface theme preference. Translation status: draft.</comment>
+    </data>
+    <data name="theme.system" xml:space="preserve">
+        <value>［Šÿšŧëṁ~~］</value>
+        <comment>Theme option that follows the operating system setting. Translation status: draft.</comment>
+    </data>
+    <data name="theme.light" xml:space="preserve">
+        <value>［Ŀïĝħŧ~~］</value>
+        <comment>Theme option for the light color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="theme.dark" xml:space="preserve">
+        <value>［Ðåŕķ~~］</value>
+        <comment>Theme option for the dark color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="settings.ui_language" xml:space="preserve">
+        <value>［Ïñŧëŕƒåçë ŀåñĝûåĝë~~~~~~］</value>
+        <comment>Heading for the interface language preference. Translation status: draft.</comment>
+    </data>
+    <data name="settings.target_language" xml:space="preserve">
+        <value>［Ŧåŕĝëŧ ŀåñĝûåĝë~~~~~］</value>
+        <comment>Label for the translation target language selector. Translation status: draft.</comment>
+    </data>
+    <data name="status.ready" xml:space="preserve">
+        <value>［Ŕëåðÿ~~］</value>
+        <comment>Status shown when the translator is ready for input. Translation status: draft.</comment>
+    </data>
+    <data name="status.translating" xml:space="preserve">
+        <value>［Ŧŕåñšŀåŧïñĝ…~~~~］</value>
+        <comment>Status shown while translated output is streaming. Translation status: draft.</comment>
+    </data>
+    <data name="status.cancelled" xml:space="preserve">
+        <value>［Ŧŕåñšŀåŧïøñ çåñçëŀŀëð. Þåŕŧïåŀ øûŧþûŧ ŵåš ķëþŧ.~~~~~~~~~~~~~~~］</value>
+        <comment>Status shown after cancellation when partial output remains available. Translation status: draft.</comment>
+    </data>
+    <data name="error.invalid_profile" xml:space="preserve">
+        <value>［Ëñŧëŕ å þŕøṽïðëŕ ñåṁë, ëñðþøïñŧ, åñð ṁøðëŀ.~~~~~~~~~~~~~~］</value>
+        <comment>Validation error for an incomplete provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication" xml:space="preserve">
+        <value>［Çħëçķ ŧħë þŕøṽïðëŕ çŕëðëñŧïåŀ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］</value>
+        <comment>Authentication guidance that does not expose credential content. Translation status: draft.</comment>
+    </data>
+    <data name="error.incompatible_core" xml:space="preserve">
+        <value>［Ŧħïš åþþ ŕëǫûïŕëš å çøṁþåŧïƀŀë ĿïñĝûåṀëšħ Çøŕë ŀïƀŕåŕÿ.~~~~~~~~~~~~~~~~~~］</value>
+        <comment>Error shown when the native core contract is incompatible. Translation status: draft.</comment>
+    </data>
+    <data name="error.unknown" xml:space="preserve">
+        <value>［Ŧŕåñšŀåŧïøñ ƒåïŀëð. Ŕëṽïëŵ ðïåĝñøšŧïçš åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］</value>
+        <comment>Fallback translation error with actionable diagnostic guidance. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.title" xml:space="preserve">
+        <value>［Ðïåĝñøšŧïçš~~~］</value>
+        <comment>Heading for non-sensitive compatibility diagnostics. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.summary" xml:space="preserve">
+        <value>［Çøŕë ÅƁÏ {0} · Þŕøŧøçøŀ {1}~~~~~~~~~~~~~］</value>
+        <comment>Summary of the loaded core ABI and protocol revisions. Translation status: draft.</comment>
+    </data>
+    <data name="action.close_settings" xml:space="preserve">
+        <value>［Çŀøšë šëŧŧïñĝš~~~~］</value>
+        <comment>Action that closes the settings view. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.source_content" xml:space="preserve">
+        <value>［Ŧëẋŧ ŧø ŧŕåñšŀåŧë~~~~~］</value>
+        <comment>Accessible name for the source text editor. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.translation_output" xml:space="preserve">
+        <value>［Šŧŕëåṁëð ŧŕåñšŀåŧïøñ øûŧþûŧ~~~~~~~~~］</value>
+        <comment>Accessible name for streamed translated output. Translation status: draft.</comment>
+    </data>
+</root>

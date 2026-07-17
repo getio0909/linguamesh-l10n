@@ -1,0 +1,5 @@
+{
+  "locale": "es",
+  "message": "provider.active",
+  "template": "Proveedor activo: {service}"
+}

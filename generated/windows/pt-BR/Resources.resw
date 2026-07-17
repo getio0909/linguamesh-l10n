@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+    </resheader>
+    <data name="app.title" xml:space="preserve">
+        <value>LinguaMesh</value>
+        <comment>Application name shown in native shells and About views. Translation status: draft.</comment>
+    </data>
+    <data name="nav.text_translation" xml:space="preserve">
+        <value>Tradução de texto</value>
+        <comment>Navigation label for the text translation workspace. Translation status: draft.</comment>
+    </data>
+    <data name="action.translate" xml:space="preserve">
+        <value>Traduzir</value>
+        <comment>Primary action that starts a translation. Translation status: draft.</comment>
+    </data>
+    <data name="action.cancel" xml:space="preserve">
+        <value>Cancelar</value>
+        <comment>Action that cancels the active operation. Translation status: draft.</comment>
+    </data>
+    <data name="provider.active" xml:space="preserve">
+        <value>Provedor ativo: {0}</value>
+        <comment>Identifies the provider that will receive the next request. Translation status: draft.</comment>
+    </data>
+    <data name="translation.progress" xml:space="preserve">
+        <value>{0} de {1} segmentos traduzidos</value>
+        <comment>Progress summary for translated document segments. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.one" xml:space="preserve">
+        <value>{0} arquivo</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.many" xml:space="preserve">
+        <value>{0} arquivos</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.other" xml:space="preserve">
+        <value>{0} arquivos</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.disabled" xml:space="preserve">
+        <value>O histórico está desativado</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.enabled" xml:space="preserve">
+        <value>O histórico é salvo neste dispositivo</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.incognito" xml:space="preserve">
+        <value>O modo anônimo não salva esta tradução</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication_failed" xml:space="preserve">
+        <value>Verifique as credenciais de {0} e tente novamente.</value>
+        <comment>Authentication error that names the affected provider without exposing credentials. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.one" xml:space="preserve">
+        <value>Tente novamente em {0} segundo.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.many" xml:space="preserve">
+        <value>Tente novamente em {0} segundos.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.other" xml:space="preserve">
+        <value>Tente novamente em {0} segundos.</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.stop_translation" xml:space="preserve">
+        <value>Parar tradução</value>
+        <comment>Screen-reader label for stopping an active translation. Translation status: draft.</comment>
+    </data>
+    <data name="locale.current" xml:space="preserve">
+        <value>Idioma da interface: {0}</value>
+        <comment>Names the active interface language in Settings. Translation status: draft.</comment>
+    </data>
+    <data name="error.network_unavailable" xml:space="preserve">
+        <value>Verifique sua conexão de rede e tente novamente.</value>
+        <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.title" xml:space="preserve">
+        <value>Conectar um provedor de tradução</value>
+        <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.description" xml:space="preserve">
+        <value>Seu conteúdo vai diretamente para o provedor configurado. O LinguaMesh nunca inclui uma chave de API.</value>
+        <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
+    </data>
+    <data name="provider.name" xml:space="preserve">
+        <value>Nome do provedor</value>
+        <comment>Label for the provider profile name field. Translation status: draft.</comment>
+    </data>
+    <data name="field.endpoint" xml:space="preserve">
+        <value>Endpoint</value>
+        <comment>Label for the provider endpoint field. Translation status: draft.</comment>
+    </data>
+    <data name="field.model" xml:space="preserve">
+        <value>Modelo</value>
+        <comment>Label for the provider model field. Translation status: draft.</comment>
+    </data>
+    <data name="field.api_key" xml:space="preserve">
+        <value>Chave de API (opcional para provedores locais)</value>
+        <comment>Label for the optional provider API key field. Translation status: draft.</comment>
+    </data>
+    <data name="action.save_provider" xml:space="preserve">
+        <value>Salvar provedor</value>
+        <comment>Action that validates and saves a provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="field.source_text" xml:space="preserve">
+        <value>Texto de origem</value>
+        <comment>Label for the source text input field. Translation status: draft.</comment>
+    </data>
+    <data name="field.translation" xml:space="preserve">
+        <value>Tradução</value>
+        <comment>Heading for translated output. Translation status: draft.</comment>
+    </data>
+    <data name="settings.title" xml:space="preserve">
+        <value>Configurações</value>
+        <comment>Heading and navigation label for application settings. Translation status: draft.</comment>
+    </data>
+    <data name="settings.theme" xml:space="preserve">
+        <value>Tema</value>
+        <comment>Heading for the interface theme preference. Translation status: draft.</comment>
+    </data>
+    <data name="theme.system" xml:space="preserve">
+        <value>Sistema</value>
+        <comment>Theme option that follows the operating system setting. Translation status: draft.</comment>
+    </data>
+    <data name="theme.light" xml:space="preserve">
+        <value>Claro</value>
+        <comment>Theme option for the light color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="theme.dark" xml:space="preserve">
+        <value>Escuro</value>
+        <comment>Theme option for the dark color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="settings.ui_language" xml:space="preserve">
+        <value>Idioma da interface</value>
+        <comment>Heading for the interface language preference. Translation status: draft.</comment>
+    </data>
+    <data name="settings.target_language" xml:space="preserve">
+        <value>Idioma de destino</value>
+        <comment>Label for the translation target language selector. Translation status: draft.</comment>
+    </data>
+    <data name="status.ready" xml:space="preserve">
+        <value>Pronto</value>
+        <comment>Status shown when the translator is ready for input. Translation status: draft.</comment>
+    </data>
+    <data name="status.translating" xml:space="preserve">
+        <value>Traduzindo…</value>
+        <comment>Status shown while translated output is streaming. Translation status: draft.</comment>
+    </data>
+    <data name="status.cancelled" xml:space="preserve">
+        <value>Tradução cancelada. A saída parcial foi mantida.</value>
+        <comment>Status shown after cancellation when partial output remains available. Translation status: draft.</comment>
+    </data>
+    <data name="error.invalid_profile" xml:space="preserve">
+        <value>Informe o nome do provedor, o endpoint e o modelo.</value>
+        <comment>Validation error for an incomplete provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication" xml:space="preserve">
+        <value>Verifique a credencial do provedor e tente novamente.</value>
+        <comment>Authentication guidance that does not expose credential content. Translation status: draft.</comment>
+    </data>
+    <data name="error.incompatible_core" xml:space="preserve">
+        <value>Este aplicativo requer uma biblioteca LinguaMesh Core compatível.</value>
+        <comment>Error shown when the native core contract is incompatible. Translation status: draft.</comment>
+    </data>
+    <data name="error.unknown" xml:space="preserve">
+        <value>A tradução falhou. Revise os diagnósticos e tente novamente.</value>
+        <comment>Fallback translation error with actionable diagnostic guidance. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.title" xml:space="preserve">
+        <value>Diagnósticos</value>
+        <comment>Heading for non-sensitive compatibility diagnostics. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.summary" xml:space="preserve">
+        <value>ABI do Core {0} · Protocolo {1}</value>
+        <comment>Summary of the loaded core ABI and protocol revisions. Translation status: draft.</comment>
+    </data>
+    <data name="action.close_settings" xml:space="preserve">
+        <value>Fechar configurações</value>
+        <comment>Action that closes the settings view. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.source_content" xml:space="preserve">
+        <value>Texto a traduzir</value>
+        <comment>Accessible name for the source text editor. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.translation_output" xml:space="preserve">
+        <value>Saída de tradução em fluxo</value>
+        <comment>Accessible name for streamed translated output. Translation status: draft.</comment>
+    </data>
+</root>

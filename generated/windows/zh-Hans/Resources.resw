@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+    </resheader>
+    <data name="app.title" xml:space="preserve">
+        <value>LinguaMesh</value>
+        <comment>Application name shown in native shells and About views. Translation status: draft.</comment>
+    </data>
+    <data name="nav.text_translation" xml:space="preserve">
+        <value>文本翻译</value>
+        <comment>Navigation label for the text translation workspace. Translation status: draft.</comment>
+    </data>
+    <data name="action.translate" xml:space="preserve">
+        <value>翻译</value>
+        <comment>Primary action that starts a translation. Translation status: draft.</comment>
+    </data>
+    <data name="action.cancel" xml:space="preserve">
+        <value>取消</value>
+        <comment>Action that cancels the active operation. Translation status: draft.</comment>
+    </data>
+    <data name="provider.active" xml:space="preserve">
+        <value>当前提供商：{0}</value>
+        <comment>Identifies the provider that will receive the next request. Translation status: draft.</comment>
+    </data>
+    <data name="translation.progress" xml:space="preserve">
+        <value>已翻译 {0}/{1} 个片段</value>
+        <comment>Progress summary for translated document segments. Translation status: draft.</comment>
+    </data>
+    <data name="document.file_count.other" xml:space="preserve">
+        <value>已选择 {0} 个文件</value>
+        <comment>Number of files selected for a document translation job. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.disabled" xml:space="preserve">
+        <value>历史记录已禁用</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.enabled" xml:space="preserve">
+        <value>历史记录保存在此设备上</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="history.mode.incognito" xml:space="preserve">
+        <value>无痕模式不会保存此翻译</value>
+        <comment>Explains the selected history persistence mode. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication_failed" xml:space="preserve">
+        <value>请检查 {0} 的凭据，然后重试。</value>
+        <comment>Authentication error that names the affected provider without exposing credentials. Translation status: draft.</comment>
+    </data>
+    <data name="error.rate_limited.other" xml:space="preserve">
+        <value>请在 {0} 秒后重试。</value>
+        <comment>Retry guidance after a provider rate limit. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.stop_translation" xml:space="preserve">
+        <value>停止翻译</value>
+        <comment>Screen-reader label for stopping an active translation. Translation status: draft.</comment>
+    </data>
+    <data name="locale.current" xml:space="preserve">
+        <value>界面语言：{0}</value>
+        <comment>Names the active interface language in Settings. Translation status: draft.</comment>
+    </data>
+    <data name="error.network_unavailable" xml:space="preserve">
+        <value>请检查网络连接，然后重试。</value>
+        <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.title" xml:space="preserve">
+        <value>连接翻译服务提供商</value>
+        <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
+    </data>
+    <data name="onboarding.description" xml:space="preserve">
+        <value>你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。</value>
+        <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
+    </data>
+    <data name="provider.name" xml:space="preserve">
+        <value>提供商名称</value>
+        <comment>Label for the provider profile name field. Translation status: draft.</comment>
+    </data>
+    <data name="field.endpoint" xml:space="preserve">
+        <value>端点</value>
+        <comment>Label for the provider endpoint field. Translation status: draft.</comment>
+    </data>
+    <data name="field.model" xml:space="preserve">
+        <value>模型</value>
+        <comment>Label for the provider model field. Translation status: draft.</comment>
+    </data>
+    <data name="field.api_key" xml:space="preserve">
+        <value>API 密钥（本地提供商可选）</value>
+        <comment>Label for the optional provider API key field. Translation status: draft.</comment>
+    </data>
+    <data name="action.save_provider" xml:space="preserve">
+        <value>保存提供商</value>
+        <comment>Action that validates and saves a provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="field.source_text" xml:space="preserve">
+        <value>源文本</value>
+        <comment>Label for the source text input field. Translation status: draft.</comment>
+    </data>
+    <data name="field.translation" xml:space="preserve">
+        <value>译文</value>
+        <comment>Heading for translated output. Translation status: draft.</comment>
+    </data>
+    <data name="settings.title" xml:space="preserve">
+        <value>设置</value>
+        <comment>Heading and navigation label for application settings. Translation status: draft.</comment>
+    </data>
+    <data name="settings.theme" xml:space="preserve">
+        <value>主题</value>
+        <comment>Heading for the interface theme preference. Translation status: draft.</comment>
+    </data>
+    <data name="theme.system" xml:space="preserve">
+        <value>跟随系统</value>
+        <comment>Theme option that follows the operating system setting. Translation status: draft.</comment>
+    </data>
+    <data name="theme.light" xml:space="preserve">
+        <value>浅色</value>
+        <comment>Theme option for the light color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="theme.dark" xml:space="preserve">
+        <value>深色</value>
+        <comment>Theme option for the dark color scheme. Translation status: draft.</comment>
+    </data>
+    <data name="settings.ui_language" xml:space="preserve">
+        <value>界面语言</value>
+        <comment>Heading for the interface language preference. Translation status: draft.</comment>
+    </data>
+    <data name="settings.target_language" xml:space="preserve">
+        <value>目标语言</value>
+        <comment>Label for the translation target language selector. Translation status: draft.</comment>
+    </data>
+    <data name="status.ready" xml:space="preserve">
+        <value>就绪</value>
+        <comment>Status shown when the translator is ready for input. Translation status: draft.</comment>
+    </data>
+    <data name="status.translating" xml:space="preserve">
+        <value>正在翻译…</value>
+        <comment>Status shown while translated output is streaming. Translation status: draft.</comment>
+    </data>
+    <data name="status.cancelled" xml:space="preserve">
+        <value>翻译已取消。已保留部分输出。</value>
+        <comment>Status shown after cancellation when partial output remains available. Translation status: draft.</comment>
+    </data>
+    <data name="error.invalid_profile" xml:space="preserve">
+        <value>请输入提供商名称、端点和模型。</value>
+        <comment>Validation error for an incomplete provider profile. Translation status: draft.</comment>
+    </data>
+    <data name="error.authentication" xml:space="preserve">
+        <value>请检查提供商凭据，然后重试。</value>
+        <comment>Authentication guidance that does not expose credential content. Translation status: draft.</comment>
+    </data>
+    <data name="error.incompatible_core" xml:space="preserve">
+        <value>此应用需要兼容的 LinguaMesh Core 库。</value>
+        <comment>Error shown when the native core contract is incompatible. Translation status: draft.</comment>
+    </data>
+    <data name="error.unknown" xml:space="preserve">
+        <value>翻译失败。请查看诊断信息并重试。</value>
+        <comment>Fallback translation error with actionable diagnostic guidance. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.title" xml:space="preserve">
+        <value>诊断</value>
+        <comment>Heading for non-sensitive compatibility diagnostics. Translation status: draft.</comment>
+    </data>
+    <data name="diagnostics.summary" xml:space="preserve">
+        <value>Core ABI {0} · 协议 {1}</value>
+        <comment>Summary of the loaded core ABI and protocol revisions. Translation status: draft.</comment>
+    </data>
+    <data name="action.close_settings" xml:space="preserve">
+        <value>关闭设置</value>
+        <comment>Action that closes the settings view. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.source_content" xml:space="preserve">
+        <value>待翻译文本</value>
+        <comment>Accessible name for the source text editor. Translation status: draft.</comment>
+    </data>
+    <data name="accessibility.translation_output" xml:space="preserve">
+        <value>流式翻译输出</value>
+        <comment>Accessible name for streamed translated output. Translation status: draft.</comment>
+    </data>
+</root>

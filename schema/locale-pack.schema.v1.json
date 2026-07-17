@@ -1,0 +1,186 @@
+{
+  "$id": "https://linguamesh.dev/schema/l10n/locale-pack.v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "catalogVersion": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "type": "string"
+    },
+    "locale": {
+      "additionalProperties": false,
+      "properties": {
+        "direction": {
+          "enum": [
+            "ltr",
+            "rtl"
+          ]
+        },
+        "englishName": {
+          "minLength": 1,
+          "pattern": "^[^\\r\\n]+$",
+          "type": "string"
+        },
+        "fallback": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gettextCategories": {
+          "items": {
+            "enum": [
+              "zero",
+              "one",
+              "two",
+              "few",
+              "many",
+              "other"
+            ]
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "gettextPluralRule": {
+          "pattern": "^nplurals=([1-9][0-9]*); plural=[n0-9 ()+\\-*/%<>=!&|?:]+;$",
+          "type": "string"
+        },
+        "pluralCategories": {
+          "items": {
+            "enum": [
+              "zero",
+              "one",
+              "two",
+              "few",
+              "many",
+              "other"
+            ]
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "tag": {
+          "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?(-[A-Z]{2}|-[0-9]{3})?$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "tag",
+        "englishName",
+        "direction",
+        "fallback",
+        "pluralCategories",
+        "gettextCategories",
+        "gettextPluralRule"
+      ],
+      "type": "object"
+    },
+    "messages": {
+      "additionalProperties": {
+        "additionalProperties": false,
+        "oneOf": [
+          {
+            "not": {
+              "required": [
+                "variants"
+              ]
+            },
+            "required": [
+              "template"
+            ]
+          },
+          {
+            "not": {
+              "required": [
+                "template"
+              ]
+            },
+            "required": [
+              "variants"
+            ]
+          }
+        ],
+        "properties": {
+          "sourceRevision": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "status": {
+            "enum": [
+              "source",
+              "draft",
+              "reviewed"
+            ]
+          },
+          "template": {
+            "type": "string"
+          },
+          "variants": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "minProperties": 1,
+            "type": "object"
+          }
+        },
+        "required": [
+          "status",
+          "sourceRevision"
+        ],
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "sourceLocale": {
+      "const": "en"
+    },
+    "translation": {
+      "additionalProperties": false,
+      "properties": {
+        "machineGenerated": {
+          "type": "boolean"
+        },
+        "reviewStatus": {
+          "enum": [
+            "source",
+            "unreviewed",
+            "reviewed"
+          ]
+        },
+        "sourceRevision": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "status": {
+          "enum": [
+            "source",
+            "draft",
+            "reviewed"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "reviewStatus",
+        "machineGenerated",
+        "sourceRevision"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "sourceLocale",
+    "locale",
+    "translation",
+    "messages"
+  ],
+  "title": "LinguaMesh localization locale pack",
+  "type": "object"
+}

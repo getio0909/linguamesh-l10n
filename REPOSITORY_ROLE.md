@@ -14,4 +14,4 @@ It is responsible for:
 
 It is not responsible for translating user content, rendering native UI, storing application credentials, or implementing shared core behavior. Those responsibilities belong to `linguamesh-core` and the native client repositories.
 
-The current foundation does not claim any implemented locales or generators.
+The current `0.1.0` development slice implements canonical data, required official draft packs, pseudo-locales, validation, and four native resource generators. It does not claim qualified translation review, native-client integration, runtime locale behavior, or a stable release.

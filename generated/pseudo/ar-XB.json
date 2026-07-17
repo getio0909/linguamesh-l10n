@@ -1,0 +1,259 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "rtl",
+    "englishName": "Pseudo (RTL)",
+    "fallback": "en",
+    "gettextCategories": [
+      "zero",
+      "one",
+      "two",
+      "few",
+      "many",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);",
+    "pluralCategories": [
+      "zero",
+      "one",
+      "two",
+      "few",
+      "many",
+      "other"
+    ],
+    "tag": "ar-XB"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Text to translate⟧⁩"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Stop translation⟧⁩"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Streamed translation output⟧⁩"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Cancel⟧⁩"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Close settings⟧⁩"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Save provider⟧⁩"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Translate⟧⁩"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦LinguaMesh⟧⁩"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Core ABI {core_abi} · Protocol {protocol}⟧⁩"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Diagnostics⟧⁩"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "⁧⟦{count} files⟧⁩",
+        "many": "⁧⟦{count} files⟧⁩",
+        "one": "⁧⟦{count} file⟧⁩",
+        "other": "⁧⟦{count} files⟧⁩",
+        "two": "⁧⟦{count} files⟧⁩",
+        "zero": "⁧⟦{count} files⟧⁩"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Check the provider credential and try again.⟧⁩"
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Check the credentials for {provider} and try again.⟧⁩"
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦This app requires a compatible LinguaMesh Core library.⟧⁩"
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Enter a provider name, endpoint, and model.⟧⁩"
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Check your network connection and try again.⟧⁩"
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "few": "⁧⟦Try again in {seconds} seconds.⟧⁩",
+        "many": "⁧⟦Try again in {seconds} seconds.⟧⁩",
+        "one": "⁧⟦Try again in {seconds} second.⟧⁩",
+        "other": "⁧⟦Try again in {seconds} seconds.⟧⁩",
+        "two": "⁧⟦Try again in {seconds} seconds.⟧⁩",
+        "zero": "⁧⟦Try again in {seconds} seconds.⟧⁩"
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Translation failed. Review diagnostics and try again.⟧⁩"
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦API key (optional for local providers)⟧⁩"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Endpoint⟧⁩"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Model⟧⁩"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Source text⟧⁩"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Translation⟧⁩"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "variants": {
+        "disabled": "⁧⟦History is disabled⟧⁩",
+        "enabled": "⁧⟦History is saved on this device⟧⁩",
+        "incognito": "⁧⟦Incognito mode does not save this translation⟧⁩"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Interface language: {language}⟧⁩"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Text translation⟧⁩"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.⟧⁩"
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Connect a translation provider⟧⁩"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Active provider: {provider}⟧⁩"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Provider name⟧⁩"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Target language⟧⁩"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Theme⟧⁩"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Settings⟧⁩"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Interface language⟧⁩"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Translation cancelled. Partial output was kept.⟧⁩"
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Ready⟧⁩"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Translating…⟧⁩"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Dark⟧⁩"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Light⟧⁩"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦System⟧⁩"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦{completed} of {total} segments translated⟧⁩"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": true,
+    "reviewStatus": "unreviewed",
+    "sourceRevision": 1,
+    "status": "draft"
+  }
+}

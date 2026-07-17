@@ -1,29 +1,35 @@
 # LinguaMesh Localization
 
-Canonical localization source for LinguaMesh native clients. This repository will own typed message definitions, English source text, official locale data, placeholder validation, pseudo-locales, and generators for Android, Windows, macOS, and Linux resources.
+Canonical, typed localization data and deterministic native resource generators for LinguaMesh clients.
 
-## Current status
+## Current development bundle
 
-This checkpoint contains repository policy, architecture, and foundation validation only. No message schema, locale pack, generator, or distributable localization bundle exists yet.
+Catalog `0.1.0` contains 41 messages, including the Android vertical-slice UI, and exercises typed placeholders, plurals, selects, accessibility context, and RTL metadata. English is the canonical source. Simplified Chinese, Traditional Chinese, Spanish, French, German, Japanese, Korean, Brazilian Portuguese, Russian, Arabic, and Hindi are complete machine-generated drafts marked unreviewed. They are not claimed as human-approved translations.
 
-## Repository boundaries
+The generator also derives accented `en-XA` and RTL `ar-XB` pseudo-locales. Outputs are committed under `generated/` for Android XML, Windows RESW, macOS XCStrings, and Linux PO.
 
-- Keep UI message data and localization generators here.
-- Keep platform UI code in the corresponding client repository.
-- Keep translation-engine prompts and provider behavior in `linguamesh-core`.
-- Treat generated platform resources as reproducible outputs of the canonical schema.
+## Repository layout
 
-Read [GLOBAL_GOAL.md](GLOBAL_GOAL.md), [REPOSITORY_ROLE.md](REPOSITORY_ROLE.md), and [docs/architecture.md](docs/architecture.md) before contributing.
+- `catalog/messages.json`: canonical English messages and typed parameters.
+- `schema/`: versioned JSON Schema contracts.
+- `locales/`: twelve official, data-only locale packs.
+- `compatibility.json`: explicit development compatibility and limitations.
+- `src/linguamesh_l10n/`: validation, pseudo-localization, and generators.
+- `generated/`: reproducible platform resources and SHA-256 manifest.
+- `tests/fixtures/`: intentionally invalid compatibility cases.
 
-## Current validation
+## Quick start
 
-No external dependencies are required for the foundation checkpoint.
+Python 3.13 and the standard library are the only requirements.
 
 ```sh
-./tools/check-foundation.sh
+make setup
+make check
 ```
 
-Product format, lint, test, and build commands are unavailable until the localization schema and generator toolchain are implemented. See [docs/testing.md](docs/testing.md) for the intended command contract.
+Use `PYTHON_BIN=/path/to/python3.13 make check` when Python is installed elsewhere. `make build` creates a deterministic development ZIP and checksum under ignored `dist/`.
+
+Read [GLOBAL_GOAL.md](GLOBAL_GOAL.md), [REPOSITORY_ROLE.md](REPOSITORY_ROLE.md), and [docs/message-format.md](docs/message-format.md) before changing the catalog.
 
 ## License
 

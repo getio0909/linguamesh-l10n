@@ -1,0 +1,243 @@
+{
+  "catalogVersion": "0.1.0",
+  "locale": {
+    "direction": "ltr",
+    "englishName": "English",
+    "fallback": null,
+    "gettextCategories": [
+      "one",
+      "other"
+    ],
+    "gettextPluralRule": "nplurals=2; plural=(n != 1);",
+    "pluralCategories": [
+      "one",
+      "other"
+    ],
+    "tag": "en"
+  },
+  "messages": {
+    "accessibility.source_content": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Text to translate"
+    },
+    "accessibility.stop_translation": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Stop translation"
+    },
+    "accessibility.translation_output": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Streamed translation output"
+    },
+    "action.cancel": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Cancel"
+    },
+    "action.close_settings": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Close settings"
+    },
+    "action.save_provider": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Save provider"
+    },
+    "action.translate": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Translate"
+    },
+    "app.title": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "LinguaMesh"
+    },
+    "diagnostics.summary": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Core ABI {core_abi} · Protocol {protocol}"
+    },
+    "diagnostics.title": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Diagnostics"
+    },
+    "document.file_count": {
+      "sourceRevision": 1,
+      "status": "source",
+      "variants": {
+        "one": "{count} file",
+        "other": "{count} files"
+      }
+    },
+    "error.authentication": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Check the provider credential and try again."
+    },
+    "error.authentication_failed": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Check the credentials for {provider} and try again."
+    },
+    "error.incompatible_core": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "This app requires a compatible LinguaMesh Core library."
+    },
+    "error.invalid_profile": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Enter a provider name, endpoint, and model."
+    },
+    "error.network_unavailable": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Check your network connection and try again."
+    },
+    "error.rate_limited": {
+      "sourceRevision": 1,
+      "status": "source",
+      "variants": {
+        "one": "Try again in {seconds} second.",
+        "other": "Try again in {seconds} seconds."
+      }
+    },
+    "error.unknown": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Translation failed. Review diagnostics and try again."
+    },
+    "field.api_key": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "API key (optional for local providers)"
+    },
+    "field.endpoint": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Endpoint"
+    },
+    "field.model": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Model"
+    },
+    "field.source_text": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Source text"
+    },
+    "field.translation": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Translation"
+    },
+    "history.mode": {
+      "sourceRevision": 1,
+      "status": "source",
+      "variants": {
+        "disabled": "History is disabled",
+        "enabled": "History is saved on this device",
+        "incognito": "Incognito mode does not save this translation"
+      }
+    },
+    "locale.current": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Interface language: {language}"
+    },
+    "nav.text_translation": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Text translation"
+    },
+    "onboarding.description": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+    },
+    "onboarding.title": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Connect a translation provider"
+    },
+    "provider.active": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Active provider: {provider}"
+    },
+    "provider.name": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Provider name"
+    },
+    "settings.target_language": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Target language"
+    },
+    "settings.theme": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Theme"
+    },
+    "settings.title": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Settings"
+    },
+    "settings.ui_language": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Interface language"
+    },
+    "status.cancelled": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Translation cancelled. Partial output was kept."
+    },
+    "status.ready": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Ready"
+    },
+    "status.translating": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Translating…"
+    },
+    "theme.dark": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Dark"
+    },
+    "theme.light": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Light"
+    },
+    "theme.system": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "System"
+    },
+    "translation.progress": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "{completed} of {total} segments translated"
+    }
+  },
+  "schemaVersion": 1,
+  "sourceLocale": "en",
+  "translation": {
+    "machineGenerated": false,
+    "reviewStatus": "source",
+    "sourceRevision": 1,
+    "status": "source"
+  }
+}
