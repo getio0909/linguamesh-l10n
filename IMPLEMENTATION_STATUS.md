@@ -30,6 +30,10 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `jq` confirmed 43 native message keys in the macOS String Catalog, 45 files in the generated manifest, and 41 canonical entries in every official locale pack.
 - Two consecutive unchanged builds produced SHA-256 `47bc84bd7562fb6ada7f88fd07490e79843c5c4e9d9b747f87a206dbecd0394a` for `dist/linguamesh-l10n-0.1.0.zip`.
 - `git diff --check` exited successfully.
+- GitHub Actions foundation run `29552975874` and localization run `29552975875` passed
+  revision `d0e44b158e87481875862a3ce24f0432a0e0416b`. The localization workflow
+  rebuilt the bundle, verified its internal checksum, and uploaded development artifact
+  `linguamesh-l10n-0.1.0` (artifact ID `8396408392`).
 
-This checkpoint remains a development bundle rather than a stable release. Remote workflow and
-consumer evidence are recorded only after the corresponding source revision passes those checks.
+This checkpoint remains a development bundle rather than a stable release. Native-consumer
+evidence remains pending until each client revision passes its own ingestion checks.
