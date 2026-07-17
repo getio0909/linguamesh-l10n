@@ -28,7 +28,7 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `msgfmt --check --check-format -o /dev/null generated/linux/*/LC_MESSAGES/linguamesh.po` was run for each of the 14 official/pseudo PO catalogs; all passed without warnings.
 - Android AAPT2 `2.20-15703166` compiled all 14 generated Android resource files; parsing all 28 generated Android and Windows XML files with Python `xml.etree.ElementTree` also succeeded.
 - `jq` confirmed 43 native message keys in the macOS String Catalog, 45 files in the generated manifest, and 41 canonical entries in every official locale pack.
-- Two consecutive unchanged builds produced SHA-256 `47bc84bd7562fb6ada7f88fd07490e79843c5c4e9d9b747f87a206dbecd0394a` for `dist/linguamesh-l10n-0.1.0.zip`.
+- Two consecutive unchanged builds produced SHA-256 `0f7ac7b6086032ca29e7a27376e32e88d7387029f6d87b868e72c12fc2b19391` for `dist/linguamesh-l10n-0.1.0.zip` after pinning the current Node 24 action runtimes.
 - `git diff --check` exited successfully.
 - GitHub Actions foundation run `29552975874` and localization run `29552975875` passed
   revision `d0e44b158e87481875862a3ce24f0432a0e0416b`. The localization workflow

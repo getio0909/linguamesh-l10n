@@ -14,9 +14,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        # 固定 actions/checkout v7.0.0。
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
       - name: Set up Python
-        uses: actions/setup-python@v5
+        # 固定 actions/setup-python v6.3.0。
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
         with:
           python-version: "3.13"
       - name: Check setup
@@ -35,7 +37,8 @@ jobs:
         working-directory: dist
         run: sha256sum --check linguamesh-l10n-0.1.0.zip.sha256
       - name: Upload development bundle
-        uses: actions/upload-artifact@v4
+        # 固定 actions/upload-artifact v7.0.1。
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
           name: linguamesh-l10n-0.1.0
           path: |
