@@ -771,6 +771,11 @@
       "status": "draft",
       "template": "［Ĵåþåñëšë~~］"
     },
+    "profile.default_name": {
+      "sourceRevision": 6,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ØþëñÅÏ-çøṁþåŧïƀŀë þŕøṽïðëŕ~~~~~~~~~~］"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -992,7 +997,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 5,
+    "sourceRevision": 6,
     "status": "draft"
   }
 }

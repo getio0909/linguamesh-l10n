@@ -771,6 +771,11 @@
       "status": "source",
       "template": "Japanese"
     },
+    "profile.default_name": {
+      "sourceRevision": 6,
+      "status": "source",
+      "template": "Local OpenAI-compatible provider"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "source",
@@ -992,7 +997,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 5,
+    "sourceRevision": 6,
     "status": "source"
   }
 }

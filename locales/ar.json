@@ -787,6 +787,11 @@
       "status": "draft",
       "template": "اليابانية"
     },
+    "profile.default_name": {
+      "sourceRevision": 6,
+      "status": "draft",
+      "template": "موفر OpenAI متوافق محلي"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1008,7 +1013,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 5,
+    "sourceRevision": 6,
     "status": "draft"
   }
 }

@@ -774,6 +774,11 @@
       "status": "draft",
       "template": "Japanese"
     },
+    "profile.default_name": {
+      "sourceRevision": 6,
+      "status": "draft",
+      "template": "Local OpenAI-compatible provider"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -995,7 +1000,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 5,
+    "sourceRevision": 6,
     "status": "draft"
   }
 }

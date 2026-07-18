@@ -767,6 +767,11 @@
       "status": "draft",
       "template": "日文"
     },
+    "profile.default_name": {
+      "sourceRevision": 6,
+      "status": "draft",
+      "template": "本機 OpenAI 相容提供商"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -988,7 +993,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 5,
+    "sourceRevision": 6,
     "status": "draft"
   }
 }

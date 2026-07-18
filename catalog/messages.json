@@ -3133,9 +3133,24 @@
         "template": "The translated output could not be saved.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for the built-in Linux OpenAI-compatible provider profile.",
+      "key": "profile.default_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 6,
+      "status": "source",
+      "value": {
+        "template": "Local OpenAI-compatible provider",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 5
+  "sourceRevision": 6
 }
