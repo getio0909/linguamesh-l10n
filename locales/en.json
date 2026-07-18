@@ -1006,6 +1006,11 @@
       "status": "source",
       "template": "Incognito mode"
     },
+    "settings.save_history": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Save translation history"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "source",
@@ -1065,6 +1070,16 @@
       "sourceRevision": 8,
       "status": "source",
       "template": "Glossary CSV is ready."
+    },
+    "status.history_disabled": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Local translation history is disabled; existing entries are kept."
+    },
+    "status.history_enabled": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Local translation history is enabled."
     },
     "status.history_cleared": {
       "sourceRevision": 10,
@@ -1216,6 +1231,11 @@
       "status": "source",
       "template": "Choose a saved non-secret profile or create a new profile"
     },
+    "tooltip.save_history": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Persist completed standard translations in local history; existing entries are kept when disabled"
+    },
     "tooltip.view_history": {
       "sourceRevision": 11,
       "status": "source",
@@ -1232,7 +1252,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 11,
+    "sourceRevision":  12,
     "status": "source"
   }
 }

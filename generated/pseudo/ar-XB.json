@@ -1022,6 +1022,11 @@
       "status": "draft",
       "template": "⁧⟦Incognito mode⟧⁩"
     },
+    "settings.save_history": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "⁧⟦Save translation history⟧⁩"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1092,10 +1097,20 @@
       "status": "draft",
       "template": "⁧⟦Stored translation history entries: {count}⟧⁩"
     },
+    "status.history_disabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "⁧⟦Local translation history is disabled; existing entries are kept.⟧⁩"
+    },
     "status.history_empty": {
       "sourceRevision": 11,
       "status": "draft",
       "template": "⁧⟦No local translation history is stored.⟧⁩"
+    },
+    "status.history_enabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "⁧⟦Local translation history is enabled.⟧⁩"
     },
     "status.history_exported": {
       "sourceRevision": 11,
@@ -1227,6 +1242,11 @@
       "status": "draft",
       "template": "⁧⟦Remove the selected saved profile without disconnecting its current session⟧⁩"
     },
+    "tooltip.save_history": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "⁧⟦Persist completed standard translations in local history; existing entries are kept when disabled⟧⁩"
+    },
     "tooltip.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1248,7 +1268,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 11,
+    "sourceRevision": 12,
     "status": "draft"
   }
 }

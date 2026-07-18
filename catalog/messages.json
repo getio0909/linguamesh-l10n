@@ -3646,6 +3646,66 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Enables or disables persistence of completed standard translation history on Linux.",
+      "key": "settings.save_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 12,
+      "status": "source",
+      "value": {
+        "template": "Save translation history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Explains the Linux history persistence toggle and retention behavior.",
+      "key": "tooltip.save_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 12,
+      "status": "source",
+      "value": {
+        "template": "Persist completed standard translations in local history; existing entries are kept when disabled",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after enabling Linux local translation history persistence.",
+      "description": "Status note confirming that local history persistence is enabled.",
+      "key": "status.history_enabled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 12,
+      "status": "source",
+      "value": {
+        "template": "Local translation history is enabled.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after disabling Linux local translation history persistence.",
+      "description": "Status note confirming that local history persistence is disabled without deleting existing entries.",
+      "key": "status.history_disabled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 12,
+      "status": "source",
+      "value": {
+        "template": "Local translation history is disabled; existing entries are kept.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Action that clears all locally stored translation history on Linux.",
       "key": "action.clear_history",
       "placeholders": {},
@@ -3877,5 +3937,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 11
+  "sourceRevision": 12
 }

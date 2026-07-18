@@ -1002,6 +1002,11 @@
       "status": "draft",
       "template": "隐身模式"
     },
+    "settings.save_history": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Save translation history"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1061,6 +1066,16 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "词汇表 CSV 已就绪。"
+    },
+    "status.history_disabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Local translation history is disabled; existing entries are kept."
+    },
+    "status.history_enabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Local translation history is enabled."
     },
     "status.history_cleared": {
       "sourceRevision": 10,
@@ -1212,6 +1227,11 @@
       "status": "draft",
       "template": "选择不含秘密的已保存配置，或新建配置"
     },
+    "tooltip.save_history": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Persist completed standard translations in local history; existing entries are kept when disabled"
+    },
     "tooltip.view_history": {
       "sourceRevision": 11,
       "status": "draft",
@@ -1228,7 +1248,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 11,
+    "sourceRevision":  12,
     "status": "draft"
   }
 }
