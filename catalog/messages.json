@@ -2458,9 +2458,384 @@
         "template": "The core stream produced an event after termination.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when a provider change is attempted during translation.",
+      "key": "error.state.provider_change_busy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "A provider cannot be changed while a translation is running.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when a model change is attempted during translation.",
+      "key": "error.state.model_change_busy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "A model cannot be changed while a translation is running.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when a saved profile is removed during translation.",
+      "key": "error.state.profile_removal_busy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "A saved profile cannot be removed while a translation is running.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when the core stream ends without a terminal event.",
+      "key": "error.state.stream_missing_terminal",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The core event stream ended without a terminal event.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Storage warning shown when Secret Service cleanup fails after profile removal.",
+      "key": "error.storage.cleanup_failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Secret Service cleanup failed after profile removal.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Storage error shown when secure credential storage is unavailable.",
+      "key": "error.storage.secure_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Secure credential storage is unavailable.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Storage guidance shown when only session-only mode is available.",
+      "key": "error.storage.session_only",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Profile storage is unavailable; use session-only mode.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Storage error shown after profile storage becomes unavailable.",
+      "key": "error.storage.became_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Profile storage became unavailable.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Storage error shown when no saved profile was removed.",
+      "key": "error.storage.remove_failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Profile storage is unavailable; no saved profile was removed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider profile error shown when a saved profile no longer exists.",
+      "key": "error.profile.not_found",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The saved provider profile no longer exists.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider error shown when model selection is attempted without a connection.",
+      "key": "error.provider.select_model_requires_connection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "Connect a provider before selecting a model.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider error shown for a model selection belonging to a stale provider.",
+      "key": "error.provider.stale_model_selection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The model selection belongs to a stale provider.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider error shown when the selected model is unavailable from the active provider.",
+      "key": "error.provider.model_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The selected model is not available from the active provider.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider error shown when a request does not use the confirmed model.",
+      "key": "error.provider.unconfirmed_model",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The translation request does not use the confirmed model selection.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Worker error shown when the core command queue cannot accept work.",
+      "key": "error.worker.command_queue_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The core command queue is unavailable or full.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "File-import error shown when a selected file is not valid UTF-8 text.",
+      "key": "error.file.invalid_utf8",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The selected file is not valid UTF-8 text.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider profile error with a safe validation detail.",
+      "key": "error.profile.invalid_with_detail",
+      "placeholders": {
+        "error": {
+          "example": "invalid endpoint",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The provider profile is invalid: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider profile error with a generated identifier validation detail.",
+      "key": "error.profile.id_invalid",
+      "placeholders": {
+        "error": {
+          "example": "invalid identifier",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The generated provider profile ID is invalid: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider profile error shown when a unique generated identifier cannot be found.",
+      "key": "error.profile.id_generation_failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "A unique provider profile ID could not be generated.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider profile error shown when a saved model cannot be updated.",
+      "key": "error.profile.saved_model_update_failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The saved model could not be updated.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Core compatibility error with a safe compatibility detail.",
+      "key": "error.core.contract_incompatible",
+      "placeholders": {
+        "error": {
+          "example": "protocol mismatch",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The shared Core contract is incompatible: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Secret Service error shown when the host request channel closes.",
+      "key": "error.secret.request_channel_closed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The host secret request channel closed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Secret Service error shown when a host request is no longer active.",
+      "key": "error.secret.request_inactive",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "The Core secret request was no longer active.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Provider error shown when session credentials lack an explicit secret reference.",
+      "key": "error.provider.session_ref_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 3,
+      "status": "source",
+      "value": {
+        "template": "A session credential requires an explicit session secret reference.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 2
+  "sourceRevision": 3
 }

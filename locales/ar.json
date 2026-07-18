@@ -196,6 +196,16 @@
       "status": "draft",
       "template": "إمكانات غير مدعومة"
     },
+    "error.core.contract_incompatible": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "عقد Core المشترك غير متوافق: {error}"
+    },
+    "error.file.invalid_utf8": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "الملف المحدد ليس نص UTF-8 صالحًا."
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -226,6 +236,31 @@
       "status": "draft",
       "template": "تحقق من اتصال الشبكة وحاول مرة أخرى."
     },
+    "error.profile.id_generation_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تعذر إنشاء معرّف فريد لملف موفر الخدمة."
+    },
+    "error.profile.id_invalid": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "معرّف ملف موفر الخدمة المُنشأ غير صالح: {error}"
+    },
+    "error.profile.invalid_with_detail": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "ملف موفر الخدمة غير صالح: {error}"
+    },
+    "error.profile.not_found": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "ملف موفر الخدمة المحفوظ لم يعد موجودًا."
+    },
+    "error.profile.saved_model_update_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تعذر تحديث النموذج المحفوظ."
+    },
     "error.profile_disabled": {
       "sourceRevision": 1,
       "status": "draft",
@@ -235,6 +270,31 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "ملف التعريف المحفوظ المحدد غير متاح."
+    },
+    "error.provider.model_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "النموذج المحدد غير متاح من موفر الخدمة النشط."
+    },
+    "error.provider.select_model_requires_connection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "اتصل بموفر خدمة قبل اختيار نموذج."
+    },
+    "error.provider.session_ref_required": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تتطلب بيانات اعتماد الجلسة مرجع سر جلسة صريحًا."
+    },
+    "error.provider.stale_model_selection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "ينتمي اختيار النموذج إلى موفر خدمة قديم."
+    },
+    "error.provider.unconfirmed_model": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "لا يستخدم طلب الترجمة اختيار النموذج المؤكد."
     },
     "error.provider_endpoint_required": {
       "sourceRevision": 1,
@@ -257,6 +317,16 @@
         "two": "أعد المحاولة بعد ثانيتين ({seconds}).",
         "zero": "أعد المحاولة الآن ({seconds} ثانية)."
       }
+    },
+    "error.secret.request_channel_closed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "أُغلقت قناة طلب السر المضيف."
+    },
+    "error.secret.request_inactive": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "لم يعد طلب السر من Core نشطًا."
     },
     "error.state.busy": {
       "sourceRevision": 2,
@@ -298,6 +368,11 @@
       "status": "draft",
       "template": "أدخل النص المصدر قبل الترجمة."
     },
+    "error.state.model_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "لا يمكن تغيير النموذج أثناء تشغيل الترجمة."
+    },
     "error.state.model_selection_pending": {
       "sourceRevision": 2,
       "status": "draft",
@@ -313,10 +388,25 @@
       "status": "draft",
       "template": "لا يزال حذف ملف التعريف المحفوظ قيد التأكيد."
     },
+    "error.state.profile_removal_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "لا يمكن إزالة ملف التعريف المحفوظ أثناء الترجمة."
+    },
     "error.state.profile_storage_unavailable": {
       "sourceRevision": 2,
       "status": "draft",
       "template": "تخزين ملفات التعريف المحفوظة غير متاح."
+    },
+    "error.state.provider_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "لا يمكن تغيير موفر الخدمة أثناء تشغيل الترجمة."
+    },
+    "error.state.stream_missing_terminal": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "انتهى تدفق النواة دون حدث إنهاء."
     },
     "error.state.unexpected_first_event": {
       "sourceRevision": 2,
@@ -343,10 +433,40 @@
       "status": "draft",
       "template": "أنتج تدفق النواة أكثر من حدث بدء واحد."
     },
+    "error.storage.became_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "أصبح تخزين ملفات التعريف غير متاح."
+    },
+    "error.storage.cleanup_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "فشل تنظيف Secret Service بعد إزالة ملف التعريف."
+    },
+    "error.storage.remove_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تخزين ملفات التعريف غير متاح؛ لم تتم إزالة أي ملف محفوظ."
+    },
+    "error.storage.secure_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تخزين بيانات الاعتماد الآمن غير متاح."
+    },
+    "error.storage.session_only": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "تخزين ملفات التعريف غير متاح؛ استخدم وضع الجلسة فقط."
+    },
     "error.unknown": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "فشلت الترجمة. راجع معلومات التشخيص وحاول مرة أخرى."
+    },
+    "error.worker.command_queue_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "قائمة أوامر النواة غير متاحة أو ممتلئة."
     },
     "error.worker_disconnected": {
       "sourceRevision": 1,
@@ -788,7 +908,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 2,
+    "sourceRevision": 3,
     "status": "draft"
   }
 }

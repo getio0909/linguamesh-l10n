@@ -181,6 +181,16 @@
       "status": "draft",
       "template": "不支持的能力"
     },
+    "error.core.contract_incompatible": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "共享 Core 合约不兼容：{error}"
+    },
+    "error.file.invalid_utf8": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "所选文件不是有效的 UTF-8 文本。"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -211,6 +221,31 @@
       "status": "draft",
       "template": "请检查网络连接，然后重试。"
     },
+    "error.profile.id_generation_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "无法生成唯一的提供商配置 ID。"
+    },
+    "error.profile.id_invalid": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "生成的提供商配置 ID 无效：{error}"
+    },
+    "error.profile.invalid_with_detail": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "提供商配置无效：{error}"
+    },
+    "error.profile.not_found": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "已保存的提供商配置不存在。"
+    },
+    "error.profile.saved_model_update_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "无法更新已保存的模型。"
+    },
     "error.profile_disabled": {
       "sourceRevision": 1,
       "status": "draft",
@@ -220,6 +255,31 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "所选已保存配置不可用。"
+    },
+    "error.provider.model_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "活动提供商不提供所选模型。"
+    },
+    "error.provider.select_model_requires_connection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "请先连接提供商，再选择模型。"
+    },
+    "error.provider.session_ref_required": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "会话凭据需要显式的会话机密引用。"
+    },
+    "error.provider.stale_model_selection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "模型选择属于过期的提供商。"
+    },
+    "error.provider.unconfirmed_model": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "翻译请求未使用已确认的模型选择。"
     },
     "error.provider_endpoint_required": {
       "sourceRevision": 1,
@@ -237,6 +297,16 @@
       "variants": {
         "other": "请在 {seconds} 秒后重试。"
       }
+    },
+    "error.secret.request_channel_closed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "主机机密请求通道已关闭。"
+    },
+    "error.secret.request_inactive": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "Core 机密请求已不再有效。"
     },
     "error.state.busy": {
       "sourceRevision": 2,
@@ -278,6 +348,11 @@
       "status": "draft",
       "template": "翻译前请输入源文本。"
     },
+    "error.state.model_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "翻译运行期间不能更换模型。"
+    },
     "error.state.model_selection_pending": {
       "sourceRevision": 2,
       "status": "draft",
@@ -293,10 +368,25 @@
       "status": "draft",
       "template": "已保存配置删除仍在等待确认。"
     },
+    "error.state.profile_removal_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "翻译运行期间不能移除已保存配置。"
+    },
     "error.state.profile_storage_unavailable": {
       "sourceRevision": 2,
       "status": "draft",
       "template": "已保存配置存储不可用。"
+    },
+    "error.state.provider_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "翻译运行期间不能更换提供商。"
+    },
+    "error.state.stream_missing_terminal": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "核心事件流结束时缺少终止事件。"
     },
     "error.state.unexpected_first_event": {
       "sourceRevision": 2,
@@ -323,10 +413,40 @@
       "status": "draft",
       "template": "核心流产生了多个 started 事件。"
     },
+    "error.storage.became_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "配置存储已变为不可用。"
+    },
+    "error.storage.cleanup_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "移除配置后，Secret Service 清理失败。"
+    },
+    "error.storage.remove_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "配置存储不可用；未移除任何已保存配置。"
+    },
+    "error.storage.secure_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "安全凭据存储不可用。"
+    },
+    "error.storage.session_only": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "配置存储不可用；请使用仅限会话模式。"
+    },
     "error.unknown": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "翻译失败。请查看诊断信息并重试。"
+    },
+    "error.worker.command_queue_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "核心命令队列不可用或已满。"
     },
     "error.worker_disconnected": {
       "sourceRevision": 1,
@@ -768,7 +888,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 2,
+    "sourceRevision": 3,
     "status": "draft"
   }
 }

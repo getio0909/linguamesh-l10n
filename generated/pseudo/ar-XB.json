@@ -196,6 +196,16 @@
       "status": "draft",
       "template": "⁧⟦Unsupported capability⟧⁩"
     },
+    "error.core.contract_incompatible": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The shared Core contract is incompatible: {error}⟧⁩"
+    },
+    "error.file.invalid_utf8": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The selected file is not valid UTF-8 text.⟧⁩"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -226,6 +236,31 @@
       "status": "draft",
       "template": "⁧⟦Check your network connection and try again.⟧⁩"
     },
+    "error.profile.id_generation_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦A unique provider profile ID could not be generated.⟧⁩"
+    },
+    "error.profile.id_invalid": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The generated provider profile ID is invalid: {error}⟧⁩"
+    },
+    "error.profile.invalid_with_detail": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The provider profile is invalid: {error}⟧⁩"
+    },
+    "error.profile.not_found": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The saved provider profile no longer exists.⟧⁩"
+    },
+    "error.profile.saved_model_update_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The saved model could not be updated.⟧⁩"
+    },
     "error.profile_disabled": {
       "sourceRevision": 1,
       "status": "draft",
@@ -235,6 +270,31 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦The selected saved profile is unavailable.⟧⁩"
+    },
+    "error.provider.model_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The selected model is not available from the active provider.⟧⁩"
+    },
+    "error.provider.select_model_requires_connection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Connect a provider before selecting a model.⟧⁩"
+    },
+    "error.provider.session_ref_required": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦A session credential requires an explicit session secret reference.⟧⁩"
+    },
+    "error.provider.stale_model_selection": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The model selection belongs to a stale provider.⟧⁩"
+    },
+    "error.provider.unconfirmed_model": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The translation request does not use the confirmed model selection.⟧⁩"
     },
     "error.provider_endpoint_required": {
       "sourceRevision": 1,
@@ -257,6 +317,16 @@
         "two": "⁧⟦Try again in {seconds} seconds.⟧⁩",
         "zero": "⁧⟦Try again in {seconds} seconds.⟧⁩"
       }
+    },
+    "error.secret.request_channel_closed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The host secret request channel closed.⟧⁩"
+    },
+    "error.secret.request_inactive": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The Core secret request was no longer active.⟧⁩"
     },
     "error.state.busy": {
       "sourceRevision": 2,
@@ -298,6 +368,11 @@
       "status": "draft",
       "template": "⁧⟦Enter source text before translating.⟧⁩"
     },
+    "error.state.model_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦A model cannot be changed while a translation is running.⟧⁩"
+    },
     "error.state.model_selection_pending": {
       "sourceRevision": 2,
       "status": "draft",
@@ -313,10 +388,25 @@
       "status": "draft",
       "template": "⁧⟦A saved profile deletion is still being confirmed.⟧⁩"
     },
+    "error.state.profile_removal_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦A saved profile cannot be removed while a translation is running.⟧⁩"
+    },
     "error.state.profile_storage_unavailable": {
       "sourceRevision": 2,
       "status": "draft",
       "template": "⁧⟦Saved profile storage is unavailable.⟧⁩"
+    },
+    "error.state.provider_change_busy": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦A provider cannot be changed while a translation is running.⟧⁩"
+    },
+    "error.state.stream_missing_terminal": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The core event stream ended without a terminal event.⟧⁩"
     },
     "error.state.unexpected_first_event": {
       "sourceRevision": 2,
@@ -343,10 +433,40 @@
       "status": "draft",
       "template": "⁧⟦The core stream produced more than one started event.⟧⁩"
     },
+    "error.storage.became_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Profile storage became unavailable.⟧⁩"
+    },
+    "error.storage.cleanup_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Secret Service cleanup failed after profile removal.⟧⁩"
+    },
+    "error.storage.remove_failed": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Profile storage is unavailable; no saved profile was removed.⟧⁩"
+    },
+    "error.storage.secure_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Secure credential storage is unavailable.⟧⁩"
+    },
+    "error.storage.session_only": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦Profile storage is unavailable; use session-only mode.⟧⁩"
+    },
     "error.unknown": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦Translation failed. Review diagnostics and try again.⟧⁩"
+    },
+    "error.worker.command_queue_unavailable": {
+      "sourceRevision": 3,
+      "status": "draft",
+      "template": "⁧⟦The core command queue is unavailable or full.⟧⁩"
     },
     "error.worker_disconnected": {
       "sourceRevision": 1,
@@ -788,7 +908,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 2,
+    "sourceRevision": 3,
     "status": "draft"
   }
 }
