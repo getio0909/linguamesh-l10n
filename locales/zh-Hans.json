@@ -44,10 +44,20 @@
       "status": "draft",
       "template": "连接"
     },
+    "action.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "导出词汇表"
+    },
     "action.export_output": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "导出翻译"
+    },
+    "action.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "导入词汇表"
     },
     "action.open_source": {
       "sourceRevision": 1,
@@ -84,6 +94,11 @@
       "status": "draft",
       "template": "诊断"
     },
+    "dialog.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "导出词汇表"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -93,6 +108,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "打开"
+    },
+    "dialog.open_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "导入词汇表"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -240,6 +260,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "所选文本文件超过 4 MiB 限制。"
+    },
+    "error.glossary_export": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "无法保存词汇表 CSV。"
+    },
+    "error.glossary_export_empty": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "请先输入或导入词汇表规则。"
+    },
+    "error.glossary_import": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "无法导入词汇表 CSV。"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -597,6 +632,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "译文"
+    },
+    "file.filter.csv": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "CSV 词汇表文件"
     },
     "file.filter.text": {
       "sourceRevision": 1,
@@ -972,6 +1012,11 @@
       "status": "draft",
       "template": "失败"
     },
+    "status.glossary_ready": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "词汇表 CSV 已就绪。"
+    },
     "status.label": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1037,6 +1082,11 @@
       "status": "draft",
       "template": "HTTPS 或回环 HTTP OpenAI 兼容基础端点"
     },
+    "tooltip.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "将当前词汇表规则保存为 UTF-8 CSV 文件"
+    },
     "tooltip.export_output": {
       "sourceRevision": 5,
       "status": "draft",
@@ -1046,6 +1096,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation."
+    },
+    "tooltip.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "从 UTF-8 CSV 文件加载词汇表规则"
     },
     "tooltip.open_source": {
       "sourceRevision": 1,

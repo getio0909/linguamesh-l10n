@@ -3433,6 +3433,171 @@
         "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Import glossary action in the Linux text workspace.",
+      "key": "action.import_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Import glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Export glossary action in the Linux text workspace.",
+      "key": "action.export_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Export glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accessible tooltip for importing a glossary CSV.",
+      "key": "tooltip.import_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Load glossary rules from a UTF-8 CSV file",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accessible tooltip for exporting a glossary CSV.",
+      "key": "tooltip.export_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Save the current glossary rules as a UTF-8 CSV file",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Native file dialog title for importing a glossary CSV.",
+      "key": "dialog.open_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Import glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Native file dialog title for exporting a glossary CSV.",
+      "key": "dialog.export_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Export glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Native file chooser filter for glossary CSV files.",
+      "key": "file.filter.csv",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "CSV glossary files",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Safe error shown when a glossary CSV cannot be read or validated.",
+      "key": "error.glossary_import",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "The glossary CSV could not be imported.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Safe error shown when a glossary CSV cannot be written.",
+      "key": "error.glossary_export",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "The glossary CSV could not be saved.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation message shown when no glossary rules are available to export.",
+      "key": "error.glossary_export_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Enter or import glossary rules before exporting.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status note shown after glossary CSV import or export.",
+      "key": "status.glossary_ready",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Glossary CSV is ready.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

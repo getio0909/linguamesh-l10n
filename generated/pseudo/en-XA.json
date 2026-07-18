@@ -46,10 +46,20 @@
       "status": "draft",
       "template": "［Çøññëçŧ~~］"
     },
+    "action.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ĝŀøššåŕÿ~~~~~］"
+    },
     "action.export_output": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
+    },
+    "action.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
     },
     "action.open_source": {
       "sourceRevision": 1,
@@ -86,6 +96,11 @@
       "status": "draft",
       "template": "［Ðïåĝñøšŧïçš~~~］"
     },
+    "dialog.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ĝŀøššåŕÿ~~~~~］"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -95,6 +110,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Øþëñ~~］"
+    },
+    "dialog.open_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -243,6 +263,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧħë šëŀëçŧëð ŧëẋŧ ƒïŀë ëẋçëëðš ŧħë 4 ṀïƁ ŀïṁïŧ.~~~~~~~~~~~~~~~］"
+    },
+    "error.glossary_export": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ŧħë ĝŀøššåŕÿ ÇŠṼ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~］"
+    },
+    "error.glossary_export_empty": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ëñŧëŕ øŕ ïṁþøŕŧ ĝŀøššåŕÿ ŕûŀëš ƀëƒøŕë ëẋþøŕŧïñĝ.~~~~~~~~~~~~~~~~］"
+    },
+    "error.glossary_import": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ŧħë ĝŀøššåŕÿ ÇŠṼ çøûŀð ñøŧ ƀë ïṁþøŕŧëð.~~~~~~~~~~~~~］"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -601,6 +636,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïøñ~~~］"
+    },
+    "file.filter.csv": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［ÇŠṼ ĝŀøššåŕÿ ƒïŀëš~~~~~~］"
     },
     "file.filter.text": {
       "sourceRevision": 1,
@@ -976,6 +1016,11 @@
       "status": "draft",
       "template": "［Ƒåïŀëð~~］"
     },
+    "status.glossary_ready": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ĝŀøššåŕÿ ÇŠṼ ïš ŕëåðÿ.~~~~~~~］"
+    },
     "status.label": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1041,6 +1086,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ØþëñÅÏ-çøṁþåŧïƀŀë ƀåšë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Šåṽë ŧħë çûŕŕëñŧ ĝŀøššåŕÿ ŕûŀëš åš å ÛŦƑ-8 ÇŠṼ ƒïŀë~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.export_output": {
       "sourceRevision": 5,
       "status": "draft",
@@ -1050,6 +1100,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "［Øþŧïøñåŀ šëṁïçøŀøñ-šëþåŕåŧëð šøûŕçë => ŧåŕĝëŧ ĝŀøššåŕÿ ŕûŀëš; ëñŧŕïëš šŧåÿ ïñ ṁëṁøŕÿ ƒøŕ ŧħïš ŧŕåñšŀåŧïøñ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ŀøåð ĝŀøššåŕÿ ŕûŀëš ƒŕøṁ å ÛŦƑ-8 ÇŠṼ ƒïŀë~~~~~~~~~~~~~］"
     },
     "tooltip.open_source": {
       "sourceRevision": 1,

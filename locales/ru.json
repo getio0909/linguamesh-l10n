@@ -49,10 +49,20 @@
       "status": "draft",
       "template": "Connect"
     },
+    "action.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Export glossary"
+    },
     "action.export_output": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "Export translation"
+    },
+    "action.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Import glossary"
     },
     "action.open_source": {
       "sourceRevision": 1,
@@ -89,6 +99,11 @@
       "status": "draft",
       "template": "Диагностика"
     },
+    "dialog.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Export glossary"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -98,6 +113,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Открыть"
+    },
+    "dialog.open_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Import glossary"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -248,6 +268,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "The selected text file exceeds the 4 MiB limit."
+    },
+    "error.glossary_export": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "The glossary CSV could not be saved."
+    },
+    "error.glossary_export_empty": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Enter or import glossary rules before exporting."
+    },
+    "error.glossary_import": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "The glossary CSV could not be imported."
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -608,6 +643,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Перевод"
+    },
+    "file.filter.csv": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "CSV glossary files"
     },
     "file.filter.text": {
       "sourceRevision": 1,
@@ -983,6 +1023,11 @@
       "status": "draft",
       "template": "Ошибка"
     },
+    "status.glossary_ready": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Glossary CSV is ready."
+    },
     "status.label": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1048,6 +1093,11 @@
       "status": "draft",
       "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint"
     },
+    "tooltip.export_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Save the current glossary rules as a UTF-8 CSV file"
+    },
     "tooltip.export_output": {
       "sourceRevision": 5,
       "status": "draft",
@@ -1057,6 +1107,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation."
+    },
+    "tooltip.import_glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "Load glossary rules from a UTF-8 CSV file"
     },
     "tooltip.open_source": {
       "sourceRevision": 1,
