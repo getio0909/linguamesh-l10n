@@ -99,6 +99,11 @@
       "status": "draft",
       "template": "匯入詞彙表"
     },
+    "action.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "Open exported output"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1332,6 +1337,11 @@
       "status": "draft",
       "template": "本次請求不保存來源文字、輸出、歷史記錄或翻譯記憶資料"
     },
+    "tooltip.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "Open the most recently exported translation output"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1413,7 +1423,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 16,
+    "sourceRevision": 17,
     "status": "draft"
   }
 }

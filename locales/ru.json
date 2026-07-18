@@ -104,6 +104,11 @@
       "status": "draft",
       "template": "Import glossary"
     },
+    "action.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "Open exported output"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1343,6 +1348,11 @@
       "status": "draft",
       "template": "Do not persist source, output, history, or translation-memory data for this request"
     },
+    "tooltip.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "Open the most recently exported translation output"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1424,7 +1434,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 16,
+    "sourceRevision": 17,
     "status": "draft"
   }
 }

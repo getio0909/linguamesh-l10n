@@ -1438,3 +1438,13 @@ msgstr "{completed} of {total} segments translated"
 msgctxt "tooltip.document_jobs"
 msgid "Inspect persisted document jobs and their progress"
 msgstr "Inspect persisted document jobs and their progress"
+
+#. Action that opens the most recently exported translation output.
+msgctxt "action.open_output"
+msgid "Open exported output"
+msgstr "Open exported output"
+
+#. Tooltip for opening the most recently exported translation output.
+msgctxt "tooltip.open_output"
+msgid "Open the most recently exported translation output"
+msgstr "Open the most recently exported translation output"

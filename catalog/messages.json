@@ -4470,9 +4470,39 @@
         "template": "Inspect persisted document jobs and their progress",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that opens the most recently exported translation output.",
+      "key": "action.open_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 17,
+      "status": "source",
+      "value": {
+        "template": "Open exported output",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for opening the most recently exported translation output.",
+      "key": "tooltip.open_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 17,
+      "status": "source",
+      "value": {
+        "template": "Open the most recently exported translation output",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 16
+  "sourceRevision": 17
 }

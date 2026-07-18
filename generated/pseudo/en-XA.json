@@ -101,6 +101,11 @@
       "status": "draft",
       "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
     },
+    "action.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "［Øþëñ ëẋþøŕŧëð øûŧþûŧ~~~~~~］"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1336,6 +1341,11 @@
       "status": "draft",
       "template": "［Ðø ñøŧ þëŕšïšŧ šøûŕçë, øûŧþûŧ, ħïšŧøŕÿ, øŕ ŧŕåñšŀåŧïøñ-ṁëṁøŕÿ ðåŧå ƒøŕ ŧħïš ŕëǫûëšŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.open_output": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "［Øþëñ ŧħë ṁøšŧ ŕëçëñŧŀÿ ëẋþøŕŧëð ŧŕåñšŀåŧïøñ øûŧþûŧ~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1417,7 +1427,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 16,
+    "sourceRevision": 17,
     "status": "draft"
   }
 }
