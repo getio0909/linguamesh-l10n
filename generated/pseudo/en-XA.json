@@ -1335,6 +1335,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［{completed} øƒ {total} šëĝṁëñŧš ŧŕåñšŀåŧëð~~~~~~~~~~~~~~］"
+    },
+    "warning.subtitle_line_length": {
+      "sourceRevision": 14,
+      "status": "draft",
+      "template": "［Šûƀŧïŧŀë çûë(š) {cues} ëẋçëëð ŧħë {limit}-çħåŕåçŧëŕ ŀïñë ĝûïðåñçë.~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "warning.subtitle_reading_speed": {
+      "sourceRevision": 14,
+      "status": "draft",
+      "template": "［Šûƀŧïŧŀë çûë(š) {cues} ëẋçëëð ŧħë {limit}-çħåŕåçŧëŕ-þëŕ-šëçøñð ŕëåðïñĝ-šþëëð ĝûïðåñçë.~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     }
   },
   "schemaVersion": 1,
@@ -1342,7 +1352,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 13,
+    "sourceRevision": 14,
     "status": "draft"
   }
 }

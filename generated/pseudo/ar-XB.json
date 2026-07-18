@@ -1351,6 +1351,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦{completed} of {total} segments translated⟧⁩"
+    },
+    "warning.subtitle_line_length": {
+      "sourceRevision": 14,
+      "status": "draft",
+      "template": "⁧⟦Subtitle cue(s) {cues} exceed the {limit}-character line guidance.⟧⁩"
+    },
+    "warning.subtitle_reading_speed": {
+      "sourceRevision": 14,
+      "status": "draft",
+      "template": "⁧⟦Subtitle cue(s) {cues} exceed the {limit}-character-per-second reading-speed guidance.⟧⁩"
     }
   },
   "schemaVersion": 1,
@@ -1358,7 +1368,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 13,
+    "sourceRevision": 14,
     "status": "draft"
   }
 }

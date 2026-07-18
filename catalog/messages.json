@@ -4208,9 +4208,57 @@
         "template": "The translation memory could not be saved.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Shown when subtitle readability guidance is exceeded.",
+      "description": "Cue numbers and the configured per-line character limit for subtitle readability guidance.",
+      "key": "warning.subtitle_line_length",
+      "placeholders": {
+        "cues": {
+          "example": "1, 3",
+          "type": "string"
+        },
+        "limit": {
+          "example": 42,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 14,
+      "status": "source",
+      "value": {
+        "template": "Subtitle cue(s) {cues} exceed the {limit}-character line guidance.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when subtitle reading-speed guidance is exceeded.",
+      "description": "Cue numbers and the configured reading-speed character limit for subtitle readability guidance.",
+      "key": "warning.subtitle_reading_speed",
+      "placeholders": {
+        "cues": {
+          "example": "1, 3",
+          "type": "string"
+        },
+        "limit": {
+          "example": 17,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 14,
+      "status": "source",
+      "value": {
+        "template": "Subtitle cue(s) {cues} exceed the {limit}-character-per-second reading-speed guidance.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 13
+  "sourceRevision": 14
 }
