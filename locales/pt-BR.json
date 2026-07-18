@@ -406,6 +406,11 @@
       "status": "draft",
       "template": "Verifique sua conexão de rede e tente novamente."
     },
+    "error.output_open": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "The exported output could not be opened."
+    },
     "error.profile.id_generation_failed": {
       "sourceRevision": 3,
       "status": "draft",

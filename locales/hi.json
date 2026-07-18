@@ -404,6 +404,11 @@
       "status": "draft",
       "template": "अपना नेटवर्क कनेक्शन जाँचें और फिर से कोशिश करें।"
     },
+    "error.output_open": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "The exported output could not be opened."
+    },
     "error.profile.id_generation_failed": {
       "sourceRevision": 3,
       "status": "draft",

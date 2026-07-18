@@ -4500,6 +4500,21 @@
         "template": "Open the most recently exported translation output",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error shown when the exported output cannot be opened.",
+      "key": "error.output_open",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 17,
+      "status": "source",
+      "value": {
+        "template": "The exported output could not be opened.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

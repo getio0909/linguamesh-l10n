@@ -401,6 +401,11 @@
       "status": "draft",
       "template": "ネットワーク接続を確認して、もう一度お試しください。"
     },
+    "error.output_open": {
+      "sourceRevision": 17,
+      "status": "draft",
+      "template": "The exported output could not be opened."
+    },
     "error.profile.id_generation_failed": {
       "sourceRevision": 3,
       "status": "draft",

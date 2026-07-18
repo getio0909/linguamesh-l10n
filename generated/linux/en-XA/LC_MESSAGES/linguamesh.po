@@ -1701,3 +1701,9 @@ msgstr "［Øþëñ ëẋþøŕŧëð øûŧþûŧ~~~~~~］"
 msgctxt "tooltip.open_output"
 msgid "Open the most recently exported translation output"
 msgstr "［Øþëñ ŧħë ṁøšŧ ŕëçëñŧŀÿ ëẋþøŕŧëð ŧŕåñšŀåŧïøñ øûŧþûŧ~~~~~~~~~~~~~~~~］"
+
+#. Error shown when the exported output cannot be opened.
+#, fuzzy
+msgctxt "error.output_open"
+msgid "The exported output could not be opened."
+msgstr "［Ŧħë ëẋþøŕŧëð øûŧþûŧ çøûŀð ñøŧ ƀë øþëñëð.~~~~~~~~~~~~~］"

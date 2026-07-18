@@ -404,6 +404,11 @@
       "status": "source",
       "template": "Check your network connection and try again."
     },
+    "error.output_open": {
+      "sourceRevision": 17,
+      "status": "source",
+      "template": "The exported output could not be opened."
+    },
     "error.profile.id_generation_failed": {
       "sourceRevision": 3,
       "status": "source",

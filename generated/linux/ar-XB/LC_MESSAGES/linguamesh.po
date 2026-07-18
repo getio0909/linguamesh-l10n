@@ -1709,3 +1709,9 @@ msgstr "⁧⟦Open exported output⟧⁩"
 msgctxt "tooltip.open_output"
 msgid "Open the most recently exported translation output"
 msgstr "⁧⟦Open the most recently exported translation output⟧⁩"
+
+#. Error shown when the exported output cannot be opened.
+#, fuzzy
+msgctxt "error.output_open"
+msgid "The exported output could not be opened."
+msgstr "⁧⟦The exported output could not be opened.⟧⁩"
