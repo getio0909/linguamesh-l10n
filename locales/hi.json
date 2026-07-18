@@ -41,10 +41,20 @@
       "status": "draft",
       "template": "सेटिंग बंद करें"
     },
+    "action.connect": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Connect"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "टेक्स्ट फ़ाइल खोलें"
+    },
+    "action.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Remove saved profile"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -166,6 +176,26 @@
         "incognito": "गुप्त मोड इस अनुवाद को नहीं सहेजता"
       }
     },
+    "label.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Credential (optional; secure when remembered)"
+    },
+    "label.endpoint_loopback": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Endpoint (loopback example)"
+    },
+    "label.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Saved profile"
+    },
+    "label.source_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Source language"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -186,6 +216,56 @@
       "status": "draft",
       "template": "अनुवाद प्रदाता से कनेक्ट करें"
     },
+    "option.model.select": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Select a model..."
+    },
+    "option.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Remember profile, model, and credential in Secret Service"
+    },
+    "option.source.auto": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Auto"
+    },
+    "option.source.chinese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Chinese"
+    },
+    "option.source.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "English"
+    },
+    "option.target.chinese_simplified": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Chinese (Simplified)"
+    },
+    "option.target.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "English"
+    },
+    "option.target.japanese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Japanese"
+    },
+    "profile.new": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "New profile..."
+    },
+    "profile.storage_note": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Names, endpoints, model preferences, and credentials can be remembered through Secret Service. Credentials are cleared from this form immediately and remain session-only when secure storage is unavailable. Removing a saved profile does not disconnect its current session."
+    },
     "provider.active": {
       "sourceRevision": 1,
       "status": "draft",
@@ -195,6 +275,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "प्रदाता का नाम"
+    },
+    "section.provider_profiles": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Provider profiles"
     },
     "settings.target_language": {
       "sourceRevision": 1,
@@ -301,10 +386,40 @@
       "status": "draft",
       "template": "सिस्टम"
     },
+    "tooltip.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Optional credential; it is kept in memory unless remembered through Secret Service"
+    },
+    "tooltip.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "स्रोत संपादक में UTF-8 टेक्स्ट फ़ाइल लोड करें"
+    },
+    "tooltip.provider_name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Session-only provider display name"
+    },
+    "tooltip.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Save non-secret profile data and the credential through Secret Service"
+    },
+    "tooltip.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Remove the selected saved profile without disconnecting its current session"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Choose a saved non-secret profile or create a new profile"
     },
     "translation.progress": {
       "sourceRevision": 1,

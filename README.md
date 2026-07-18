@@ -4,8 +4,8 @@ Canonical, typed localization data and deterministic native resource generators 
 
 ## Current development bundle
 
-Catalog `0.1.0` contains 57 messages, including the Android vertical-slice UI, Linux status
-announcements, and Linux text-file import labels, and exercises typed placeholders, plurals,
+Catalog `0.1.0` contains 80 messages, including the Android vertical-slice UI, Linux status
+announcements, text-file import labels, and provider-profile controls, and exercises typed placeholders, plurals,
 selects, accessibility context, and RTL metadata. English is the canonical source. Simplified Chinese, Traditional Chinese, Spanish,
 French, German, Japanese, Korean, Brazilian Portuguese, Russian, Arabic, and Hindi are complete
 machine-generated drafts marked unreviewed. They are not claimed as human-approved translations.

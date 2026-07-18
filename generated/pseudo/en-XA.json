@@ -41,10 +41,20 @@
       "status": "draft",
       "template": "［Çŀøšë šëŧŧïñĝš~~~~］"
     },
+    "action.connect": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøññëçŧ~~］"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
+    },
+    "action.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŕëṁøṽë šåṽëð þŕøƒïŀë~~~~~~］"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -166,6 +176,26 @@
         "incognito": "［Ïñçøĝñïŧø ṁøðë ðøëš ñøŧ šåṽë ŧħïš ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~］"
       }
     },
+    "label.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çŕëðëñŧïåŀ (øþŧïøñåŀ; šëçûŕë ŵħëñ ŕëṁëṁƀëŕëð)~~~~~~~~~~~~~~~］"
+    },
+    "label.endpoint_loopback": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñðþøïñŧ (ŀøøþƀåçķ ëẋåṁþŀë)~~~~~~~~~］"
+    },
+    "label.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀë~~~~］"
+    },
+    "label.source_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šøûŕçë ŀåñĝûåĝë~~~~~］"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -186,6 +216,56 @@
       "status": "draft",
       "template": "［Çøññëçŧ å ŧŕåñšŀåŧïøñ þŕøṽïðëŕ~~~~~~~~~~］"
     },
+    "option.model.select": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šëŀëçŧ å ṁøðëŀ...~~~~~］"
+    },
+    "option.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŕëṁëṁƀëŕ þŕøƒïŀë, ṁøðëŀ, åñð çŕëðëñŧïåŀ ïñ Šëçŕëŧ Šëŕṽïçë~~~~~~~~~~~~~~~~~~~］"
+    },
+    "option.source.auto": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Åûŧø~~］"
+    },
+    "option.source.chinese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħïñëšë~~］"
+    },
+    "option.source.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñĝŀïšħ~~］"
+    },
+    "option.target.chinese_simplified": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħïñëšë (Šïṁþŀïƒïëð)~~~~~~］"
+    },
+    "option.target.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñĝŀïšħ~~］"
+    },
+    "option.target.japanese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ĵåþåñëšë~~］"
+    },
+    "profile.new": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ñëŵ þŕøƒïŀë...~~~~］"
+    },
+    "profile.storage_note": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ñåṁëš, ëñðþøïñŧš, ṁøðëŀ þŕëƒëŕëñçëš, åñð çŕëðëñŧïåŀš çåñ ƀë ŕëṁëṁƀëŕëð ŧħŕøûĝħ Šëçŕëŧ Šëŕṽïçë. Çŕëðëñŧïåŀš åŕë çŀëåŕëð ƒŕøṁ ŧħïš ƒøŕṁ ïṁṁëðïåŧëŀÿ åñð ŕëṁåïñ šëššïøñ-øñŀÿ ŵħëñ šëçûŕë šŧøŕåĝë ïš ûñåṽåïŀåƀŀë. Ŕëṁøṽïñĝ å šåṽëð þŕøƒïŀë ðøëš ñøŧ ðïšçøññëçŧ ïŧš çûŕŕëñŧ šëššïøñ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "provider.active": {
       "sourceRevision": 1,
       "status": "draft",
@@ -195,6 +275,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Þŕøṽïðëŕ ñåṁë~~~~］"
+    },
+    "section.provider_profiles": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ þŕøƒïŀëš~~~~~］"
     },
     "settings.target_language": {
       "sourceRevision": 1,
@@ -301,10 +386,40 @@
       "status": "draft",
       "template": "［Šÿšŧëṁ~~］"
     },
+    "tooltip.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ çŕëðëñŧïåŀ; ïŧ ïš ķëþŧ ïñ ṁëṁøŕÿ ûñŀëšš ŕëṁëṁƀëŕëð ŧħŕøûĝħ Šëçŕëŧ Šëŕṽïçë~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ØþëñÅÏ-çøṁþåŧïƀŀë ƀåšë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŀøåð å ÛŦƑ-8 ŧëẋŧ ƒïŀë ïñŧø ŧħë šøûŕçë ëðïŧøŕ~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.provider_name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šëššïøñ-øñŀÿ þŕøṽïðëŕ ðïšþŀåÿ ñåṁë~~~~~~~~~~~］"
+    },
+    "tooltip.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽë ñøñ-šëçŕëŧ þŕøƒïŀë ðåŧå åñð ŧħë çŕëðëñŧïåŀ ŧħŕøûĝħ Šëçŕëŧ Šëŕṽïçë~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŕëṁøṽë ŧħë šëŀëçŧëð šåṽëð þŕøƒïŀë ŵïŧħøûŧ ðïšçøññëçŧïñĝ ïŧš çûŕŕëñŧ šëššïøñ~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħøøšë å šåṽëð ñøñ-šëçŕëŧ þŕøƒïŀë øŕ çŕëåŧë å ñëŵ þŕøƒïŀë~~~~~~~~~~~~~~~~~~~］"
     },
     "translation.progress": {
       "sourceRevision": 1,

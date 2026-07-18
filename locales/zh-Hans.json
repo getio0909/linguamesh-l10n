@@ -39,10 +39,20 @@
       "status": "draft",
       "template": "关闭设置"
     },
+    "action.connect": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "连接"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "打开文本文件"
+    },
+    "action.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "移除已保存配置"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -162,6 +172,26 @@
         "incognito": "无痕模式不会保存此翻译"
       }
     },
+    "label.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "凭据（可选；记住时安全保存）"
+    },
+    "label.endpoint_loopback": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "端点（回环示例）"
+    },
+    "label.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已保存配置"
+    },
+    "label.source_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "源语言"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -182,6 +212,56 @@
       "status": "draft",
       "template": "连接翻译服务提供商"
     },
+    "option.model.select": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "选择模型..."
+    },
+    "option.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "通过 Secret Service 记住配置、模型和凭据"
+    },
+    "option.source.auto": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "自动"
+    },
+    "option.source.chinese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "中文"
+    },
+    "option.source.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "英语"
+    },
+    "option.target.chinese_simplified": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "简体中文"
+    },
+    "option.target.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "英语"
+    },
+    "option.target.japanese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "日语"
+    },
+    "profile.new": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "新建配置..."
+    },
+    "profile.storage_note": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "名称、端点、模型偏好和凭据可通过 Secret Service 记住。凭据会立即从此表单清除；安全存储不可用时仅保留在本次会话中。移除已保存的配置不会断开当前会话。"
+    },
     "provider.active": {
       "sourceRevision": 1,
       "status": "draft",
@@ -191,6 +271,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "提供商名称"
+    },
+    "section.provider_profiles": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商配置"
     },
     "settings.target_language": {
       "sourceRevision": 1,
@@ -297,10 +382,40 @@
       "status": "draft",
       "template": "跟随系统"
     },
+    "tooltip.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "可选凭据；除非通过 Secret Service 记住，否则只保留在内存中"
+    },
+    "tooltip.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "HTTPS 或回环 HTTP OpenAI 兼容基础端点"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "将 UTF-8 文本文件加载到源文本编辑器"
+    },
+    "tooltip.provider_name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "仅用于本次会话的提供商显示名称"
+    },
+    "tooltip.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "通过 Secret Service 保存非秘密配置数据和凭据"
+    },
+    "tooltip.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "移除选中的已保存配置，但不断开当前会话"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "选择不含秘密的已保存配置，或新建配置"
     },
     "translation.progress": {
       "sourceRevision": 1,

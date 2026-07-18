@@ -49,10 +49,20 @@
       "status": "draft",
       "template": "إغلاق الإعدادات"
     },
+    "action.connect": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اتصال"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "فتح ملف نصي"
+    },
+    "action.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "إزالة الملف المحفوظ"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -182,6 +192,26 @@
         "incognito": "لا يحفظ وضع التصفح الخفي هذه الترجمة"
       }
     },
+    "label.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "بيان الاعتماد (اختياري؛ آمن عند التذكر)"
+    },
+    "label.endpoint_loopback": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "نقطة النهاية (مثال محلي)"
+    },
+    "label.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملف محفوظ"
+    },
+    "label.source_language": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "لغة المصدر"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -202,6 +232,56 @@
       "status": "draft",
       "template": "الاتصال بمزوّد ترجمة"
     },
+    "option.model.select": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اختر نموذجاً..."
+    },
+    "option.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تذكّر الملف والنموذج وبيان الاعتماد في Secret Service"
+    },
+    "option.source.auto": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تلقائي"
+    },
+    "option.source.chinese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الصينية"
+    },
+    "option.source.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الإنجليزية"
+    },
+    "option.target.chinese_simplified": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الصينية المبسطة"
+    },
+    "option.target.english": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الإنجليزية"
+    },
+    "option.target.japanese": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اليابانية"
+    },
+    "profile.new": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملف جديد..."
+    },
+    "profile.storage_note": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "يمكن حفظ الأسماء ونقاط النهاية وتفضيلات النماذج وبيانات الاعتماد عبر Secret Service. تُمسح بيانات الاعتماد من هذا النموذج فوراً وتبقى للجلسة فقط عند تعذر التخزين الآمن. إزالة ملف محفوظ لا تفصل الجلسة الحالية."
+    },
     "provider.active": {
       "sourceRevision": 1,
       "status": "draft",
@@ -211,6 +291,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "اسم المزوّد"
+    },
+    "section.provider_profiles": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملفات تعريف المزوّدين"
     },
     "settings.target_language": {
       "sourceRevision": 1,
@@ -317,10 +402,40 @@
       "status": "draft",
       "template": "النظام"
     },
+    "tooltip.credential": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "بيان اعتماد اختياري؛ يبقى في الذاكرة ما لم يُحفظ عبر Secret Service"
+    },
+    "tooltip.endpoint": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "نقطة نهاية أساسية متوافقة مع OpenAI عبر HTTPS أو HTTP محلي"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "تحميل ملف نصي UTF-8 إلى محرر المصدر"
+    },
+    "tooltip.provider_name": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اسم عرض المزوّد لهذه الجلسة فقط"
+    },
+    "tooltip.remember_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "احفظ بيانات الملف غير السرية وبيان الاعتماد عبر Secret Service"
+    },
+    "tooltip.remove_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "أزل الملف المحفوظ المحدد دون فصل الجلسة الحالية"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اختر ملفاً محفوظاً بلا أسرار أو أنشئ ملفاً جديداً"
     },
     "translation.progress": {
       "sourceRevision": 1,

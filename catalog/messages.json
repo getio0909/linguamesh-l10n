@@ -1044,6 +1044,351 @@
         "template": "Load a UTF-8 text file into the source editor",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Heading for the Linux provider-profile configuration card.",
+      "key": "section.provider_profiles",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Provider profiles",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Privacy and persistence note shown in the Linux provider-profile card.",
+      "key": "profile.storage_note",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Names, endpoints, model preferences, and credentials can be remembered through Secret Service. Credentials are cleared from this form immediately and remain session-only when secure storage is unavailable. Removing a saved profile does not disconnect its current session.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder entry for creating a new Linux provider profile.",
+      "key": "profile.new",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "New profile...",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that removes a saved Linux provider profile.",
+      "key": "action.remove_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Remove saved profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for choosing a saved Linux provider profile.",
+      "key": "tooltip.saved_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Choose a saved non-secret profile or create a new profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for removing the selected Linux provider profile.",
+      "key": "tooltip.remove_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Remove the selected saved profile without disconnecting its current session",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux provider display-name field.",
+      "key": "tooltip.provider_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Session-only provider display name",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux OpenAI-compatible endpoint field.",
+      "key": "tooltip.endpoint",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux provider credential field.",
+      "key": "tooltip.credential",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Optional credential; it is kept in memory unless remembered through Secret Service",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for remembering a Linux provider profile in Secret Service.",
+      "key": "option.remember_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Remember profile, model, and credential in Secret Service",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for remembering a Linux provider profile.",
+      "key": "tooltip.remember_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Save non-secret profile data and the credential through Secret Service",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that validates and connects a Linux provider profile.",
+      "key": "action.connect",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Connect",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the saved Linux provider-profile selector.",
+      "key": "label.saved_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Saved profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux source-language selector.",
+      "key": "label.source_language",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Source language",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux provider credential field.",
+      "key": "label.credential",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Credential (optional; secure when remembered)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux loopback provider endpoint field.",
+      "key": "label.endpoint_loopback",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Endpoint (loopback example)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder entry shown before a Linux model is selected.",
+      "key": "option.model.select",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Select a model...",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic source-language option for Linux translation.",
+      "key": "option.source.auto",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Auto",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "English source-language option for Linux translation.",
+      "key": "option.source.english",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "English",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Chinese source-language option for Linux translation.",
+      "key": "option.source.chinese",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Chinese",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Simplified Chinese target-language option for Linux translation.",
+      "key": "option.target.chinese_simplified",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Chinese (Simplified)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "English target-language option for Linux translation.",
+      "key": "option.target.english",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "English",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Japanese target-language option for Linux translation.",
+      "key": "option.target.japanese",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Japanese",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
