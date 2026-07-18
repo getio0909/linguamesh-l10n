@@ -44,6 +44,11 @@
       "status": "draft",
       "template": "Clear history"
     },
+    "action.close": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Close"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -54,10 +59,20 @@
       "status": "draft",
       "template": "Connect"
     },
+    "action.delete_history_entry": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Delete"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
       "template": "Export glossary"
+    },
+    "action.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Export history"
     },
     "action.export_output": {
       "sourceRevision": 5,
@@ -89,6 +104,11 @@
       "status": "draft",
       "template": "Перевести"
     },
+    "action.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "View history"
+    },
     "app.title": {
       "sourceRevision": 1,
       "status": "draft",
@@ -109,10 +129,20 @@
       "status": "draft",
       "template": "Export glossary"
     },
+    "dialog.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Export translation history"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "Export translation"
+    },
+    "dialog.history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Translation history"
     },
     "dialog.open": {
       "sourceRevision": 1,
@@ -288,6 +318,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "The glossary CSV could not be imported."
+    },
+    "error.history_export": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "The translation history could not be saved."
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -1048,6 +1083,16 @@
       "status": "draft",
       "template": "Stored translation history entries: {count}"
     },
+    "status.history_empty": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "No local translation history is stored."
+    },
+    "status.history_exported": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Translation history was exported to the selected file."
+    },
     "status.history_not_saved": {
       "sourceRevision": 10,
       "status": "draft",
@@ -1178,6 +1223,11 @@
       "status": "draft",
       "template": "Choose a saved non-secret profile or create a new profile"
     },
+    "tooltip.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "Inspect, export, or delete individual local translation history entries"
+    },
     "translation.progress": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1189,7 +1239,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 10,
+    "sourceRevision": 11,
     "status": "draft"
   }
 }

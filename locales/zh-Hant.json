@@ -39,6 +39,11 @@
       "status": "draft",
       "template": "清除歷史記錄"
     },
+    "action.close": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "關閉"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -49,10 +54,20 @@
       "status": "draft",
       "template": "連線"
     },
+    "action.delete_history_entry": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "刪除"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
       "template": "匯出詞彙表"
+    },
+    "action.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "匯出歷史"
     },
     "action.export_output": {
       "sourceRevision": 5,
@@ -84,6 +99,11 @@
       "status": "draft",
       "template": "翻譯"
     },
+    "action.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "檢視歷史"
+    },
     "app.title": {
       "sourceRevision": 1,
       "status": "draft",
@@ -104,10 +124,20 @@
       "status": "draft",
       "template": "匯出詞彙表"
     },
+    "dialog.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "匯出翻譯歷史"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "匯出翻譯"
+    },
+    "dialog.history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "翻譯歷史"
     },
     "dialog.open": {
       "sourceRevision": 1,
@@ -280,6 +310,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "無法匯入詞彙表 CSV。"
+    },
+    "error.history_export": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "無法儲存翻譯歷史。"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -1037,6 +1072,16 @@
       "status": "draft",
       "template": "本地翻譯歷史記錄數：{count}"
     },
+    "status.history_empty": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "沒有儲存本地翻譯歷史。"
+    },
+    "status.history_exported": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "翻譯歷史已匯出至所選檔案。"
+    },
     "status.history_not_saved": {
       "sourceRevision": 10,
       "status": "draft",
@@ -1167,6 +1212,11 @@
       "status": "draft",
       "template": "選擇不含秘密的已儲存設定，或新增設定"
     },
+    "tooltip.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "檢視、匯出或刪除單筆本地翻譯歷史"
+    },
     "translation.progress": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1178,7 +1228,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 10,
+    "sourceRevision": 11,
     "status": "draft"
   }
 }

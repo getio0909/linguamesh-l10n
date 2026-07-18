@@ -3661,6 +3661,156 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Opens the Linux translation history inspection window.",
+      "key": "action.view_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "View history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Exports the currently displayed Linux translation history entries.",
+      "key": "action.export_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Export history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Deletes one Linux translation history entry.",
+      "key": "action.delete_history_entry",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Delete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Closes the Linux translation history window.",
+      "key": "action.close",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Close",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux translation history inspection window.",
+      "key": "dialog.history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Translation history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux translation history export dialog.",
+      "key": "dialog.export_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Export translation history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when no local translation history entries exist.",
+      "description": "Empty-state text for the Linux translation history window.",
+      "key": "status.history_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "No local translation history is stored.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after a Linux translation history export succeeds.",
+      "description": "Status note confirming that displayed history was exported.",
+      "key": "status.history_exported",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Translation history was exported to the selected file.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when a Linux translation history export fails.",
+      "description": "Fixed error text for a failed Linux translation history export.",
+      "key": "error.history_export",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "The translation history could not be saved.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for opening Linux translation history controls.",
+      "key": "tooltip.view_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 11,
+      "status": "source",
+      "value": {
+        "template": "Inspect, export, or delete individual local translation history entries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Tooltip for clearing locally stored translation history on Linux.",
       "key": "tooltip.clear_history",
       "placeholders": {},
@@ -3727,5 +3877,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 10
+  "sourceRevision": 11
 }

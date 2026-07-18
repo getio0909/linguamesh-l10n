@@ -41,6 +41,11 @@
       "status": "draft",
       "template": "［Çŀëåŕ ħïšŧøŕÿ~~~~］"
     },
+    "action.close": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Çŀøšë~~］"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -51,10 +56,20 @@
       "status": "draft",
       "template": "［Çøññëçŧ~~］"
     },
+    "action.delete_history_entry": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ðëŀëŧë~~］"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
       "template": "［Ëẋþøŕŧ ĝŀøššåŕÿ~~~~~］"
+    },
+    "action.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ħïšŧøŕÿ~~~~］"
     },
     "action.export_output": {
       "sourceRevision": 5,
@@ -86,6 +101,11 @@
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧë~~~］"
     },
+    "action.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ṽïëŵ ħïšŧøŕÿ~~~~］"
+    },
     "app.title": {
       "sourceRevision": 1,
       "status": "draft",
@@ -106,10 +126,20 @@
       "status": "draft",
       "template": "［Ëẋþøŕŧ ĝŀøššåŕÿ~~~~~］"
     },
+    "dialog.export_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~~~］"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
+    },
+    "dialog.history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~］"
     },
     "dialog.open": {
       "sourceRevision": 1,
@@ -283,6 +313,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "［Ŧħë ĝŀøššåŕÿ ÇŠṼ çøûŀð ñøŧ ƀë ïṁþøŕŧëð.~~~~~~~~~~~~~］"
+    },
+    "error.history_export": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧïøñ ħïšŧøŕÿ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~］"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -1041,6 +1076,16 @@
       "status": "draft",
       "template": "［Šŧøŕëð ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ëñŧŕïëš: {count}~~~~~~~~~~~~~~］"
     },
+    "status.history_empty": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ñø ŀøçåŀ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ïš šŧøŕëð.~~~~~~~~~~~~~］"
+    },
+    "status.history_exported": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ŵåš ëẋþøŕŧëð ŧø ŧħë šëŀëçŧëð ƒïŀë.~~~~~~~~~~~~~~~~~~］"
+    },
     "status.history_not_saved": {
       "sourceRevision": 10,
       "status": "draft",
@@ -1171,6 +1216,11 @@
       "status": "draft",
       "template": "［Çħøøšë å šåṽëð ñøñ-šëçŕëŧ þŕøƒïŀë øŕ çŕëåŧë å ñëŵ þŕøƒïŀë~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.view_history": {
+      "sourceRevision": 11,
+      "status": "draft",
+      "template": "［Ïñšþëçŧ, ëẋþøŕŧ, øŕ ðëŀëŧë ïñðïṽïðûåŀ ŀøçåŀ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "translation.progress": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1182,7 +1232,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 10,
+    "sourceRevision": 11,
     "status": "draft"
   }
 }
