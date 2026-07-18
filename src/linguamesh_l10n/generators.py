@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import struct
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -319,6 +320,102 @@ def generate_linux(
         _write_text(path, "\n".join(lines).rstrip() + "\n")
 
 
+def _linux_mo_entries(
+    catalog: dict[str, Any],
+    pack: dict[str, Any],
+) -> list[tuple[bytes, bytes]]:
+    translation = pack["translation"]
+    review_label = translation["reviewStatus"]
+    header = "\n".join(
+        [
+            f"Project-Id-Version: LinguaMesh {catalog['catalogVersion']}",
+            f"Language: {pack['locale']['tag']}",
+            f"Language-Team: {pack['locale']['englishName']} ({review_label})",
+            "PO-Revision-Date: 2026-07-17 00:00+0000",
+            "Last-Translator: LinguaMesh source maintainers <noreply@linguamesh.invalid>"
+            if pack["locale"]["tag"] == "en"
+            else "Last-Translator: LinguaMesh machine draft <noreply@linguamesh.invalid>",
+            "MIME-Version: 1.0",
+            "Content-Type: text/plain; charset=UTF-8",
+            "Content-Transfer-Encoding: 8bit",
+            f"Plural-Forms: {pack['locale']['gettextPluralRule']}",
+            f"X-LinguaMesh-Review-Status: {review_label}",
+            f"X-LinguaMesh-Machine-Generated: {str(translation['machineGenerated']).lower()}",
+            "",
+        ]
+    )
+    entries: list[tuple[bytes, bytes]] = [(b"", header.encode("utf-8"))]
+    for message in catalog["messages"]:
+        if "linux" not in message["platforms"]:
+            continue
+        key = message["key"]
+        translated = pack["messages"][key]
+        kind = message["value"]["type"]
+        if kind == "text":
+            entries.append(
+                (
+                    f"{key}\x04{message['value']['template']}".encode("utf-8"),
+                    translated["template"].encode("utf-8"),
+                )
+            )
+        elif kind == "plural":
+            msgid = (
+                f"{key}\x04{message['value']['variants']['one']}"
+                f"\x00{message['value']['variants']['other']}"
+            )
+            values = [translated["variants"][category] for category in pack["locale"]["gettextCategories"]]
+            entries.append((msgid.encode("utf-8"), "\x00".join(values).encode("utf-8")))
+        else:
+            for branch, source_template in message["value"]["variants"].items():
+                entries.append(
+                    (
+                        f"{key}[{branch}]\x04{source_template}".encode("utf-8"),
+                        translated["variants"][branch].encode("utf-8"),
+                    )
+                )
+    return sorted(entries, key=lambda entry: entry[0])
+
+
+def _mo_bytes(entries: list[tuple[bytes, bytes]]) -> bytes:
+    count = len(entries)
+    original_table_offset = 28
+    translation_table_offset = original_table_offset + count * 8
+    string_offset = translation_table_offset + count * 8
+    original_table: list[tuple[int, int]] = []
+    translation_table: list[tuple[int, int]] = []
+    string_data = bytearray()
+    for original, translation in entries:
+        original_table.append((len(original), string_offset + len(string_data)))
+        string_data.extend(original)
+        string_data.append(0)
+        translation_table.append((len(translation), string_offset + len(string_data)))
+        string_data.extend(translation)
+        string_data.append(0)
+    header = struct.pack(
+        "<7I",
+        0x950412DE,
+        0,
+        count,
+        original_table_offset,
+        translation_table_offset,
+        0,
+        0,
+    )
+    tables = b"".join(struct.pack("<2I", *item) for item in original_table + translation_table)
+    return header + tables + bytes(string_data)
+
+
+def generate_linux_mo(
+    output: Path,
+    catalog: dict[str, Any],
+    packs: dict[str, dict[str, Any]],
+) -> None:
+    for tag, pack in packs.items():
+        path = output / "linux" / tag / "LC_MESSAGES" / "linguamesh.mo"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(_mo_bytes(_linux_mo_entries(catalog, pack)))
+
+
 def _manifest(
     output: Path,
     catalog: dict[str, Any],
@@ -377,6 +474,7 @@ def generate_tree(root: Path, output: Path) -> dict[str, Any]:
     generate_windows(output, catalog, packs)
     generate_macos(output, catalog, packs)
     generate_linux(output, catalog, packs)
+    generate_linux_mo(output, catalog, packs)
     manifest = _manifest(output, catalog, packs, compatibility)
     _write_text(output / "manifest.json", canonical_json(manifest))
     return manifest

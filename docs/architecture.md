@@ -12,7 +12,7 @@ The pipeline is:
 catalog + official packs -> validation -> pseudo-locales -> native generators -> manifest
 ```
 
-Generators produce Android `strings.xml`/`plurals`, Windows RESW entries, one macOS XCStrings catalog, and Linux PO catalogs. Platforms without an arbitrary select primitive receive stable branch-suffixed identifiers such as `history.mode.incognito`; the client chooses the branch through its typed localization layer.
+Generators produce Android `strings.xml`/`plurals`, Windows RESW entries, one macOS XCStrings catalog, and paired Linux PO/MO catalogs. The PO files remain reviewable source resources; the deterministic GNU MO files are the runtime lookup resources. Platforms without an arbitrary select primitive receive stable branch-suffixed identifiers such as `history.mode.incognito`; the client chooses the branch through its typed localization layer.
 
 ## Determinism and trust
 

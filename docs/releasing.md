@@ -18,7 +18,7 @@ Before tagging a stable bundle:
 
 1. obtain and record qualified human review for every locale claimed reviewed;
 2. run all commands in `docs/testing.md` in CI;
-3. verify client consumption of Android XML, Windows RESW, macOS XCStrings, and Linux PO;
+3. verify client consumption of Android XML, Windows RESW, macOS XCStrings, and Linux PO/MO;
 4. record compatibility, artifact checksums, limitations, and rollback guidance;
 5. update the central `linguamesh-project/release-manifest.toml` with the tested localization version and compatible clients.
 

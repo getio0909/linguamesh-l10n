@@ -10,7 +10,7 @@ selects, accessibility context, and RTL metadata. English is the canonical sourc
 French, German, Japanese, Korean, Brazilian Portuguese, Russian, Arabic, and Hindi are complete
 machine-generated drafts marked unreviewed. They are not claimed as human-approved translations.
 
-The generator also derives accented `en-XA` and RTL `ar-XB` pseudo-locales. Outputs are committed under `generated/` for Android XML, Windows RESW, macOS XCStrings, and Linux PO.
+The generator also derives accented `en-XA` and RTL `ar-XB` pseudo-locales. Outputs are committed under `generated/` for Android XML, Windows RESW, macOS XCStrings, and Linux PO/MO resources.
 
 ## Repository layout
 

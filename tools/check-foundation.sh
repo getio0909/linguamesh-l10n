@@ -35,7 +35,7 @@ grep -Fq '`linguamesh-l10n`' REPOSITORY_ROLE.md
 mapfile -t text_files < <(
   find . \
     \( -path ./.git -o -path ./dist -o -path ./.cache -o -name __pycache__ \) -prune \
-    -o -type f ! -name '*.pyc' ! -name '*.pyo' ! -name '*.zip' -print \
+    -o -type f ! -name '*.pyc' ! -name '*.pyo' ! -name '*.zip' ! -name '*.mo' -print \
     | sort
 )
 if grep -nE '[[:blank:]]+$' "${text_files[@]}"; then

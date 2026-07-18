@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import struct
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -77,6 +78,23 @@ class GeneratorTests(unittest.TestCase):
         self.assertIn("X-LinguaMesh-Review-Status: unreviewed", spanish)
         self.assertIn("#, fuzzy", spanish)
         self.assertIn("X-LinguaMesh-Review-Status: source", english)
+
+    def test_linux_mo_catalogs_are_valid_and_deterministic(self) -> None:
+        catalogs = list((self.output / "linux").glob("*/LC_MESSAGES/linguamesh.mo"))
+        self.assertEqual(14, len(catalogs))
+        for path in catalogs:
+            source = path.read_bytes()
+            magic, version, count, original_offset, translation_offset, _, _ = struct.unpack(
+                "<7I", source[:28]
+            )
+            self.assertEqual(0x950412DE, magic)
+            self.assertEqual(0, version)
+            self.assertGreaterEqual(count, 100)
+            self.assertEqual(28, original_offset)
+            self.assertEqual(original_offset + count * 8, translation_offset)
+        english = (self.output / "linux" / "en" / "LC_MESSAGES" / "linguamesh.mo").read_bytes()
+        self.assertIn(b"error.state.missing_source\x04", english)
+        self.assertIn(b"Enter source text before translating.", english)
 
     def test_android_escapes_resource_syntax_without_changing_placeholders(self) -> None:
         catalog, _, packs = validate_repository(ROOT)
