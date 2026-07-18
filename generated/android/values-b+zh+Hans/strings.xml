@@ -19,8 +19,8 @@
     <string name="accessibility_stop_translation">停止翻译</string>
     <string name="locale_current">界面语言：%1$s</string>
     <string name="error_network_unavailable">请检查网络连接，然后重试。</string>
-    <string name="onboarding_title">连接翻译服务提供商</string>
-    <string name="onboarding_description">你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。</string>
+    <string name="onboarding_title">Connect a translation provider</string>
+    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
     <string name="provider_name">提供商名称</string>
     <string name="field_endpoint">端点</string>
     <string name="field_model">模型</string>

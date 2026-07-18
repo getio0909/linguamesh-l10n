@@ -19,8 +19,8 @@
     <string name="accessibility_stop_translation">翻訳を停止</string>
     <string name="locale_current">インターフェイスの言語：%1$s</string>
     <string name="error_network_unavailable">ネットワーク接続を確認して、もう一度お試しください。</string>
-    <string name="onboarding_title">翻訳プロバイダーに接続</string>
-    <string name="onboarding_description">コンテンツは設定したプロバイダーに直接送信されます。LinguaMesh に API キーは組み込まれていません。</string>
+    <string name="onboarding_title">Connect a translation provider</string>
+    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
     <string name="provider_name">プロバイダー名</string>
     <string name="field_endpoint">エンドポイント</string>
     <string name="field_model">モデル</string>

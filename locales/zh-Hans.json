@@ -205,12 +205,97 @@
     "onboarding.description": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。"
+      "template": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+    },
+    "onboarding.detail.configure_empty": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "在下方创建提供商配置；仅在需要时输入凭据，然后选择“连接”。记住配置会使用 Secret Service，否则凭据仅保留在本次会话内。"
+    },
+    "onboarding.detail.configure_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "在下方选择已保存配置；需要时重新输入凭据，然后选择“连接”。恢复的配置不会自动连接。"
+    },
+    "onboarding.detail.confirm_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在确认模型 {model}。提交此选择前无法翻译。"
+    },
+    "onboarding.detail.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在验证 {provider} [{profile_id}] 并发现模型。成功前会保持之前的活动提供商不变。"
+    },
+    "onboarding.detail.connecting_generic": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在验证提供商并发现模型。成功前会保持之前的活动提供商不变。"
+    },
+    "onboarding.detail.persistence_warning": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已保存配置存储不可用；配置持久化已禁用，“记住”保持关闭，凭据仅保留在本次会话内。"
+    },
+    "onboarding.detail.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "下一次请求：{provider} · {model}。使用已保存配置列表和“连接”来有意切换。"
+    },
+    "onboarding.detail.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "请选择已发现的模型。确认选择前无法翻译。"
+    },
+    "onboarding.detail.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在检查配置存储并启动本地验证提供商。不会自动连接提供商。"
+    },
+    "onboarding.detail.storage_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已保存配置存储不可用。请在下方配置提供商并关闭“记住”；凭据仅保留在本次会话内。"
+    },
+    "onboarding.detail.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "核心工作线程不可用。请重启应用并查看下方错误；无法发送提供商请求。"
+    },
+    "onboarding.stage.configure": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 第 1 步，共 2 步"
+    },
+    "onboarding.stage.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 正在连接"
+    },
+    "onboarding.stage.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 已就绪"
+    },
+    "onboarding.stage.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 第 2 步，共 2 步"
+    },
+    "onboarding.stage.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 正在启动"
+    },
+    "onboarding.stage.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供商设置 · 不可用"
     },
     "onboarding.title": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "连接翻译服务提供商"
+      "template": "Connect a translation provider"
     },
     "option.model.select": {
       "sourceRevision": 1,

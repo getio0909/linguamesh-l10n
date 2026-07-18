@@ -205,12 +205,97 @@
     "onboarding.description": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "你的內容會直接傳送給你設定的服務供應商。LinguaMesh 不內建任何 API 金鑰。"
+      "template": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+    },
+    "onboarding.detail.configure_empty": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "在下方建立提供者設定；僅在需要時輸入憑證，然後選取「連線」。記住設定會使用 Secret Service，否則憑證僅保留在本次工作階段。"
+    },
+    "onboarding.detail.configure_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "在下方選取已儲存設定；需要時重新輸入憑證，然後選取「連線」。還原的設定不會自動連線。"
+    },
+    "onboarding.detail.confirm_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在確認模型 {model}。提交此選取前無法翻譯。"
+    },
+    "onboarding.detail.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在驗證 {provider} [{profile_id}] 並探索模型。成功前會保持先前的作用中提供者不變。"
+    },
+    "onboarding.detail.connecting_generic": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在驗證提供者並探索模型。成功前會保持先前的作用中提供者不變。"
+    },
+    "onboarding.detail.persistence_warning": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已儲存設定儲存無法使用；設定持久性已停用，「記住」保持關閉，憑證僅保留在本次工作階段。"
+    },
+    "onboarding.detail.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "下一個要求：{provider} · {model}。使用已儲存設定清單和「連線」來有意切換。"
+    },
+    "onboarding.detail.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "請選取已探索的模型。確認選取前無法翻譯。"
+    },
+    "onboarding.detail.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在檢查設定儲存並啟動本機驗證提供者。不會自動連線提供者。"
+    },
+    "onboarding.detail.storage_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已儲存設定儲存無法使用。請在下方設定提供者並關閉「記住」；憑證僅保留在本次工作階段。"
+    },
+    "onboarding.detail.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "核心工作執行緒無法使用。請重新啟動應用程式並查看下方錯誤；無法傳送提供者要求。"
+    },
+    "onboarding.stage.configure": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 第 1 步，共 2 步"
+    },
+    "onboarding.stage.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 正在連線"
+    },
+    "onboarding.stage.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 已就緒"
+    },
+    "onboarding.stage.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 第 2 步，共 2 步"
+    },
+    "onboarding.stage.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 正在啟動"
+    },
+    "onboarding.stage.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供者設定 · 無法使用"
     },
     "onboarding.title": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "連接翻譯服務供應商"
+      "template": "Connect a translation provider"
     },
     "option.model.select": {
       "sourceRevision": 1,

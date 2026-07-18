@@ -23,8 +23,8 @@
     <string name="accessibility_stop_translation">Parar tradução</string>
     <string name="locale_current">Idioma da interface: %1$s</string>
     <string name="error_network_unavailable">Verifique sua conexão de rede e tente novamente.</string>
-    <string name="onboarding_title">Conectar um provedor de tradução</string>
-    <string name="onboarding_description">Seu conteúdo vai diretamente para o provedor configurado. O LinguaMesh nunca inclui uma chave de API.</string>
+    <string name="onboarding_title">Connect a translation provider</string>
+    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
     <string name="provider_name">Nome do provedor</string>
     <string name="field_endpoint">Endpoint</string>
     <string name="field_model">Modelo</string>

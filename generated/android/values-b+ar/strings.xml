@@ -29,8 +29,8 @@
     <string name="accessibility_stop_translation">إيقاف الترجمة</string>
     <string name="locale_current">لغة الواجهة: %1$s</string>
     <string name="error_network_unavailable">تحقق من اتصال الشبكة وحاول مرة أخرى.</string>
-    <string name="onboarding_title">الاتصال بمزوّد ترجمة</string>
-    <string name="onboarding_description">يُرسل محتواك مباشرةً إلى المزوّد الذي تضبطه. لا يتضمن LinguaMesh أي مفتاح API.</string>
+    <string name="onboarding_title">Connect a translation provider</string>
+    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
     <string name="provider_name">اسم المزوّد</string>
     <string name="field_endpoint">نقطة النهاية</string>
     <string name="field_model">النموذج</string>

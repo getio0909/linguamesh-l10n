@@ -25,8 +25,8 @@
     <string name="accessibility_stop_translation">Остановить перевод</string>
     <string name="locale_current">Язык интерфейса: %1$s</string>
     <string name="error_network_unavailable">Проверьте подключение к сети и повторите попытку.</string>
-    <string name="onboarding_title">Подключить поставщика перевода</string>
-    <string name="onboarding_description">Ваш контент отправляется напрямую настроенному поставщику. LinguaMesh не содержит встроенных ключей API.</string>
+    <string name="onboarding_title">Connect a translation provider</string>
+    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
     <string name="provider_name">Название поставщика</string>
     <string name="field_endpoint">Конечная точка</string>
     <string name="field_model">Модель</string>

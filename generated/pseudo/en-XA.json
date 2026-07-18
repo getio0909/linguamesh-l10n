@@ -211,6 +211,91 @@
       "status": "draft",
       "template": "［Ÿøûŕ çøñŧëñŧ ĝøëš ðïŕëçŧŀÿ ŧø ŧħë þŕøṽïðëŕ ÿøû çøñƒïĝûŕë. ĿïñĝûåṀëšħ ñëṽëŕ ƀûñðŀëš åñ ÅÞÏ ķëÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "onboarding.detail.configure_empty": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çŕëåŧë å þŕøṽïðëŕ þŕøƒïŀë ƀëŀøŵ, ëñŧëŕ å çŕëðëñŧïåŀ øñŀÿ ïƒ ŕëǫûïŕëð, ŧħëñ çħøøšë Çøññëçŧ. Ŕëṁëṁƀëŕïñĝ ûšëš Šëçŕëŧ Šëŕṽïçë; øŧħëŕŵïšë ŧħë çŕëðëñŧïåŀ ŕëṁåïñš ïñ ṁëṁøŕÿ ƒøŕ ŧħïš šëššïøñ øñŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.configure_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħøøšë å šåṽëð þŕøƒïŀë ƀëŀøŵ, ŕë-ëñŧëŕ ïŧš çŕëðëñŧïåŀ ïƒ ŕëǫûïŕëð, ŧħëñ çħøøšë Çøññëçŧ. Ŕëšŧøŕëð þŕøƒïŀëš ñëṽëŕ çøññëçŧ åûŧøṁåŧïçåŀŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.confirm_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøñƒïŕṁïñĝ ṁøðëŀ {model}. Ŧŕåñšŀåŧïøñ ŕëṁåïñš ðïšåƀŀëð ûñŧïŀ ŧħïš šëŀëçŧïøñ ïš çøṁṁïŧŧëð.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ṽåŀïðåŧïñĝ {provider} [{profile_id}] åñð ðïšçøṽëŕïñĝ ṁøðëŀš. Ŧħë þŕëṽïøûš åçŧïṽë þŕøṽïðëŕ ŕëṁåïñš ûñçħåñĝëð ûñŧïŀ ŧħïš šûççëëðš.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.connecting_generic": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ṽåŀïðåŧïñĝ ŧħë þŕøṽïðëŕ åñð ðïšçøṽëŕïñĝ ṁøðëŀš. Ŧħë þŕëṽïøûš åçŧïṽë þŕøṽïðëŕ ŕëṁåïñš ûñçħåñĝëð ûñŧïŀ ŧħïš šûççëëðš.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.persistence_warning": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀë šŧøŕåĝë ïš ûñåṽåïŀåƀŀë; þŕøƒïŀë þëŕšïšŧëñçë ïš ðïšåƀŀëð, Ŕëṁëṁƀëŕ šŧåÿš øƒƒ, åñð çŕëðëñŧïåŀš ŕëṁåïñ šëššïøñ øñŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ñëẋŧ ŕëǫûëšŧ: {provider} · {model}. Ûšë ŧħë šåṽëð-þŕøƒïŀë ŀïšŧ åñð Çøññëçŧ ŧø šŵïŧçħ ðëŀïƀëŕåŧëŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħøøšë å ðïšçøṽëŕëð ṁøðëŀ. Ŧŕåñšŀåŧïøñ ŕëṁåïñš ðïšåƀŀëð ûñŧïŀ ŧħë šëŀëçŧïøñ ïš çøñƒïŕṁëð.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħëçķïñĝ þŕøƒïŀë šŧøŕåĝë åñð šŧåŕŧïñĝ ŧħë ŀøçåŀ ṽåŀïðåŧïøñ þŕøṽïðëŕ. Ñø þŕøṽïðëŕ çøññëçŧïøñ ïš ṁåðë åûŧøṁåŧïçåŀŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.storage_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀë šŧøŕåĝë ïš ûñåṽåïŀåƀŀë. Çøñƒïĝûŕë å þŕøṽïðëŕ ƀëŀøŵ åñð ŀëåṽë Ŕëṁëṁƀëŕ øƒƒ; çŕëðëñŧïåŀš šŧåÿ ïñ ṁëṁøŕÿ ƒøŕ ŧħïš šëššïøñ øñŀÿ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.detail.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë ŵøŕķëŕ ïš ûñåṽåïŀåƀŀë. Ŕëšŧåŕŧ ŧħë åþþŀïçåŧïøñ åñð ŕëṽïëŵ åñÿ ëŕŕøŕ ƀëŀøŵ; ñø þŕøṽïðëŕ ŕëǫûëšŧ çåñ ƀë šëñŧ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "onboarding.stage.configure": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Šŧëþ 1 øƒ 2~~~~~~~~~］"
+    },
+    "onboarding.stage.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Çøññëçŧïñĝ~~~~~~~~~］"
+    },
+    "onboarding.stage.ready": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Ŕëåðÿ~~~~~~~］"
+    },
+    "onboarding.stage.select_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Šŧëþ 2 øƒ 2~~~~~~~~~］"
+    },
+    "onboarding.stage.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Šŧåŕŧïñĝ~~~~~~~~］"
+    },
+    "onboarding.stage.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šëŧûþ · Ûñåṽåïŀåƀŀë~~~~~~~~~］"
+    },
     "onboarding.title": {
       "sourceRevision": 1,
       "status": "draft",
