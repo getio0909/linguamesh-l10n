@@ -577,6 +577,16 @@
       "status": "source",
       "template": "Endpoint"
     },
+    "field.glossary": {
+      "sourceRevision": 8,
+      "status": "source",
+      "template": "Glossary"
+    },
+    "field.glossary.placeholder": {
+      "sourceRevision": 8,
+      "status": "source",
+      "template": "source => target; Product Name => Product Name"
+    },
     "field.model": {
       "sourceRevision": 1,
       "status": "source",
@@ -1036,6 +1046,11 @@
       "status": "source",
       "template": "Save the translated output to a new file"
     },
+    "tooltip.glossary": {
+      "sourceRevision": 8,
+      "status": "source",
+      "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation."
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "source",
@@ -1072,7 +1087,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 7,
+    "sourceRevision": 8,
     "status": "source"
   }
 }

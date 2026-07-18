@@ -37,3 +37,14 @@ sentences emitted by the worker are catalog-backed and can be localized without 
 - [x] Generate and validate all 59 native resource artifacts at catalog source revision 7.
 - [x] Verify deterministic development bundle checksum
   `a8c5535b23eb27f02ff5fd3bb4c4c1c6948718f1233321305c173b1741b27e6f`.
+
+## Linux request-level glossary copy
+
+Assumption: Linux initially exposes a bounded, semicolon-separated request-level glossary in the
+text workspace. Entries remain in memory for the request and are not persisted in locale data or
+provider profiles; richer CSV/TBX import and cross-platform glossary UX remain later work.
+
+- [x] Add localized Linux label, syntax placeholder, and privacy tooltip keys.
+- [x] Regenerate all 59 deterministic native resource artifacts and pseudo-locales.
+- [x] Validate the 211-message catalog and deterministic bundle checksum
+  `116a9cdedd8b0a3d31171b365969b745681e50257e183b40aa2c37c77f1e6d91`.

@@ -3388,9 +3388,54 @@
         "template": "The profile database path components could not be inspected.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the optional request-level glossary input on Linux.",
+      "key": "field.glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder showing the request-level glossary rule syntax.",
+      "key": "field.glossary.placeholder",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "source => target; Product Name => Product Name",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the request-level glossary syntax and privacy boundary.",
+      "key": "tooltip.glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 8,
+      "status": "source",
+      "value": {
+        "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 7
+  "sourceRevision": 8
 }

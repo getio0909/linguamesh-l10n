@@ -577,6 +577,16 @@
       "status": "draft",
       "template": "［Ëñðþøïñŧ~~］"
     },
+    "field.glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Ĝŀøššåŕÿ~~］"
+    },
+    "field.glossary.placeholder": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［šøûŕçë => ŧåŕĝëŧ; Þŕøðûçŧ Ñåṁë => Þŕøðûçŧ Ñåṁë~~~~~~~~~~~~~~~］"
+    },
     "field.model": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1036,6 +1046,11 @@
       "status": "draft",
       "template": "［Šåṽë ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ŧø å ñëŵ ƒïŀë~~~~~~~~~~~~~］"
     },
+    "tooltip.glossary": {
+      "sourceRevision": 8,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ šëṁïçøŀøñ-šëþåŕåŧëð šøûŕçë => ŧåŕĝëŧ ĝŀøššåŕÿ ŕûŀëš; ëñŧŕïëš šŧåÿ ïñ ṁëṁøŕÿ ƒøŕ ŧħïš ŧŕåñšŀåŧïøñ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1072,7 +1087,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 7,
+    "sourceRevision": 8,
     "status": "draft"
   }
 }
