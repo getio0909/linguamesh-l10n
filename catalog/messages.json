@@ -3643,9 +3643,89 @@
         "template": "Incognito mode is active for this request.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that clears all locally stored translation history on Linux.",
+      "key": "action.clear_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 10,
+      "status": "source",
+      "value": {
+        "template": "Clear history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for clearing locally stored translation history on Linux.",
+      "key": "tooltip.clear_history",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 10,
+      "status": "source",
+      "value": {
+        "template": "Delete all locally stored translation history",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after a user clears local translation history.",
+      "description": "Status note confirming that local translation history was cleared.",
+      "key": "status.history_cleared",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 10,
+      "status": "source",
+      "value": {
+        "template": "Local translation history was cleared.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when a completed translation could not be written to local history.",
+      "description": "Non-fatal warning that history persistence failed after a completed translation.",
+      "key": "status.history_not_saved",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 10,
+      "status": "source",
+      "value": {
+        "template": "The translation completed, but local history could not be saved.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown as a non-sensitive count of stored local translation history entries.",
+      "description": "Status summary for the number of local translation history entries.",
+      "key": "status.history_count",
+      "placeholders": {
+        "count": {
+          "example": 3,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 10,
+      "status": "source",
+      "value": {
+        "template": "Stored translation history entries: {count}",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 9
+  "sourceRevision": 10
 }

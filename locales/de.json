@@ -36,6 +36,11 @@
       "status": "draft",
       "template": "Abbrechen"
     },
+    "action.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "Clear history"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1026,6 +1031,21 @@
       "status": "draft",
       "template": "Glossary CSV is ready."
     },
+    "status.history_cleared": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "Local translation history was cleared."
+    },
+    "status.history_count": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "Stored translation history entries: {count}"
+    },
+    "status.history_not_saved": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "The translation completed, but local history could not be saved."
+    },
     "status.incognito": {
       "sourceRevision": 9,
       "status": "draft",
@@ -1085,6 +1105,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "System"
+    },
+    "tooltip.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "Delete all locally stored translation history"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
@@ -1157,7 +1182,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 9,
+    "sourceRevision": 10,
     "status": "draft"
   }
 }

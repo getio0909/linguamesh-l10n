@@ -34,6 +34,11 @@
       "status": "draft",
       "template": "取消"
     },
+    "action.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "清空历史记录"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1022,6 +1027,21 @@
       "status": "draft",
       "template": "词汇表 CSV 已就绪。"
     },
+    "status.history_cleared": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "本地翻译历史记录已清空。"
+    },
+    "status.history_count": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "本地翻译历史记录数：{count}"
+    },
+    "status.history_not_saved": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "翻译已完成，但无法保存本地历史记录。"
+    },
     "status.incognito": {
       "sourceRevision": 9,
       "status": "draft",
@@ -1081,6 +1101,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "跟随系统"
+    },
+    "tooltip.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "删除本地保存的所有翻译历史记录"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
@@ -1153,7 +1178,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 9,
+    "sourceRevision": 10,
     "status": "draft"
   }
 }

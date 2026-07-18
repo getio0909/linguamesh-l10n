@@ -36,6 +36,11 @@
       "status": "draft",
       "template": "［Çåñçëŀ~~］"
     },
+    "action.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "［Çŀëåŕ ħïšŧøŕÿ~~~~］"
+    },
     "action.close_settings": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1026,6 +1031,21 @@
       "status": "draft",
       "template": "［Ĝŀøššåŕÿ ÇŠṼ ïš ŕëåðÿ.~~~~~~~］"
     },
+    "status.history_cleared": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ŵåš çŀëåŕëð.~~~~~~~~~~~~］"
+    },
+    "status.history_count": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "［Šŧøŕëð ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ëñŧŕïëš: {count}~~~~~~~~~~~~~~］"
+    },
+    "status.history_not_saved": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧïøñ çøṁþŀëŧëð, ƀûŧ ŀøçåŀ ħïšŧøŕÿ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "status.incognito": {
       "sourceRevision": 9,
       "status": "draft",
@@ -1085,6 +1105,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Šÿšŧëṁ~~］"
+    },
+    "tooltip.clear_history": {
+      "sourceRevision": 10,
+      "status": "draft",
+      "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~~~~~~~~~~］"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
@@ -1157,7 +1182,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 9,
+    "sourceRevision": 10,
     "status": "draft"
   }
 }
