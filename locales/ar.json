@@ -54,6 +54,11 @@
       "status": "draft",
       "template": "اتصال"
     },
+    "action.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "تصدير الترجمة"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -89,6 +94,11 @@
       "status": "draft",
       "template": "التشخيص"
     },
+    "dialog.export_translation": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "تصدير الترجمة"
+    },
     "dialog.open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -98,6 +108,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "فتح ملف نصي"
+    },
+    "dialog.save": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "حفظ"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -205,6 +220,21 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "الملف المحدد ليس نص UTF-8 صالحًا."
+    },
+    "error.file_export": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "تعذر حفظ الناتج المترجم."
+    },
+    "error.file_export_empty": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "ترجم بعض النص قبل تصدير الناتج."
+    },
+    "error.file_export_source": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "اختر ملفًا مختلفًا حتى يبقى المصدر دون تغيير."
     },
     "error.file_open": {
       "sourceRevision": 1,
@@ -862,6 +892,11 @@
       "status": "draft",
       "template": "غير متصل"
     },
+    "status.exported": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "تم حفظ الترجمة في الملف المحدد."
+    },
     "status.failed": {
       "sourceRevision": 1,
       "status": "draft",
@@ -932,6 +967,11 @@
       "status": "draft",
       "template": "نقطة نهاية أساسية متوافقة مع OpenAI عبر HTTPS أو HTTP محلي"
     },
+    "tooltip.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "حفظ الترجمة إلى ملف جديد"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -968,7 +1008,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 4,
+    "sourceRevision": 5,
     "status": "draft"
   }
 }

@@ -44,6 +44,11 @@
       "status": "draft",
       "template": "连接"
     },
+    "action.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "导出翻译"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -79,6 +84,11 @@
       "status": "draft",
       "template": "诊断"
     },
+    "dialog.export_translation": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "导出翻译"
+    },
     "dialog.open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -88,6 +98,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "打开文本文件"
+    },
+    "dialog.save": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "保存"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -190,6 +205,21 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "所选文件不是有效的 UTF-8 文本。"
+    },
+    "error.file_export": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "无法保存译文。"
+    },
+    "error.file_export_empty": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "请先翻译一些文本再导出译文。"
+    },
+    "error.file_export_source": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "请选择其他文件，以保持源文件不变。"
     },
     "error.file_open": {
       "sourceRevision": 1,
@@ -842,6 +872,11 @@
       "status": "draft",
       "template": "未连接"
     },
+    "status.exported": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "译文已保存到所选文件。"
+    },
     "status.failed": {
       "sourceRevision": 1,
       "status": "draft",
@@ -912,6 +947,11 @@
       "status": "draft",
       "template": "HTTPS 或回环 HTTP OpenAI 兼容基础端点"
     },
+    "tooltip.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "将译文保存到新文件"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -948,7 +988,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 4,
+    "sourceRevision": 5,
     "status": "draft"
   }
 }

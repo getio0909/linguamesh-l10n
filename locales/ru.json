@@ -49,6 +49,11 @@
       "status": "draft",
       "template": "Connect"
     },
+    "action.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Export translation"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -84,6 +89,11 @@
       "status": "draft",
       "template": "Диагностика"
     },
+    "dialog.export_translation": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Export translation"
+    },
     "dialog.open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -93,6 +103,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Открыть текстовый файл"
+    },
+    "dialog.save": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Save"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -198,6 +213,21 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "The selected file is not valid UTF-8 text."
+    },
+    "error.file_export": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "The translated output could not be saved."
+    },
+    "error.file_export_empty": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Translate some text before exporting the output."
+    },
+    "error.file_export_source": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Choose a different file so the source remains unchanged."
     },
     "error.file_open": {
       "sourceRevision": 1,
@@ -853,6 +883,11 @@
       "status": "draft",
       "template": "Отключено"
     },
+    "status.exported": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Translation saved to the selected file."
+    },
     "status.failed": {
       "sourceRevision": 1,
       "status": "draft",
@@ -923,6 +958,11 @@
       "status": "draft",
       "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint"
     },
+    "tooltip.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "Save the translated output to a new file"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -959,7 +999,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 4,
+    "sourceRevision": 5,
     "status": "draft"
   }
 }

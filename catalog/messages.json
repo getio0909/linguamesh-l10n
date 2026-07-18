@@ -3013,9 +3013,129 @@
         "template": "Hindi",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that exports the current translated output to a user-selected file.",
+      "key": "action.export_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Export translation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining that export writes translated output to a new file.",
+      "key": "tooltip.export_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Save the translated output to a new file",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title for the Linux translation export dialog.",
+      "key": "dialog.export_translation",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Export translation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accept label for the Linux translation export dialog.",
+      "key": "dialog.save",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Save",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status shown after translated output is written successfully.",
+      "key": "status.exported",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Translation saved to the selected file.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Export error shown when there is no translated output to save.",
+      "key": "error.file_export_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Translate some text before exporting the output.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Export error shown when the selected output would overwrite the source file.",
+      "key": "error.file_export_source",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "Choose a different file so the source remains unchanged.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Export error shown when the translated output cannot be written.",
+      "key": "error.file_export",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 5,
+      "status": "source",
+      "value": {
+        "template": "The translated output could not be saved.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 4
+  "sourceRevision": 5
 }

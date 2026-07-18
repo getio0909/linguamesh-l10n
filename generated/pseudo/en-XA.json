@@ -46,6 +46,11 @@
       "status": "draft",
       "template": "［Çøññëçŧ~~］"
     },
+    "action.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -81,6 +86,11 @@
       "status": "draft",
       "template": "［Ðïåĝñøšŧïçš~~~］"
     },
+    "dialog.export_translation": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
+    },
     "dialog.open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -90,6 +100,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
+    },
+    "dialog.save": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Šåṽë~~］"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -193,6 +208,21 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "［Ŧħë šëŀëçŧëð ƒïŀë ïš ñøŧ ṽåŀïð ÛŦƑ-8 ŧëẋŧ.~~~~~~~~~~~~~~］"
+    },
+    "error.file_export": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧëð øûŧþûŧ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~］"
+    },
+    "error.file_export_empty": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧë šøṁë ŧëẋŧ ƀëƒøŕë ëẋþøŕŧïñĝ ŧħë øûŧþûŧ.~~~~~~~~~~~~~~~~］"
+    },
+    "error.file_export_source": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Çħøøšë å ðïƒƒëŕëñŧ ƒïŀë šø ŧħë šøûŕçë ŕëṁåïñš ûñçħåñĝëð.~~~~~~~~~~~~~~~~~~］"
     },
     "error.file_open": {
       "sourceRevision": 1,
@@ -846,6 +876,11 @@
       "status": "draft",
       "template": "［Ðïšçøññëçŧëð~~~~］"
     },
+    "status.exported": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ šåṽëð ŧø ŧħë šëŀëçŧëð ƒïŀë.~~~~~~~~~~~~~］"
+    },
     "status.failed": {
       "sourceRevision": 1,
       "status": "draft",
@@ -916,6 +951,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ØþëñÅÏ-çøṁþåŧïƀŀë ƀåšë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "［Šåṽë ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ŧø å ñëŵ ƒïŀë~~~~~~~~~~~~~］"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -952,7 +992,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 4,
+    "sourceRevision": 5,
     "status": "draft"
   }
 }

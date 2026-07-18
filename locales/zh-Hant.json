@@ -44,6 +44,11 @@
       "status": "draft",
       "template": "連線"
     },
+    "action.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "匯出翻譯"
+    },
     "action.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -79,6 +84,11 @@
       "status": "draft",
       "template": "診斷"
     },
+    "dialog.export_translation": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "匯出翻譯"
+    },
     "dialog.open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -88,6 +98,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "開啟文字檔案"
+    },
+    "dialog.save": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "儲存"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -190,6 +205,21 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "The selected file is not valid UTF-8 text."
+    },
+    "error.file_export": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "無法儲存譯文。"
+    },
+    "error.file_export_empty": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "請先翻譯一些文字再匯出譯文。"
+    },
+    "error.file_export_source": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "請選擇其他檔案，以保持來源檔案不變。"
     },
     "error.file_open": {
       "sourceRevision": 1,
@@ -842,6 +872,11 @@
       "status": "draft",
       "template": "未連線"
     },
+    "status.exported": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "譯文已儲存到所選檔案。"
+    },
     "status.failed": {
       "sourceRevision": 1,
       "status": "draft",
@@ -912,6 +947,11 @@
       "status": "draft",
       "template": "HTTPS 或回環 HTTP OpenAI 相容基礎端點"
     },
+    "tooltip.export_output": {
+      "sourceRevision": 5,
+      "status": "draft",
+      "template": "將譯文儲存到新檔案"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -948,7 +988,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 4,
+    "sourceRevision": 5,
     "status": "draft"
   }
 }
