@@ -41,6 +41,11 @@
       "status": "draft",
       "template": "［Çŀëåŕ ħïšŧøŕÿ~~~~］"
     },
+    "action.clear_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Çŀëåŕ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
+    },
     "action.close": {
       "sourceRevision": 11,
       "status": "draft",
@@ -61,6 +66,11 @@
       "status": "draft",
       "template": "［Ðëŀëŧë~~］"
     },
+    "action.delete_memory_entry": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ðëŀëŧë~~］"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -70,6 +80,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "［Ëẋþøŕŧ ħïšŧøŕÿ~~~~］"
+    },
+    "action.export_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
     },
     "action.export_output": {
       "sourceRevision": 5,
@@ -106,6 +121,11 @@
       "status": "draft",
       "template": "［Ṽïëŵ ħïšŧøŕÿ~~~~］"
     },
+    "action.view_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ṽïëŵ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~］"
+    },
     "app.title": {
       "sourceRevision": 1,
       "status": "draft",
@@ -131,6 +151,11 @@
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~~~］"
     },
+    "dialog.export_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -140,6 +165,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~］"
+    },
+    "dialog.memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~］"
     },
     "dialog.open": {
       "sourceRevision": 1,
@@ -328,6 +358,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ëñŧëŕ å þŕøṽïðëŕ ñåṁë, ëñðþøïñŧ, åñð ṁøðëŀ.~~~~~~~~~~~~~~］"
+    },
+    "error.memory_export": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧïøñ ṁëṁøŕÿ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~］"
     },
     "error.network_unavailable": {
       "sourceRevision": 1,
@@ -1011,6 +1046,11 @@
       "status": "draft",
       "template": "［Šåṽë ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~~~］"
     },
+    "settings.save_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Šåṽë ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~］"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1116,6 +1156,41 @@
       "status": "draft",
       "template": "［Šŧåŧûš~~］"
     },
+    "status.memory_cleared": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ŵåš çŀëåŕëð.~~~~~~~~~~~~］"
+    },
+    "status.memory_count": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Šŧøŕëð ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš: {count}~~~~~~~~~~~~~~］"
+    },
+    "status.memory_disabled": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ïš ðïšåƀŀëð; ëẋïšŧïñĝ ëñŧŕïëš åŕë ķëþŧ.~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "status.memory_empty": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ñø ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ïš šŧøŕëð.~~~~~~~~~~~~］"
+    },
+    "status.memory_enabled": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ïš ëñåƀŀëð.~~~~~~~~~~~~］"
+    },
+    "status.memory_exported": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ŵåš ëẋþøŕŧëð ŧø ŧħë šëŀëçŧëð ƒïŀë.~~~~~~~~~~~~~~~~~］"
+    },
+    "status.memory_not_saved": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧïøñ çøṁþŀëŧëð, ƀûŧ ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "status.partial_output": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1170,6 +1245,11 @@
       "sourceRevision": 10,
       "status": "draft",
       "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ħïšŧøŕÿ~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.clear_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
@@ -1231,6 +1311,11 @@
       "status": "draft",
       "template": "［Þëŕšïšŧ çøṁþŀëŧëð šŧåñðåŕð ŧŕåñšŀåŧïøñš ïñ ŀøçåŀ ħïšŧøŕÿ; ëẋïšŧïñĝ ëñŧŕïëš åŕë ķëþŧ ŵħëñ ðïšåƀŀëð~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.save_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ŕëûšë åñð þëŕšïšŧ çøṁþŀëŧëð šŧåñðåŕð ŧŕåñšŀåŧïøñš ïñ ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1240,6 +1325,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "［Ïñšþëçŧ, ëẋþøŕŧ, øŕ ðëŀëŧë ïñðïṽïðûåŀ ŀøçåŀ ŧŕåñšŀåŧïøñ ħïšŧøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.view_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ïñšþëçŧ, ëẋþøŕŧ, øŕ ðëŀëŧë ïñðïṽïðûåŀ ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "translation.progress": {
       "sourceRevision": 1,
@@ -1252,7 +1342,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 12,
+    "sourceRevision": 13,
     "status": "draft"
   }
 }

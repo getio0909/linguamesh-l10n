@@ -3933,9 +3933,284 @@
         "template": "Stored translation history entries: {count}",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Enables or disables persistence and reuse of completed standard translation memory on Linux.",
+      "key": "settings.save_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Save translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Explains the Linux translation memory persistence and reuse toggle.",
+      "key": "tooltip.save_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Reuse and persist completed standard translations in local translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Opens the Linux translation memory inspection window.",
+      "key": "action.view_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "View translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that clears all locally stored translation memory on Linux.",
+      "key": "action.clear_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Clear translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Exports the currently displayed Linux translation memory entries.",
+      "key": "action.export_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Export translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Deletes one Linux translation memory entry.",
+      "key": "action.delete_memory_entry",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Delete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for opening Linux translation memory controls.",
+      "key": "tooltip.view_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Inspect, export, or delete individual local translation memory entries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for clearing Linux translation memory.",
+      "key": "tooltip.clear_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Delete all locally stored translation memory entries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux translation memory inspection window.",
+      "key": "dialog.memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux translation memory export dialog.",
+      "key": "dialog.export_memory",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Export translation memory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Empty-state message for Linux translation memory.",
+      "key": "status.memory_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "No local translation memory is stored.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after exporting Linux translation memory.",
+      "description": "Status note confirming that translation memory export completed.",
+      "key": "status.memory_exported",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Translation memory was exported to the selected file.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after clearing Linux translation memory.",
+      "description": "Status note confirming that translation memory was cleared.",
+      "key": "status.memory_cleared",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Local translation memory was cleared.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after enabling Linux translation memory persistence.",
+      "description": "Status note confirming that translation memory is enabled.",
+      "key": "status.memory_enabled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Local translation memory is enabled.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown after disabling Linux translation memory persistence.",
+      "description": "Status note confirming that translation memory is disabled without deleting existing entries.",
+      "key": "status.memory_disabled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Local translation memory is disabled; existing entries are kept.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown as a non-sensitive count of stored local translation memory entries.",
+      "description": "Status summary for the number of local translation memory entries.",
+      "key": "status.memory_count",
+      "placeholders": {
+        "count": {
+          "example": 3,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "Stored translation memory entries: {count}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when a completed translation could not be written to local translation memory.",
+      "description": "Non-fatal warning that translation memory persistence failed after a completed translation.",
+      "key": "status.memory_not_saved",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "The translation completed, but local translation memory could not be saved.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux translation memory export action.",
+      "key": "error.memory_export",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 13,
+      "status": "source",
+      "value": {
+        "template": "The translation memory could not be saved.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 12
+  "sourceRevision": 13
 }

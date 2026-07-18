@@ -49,6 +49,11 @@
       "status": "draft",
       "template": "⁧⟦Clear history⟧⁩"
     },
+    "action.clear_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Clear translation memory⟧⁩"
+    },
     "action.close": {
       "sourceRevision": 11,
       "status": "draft",
@@ -69,6 +74,11 @@
       "status": "draft",
       "template": "⁧⟦Delete⟧⁩"
     },
+    "action.delete_memory_entry": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Delete⟧⁩"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -78,6 +88,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "⁧⟦Export history⟧⁩"
+    },
+    "action.export_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Export translation memory⟧⁩"
     },
     "action.export_output": {
       "sourceRevision": 5,
@@ -114,6 +129,11 @@
       "status": "draft",
       "template": "⁧⟦View history⟧⁩"
     },
+    "action.view_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦View translation memory⟧⁩"
+    },
     "app.title": {
       "sourceRevision": 1,
       "status": "draft",
@@ -139,6 +159,11 @@
       "status": "draft",
       "template": "⁧⟦Export translation history⟧⁩"
     },
+    "dialog.export_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Export translation memory⟧⁩"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -148,6 +173,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "⁧⟦Translation history⟧⁩"
+    },
+    "dialog.memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Translation memory⟧⁩"
     },
     "dialog.open": {
       "sourceRevision": 1,
@@ -340,6 +370,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦Enter a provider name, endpoint, and model.⟧⁩"
+    },
+    "error.memory_export": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦The translation memory could not be saved.⟧⁩"
     },
     "error.network_unavailable": {
       "sourceRevision": 1,
@@ -1027,6 +1062,11 @@
       "status": "draft",
       "template": "⁧⟦Save translation history⟧⁩"
     },
+    "settings.save_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Save translation memory⟧⁩"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1132,6 +1172,41 @@
       "status": "draft",
       "template": "⁧⟦Status⟧⁩"
     },
+    "status.memory_cleared": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Local translation memory was cleared.⟧⁩"
+    },
+    "status.memory_count": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Stored translation memory entries: {count}⟧⁩"
+    },
+    "status.memory_disabled": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Local translation memory is disabled; existing entries are kept.⟧⁩"
+    },
+    "status.memory_empty": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦No local translation memory is stored.⟧⁩"
+    },
+    "status.memory_enabled": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Local translation memory is enabled.⟧⁩"
+    },
+    "status.memory_exported": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Translation memory was exported to the selected file.⟧⁩"
+    },
+    "status.memory_not_saved": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦The translation completed, but local translation memory could not be saved.⟧⁩"
+    },
     "status.partial_output": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1186,6 +1261,11 @@
       "sourceRevision": 10,
       "status": "draft",
       "template": "⁧⟦Delete all locally stored translation history⟧⁩"
+    },
+    "tooltip.clear_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Delete all locally stored translation memory entries⟧⁩"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
@@ -1247,6 +1327,11 @@
       "status": "draft",
       "template": "⁧⟦Persist completed standard translations in local history; existing entries are kept when disabled⟧⁩"
     },
+    "tooltip.save_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Reuse and persist completed standard translations in local translation memory⟧⁩"
+    },
     "tooltip.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1256,6 +1341,11 @@
       "sourceRevision": 11,
       "status": "draft",
       "template": "⁧⟦Inspect, export, or delete individual local translation history entries⟧⁩"
+    },
+    "tooltip.view_memory": {
+      "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Inspect, export, or delete individual local translation memory entries⟧⁩"
     },
     "translation.progress": {
       "sourceRevision": 1,
@@ -1268,7 +1358,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 12,
+    "sourceRevision": 13,
     "status": "draft"
   }
 }
