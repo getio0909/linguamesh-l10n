@@ -1339,6 +1339,21 @@
       "status": "draft",
       "template": "{completed} segments traduits sur {total}"
     },
+    "warning.pdf_image_only_pages": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "PDF page(s) {pages} contain no extractable text; OCR is not enabled."
+    },
+    "warning.pdf_reconstruction_limited": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "PDF layout fidelity is limited; page association is preserved, but pixel-identical output is not guaranteed."
+    },
+    "warning.pdf_uncertain_order": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "PDF page(s) {pages} have uncertain reading order; review the structured output."
+    },
     "warning.subtitle_line_length": {
       "sourceRevision": 14,
       "status": "draft",
@@ -1355,7 +1370,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 14,
+    "sourceRevision": 15,
     "status": "draft"
   }
 }

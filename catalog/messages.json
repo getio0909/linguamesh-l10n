@@ -4256,9 +4256,64 @@
         "template": "Subtitle cue(s) {cues} exceed the {limit}-character-per-second reading-speed guidance.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Shown when PDF reconstruction cannot preserve exact layout.",
+      "description": "Advisory PDF fidelity warning that does not expose document source content.",
+      "key": "warning.pdf_reconstruction_limited",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 15,
+      "status": "source",
+      "value": {
+        "template": "PDF layout fidelity is limited; page association is preserved, but pixel-identical output is not guaranteed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown for PDF pages without extractable text.",
+      "description": "Page numbers for image-only PDF pages where OCR is not enabled.",
+      "key": "warning.pdf_image_only_pages",
+      "placeholders": {
+        "pages": {
+          "example": "2, 5",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 15,
+      "status": "source",
+      "value": {
+        "template": "PDF page(s) {pages} contain no extractable text; OCR is not enabled.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown when PDF text extraction order is uncertain.",
+      "description": "Page numbers for PDF pages whose extracted reading order needs review.",
+      "key": "warning.pdf_uncertain_order",
+      "placeholders": {
+        "pages": {
+          "example": "1, 4",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 15,
+      "status": "source",
+      "value": {
+        "template": "PDF page(s) {pages} have uncertain reading order; review the structured output.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 14
+  "sourceRevision": 15
 }

@@ -1336,6 +1336,21 @@
       "status": "draft",
       "template": "［{completed} øƒ {total} šëĝṁëñŧš ŧŕåñšŀåŧëð~~~~~~~~~~~~~~］"
     },
+    "warning.pdf_image_only_pages": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "［ÞÐƑ þåĝë(š) {pages} çøñŧåïñ ñø ëẋŧŕåçŧåƀŀë ŧëẋŧ; ØÇŔ ïš ñøŧ ëñåƀŀëð.~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "warning.pdf_reconstruction_limited": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "［ÞÐƑ ŀåÿøûŧ ƒïðëŀïŧÿ ïš ŀïṁïŧëð; þåĝë åššøçïåŧïøñ ïš þŕëšëŕṽëð, ƀûŧ þïẋëŀ-ïðëñŧïçåŀ øûŧþûŧ ïš ñøŧ ĝûåŕåñŧëëð.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "warning.pdf_uncertain_order": {
+      "sourceRevision": 15,
+      "status": "draft",
+      "template": "［ÞÐƑ þåĝë(š) {pages} ħåṽë ûñçëŕŧåïñ ŕëåðïñĝ øŕðëŕ; ŕëṽïëŵ ŧħë šŧŕûçŧûŕëð øûŧþûŧ.~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "warning.subtitle_line_length": {
       "sourceRevision": 14,
       "status": "draft",
@@ -1352,7 +1367,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 14,
+    "sourceRevision": 15,
     "status": "draft"
   }
 }
