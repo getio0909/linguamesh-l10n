@@ -74,6 +74,11 @@
       "status": "draft",
       "template": "Document jobs"
     },
+    "action.enable_fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "允许使用已批准的回退"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -325,6 +330,11 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "共享 Core 合约不兼容：{error}"
+    },
+    "error.fallback_profile_required": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "请选择已批准的已保存回退提供商，或关闭回退。"
     },
     "error.file.invalid_utf8": {
       "sourceRevision": 3,
@@ -777,6 +787,11 @@
       "status": "draft",
       "template": "端点（回环示例）"
     },
+    "label.fallback_profile": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "回退提供商"
+    },
     "label.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -966,6 +981,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "连接翻译服务提供商"
+    },
+    "option.fallback.none": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "不使用回退"
     },
     "option.model.select": {
       "sourceRevision": 1,
@@ -1157,6 +1177,11 @@
       "status": "draft",
       "template": "失败"
     },
+    "status.fallback_selected": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "已选择批准的回退提供商；内容可能会发送到该提供商。"
+    },
     "status.glossary_ready": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1327,6 +1352,11 @@
       "status": "draft",
       "template": "将译文保存到新文件"
     },
+    "tooltip.fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "仅在可重试的网络失败时使用此已保存提供商；文档任务、取消和凭据失败不会回退"
+    },
     "tooltip.glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1428,7 +1458,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 17,
+    "sourceRevision": 18,
     "status": "draft"
   }
 }

@@ -4515,9 +4515,99 @@
         "template": "The exported output could not be opened.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Explicit opt-in for retrying a normal text translation with an approved fallback provider.",
+      "key": "action.enable_fallback",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "Allow approved fallback",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the saved provider selected as an explicit translation fallback.",
+      "key": "label.fallback_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "Fallback provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder meaning that no fallback provider is approved.",
+      "key": "option.fallback.none",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "No fallback",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Explains the explicit fallback policy and its limits.",
+      "key": "tooltip.fallback",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "Retry only retryable network failures with this saved provider; document jobs, cancellation, and credential failures never fall back",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status notice when the approved fallback provider starts receiving a request.",
+      "key": "status.fallback_selected",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "The approved fallback provider was selected; content may be sent there.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error shown when fallback is enabled without an approved saved provider.",
+      "key": "error.fallback_profile_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 18,
+      "status": "source",
+      "value": {
+        "template": "Choose an approved saved fallback provider or turn fallback off.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 17
+  "sourceRevision": 18
 }

@@ -77,6 +77,11 @@
       "status": "draft",
       "template": "Document jobs"
     },
+    "action.enable_fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "Allow approved fallback"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -330,6 +335,11 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "The shared Core contract is incompatible: {error}"
+    },
+    "error.fallback_profile_required": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "Choose an approved saved fallback provider or turn fallback off."
     },
     "error.file.invalid_utf8": {
       "sourceRevision": 3,
@@ -784,6 +794,11 @@
       "status": "draft",
       "template": "Endpoint (loopback example)"
     },
+    "label.fallback_profile": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "Fallback provider"
+    },
     "label.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -973,6 +988,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Connecter un fournisseur de traduction"
+    },
+    "option.fallback.none": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "No fallback"
     },
     "option.model.select": {
       "sourceRevision": 1,
@@ -1164,6 +1184,11 @@
       "status": "draft",
       "template": "Échec"
     },
+    "status.fallback_selected": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "The approved fallback provider was selected; content may be sent there."
+    },
     "status.glossary_ready": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1334,6 +1359,11 @@
       "status": "draft",
       "template": "Save the translated output to a new file"
     },
+    "tooltip.fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "Retry only retryable network failures with this saved provider; document jobs, cancellation, and credential failures never fall back"
+    },
     "tooltip.glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1435,7 +1465,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 17,
+    "sourceRevision": 18,
     "status": "draft"
   }
 }

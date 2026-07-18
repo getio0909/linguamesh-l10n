@@ -76,6 +76,11 @@
       "status": "draft",
       "template": "［Ðøçûṁëñŧ ĵøƀš~~~~］"
     },
+    "action.enable_fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Åŀŀøŵ åþþŕøṽëð ƒåŀŀƀåçķ~~~~~~~］"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -328,6 +333,11 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "［Ŧħë šħåŕëð Çøŕë çøñŧŕåçŧ ïš ïñçøṁþåŧïƀŀë: {error}~~~~~~~~~~~~~~~~］"
+    },
+    "error.fallback_profile_required": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Çħøøšë åñ åþþŕøṽëð šåṽëð ƒåŀŀƀåçķ þŕøṽïðëŕ øŕ ŧûŕñ ƒåŀŀƀåçķ øƒƒ.~~~~~~~~~~~~~~~~~~~~~］"
     },
     "error.file.invalid_utf8": {
       "sourceRevision": 3,
@@ -781,6 +791,11 @@
       "status": "draft",
       "template": "［Ëñðþøïñŧ (ŀøøþƀåçķ ëẋåṁþŀë)~~~~~~~~~］"
     },
+    "label.fallback_profile": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Ƒåŀŀƀåçķ þŕøṽïðëŕ~~~~~］"
+    },
     "label.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -970,6 +985,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Çøññëçŧ å ŧŕåñšŀåŧïøñ þŕøṽïðëŕ~~~~~~~~~~］"
+    },
+    "option.fallback.none": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Ñø ƒåŀŀƀåçķ~~~］"
     },
     "option.model.select": {
       "sourceRevision": 1,
@@ -1161,6 +1181,11 @@
       "status": "draft",
       "template": "［Ƒåïŀëð~~］"
     },
+    "status.fallback_selected": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Ŧħë åþþŕøṽëð ƒåŀŀƀåçķ þŕøṽïðëŕ ŵåš šëŀëçŧëð; çøñŧëñŧ ṁåÿ ƀë šëñŧ ŧħëŕë.~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "status.glossary_ready": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1331,6 +1356,11 @@
       "status": "draft",
       "template": "［Šåṽë ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ŧø å ñëŵ ƒïŀë~~~~~~~~~~~~~］"
     },
+    "tooltip.fallback": {
+      "sourceRevision": 18,
+      "status": "draft",
+      "template": "［Ŕëŧŕÿ øñŀÿ ŕëŧŕÿåƀŀë ñëŧŵøŕķ ƒåïŀûŕëš ŵïŧħ ŧħïš šåṽëð þŕøṽïðëŕ; ðøçûṁëñŧ ĵøƀš, çåñçëŀŀåŧïøñ, åñð çŕëðëñŧïåŀ ƒåïŀûŕëš ñëṽëŕ ƒåŀŀ ƀåçķ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1432,7 +1462,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 17,
+    "sourceRevision": 18,
     "status": "draft"
   }
 }
