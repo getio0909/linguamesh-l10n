@@ -1067,16 +1067,6 @@
       "status": "draft",
       "template": "詞彙表 CSV 已就緒。"
     },
-    "status.history_disabled": {
-      "sourceRevision": 12,
-      "status": "draft",
-      "template": "Local translation history is disabled; existing entries are kept."
-    },
-    "status.history_enabled": {
-      "sourceRevision": 12,
-      "status": "draft",
-      "template": "Local translation history is enabled."
-    },
     "status.history_cleared": {
       "sourceRevision": 10,
       "status": "draft",
@@ -1087,10 +1077,20 @@
       "status": "draft",
       "template": "本地翻譯歷史記錄數：{count}"
     },
+    "status.history_disabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Local translation history is disabled; existing entries are kept."
+    },
     "status.history_empty": {
       "sourceRevision": 11,
       "status": "draft",
       "template": "沒有儲存本地翻譯歷史。"
+    },
+    "status.history_enabled": {
+      "sourceRevision": 12,
+      "status": "draft",
+      "template": "Local translation history is enabled."
     },
     "status.history_exported": {
       "sourceRevision": 11,
@@ -1222,15 +1222,15 @@
       "status": "draft",
       "template": "移除選取的已儲存設定，但不會中斷目前工作階段"
     },
-    "tooltip.saved_profile": {
-      "sourceRevision": 1,
-      "status": "draft",
-      "template": "選擇不含秘密的已儲存設定，或新增設定"
-    },
     "tooltip.save_history": {
       "sourceRevision": 12,
       "status": "draft",
       "template": "Persist completed standard translations in local history; existing entries are kept when disabled"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "選擇不含秘密的已儲存設定，或新增設定"
     },
     "tooltip.view_history": {
       "sourceRevision": 11,
@@ -1248,7 +1248,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision":  12,
+    "sourceRevision": 12,
     "status": "draft"
   }
 }

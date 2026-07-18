@@ -1071,16 +1071,6 @@
       "status": "source",
       "template": "Glossary CSV is ready."
     },
-    "status.history_disabled": {
-      "sourceRevision": 12,
-      "status": "source",
-      "template": "Local translation history is disabled; existing entries are kept."
-    },
-    "status.history_enabled": {
-      "sourceRevision": 12,
-      "status": "source",
-      "template": "Local translation history is enabled."
-    },
     "status.history_cleared": {
       "sourceRevision": 10,
       "status": "source",
@@ -1091,10 +1081,20 @@
       "status": "source",
       "template": "Stored translation history entries: {count}"
     },
+    "status.history_disabled": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Local translation history is disabled; existing entries are kept."
+    },
     "status.history_empty": {
       "sourceRevision": 11,
       "status": "source",
       "template": "No local translation history is stored."
+    },
+    "status.history_enabled": {
+      "sourceRevision": 12,
+      "status": "source",
+      "template": "Local translation history is enabled."
     },
     "status.history_exported": {
       "sourceRevision": 11,
@@ -1226,15 +1226,15 @@
       "status": "source",
       "template": "Remove the selected saved profile without disconnecting its current session"
     },
-    "tooltip.saved_profile": {
-      "sourceRevision": 1,
-      "status": "source",
-      "template": "Choose a saved non-secret profile or create a new profile"
-    },
     "tooltip.save_history": {
       "sourceRevision": 12,
       "status": "source",
       "template": "Persist completed standard translations in local history; existing entries are kept when disabled"
+    },
+    "tooltip.saved_profile": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Choose a saved non-secret profile or create a new profile"
     },
     "tooltip.view_history": {
       "sourceRevision": 11,
@@ -1252,7 +1252,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision":  12,
+    "sourceRevision": 12,
     "status": "source"
   }
 }
