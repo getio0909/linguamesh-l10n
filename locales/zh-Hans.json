@@ -197,10 +197,25 @@
       "status": "draft",
       "template": "界面语言：{language}"
     },
+    "locale.note.drafts": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "简体中文资源已从固定的运行时目录加载；翻译仍是未经审核的草稿。"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "文本翻译"
+    },
+    "notification.body": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "LinguaMesh 中的译文已准备就绪。"
+    },
+    "notification.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "翻译完成"
     },
     "onboarding.description": {
       "sourceRevision": 1,
@@ -352,10 +367,45 @@
       "status": "draft",
       "template": "当前提供商：{provider}"
     },
+    "provider.active_pending": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "当前提供商仍为 {active}（{active_mode}）；正在连接 {pending}（{pending_mode}）。"
+    },
+    "provider.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在连接 {provider}（{mode}）。"
+    },
+    "provider.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "未连接提供商。除非通过 Secret Service 记住，否则凭据仅保留在本次会话中。"
+    },
+    "provider.mode.pending_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "提供凭据时将通过 Secret Service 保存"
+    },
+    "provider.mode.saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已保存"
+    },
+    "provider.mode.session": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "仅本次会话"
+    },
     "provider.name": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "提供商名称"
+    },
+    "provider.saved_restored": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已恢复非敏感的已保存配置。请选择一个配置；如有需要输入凭据，然后连接。"
     },
     "section.provider_profiles": {
       "sourceRevision": 1,

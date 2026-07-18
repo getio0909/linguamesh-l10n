@@ -1667,6 +1667,182 @@
         "template": "Saved profile storage is unavailable; profile persistence is disabled, Remember stays off, and credentials remain session only.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Announced below the locale selector while draft translations are active.",
+      "key": "locale.note.drafts",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Simplified Chinese resources are loaded from the pinned runtime catalog; translations remain unreviewed drafts.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Notification body shown when a translation completes.",
+      "key": "notification.body",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The translated output is ready in LinguaMesh.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Notification title shown when a translation completes.",
+      "key": "notification.title",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Translation complete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Active and pending provider summary with persistence modes.",
+      "key": "provider.active_pending",
+      "placeholders": {
+        "active": {
+          "example": "Local test provider",
+          "type": "string"
+        },
+        "active_mode": {
+          "example": "saved",
+          "type": "string"
+        },
+        "pending": {
+          "example": "Backup provider",
+          "type": "string"
+        },
+        "pending_mode": {
+          "example": "session only",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Active provider remains {active} ({active_mode}); connecting {pending} ({pending_mode}).",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Pending provider connection summary.",
+      "key": "provider.connecting",
+      "placeholders": {
+        "mode": {
+          "example": "session only",
+          "type": "string"
+        },
+        "provider": {
+          "example": "Local test provider",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Connecting {provider} ({mode}).",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "No-provider summary explaining session-only credential behavior.",
+      "key": "provider.disconnected",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "No provider connected. Credentials stay session-only unless remembered through Secret Service.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Persistence mode shown for a pending provider that will be remembered.",
+      "key": "provider.mode.pending_saved",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "will be saved with Secret Service credential protection when supplied",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Persistence mode shown for an active saved provider.",
+      "key": "provider.mode.saved",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "saved",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Persistence mode shown for a session-only provider.",
+      "key": "provider.mode.session",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "session only",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Restored profile summary prompting deliberate connection.",
+      "key": "provider.saved_restored",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

@@ -217,10 +217,25 @@
       "status": "draft",
       "template": "لغة الواجهة: {language}"
     },
+    "locale.note.drafts": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تم تحميل موارد الصينية المبسطة من كتالوج التشغيل المثبت؛ ما زالت الترجمات مسودات غير مراجعة."
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "ترجمة النص"
+    },
+    "notification.body": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الناتج المترجم جاهز في LinguaMesh."
+    },
+    "notification.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اكتملت الترجمة"
     },
     "onboarding.description": {
       "sourceRevision": 1,
@@ -372,10 +387,45 @@
       "status": "draft",
       "template": "المزوّد النشط: {provider}"
     },
+    "provider.active_pending": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "يبقى المزوّد النشط {active} ({active_mode})؛ جارٍ الاتصال بـ {pending} ({pending_mode})."
+    },
+    "provider.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ الاتصال بـ {provider} ({mode})."
+    },
+    "provider.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "لا يوجد مزوّد متصل. تبقى بيانات الاعتماد للجلسة فقط ما لم تُحفظ عبر Secret Service."
+    },
+    "provider.mode.pending_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "سيُحفظ مع حماية بيانات الاعتماد عبر Secret Service عند توفيرها"
+    },
+    "provider.mode.saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "محفوظ"
+    },
+    "provider.mode.session": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "للجلسة فقط"
+    },
     "provider.name": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "اسم المزوّد"
+    },
+    "provider.saved_restored": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تمت استعادة ملفات التعريف المحفوظة غير السرية. اختر واحداً وأعد إدخال بيانات الاعتماد عند الحاجة ثم اتصل."
     },
     "section.provider_profiles": {
       "sourceRevision": 1,

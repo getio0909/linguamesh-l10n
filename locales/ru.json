@@ -208,10 +208,25 @@
       "status": "draft",
       "template": "Язык интерфейса: {language}"
     },
+    "locale.note.drafts": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Simplified Chinese resources are loaded from the pinned runtime catalog; translations remain unreviewed drafts."
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Перевод текста"
+    },
+    "notification.body": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The translated output is ready in LinguaMesh."
+    },
+    "notification.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Translation complete"
     },
     "onboarding.description": {
       "sourceRevision": 1,
@@ -363,10 +378,45 @@
       "status": "draft",
       "template": "Активный провайдер: {provider}"
     },
+    "provider.active_pending": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Active provider remains {active} ({active_mode}); connecting {pending} ({pending_mode})."
+    },
+    "provider.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Connecting {provider} ({mode})."
+    },
+    "provider.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "No provider connected. Credentials stay session-only unless remembered through Secret Service."
+    },
+    "provider.mode.pending_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "will be saved with Secret Service credential protection when supplied"
+    },
+    "provider.mode.saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "saved"
+    },
+    "provider.mode.session": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "session only"
+    },
     "provider.name": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Название поставщика"
+    },
+    "provider.saved_restored": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect."
     },
     "section.provider_profiles": {
       "sourceRevision": 1,

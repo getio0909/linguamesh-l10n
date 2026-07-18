@@ -201,10 +201,25 @@
       "status": "draft",
       "template": "［Ïñŧëŕƒåçë ŀåñĝûåĝë: {language}~~~~~~~~~~］"
     },
+    "locale.note.drafts": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šïṁþŀïƒïëð Çħïñëšë ŕëšøûŕçëš åŕë ŀøåðëð ƒŕøṁ ŧħë þïññëð ŕûñŧïṁë çåŧåŀøĝ; ŧŕåñšŀåŧïøñš ŕëṁåïñ ûñŕëṽïëŵëð ðŕåƒŧš.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
+    "notification.body": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ïš ŕëåðÿ ïñ ĿïñĝûåṀëšħ.~~~~~~~~~~~~~~~］"
+    },
+    "notification.title": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ çøṁþŀëŧë~~~~~~］"
     },
     "onboarding.description": {
       "sourceRevision": 1,
@@ -356,10 +371,45 @@
       "status": "draft",
       "template": "［Åçŧïṽë þŕøṽïðëŕ: {provider}~~~~~~~~~］"
     },
+    "provider.active_pending": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Åçŧïṽë þŕøṽïðëŕ ŕëṁåïñš {active} ({active_mode}); çøññëçŧïñĝ {pending} ({pending_mode}).~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "provider.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøññëçŧïñĝ {provider} ({mode}).~~~~~~~~~~］"
+    },
+    "provider.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ñø þŕøṽïðëŕ çøññëçŧëð. Çŕëðëñŧïåŀš šŧåÿ šëššïøñ-øñŀÿ ûñŀëšš ŕëṁëṁƀëŕëð ŧħŕøûĝħ Šëçŕëŧ Šëŕṽïçë.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "provider.mode.pending_saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［ŵïŀŀ ƀë šåṽëð ŵïŧħ Šëçŕëŧ Šëŕṽïçë çŕëðëñŧïåŀ þŕøŧëçŧïøñ ŵħëñ šûþþŀïëð~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "provider.mode.saved": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［šåṽëð~~］"
+    },
+    "provider.mode.session": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［šëššïøñ øñŀÿ~~~~］"
+    },
     "provider.name": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Þŕøṽïðëŕ ñåṁë~~~~］"
+    },
+    "provider.saved_restored": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šåṽëð ñøñ-šëçŕëŧ þŕøƒïŀëš ŵëŕë ŕëšŧøŕëð. Çħøøšë øñë, ëñŧëŕ ïŧš çŕëðëñŧïåŀ ïƒ ŕëǫûïŕëð, ŧħëñ çøññëçŧ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "section.provider_profiles": {
       "sourceRevision": 1,
