@@ -192,13 +192,13 @@
     },
     {
       "path": "linux/zh-Hans/LC_MESSAGES/linguamesh.mo",
-      "sha256": "4fd035e74335fccc2c00b170a7b172e9dae9f14914ca4d32095d0c6745cdd6f5",
-      "size": 32799
+      "sha256": "91c514bc04531406c07b5907b637bd619bb03e7a66d161e1cb3db68dced658d5",
+      "size": 32776
     },
     {
       "path": "linux/zh-Hans/LC_MESSAGES/linguamesh.po",
-      "sha256": "1775903611bcb0994a720e35b0b3fd6eee7529f82c305c0fbd976b542538a48d",
-      "size": 57126
+      "sha256": "6d1ab9d6f700bd53627c89f6346026122f803c47f47449852ae096fd6a2647b7",
+      "size": 57103
     },
     {
       "path": "linux/zh-Hant/LC_MESSAGES/linguamesh.mo",

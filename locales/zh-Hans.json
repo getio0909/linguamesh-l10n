@@ -102,7 +102,7 @@
     "action.open_output": {
       "sourceRevision": 17,
       "status": "draft",
-      "template": "Open exported output"
+      "template": "打开已导出输出"
     },
     "action.open_source": {
       "sourceRevision": 1,
@@ -404,7 +404,7 @@
     "error.output_open": {
       "sourceRevision": 17,
       "status": "draft",
-      "template": "The exported output could not be opened."
+      "template": "无法打开已导出的输出。"
     },
     "error.profile.id_generation_failed": {
       "sourceRevision": 3,
@@ -1345,7 +1345,7 @@
     "tooltip.open_output": {
       "sourceRevision": 17,
       "status": "draft",
-      "template": "Open the most recently exported translation output"
+      "template": "打开最近导出的翻译输出"
     },
     "tooltip.open_source": {
       "sourceRevision": 1,
