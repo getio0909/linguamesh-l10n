@@ -4311,9 +4311,168 @@
         "template": "PDF page(s) {pages} have uncertain reading order; review the structured output.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that opens persisted document jobs.",
+      "key": "action.document_jobs",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Document jobs",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that pauses a document job.",
+      "key": "action.pause_document",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Pause document",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that resumes a paused document job.",
+      "key": "action.resume_document",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Resume document",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that retries a failed document job.",
+      "key": "action.retry_document",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Retry document",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that selects a persisted document job.",
+      "key": "action.select_document_job",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Select document job",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the persisted document jobs dialog.",
+      "key": "dialog.document_jobs",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Document jobs",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Empty state shown when no persisted document jobs exist.",
+      "key": "status.document_jobs_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "No document jobs yet",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Announced when a document job pauses.",
+      "description": "Status shown for a paused document job.",
+      "key": "status.document_paused",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Document paused",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Announced as document job progress changes.",
+      "description": "Progress summary for a document job.",
+      "key": "status.document_progress",
+      "placeholders": {
+        "completed": {
+          "example": 3,
+          "type": "integer"
+        },
+        "total": {
+          "example": 10,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "{completed} of {total} segments translated",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for opening persisted document jobs.",
+      "key": "tooltip.document_jobs",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 16,
+      "status": "source",
+      "value": {
+        "template": "Inspect persisted document jobs and their progress",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 15
+  "sourceRevision": 16
 }

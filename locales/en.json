@@ -71,6 +71,11 @@
       "status": "source",
       "template": "Delete"
     },
+    "action.document_jobs": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Document jobs"
+    },
     "action.export_glossary": {
       "sourceRevision": 8,
       "status": "source",
@@ -101,15 +106,35 @@
       "status": "source",
       "template": "Open text file"
     },
+    "action.pause_document": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Pause document"
+    },
     "action.remove_profile": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Remove saved profile"
     },
+    "action.resume_document": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Resume document"
+    },
+    "action.retry_document": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Retry document"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Save provider"
+    },
+    "action.select_document_job": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Select document job"
     },
     "action.translate": {
       "sourceRevision": 1,
@@ -140,6 +165,11 @@
       "sourceRevision": 1,
       "status": "source",
       "template": "Diagnostics"
+    },
+    "dialog.document_jobs": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Document jobs"
     },
     "dialog.export_glossary": {
       "sourceRevision": 8,
@@ -1096,6 +1126,21 @@
       "status": "source",
       "template": "Disconnected"
     },
+    "status.document_jobs_empty": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "No document jobs yet"
+    },
+    "status.document_paused": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Document paused"
+    },
+    "status.document_progress": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "{completed} of {total} segments translated"
+    },
     "status.exported": {
       "sourceRevision": 5,
       "status": "source",
@@ -1256,6 +1301,11 @@
       "status": "source",
       "template": "Optional credential; it is kept in memory unless remembered through Secret Service"
     },
+    "tooltip.document_jobs": {
+      "sourceRevision": 16,
+      "status": "source",
+      "template": "Inspect persisted document jobs and their progress"
+    },
     "tooltip.endpoint": {
       "sourceRevision": 1,
       "status": "source",
@@ -1367,7 +1417,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 15,
+    "sourceRevision": 16,
     "status": "source"
   }
 }
