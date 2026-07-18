@@ -197,15 +197,70 @@
       "status": "draft",
       "template": "翻訳をキャンセルしました。途中までの出力は保持されています。"
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "キャンセル中"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "完了"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "接続中"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "未接続"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "失敗"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "状態"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "部分出力"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "準備完了"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "保存済みプロファイルを削除中"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "モデルを選択中"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "起動中"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "翻訳中…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "利用不可"
     },
     "theme.dark": {
       "sourceRevision": 1,

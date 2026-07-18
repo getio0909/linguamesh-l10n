@@ -201,15 +201,70 @@
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïøñ çåñçëŀŀëð. Þåŕŧïåŀ øûŧþûŧ ŵåš ķëþŧ.~~~~~~~~~~~~~~~］"
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çåñçëŀŀïñĝ~~~］"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøṁþŀëŧëð~~~］"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøññëçŧïñĝ~~~］"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ðïšçøññëçŧëð~~~~］"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ƒåïŀëð~~］"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šŧåŧûš~~］"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Þåŕŧïåŀ øûŧþûŧ~~~~］"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŕëåðÿ~~］"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŕëṁøṽïñĝ šåṽëð þŕøƒïŀë~~~~~~~］"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šëŀëçŧïñĝ ṁøðëŀ~~~~~］"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Šŧåŕŧïñĝ~~］"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïñĝ…~~~~］"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ûñåṽåïŀåƀŀë~~~］"
     },
     "theme.dark": {
       "sourceRevision": 1,

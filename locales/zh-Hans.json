@@ -197,15 +197,70 @@
       "status": "draft",
       "template": "翻译已取消。已保留部分输出。"
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在取消"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已完成"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在连接"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "未连接"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "失败"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "状态"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "部分输出"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "就绪"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在移除已保存的配置"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在选择模型"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在启动"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "正在翻译…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "不可用"
     },
     "theme.dark": {
       "sourceRevision": 1,

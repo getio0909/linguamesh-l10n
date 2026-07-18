@@ -4,7 +4,11 @@ Canonical, typed localization data and deterministic native resource generators 
 
 ## Current development bundle
 
-Catalog `0.1.0` contains 41 messages, including the Android vertical-slice UI, and exercises typed placeholders, plurals, selects, accessibility context, and RTL metadata. English is the canonical source. Simplified Chinese, Traditional Chinese, Spanish, French, German, Japanese, Korean, Brazilian Portuguese, Russian, Arabic, and Hindi are complete machine-generated drafts marked unreviewed. They are not claimed as human-approved translations.
+Catalog `0.1.0` contains 52 messages, including the Android vertical-slice UI and Linux status
+announcements, and exercises typed placeholders, plurals, selects, accessibility context, and RTL
+metadata. English is the canonical source. Simplified Chinese, Traditional Chinese, Spanish,
+French, German, Japanese, Korean, Brazilian Portuguese, Russian, Arabic, and Hindi are complete
+machine-generated drafts marked unreviewed. They are not claimed as human-approved translations.
 
 The generator also derives accented `en-XA` and RTL `ar-XB` pseudo-locales. Outputs are committed under `generated/` for Android XML, Windows RESW, macOS XCStrings, and Linux PO.
 

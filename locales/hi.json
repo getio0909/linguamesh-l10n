@@ -201,15 +201,70 @@
       "status": "draft",
       "template": "अनुवाद रद्द किया गया। आंशिक आउटपुट रखा गया।"
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "रद्द किया जा रहा है"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "पूरा हुआ"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "कनेक्ट हो रहा है"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "डिस्कनेक्ट किया गया"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "विफल"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "स्थिति"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "आंशिक आउटपुट"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "तैयार"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "सहेजी गई प्रोफ़ाइल हटाई जा रही है"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "मॉडल चुना जा रहा है"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "शुरू हो रहा है"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "अनुवाद हो रहा है…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "अनुपलब्ध"
     },
     "theme.dark": {
       "sourceRevision": 1,

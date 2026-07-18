@@ -208,15 +208,70 @@
       "status": "draft",
       "template": "Перевод отменён. Частичный результат сохранён."
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Отмена…"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Завершено"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Подключение…"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Отключено"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ошибка"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Состояние"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Частичный результат"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Готово"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Удаление сохранённого профиля"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Выбор модели"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Запуск…"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Выполняется перевод…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Недоступно"
     },
     "theme.dark": {
       "sourceRevision": 1,

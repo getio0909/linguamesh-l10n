@@ -804,6 +804,171 @@
         "template": "Streamed translation output",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown when no provider is connected.",
+      "key": "status.disconnected",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Disconnected",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown while a provider connection is in progress.",
+      "key": "status.connecting",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Connecting",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown while cancellation is being finalized.",
+      "key": "status.cancelling",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Cancelling",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown after a translation completes.",
+      "key": "status.completed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Completed",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown after a translation fails.",
+      "key": "status.failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Failed",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Prefix for the compact status announcement.",
+      "key": "status.label",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Status",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Marker shown when a translation retains partial output.",
+      "key": "status.partial_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Partial output",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status shown while the application is starting.",
+      "key": "status.starting",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Starting",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status shown while a saved provider profile is being removed.",
+      "key": "status.removing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Removing saved profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status shown while a discovered model selection is being confirmed.",
+      "key": "status.selecting_model",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Selecting model",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status label shown when the worker cannot serve requests.",
+      "key": "status.unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Unavailable",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

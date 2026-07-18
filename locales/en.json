@@ -201,15 +201,70 @@
       "status": "source",
       "template": "Translation cancelled. Partial output was kept."
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Cancelling"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Completed"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Connecting"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Disconnected"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Failed"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Status"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Partial output"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Ready"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Removing saved profile"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Selecting model"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Starting"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Translating…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Unavailable"
     },
     "theme.dark": {
       "sourceRevision": 1,

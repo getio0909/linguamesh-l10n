@@ -197,15 +197,70 @@
       "status": "draft",
       "template": "翻譯已取消。已保留部分輸出。"
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在取消"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已完成"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在連線"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "未連線"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "失敗"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "狀態"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "部分輸出"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "就緒"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在移除已儲存的設定檔"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在選擇模型"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "正在啟動"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "正在翻譯…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "無法使用"
     },
     "theme.dark": {
       "sourceRevision": 1,

@@ -204,15 +204,70 @@
       "status": "draft",
       "template": "Traduction annulée. La sortie partielle a été conservée."
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Annulation…"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Terminé"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Connexion…"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Déconnecté"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Échec"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "État"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Sortie partielle"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Prêt"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Suppression du profil enregistré"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Sélection du modèle"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Démarrage…"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Traduction en cours…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Indisponible"
     },
     "theme.dark": {
       "sourceRevision": 1,

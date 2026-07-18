@@ -201,15 +201,70 @@
       "status": "draft",
       "template": "Übersetzung abgebrochen. Die Teilausgabe wurde beibehalten."
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Abbruch läuft"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Abgeschlossen"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Verbindung wird hergestellt"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Getrennt"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Fehlgeschlagen"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Status"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Teilausgabe"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Bereit"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Gespeichertes Profil wird entfernt"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Modell wird ausgewählt"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Wird gestartet"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Übersetzung läuft…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Nicht verfügbar"
     },
     "theme.dark": {
       "sourceRevision": 1,

@@ -217,15 +217,70 @@
       "status": "draft",
       "template": "أُلغيت الترجمة. تم الاحتفاظ بالمخرجات الجزئية."
     },
+    "status.cancelling": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ الإلغاء"
+    },
+    "status.completed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "اكتمل"
+    },
+    "status.connecting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ الاتصال"
+    },
+    "status.disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "غير متصل"
+    },
+    "status.failed": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فشل"
+    },
+    "status.label": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "الحالة"
+    },
+    "status.partial_output": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "مخرجات جزئية"
+    },
     "status.ready": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "جاهز"
     },
+    "status.removing_profile": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ إزالة الملف المحفوظ"
+    },
+    "status.selecting_model": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ اختيار النموذج"
+    },
+    "status.starting": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "جارٍ البدء"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "جارٍ الترجمة…"
+    },
+    "status.unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "غير متاح"
     },
     "theme.dark": {
       "sourceRevision": 1,
