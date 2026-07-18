@@ -5,7 +5,7 @@ Status date: 2026-07-18
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 107 messages, including Linux-only status announcements, text-file import labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 117 messages, including Linux-only status announcements, text-file import labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, fixed user-facing error messages, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -13,7 +13,7 @@ Status date: 2026-07-18
 - A versioned development compatibility record with no unverified minimum client versions.
 - Python 3.13 setup, format, lint, test, generate, regeneration-check, and deterministic build commands; 25 unit and fixture tests; and GitHub Actions CI.
 
-Assumption: the sixty-six Linux-only status, text-import, provider-profile, onboarding, active-provider, notification, and draft-note messages use machine-generated draft
+Assumption: the seventy-six Linux-only status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, and error messages use machine-generated draft
 translations; they are included in every official pack for schema completeness but are not
 human-reviewed.
 
@@ -31,8 +31,8 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup, canonical JSON format checking for 20 files, schema/catalog lint, all 25 tests, byte-for-byte regeneration, deterministic bundle build, and foundation validation.
 - `msgfmt --check --check-format -o /dev/null generated/linux/*/LC_MESSAGES/linguamesh.po` was run for each of the 14 official/pseudo PO catalogs; all passed without warnings.
 - Android AAPT2 `2.20-15703166` compiled all 14 generated Android resource files; parsing all 28 generated Android and Windows XML files with Python `xml.etree.ElementTree` also succeeded.
-- `jq` confirmed 83 native message keys in the macOS String Catalog, 45 files in the generated manifest, and 107 canonical entries in every official locale pack; the Linux PO catalogs contain the new status, text-import, provider-profile, onboarding, active-provider, notification, and draft-note keys.
-- Two consecutive unchanged builds produced SHA-256 `9eb7acda3347cf9fede9eadf158cda2c233cfbd8399b45ffc4497f0802e32777` for `dist/linguamesh-l10n-0.1.0.zip` after adding the active-provider, notification, and draft-locale messages.
+- `jq` confirmed 83 native message keys in the macOS String Catalog, 45 files in the generated manifest, and 117 canonical entries in every official locale pack; the Linux PO catalogs contain the new status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, and fixed-error keys.
+- Two consecutive unchanged builds produced SHA-256 `bdffb3472da8023e4c414ed40744e4431cb2ae551189ef1ecef701a77b39f01f` for `dist/linguamesh-l10n-0.1.0.zip` after adding the fixed Linux error messages.
 - `git diff --check` exited successfully.
 - The first `make check` run correctly detected stale generated resources after the catalog edit; `make generate` refreshed them and the subsequent full `make check` passed.
 - GitHub Actions foundation run `29552975874` and localization run `29552975875` passed

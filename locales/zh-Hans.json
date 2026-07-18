@@ -96,6 +96,11 @@
         "other": "已选择 {count} 个文件"
       }
     },
+    "error.active_provider_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "当前提供商 ID 不可用。"
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -105,6 +110,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "请检查 {provider} 的凭据，然后重试。"
+    },
+    "error.file_open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "无法打开所选文本文件。"
+    },
+    "error.file_read": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "无法读取所选文本文件。"
+    },
+    "error.file_too_large": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "所选文本文件超过 4 MiB 限制。"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -121,6 +141,26 @@
       "status": "draft",
       "template": "请检查网络连接，然后重试。"
     },
+    "error.profile_disabled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "所选提供商配置已禁用。"
+    },
+    "error.profile_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "所选已保存配置不可用。"
+    },
+    "error.provider_endpoint_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "请输入提供商端点。"
+    },
+    "error.provider_name_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "请输入提供商名称。"
+    },
     "error.rate_limited": {
       "sourceRevision": 1,
       "status": "draft",
@@ -132,6 +172,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "翻译失败。请查看诊断信息并重试。"
+    },
+    "error.worker_disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "核心 worker 已断开连接。"
+    },
+    "error.worker_stopped": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "核心 worker 已停止。"
     },
     "field.api_key": {
       "sourceRevision": 1,

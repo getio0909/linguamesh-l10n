@@ -96,6 +96,11 @@
         "other": "파일 {count}개"
       }
     },
+    "error.active_provider_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The active provider ID is unavailable."
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -105,6 +110,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "{provider}의 자격 증명을 확인하고 다시 시도하세요."
+    },
+    "error.file_open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The selected text file could not be opened."
+    },
+    "error.file_read": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The selected text file could not be read."
+    },
+    "error.file_too_large": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The selected text file exceeds the 4 MiB limit."
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -121,6 +141,26 @@
       "status": "draft",
       "template": "네트워크 연결을 확인하고 다시 시도하세요."
     },
+    "error.profile_disabled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The selected provider profile is disabled."
+    },
+    "error.profile_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The selected saved profile is unavailable."
+    },
+    "error.provider_endpoint_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Enter a provider endpoint."
+    },
+    "error.provider_name_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Enter a provider name."
+    },
     "error.rate_limited": {
       "sourceRevision": 1,
       "status": "draft",
@@ -132,6 +172,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "번역에 실패했습니다. 진단을 검토하고 다시 시도하세요."
+    },
+    "error.worker_disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The core worker disconnected."
+    },
+    "error.worker_stopped": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "The core worker stopped."
     },
     "field.api_key": {
       "sourceRevision": 1,

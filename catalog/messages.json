@@ -1843,6 +1843,156 @@
         "template": "Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The active provider ID is unavailable.",
+      "key": "error.active_provider_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The active provider ID is unavailable.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The selected text file could not be opened.",
+      "key": "error.file_open",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The selected text file could not be opened.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The selected text file could not be read.",
+      "key": "error.file_read",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The selected text file could not be read.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The selected text file exceeds the 4 MiB limit.",
+      "key": "error.file_too_large",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The selected text file exceeds the 4 MiB limit.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The selected provider profile is disabled.",
+      "key": "error.profile_disabled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The selected provider profile is disabled.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The selected saved profile is unavailable.",
+      "key": "error.profile_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The selected saved profile is unavailable.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "Enter a provider endpoint.",
+      "key": "error.provider_endpoint_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Enter a provider endpoint.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "Enter a provider name.",
+      "key": "error.provider_name_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Enter a provider name.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The core worker disconnected.",
+      "key": "error.worker_disconnected",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The core worker disconnected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown in the Linux client error region.",
+      "description": "The core worker stopped.",
+      "key": "error.worker_stopped",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "The core worker stopped.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

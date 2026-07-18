@@ -111,6 +111,11 @@
         "zero": "لم يتم تحديد أي ملفات ({count})"
       }
     },
+    "error.active_provider_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "معرّف المزوّد النشط غير متاح."
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -120,6 +125,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "تحقق من بيانات اعتماد {provider} وحاول مرة أخرى."
+    },
+    "error.file_open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تعذر فتح الملف النصي المحدد."
+    },
+    "error.file_read": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تعذر قراءة الملف النصي المحدد."
+    },
+    "error.file_too_large": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "يتجاوز الملف النصي المحدد حد 4 MiB."
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -135,6 +155,26 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "تحقق من اتصال الشبكة وحاول مرة أخرى."
+    },
+    "error.profile_disabled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملف تعريف المزوّد المحدد معطل."
+    },
+    "error.profile_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملف التعريف المحفوظ المحدد غير متاح."
+    },
+    "error.provider_endpoint_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "أدخل نقطة نهاية المزوّد."
+    },
+    "error.provider_name_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "أدخل اسم المزوّد."
     },
     "error.rate_limited": {
       "sourceRevision": 1,
@@ -152,6 +192,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "فشلت الترجمة. راجع معلومات التشخيص وحاول مرة أخرى."
+    },
+    "error.worker_disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "انقطع اتصال العامل الأساسي."
+    },
+    "error.worker_stopped": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "توقف العامل الأساسي."
     },
     "field.api_key": {
       "sourceRevision": 1,

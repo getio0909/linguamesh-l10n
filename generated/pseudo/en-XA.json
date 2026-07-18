@@ -99,6 +99,11 @@
         "other": "［{count} ƒïŀëš~~~~］"
       }
     },
+    "error.active_provider_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë åçŧïṽë þŕøṽïðëŕ ÏÐ ïš ûñåṽåïŀåƀŀë.~~~~~~~~~~~~］"
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -108,6 +113,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Çħëçķ ŧħë çŕëðëñŧïåŀš ƒøŕ {provider} åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.file_open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë šëŀëçŧëð ŧëẋŧ ƒïŀë çøûŀð ñøŧ ƀë øþëñëð.~~~~~~~~~~~~~~］"
+    },
+    "error.file_read": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë šëŀëçŧëð ŧëẋŧ ƒïŀë çøûŀð ñøŧ ƀë ŕëåð.~~~~~~~~~~~~~］"
+    },
+    "error.file_too_large": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë šëŀëçŧëð ŧëẋŧ ƒïŀë ëẋçëëðš ŧħë 4 ṀïƁ ŀïṁïŧ.~~~~~~~~~~~~~~~］"
     },
     "error.incompatible_core": {
       "sourceRevision": 1,
@@ -124,6 +144,26 @@
       "status": "draft",
       "template": "［Çħëçķ ÿøûŕ ñëŧŵøŕķ çøññëçŧïøñ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］"
     },
+    "error.profile_disabled": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë šëŀëçŧëð þŕøṽïðëŕ þŕøƒïŀë ïš ðïšåƀŀëð.~~~~~~~~~~~~~~］"
+    },
+    "error.profile_unavailable": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë šëŀëçŧëð šåṽëð þŕøƒïŀë ïš ûñåṽåïŀåƀŀë.~~~~~~~~~~~~~~］"
+    },
+    "error.provider_endpoint_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñŧëŕ å þŕøṽïðëŕ ëñðþøïñŧ.~~~~~~~~］"
+    },
+    "error.provider_name_required": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ëñŧëŕ å þŕøṽïðëŕ ñåṁë.~~~~~~~］"
+    },
     "error.rate_limited": {
       "sourceRevision": 1,
       "status": "draft",
@@ -136,6 +176,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïøñ ƒåïŀëð. Ŕëṽïëŵ ðïåĝñøšŧïçš åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.worker_disconnected": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë ŵøŕķëŕ ðïšçøññëçŧëð.~~~~~~~~~］"
+    },
+    "error.worker_stopped": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë ŵøŕķëŕ šŧøþþëð.~~~~~~~~］"
     },
     "field.api_key": {
       "sourceRevision": 1,
