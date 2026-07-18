@@ -526,6 +526,66 @@
       "status": "draft",
       "template": "इंटरफ़ेस भाषा: {language}"
     },
+    "locale.name.ar": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "अरबी"
+    },
+    "locale.name.de": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "जर्मन"
+    },
+    "locale.name.en": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "अंग्रेज़ी"
+    },
+    "locale.name.es": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "स्पेनिश"
+    },
+    "locale.name.fr": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "फ़्रेंच"
+    },
+    "locale.name.hi": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "हिंदी"
+    },
+    "locale.name.ja": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "जापानी"
+    },
+    "locale.name.ko": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "कोरियाई"
+    },
+    "locale.name.pt_br": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "पुर्तगाली (ब्राज़ील)"
+    },
+    "locale.name.ru": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "रूसी"
+    },
+    "locale.name.zh_hans": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "सरलीकृत चीनी"
+    },
+    "locale.name.zh_hant": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "पारंपरिक चीनी"
+    },
     "locale.note.drafts": {
       "sourceRevision": 1,
       "status": "draft",
@@ -892,7 +952,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 3,
+    "sourceRevision": 4,
     "status": "draft"
   }
 }

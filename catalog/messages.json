@@ -2833,9 +2833,189 @@
         "template": "A session credential requires an explicit session secret reference.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the English interface pack.",
+      "key": "locale.name.en",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "English",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Simplified Chinese interface pack.",
+      "key": "locale.name.zh_hans",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Simplified Chinese",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Traditional Chinese interface pack.",
+      "key": "locale.name.zh_hant",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Traditional Chinese",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Spanish interface pack.",
+      "key": "locale.name.es",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Spanish",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the French interface pack.",
+      "key": "locale.name.fr",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "French",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the German interface pack.",
+      "key": "locale.name.de",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "German",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Japanese interface pack.",
+      "key": "locale.name.ja",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Japanese",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Korean interface pack.",
+      "key": "locale.name.ko",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Korean",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Brazilian Portuguese interface pack.",
+      "key": "locale.name.pt_br",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Portuguese (Brazil)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Russian interface pack.",
+      "key": "locale.name.ru",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Russian",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Arabic interface pack.",
+      "key": "locale.name.ar",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Arabic",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Locale selector name for the Hindi interface pack.",
+      "key": "locale.name.hi",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 4,
+      "status": "source",
+      "value": {
+        "template": "Hindi",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 3
+  "sourceRevision": 4
 }

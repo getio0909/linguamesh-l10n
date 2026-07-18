@@ -529,6 +529,66 @@
       "status": "draft",
       "template": "Idioma da interface: {language}"
     },
+    "locale.name.ar": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Árabe"
+    },
+    "locale.name.de": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Alemão"
+    },
+    "locale.name.en": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Inglês"
+    },
+    "locale.name.es": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Espanhol"
+    },
+    "locale.name.fr": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Francês"
+    },
+    "locale.name.hi": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Hindi"
+    },
+    "locale.name.ja": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Japonês"
+    },
+    "locale.name.ko": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Coreano"
+    },
+    "locale.name.pt_br": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Português (Brasil)"
+    },
+    "locale.name.ru": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Russo"
+    },
+    "locale.name.zh_hans": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Chinês simplificado"
+    },
+    "locale.name.zh_hant": {
+      "sourceRevision": 4,
+      "status": "draft",
+      "template": "Chinês tradicional"
+    },
     "locale.note.drafts": {
       "sourceRevision": 1,
       "status": "draft",
@@ -895,7 +955,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 3,
+    "sourceRevision": 4,
     "status": "draft"
   }
 }

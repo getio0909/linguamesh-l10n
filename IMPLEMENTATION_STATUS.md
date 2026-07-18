@@ -5,7 +5,7 @@ Status date: 2026-07-18
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 172 messages, including Linux-only status announcements, text-file import labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 184 messages, including Linux-only status announcements, text-file import labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -13,7 +13,7 @@ Status date: 2026-07-18
 - A versioned development compatibility record with no unverified minimum client versions.
 - Python 3.13 setup, format, lint, test, generate, regeneration-check, and deterministic build commands; 26 unit and fixture tests; and GitHub Actions CI.
 
-Assumption: the 131 Linux-only status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, fixed-error, state-error/category, and worker/file/storage/provider-error messages use machine-generated draft
+Assumption: the 143 Linux-only status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, locale-name, fixed-error, state-error/category, and worker/file/storage/provider-error messages use machine-generated draft
 translations; they are included in every official pack for schema completeness but are not
 human-reviewed.
 
@@ -31,8 +31,8 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup, canonical JSON format checking for 20 files, schema/catalog lint, all 26 tests, byte-for-byte regeneration, deterministic bundle build, and foundation validation.
 - `msgfmt --check --check-format -o /dev/null generated/linux/*/LC_MESSAGES/linguamesh.po` was run for each of the 14 official/pseudo PO catalogs; all passed without warnings. GNU `msgunfmt` read the generated Simplified Chinese MO and confirmed the fixed state-error context and translation.
 - Android AAPT2 `2.20-15703166` compiled all 14 generated Android resource files; parsing all 28 generated Android and Windows XML files with Python `xml.etree.ElementTree` also succeeded.
-- `jq` confirmed 83 native message keys in the macOS String Catalog, 59 files in the generated manifest, and 172 canonical entries in every official locale pack; the Linux PO/MO catalogs contain the new status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, fixed-error, state-error/category, and worker/file/storage/provider-error keys.
-- Two consecutive unchanged builds produced SHA-256 `8ece75a4e61f9ba664a2ff7372e22bbd382fe691bf0eebd881aa0135c3507079` for `dist/linguamesh-l10n-0.1.0.zip` after adding deterministic Linux MO resources and fixed worker/file error coverage.
+- `jq` confirmed 83 native message keys in the macOS String Catalog, 59 files in the generated manifest, and 184 canonical entries in every official locale pack; the Linux PO/MO catalogs contain the new status, text-import, provider-profile, onboarding, active-provider, notification, draft-note, locale-name, fixed-error, state-error/category, and worker/file/storage/provider-error keys.
+- Two consecutive unchanged builds produced SHA-256 `116e5c70a5266197a0ee8ec91bbb35637802d68ba7456a9aad344838a5f40c1e` for `dist/linguamesh-l10n-0.1.0.zip` after adding deterministic Linux MO resources, fixed worker/file error coverage, and locale selector language names.
 - `git diff --check` exited successfully.
 - The first `make check` run correctly detected stale generated resources after the catalog edit; `make generate` refreshed them and the subsequent full `make check` passed.
 - GitHub Actions foundation run `29552975874` and localization run `29552975875` passed
