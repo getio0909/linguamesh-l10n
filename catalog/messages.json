@@ -3598,9 +3598,54 @@
         "template": "Glossary CSV is ready.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Announced when the request-level local privacy policy is toggled.",
+      "description": "Linux toggle that prevents this request from being written to local history or translation memory.",
+      "key": "settings.incognito",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 9,
+      "status": "source",
+      "value": {
+        "template": "Incognito mode",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accessible tooltip for the Linux request-level local privacy toggle.",
+      "key": "tooltip.incognito",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 9,
+      "status": "source",
+      "value": {
+        "template": "Do not persist source, output, history, or translation-memory data for this request",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shown as a non-error status note while incognito mode is enabled.",
+      "description": "Status note that confirms the request-level local privacy policy is active.",
+      "key": "status.incognito",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 9,
+      "status": "source",
+      "value": {
+        "template": "Incognito mode is active for this request.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 8
+  "sourceRevision": 9
 }

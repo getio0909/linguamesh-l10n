@@ -957,6 +957,11 @@
       "status": "draft",
       "template": "提供商配置"
     },
+    "settings.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "隐身模式"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1016,6 +1021,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "词汇表 CSV 已就绪。"
+    },
+    "status.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "本次请求已启用隐身模式。"
     },
     "status.label": {
       "sourceRevision": 1,
@@ -1102,6 +1112,11 @@
       "status": "draft",
       "template": "从 UTF-8 CSV 文件加载词汇表规则"
     },
+    "tooltip.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "本次请求不保存源文本、输出、历史记录或翻译记忆数据"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1138,7 +1153,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 8,
+    "sourceRevision": 9,
     "status": "draft"
   }
 }

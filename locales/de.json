@@ -961,6 +961,11 @@
       "status": "draft",
       "template": "Provider profiles"
     },
+    "settings.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "Incognito mode"
+    },
     "settings.target_language": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1020,6 +1025,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "Glossary CSV is ready."
+    },
+    "status.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "Incognito mode is active for this request."
     },
     "status.label": {
       "sourceRevision": 1,
@@ -1106,6 +1116,11 @@
       "status": "draft",
       "template": "Load glossary rules from a UTF-8 CSV file"
     },
+    "tooltip.incognito": {
+      "sourceRevision": 9,
+      "status": "draft",
+      "template": "Do not persist source, output, history, or translation-memory data for this request"
+    },
     "tooltip.open_source": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1142,7 +1157,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 8,
+    "sourceRevision": 9,
     "status": "draft"
   }
 }
