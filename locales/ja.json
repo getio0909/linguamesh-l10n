@@ -39,6 +39,11 @@
       "status": "draft",
       "template": "設定を閉じる"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "テキストファイルを開く"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -63,6 +68,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "診断"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "開く"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "テキストファイルを開く"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -132,6 +147,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "翻訳"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "テキストファイル"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -276,6 +296,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "システム"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "UTF-8 テキストファイルをソースエディターに読み込む"
     },
     "translation.progress": {
       "sourceRevision": 1,

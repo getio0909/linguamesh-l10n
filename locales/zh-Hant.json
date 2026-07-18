@@ -39,6 +39,11 @@
       "status": "draft",
       "template": "關閉設定"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "開啟文字檔案"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -63,6 +68,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "診斷"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "開啟"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "開啟文字檔案"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -132,6 +147,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "譯文"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "文字檔案"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -276,6 +296,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "跟隨系統"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "將 UTF-8 文字檔案載入來源編輯器"
     },
     "translation.progress": {
       "sourceRevision": 1,

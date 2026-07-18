@@ -42,6 +42,11 @@
       "status": "draft",
       "template": "Fermer les paramètres"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ouvrir un fichier texte"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -66,6 +71,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Diagnostics"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ouvrir"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ouvrir un fichier texte"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -139,6 +154,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Traduction"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Fichiers texte"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -283,6 +303,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Système"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Charger un fichier texte UTF-8 dans l’éditeur source"
     },
     "translation.progress": {
       "sourceRevision": 1,

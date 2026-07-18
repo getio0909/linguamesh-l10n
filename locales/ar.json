@@ -49,6 +49,11 @@
       "status": "draft",
       "template": "إغلاق الإعدادات"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فتح ملف نصي"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -73,6 +78,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "التشخيص"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فتح"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "فتح ملف نصي"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -152,6 +167,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "الترجمة"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "ملفات نصية"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -296,6 +316,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "النظام"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تحميل ملف نصي UTF-8 إلى محرر المصدر"
     },
     "translation.progress": {
       "sourceRevision": 1,

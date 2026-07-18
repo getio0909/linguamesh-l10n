@@ -41,6 +41,11 @@
       "status": "draft",
       "template": "［Çŀøšë šëŧŧïñĝš~~~~］"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -65,6 +70,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ðïåĝñøšŧïçš~~~］"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Øþëñ~~］"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -136,6 +151,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŧŕåñšŀåŧïøñ~~~］"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧëẋŧ ƒïŀëš~~~］"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -280,6 +300,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Šÿšŧëṁ~~］"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŀøåð å ÛŦƑ-8 ŧëẋŧ ƒïŀë ïñŧø ŧħë šøûŕçë ëðïŧøŕ~~~~~~~~~~~~~~~］"
     },
     "translation.progress": {
       "sourceRevision": 1,

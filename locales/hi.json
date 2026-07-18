@@ -41,6 +41,11 @@
       "status": "draft",
       "template": "सेटिंग बंद करें"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "टेक्स्ट फ़ाइल खोलें"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -65,6 +70,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "निदान"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "खोलें"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "टेक्स्ट फ़ाइल खोलें"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -136,6 +151,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "अनुवाद"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "टेक्स्ट फ़ाइलें"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -280,6 +300,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "सिस्टम"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "स्रोत संपादक में UTF-8 टेक्स्ट फ़ाइल लोड करें"
     },
     "translation.progress": {
       "sourceRevision": 1,

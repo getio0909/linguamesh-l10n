@@ -39,6 +39,11 @@
       "status": "draft",
       "template": "설정 닫기"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "텍스트 파일 열기"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -63,6 +68,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "진단"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "열기"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "텍스트 파일 열기"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -132,6 +147,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "번역"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "텍스트 파일"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -276,6 +296,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "시스템"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "UTF-8 텍스트 파일을 소스 편집기로 불러옵니다"
     },
     "translation.progress": {
       "sourceRevision": 1,

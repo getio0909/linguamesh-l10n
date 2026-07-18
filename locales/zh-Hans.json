@@ -39,6 +39,11 @@
       "status": "draft",
       "template": "关闭设置"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "打开文本文件"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -63,6 +68,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "诊断"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "打开"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "打开文本文件"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -132,6 +147,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "译文"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "文本文件"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -276,6 +296,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "跟随系统"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "将 UTF-8 文本文件加载到源文本编辑器"
     },
     "translation.progress": {
       "sourceRevision": 1,

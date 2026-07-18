@@ -969,6 +969,81 @@
         "template": "Unavailable",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Primary action that opens a UTF-8 text file for translation.",
+      "key": "action.open_source",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Open text file",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accept button in the native text-file chooser.",
+      "key": "dialog.open",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Open",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the native text-file chooser.",
+      "key": "dialog.open_text_file",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Open text file",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Native file-filter name for supported text documents.",
+      "key": "file.filter.text",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Text files",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the UTF-8 source-file import action.",
+      "key": "tooltip.open_source",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Load a UTF-8 text file into the source editor",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

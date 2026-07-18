@@ -41,6 +41,11 @@
       "status": "draft",
       "template": "Einstellungen schließen"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Textdatei öffnen"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -65,6 +70,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Diagnose"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Öffnen"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Textdatei öffnen"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -136,6 +151,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Übersetzung"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Textdateien"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -280,6 +300,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "System"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Eine UTF-8-Textdatei in den Quelltexteditor laden"
     },
     "translation.progress": {
       "sourceRevision": 1,

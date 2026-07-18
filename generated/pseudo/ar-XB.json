@@ -49,6 +49,11 @@
       "status": "draft",
       "template": "⁧⟦Close settings⟧⁩"
     },
+    "action.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Open text file⟧⁩"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -73,6 +78,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦Diagnostics⟧⁩"
+    },
+    "dialog.open": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Open⟧⁩"
+    },
+    "dialog.open_text_file": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Open text file⟧⁩"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -152,6 +167,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦Translation⟧⁩"
+    },
+    "file.filter.text": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Text files⟧⁩"
     },
     "history.mode": {
       "sourceRevision": 1,
@@ -296,6 +316,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦System⟧⁩"
+    },
+    "tooltip.open_source": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "⁧⟦Load a UTF-8 text file into the source editor⟧⁩"
     },
     "translation.progress": {
       "sourceRevision": 1,
