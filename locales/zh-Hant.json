@@ -196,6 +196,11 @@
       "status": "draft",
       "template": "Unsupported capability"
     },
+    "error.core.compatibility_read_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法讀取核心相容性資訊：{error}"
+    },
     "error.core.contract_incompatible": {
       "sourceRevision": 3,
       "status": "draft",
@@ -286,6 +291,11 @@
       "status": "draft",
       "template": "所選已儲存設定檔不可用。"
     },
+    "error.provider.loopback_start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "啟動迴圈提供者失敗：{error}"
+    },
     "error.provider.model_unavailable": {
       "sourceRevision": 3,
       "status": "draft",
@@ -327,6 +337,11 @@
       "variants": {
         "other": "請在 {seconds} 秒後再試一次。"
       }
+    },
+    "error.runtime.start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "啟動核心執行環境失敗：{error}"
     },
     "error.secret.request_channel_closed": {
       "sourceRevision": 3,
@@ -452,6 +467,66 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "Secret Service cleanup failed after profile removal."
+    },
+    "error.storage.directory_create": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法建立設定資料庫目錄。"
+    },
+    "error.storage.directory_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法檢查設定資料庫目錄。"
+    },
+    "error.storage.directory_invalid": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "設定資料庫目錄無效。"
+    },
+    "error.storage.directory_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "設定資料庫目錄權限不是私有的。"
+    },
+    "error.storage.file_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法檢查設定資料庫檔案。"
+    },
+    "error.storage.file_open": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法開啟設定資料庫檔案。"
+    },
+    "error.storage.file_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法限制設定資料庫檔案權限。"
+    },
+    "error.storage.file_regular": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "設定資料庫必須是私有的一般檔案。"
+    },
+    "error.storage.path_absolute": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "設定資料庫路徑必須是絕對路徑。"
+    },
+    "error.storage.path_components_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法檢查設定資料庫路徑元件。"
+    },
+    "error.storage.path_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "無法檢查設定資料庫路徑。"
+    },
+    "error.storage.path_symlink": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "設定資料庫路徑不能包含符號連結。"
     },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
@@ -993,7 +1068,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 6,
+    "sourceRevision": 7,
     "status": "draft"
   }
 }

@@ -24,3 +24,16 @@ Assumption: This development bundle may define a small representative UI catalog
 ## Completion evidence
 
 Record exact commands and outcomes in `IMPLEMENTATION_STATUS.md`. Generated resources must be checked into `generated/` and byte-for-byte reproducible from canonical data.
+
+## Linux runtime-error coverage checkpoint
+
+Assumption: Core/provider transport details remain English diagnostic detail; stable Linux error
+sentences emitted by the worker are catalog-backed and can be localized without exposing secrets.
+
+- [x] Add Linux-only catalog keys for Core startup, loopback-provider startup, compatibility reads,
+  and profile-database path/permission failures.
+- [x] Add Simplified Chinese and Traditional Chinese draft translations and English fallback values
+  to every official locale pack.
+- [x] Generate and validate all 59 native resource artifacts at catalog source revision 7.
+- [x] Verify deterministic development bundle checksum
+  `a8c5535b23eb27f02ff5fd3bb4c4c1c6948718f1233321305c173b1741b27e6f`.

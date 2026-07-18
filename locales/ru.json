@@ -204,6 +204,11 @@
       "status": "draft",
       "template": "Unsupported capability"
     },
+    "error.core.compatibility_read_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "Core compatibility could not be read: {error}"
+    },
     "error.core.contract_incompatible": {
       "sourceRevision": 3,
       "status": "draft",
@@ -294,6 +299,11 @@
       "status": "draft",
       "template": "The selected saved profile is unavailable."
     },
+    "error.provider.loopback_start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "Failed to start the loopback provider: {error}"
+    },
     "error.provider.model_unavailable": {
       "sourceRevision": 3,
       "status": "draft",
@@ -338,6 +348,11 @@
         "one": "Повторите попытку через {seconds} секунду.",
         "other": "Повторите попытку через {seconds} секунды."
       }
+    },
+    "error.runtime.start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "Failed to start the core runtime: {error}"
     },
     "error.secret.request_channel_closed": {
       "sourceRevision": 3,
@@ -463,6 +478,66 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "Secret Service cleanup failed after profile removal."
+    },
+    "error.storage.directory_create": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database directory could not be created."
+    },
+    "error.storage.directory_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database directory could not be inspected."
+    },
+    "error.storage.directory_invalid": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database directory is invalid."
+    },
+    "error.storage.directory_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database directory permissions are not private."
+    },
+    "error.storage.file_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database file could not be inspected."
+    },
+    "error.storage.file_open": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database file could not be opened."
+    },
+    "error.storage.file_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database file permissions could not be restricted."
+    },
+    "error.storage.file_regular": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database must be a private regular file."
+    },
+    "error.storage.path_absolute": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database path must be absolute."
+    },
+    "error.storage.path_components_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database path components could not be inspected."
+    },
+    "error.storage.path_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database path could not be inspected."
+    },
+    "error.storage.path_symlink": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "The profile database path cannot contain symbolic links."
     },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
@@ -1004,7 +1079,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 6,
+    "sourceRevision": 7,
     "status": "draft"
   }
 }

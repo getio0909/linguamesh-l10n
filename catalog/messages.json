@@ -3148,9 +3148,249 @@
         "template": "Local OpenAI-compatible provider",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux error shown when the shared Core compatibility description cannot be read.",
+      "key": "error.core.compatibility_read_failed",
+      "placeholders": {
+        "error": {
+          "example": "missing compatibility symbol",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "Core compatibility could not be read: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux error shown when the local loopback provider cannot start.",
+      "key": "error.provider.loopback_start_failed",
+      "placeholders": {
+        "error": {
+          "example": "address already in use",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "Failed to start the loopback provider: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux error shown when the Core runtime cannot start.",
+      "key": "error.runtime.start_failed",
+      "placeholders": {
+        "error": {
+          "example": "runtime initialization failed",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "Failed to start the core runtime: {error}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database path is not absolute.",
+      "key": "error.storage.path_absolute",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database path must be absolute.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database directory is invalid.",
+      "key": "error.storage.directory_invalid",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database directory is invalid.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database directory cannot be created.",
+      "key": "error.storage.directory_create",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database directory could not be created.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database directory cannot be inspected.",
+      "key": "error.storage.directory_inspect",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database directory could not be inspected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database directory is not private.",
+      "key": "error.storage.directory_permissions",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database directory permissions are not private.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database is not a private regular file.",
+      "key": "error.storage.file_regular",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database must be a private regular file.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database path cannot be inspected.",
+      "key": "error.storage.path_inspect",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database path could not be inspected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database file cannot be opened.",
+      "key": "error.storage.file_open",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database file could not be opened.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when the profile database file cannot be inspected.",
+      "key": "error.storage.file_inspect",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database file could not be inspected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when profile database file permissions cannot be restricted.",
+      "key": "error.storage.file_permissions",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database file permissions could not be restricted.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when a profile database path contains a symbolic link.",
+      "key": "error.storage.path_symlink",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database path cannot contain symbolic links.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Linux persistence error shown when profile database path components cannot be inspected.",
+      "key": "error.storage.path_components_inspect",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 7,
+      "status": "source",
+      "value": {
+        "template": "The profile database path components could not be inspected.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 6
+  "sourceRevision": 7
 }

@@ -196,6 +196,11 @@
       "status": "draft",
       "template": "不支持的能力"
     },
+    "error.core.compatibility_read_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法读取核心兼容性信息：{error}"
+    },
     "error.core.contract_incompatible": {
       "sourceRevision": 3,
       "status": "draft",
@@ -286,6 +291,11 @@
       "status": "draft",
       "template": "所选已保存配置不可用。"
     },
+    "error.provider.loopback_start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "启动回环提供商失败：{error}"
+    },
     "error.provider.model_unavailable": {
       "sourceRevision": 3,
       "status": "draft",
@@ -327,6 +337,11 @@
       "variants": {
         "other": "请在 {seconds} 秒后重试。"
       }
+    },
+    "error.runtime.start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "启动核心运行时失败：{error}"
     },
     "error.secret.request_channel_closed": {
       "sourceRevision": 3,
@@ -452,6 +467,66 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "移除配置后，Secret Service 清理失败。"
+    },
+    "error.storage.directory_create": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法创建配置数据库目录。"
+    },
+    "error.storage.directory_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法检查配置数据库目录。"
+    },
+    "error.storage.directory_invalid": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "配置数据库目录无效。"
+    },
+    "error.storage.directory_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "配置数据库目录权限不是私有的。"
+    },
+    "error.storage.file_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法检查配置数据库文件。"
+    },
+    "error.storage.file_open": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法打开配置数据库文件。"
+    },
+    "error.storage.file_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法限制配置数据库文件权限。"
+    },
+    "error.storage.file_regular": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "配置数据库必须是私有普通文件。"
+    },
+    "error.storage.path_absolute": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "配置数据库路径必须为绝对路径。"
+    },
+    "error.storage.path_components_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法检查配置数据库路径组件。"
+    },
+    "error.storage.path_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "无法检查配置数据库路径。"
+    },
+    "error.storage.path_symlink": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "配置数据库路径不能包含符号链接。"
     },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
@@ -993,7 +1068,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 6,
+    "sourceRevision": 7,
     "status": "draft"
   }
 }

@@ -199,6 +199,11 @@
       "status": "draft",
       "template": "［Ûñšûþþøŕŧëð çåþåƀïŀïŧÿ~~~~~~~］"
     },
+    "error.core.compatibility_read_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Çøŕë çøṁþåŧïƀïŀïŧÿ çøûŀð ñøŧ ƀë ŕëåð: {error}~~~~~~~~~~~~~~~］"
+    },
     "error.core.contract_incompatible": {
       "sourceRevision": 3,
       "status": "draft",
@@ -289,6 +294,11 @@
       "status": "draft",
       "template": "［Ŧħë šëŀëçŧëð šåṽëð þŕøƒïŀë ïš ûñåṽåïŀåƀŀë.~~~~~~~~~~~~~~］"
     },
+    "error.provider.loopback_start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ƒåïŀëð ŧø šŧåŕŧ ŧħë ŀøøþƀåçķ þŕøṽïðëŕ: {error}~~~~~~~~~~~~~~~］"
+    },
     "error.provider.model_unavailable": {
       "sourceRevision": 3,
       "status": "draft",
@@ -331,6 +341,11 @@
         "one": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñð.~~~~~~~~~~］",
         "other": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñðš.~~~~~~~~~~］"
       }
+    },
+    "error.runtime.start_failed": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ƒåïŀëð ŧø šŧåŕŧ ŧħë çøŕë ŕûñŧïṁë: {error}~~~~~~~~~~~~~］"
     },
     "error.secret.request_channel_closed": {
       "sourceRevision": 3,
@@ -456,6 +471,66 @@
       "sourceRevision": 3,
       "status": "draft",
       "template": "［Šëçŕëŧ Šëŕṽïçë çŀëåñûþ ƒåïŀëð åƒŧëŕ þŕøƒïŀë ŕëṁøṽåŀ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.directory_create": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ðïŕëçŧøŕÿ çøûŀð ñøŧ ƀë çŕëåŧëð.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.directory_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ðïŕëçŧøŕÿ çøûŀð ñøŧ ƀë ïñšþëçŧëð.~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.directory_invalid": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ðïŕëçŧøŕÿ ïš ïñṽåŀïð.~~~~~~~~~~~~~~］"
+    },
+    "error.storage.directory_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ðïŕëçŧøŕÿ þëŕṁïššïøñš åŕë ñøŧ þŕïṽåŧë.~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.file_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ƒïŀë çøûŀð ñøŧ ƀë ïñšþëçŧëð.~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.file_open": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ƒïŀë çøûŀð ñøŧ ƀë øþëñëð.~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.file_permissions": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ƒïŀë þëŕṁïššïøñš çøûŀð ñøŧ ƀë ŕëšŧŕïçŧëð.~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.file_regular": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë ṁûšŧ ƀë å þŕïṽåŧë ŕëĝûŀåŕ ƒïŀë.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.path_absolute": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë þåŧħ ṁûšŧ ƀë åƀšøŀûŧë.~~~~~~~~~~~~~~］"
+    },
+    "error.storage.path_components_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë þåŧħ çøṁþøñëñŧš çøûŀð ñøŧ ƀë ïñšþëçŧëð.~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.path_inspect": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë þåŧħ çøûŀð ñøŧ ƀë ïñšþëçŧëð.~~~~~~~~~~~~~~~~］"
+    },
+    "error.storage.path_symlink": {
+      "sourceRevision": 7,
+      "status": "draft",
+      "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë þåŧħ çåññøŧ çøñŧåïñ šÿṁƀøŀïç ŀïñķš.~~~~~~~~~~~~~~~~~~］"
     },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
@@ -997,7 +1072,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 6,
+    "sourceRevision": 7,
     "status": "draft"
   }
 }
