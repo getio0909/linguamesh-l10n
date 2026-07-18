@@ -116,6 +116,76 @@
       "status": "draft",
       "template": "Vérifiez les identifiants de {provider}, puis réessayez."
     },
+    "error.category.authentication": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Authentication"
+    },
+    "error.category.cancellation": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Cancellation"
+    },
+    "error.category.internal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Internal"
+    },
+    "error.category.invalid_configuration": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Invalid configuration"
+    },
+    "error.category.invalid_endpoint": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Invalid endpoint"
+    },
+    "error.category.malformed_response": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Malformed response"
+    },
+    "error.category.model_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Model unavailable"
+    },
+    "error.category.network": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Network"
+    },
+    "error.category.persistence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Persistence"
+    },
+    "error.category.protocol_incompatible": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Protocol incompatible"
+    },
+    "error.category.secret_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Secret unavailable"
+    },
+    "error.category.secure_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Secure storage unavailable"
+    },
+    "error.category.timeout": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Timeout"
+    },
+    "error.category.unsupported_capability": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Unsupported capability"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -174,6 +244,91 @@
         "one": "Réessayez dans {seconds} seconde.",
         "other": "Réessayez dans {seconds} secondes."
       }
+    },
+    "error.state.busy": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "A translation is already running."
+    },
+    "error.state.connecting": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "A provider connection is still in progress."
+    },
+    "error.state.event_after_terminal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The core stream produced an event after termination."
+    },
+    "error.state.invalid_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The provider profile is disabled."
+    },
+    "error.state.invalid_saved_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The saved provider profile does not match this operation."
+    },
+    "error.state.missing_model": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Select a model before translating."
+    },
+    "error.state.missing_provider": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Connect a provider before translating."
+    },
+    "error.state.missing_source": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Enter source text before translating."
+    },
+    "error.state.model_selection_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "A model selection is still being confirmed."
+    },
+    "error.state.non_increasing_sequence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The core stream produced an out-of-order event."
+    },
+    "error.state.profile_deletion_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "A saved profile deletion is still being confirmed."
+    },
+    "error.state.profile_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "Saved profile storage is unavailable."
+    },
+    "error.state.unexpected_first_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The core stream did not begin with a started event."
+    },
+    "error.state.unexpected_model_selection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The model selection result is stale or unexpected."
+    },
+    "error.state.unexpected_profile_deletion": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The saved profile deletion result is stale or unexpected."
+    },
+    "error.state.unexpected_provider_connection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The provider connection result is stale or unexpected."
+    },
+    "error.state.unexpected_started_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "The core stream produced more than one started event."
     },
     "error.unknown": {
       "sourceRevision": 1,
@@ -620,7 +775,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 1,
+    "sourceRevision": 2,
     "status": "draft"
   }
 }

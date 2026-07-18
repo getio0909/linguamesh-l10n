@@ -1993,9 +1993,474 @@
         "template": "The core worker stopped.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a cancellation diagnostic.",
+      "key": "error.category.cancellation",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Cancellation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before an invalid endpoint diagnostic.",
+      "key": "error.category.invalid_endpoint",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Invalid endpoint",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a network diagnostic.",
+      "key": "error.category.network",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Network",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a timeout diagnostic.",
+      "key": "error.category.timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Timeout",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before an authentication diagnostic.",
+      "key": "error.category.authentication",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Authentication",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a missing-model diagnostic.",
+      "key": "error.category.model_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Model unavailable",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a malformed-response diagnostic.",
+      "key": "error.category.malformed_response",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Malformed response",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a persistence diagnostic.",
+      "key": "error.category.persistence",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Persistence",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a protocol diagnostic.",
+      "key": "error.category.protocol_incompatible",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Protocol incompatible",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a configuration diagnostic.",
+      "key": "error.category.invalid_configuration",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Invalid configuration",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before an unsupported-capability diagnostic.",
+      "key": "error.category.unsupported_capability",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Unsupported capability",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a secret-availability diagnostic.",
+      "key": "error.category.secret_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Secret unavailable",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before a secure-storage diagnostic.",
+      "key": "error.category.secure_storage_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Secure storage unavailable",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error category shown before an internal diagnostic.",
+      "key": "error.category.internal",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Internal",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation error shown when translation starts without source text.",
+      "key": "error.state.missing_source",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Enter source text before translating.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation error shown when translation starts without a selected model.",
+      "key": "error.state.missing_model",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Select a model before translating.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown while a model selection is awaiting confirmation.",
+      "key": "error.state.model_selection_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "A model selection is still being confirmed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown for a stale or unexpected model selection result.",
+      "key": "error.state.unexpected_model_selection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The model selection result is stale or unexpected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when the provider profile is disabled.",
+      "key": "error.state.invalid_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The provider profile is disabled.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation error shown when translation starts without a provider.",
+      "key": "error.state.missing_provider",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Connect a provider before translating.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown for a stale or unexpected provider connection result.",
+      "key": "error.state.unexpected_provider_connection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The provider connection result is stale or unexpected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when another translation is already running.",
+      "key": "error.state.busy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "A translation is already running.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown while a provider connection is still in progress.",
+      "key": "error.state.connecting",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "A provider connection is still in progress.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when a saved provider profile does not match the operation.",
+      "key": "error.state.invalid_saved_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The saved provider profile does not match this operation.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when saved profile storage is unavailable.",
+      "key": "error.state.profile_storage_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "Saved profile storage is unavailable.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown while a saved profile deletion awaits confirmation.",
+      "key": "error.state.profile_deletion_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "A saved profile deletion is still being confirmed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown for a stale or unexpected saved profile deletion result.",
+      "key": "error.state.unexpected_profile_deletion",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The saved profile deletion result is stale or unexpected.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when the core stream does not begin with a started event.",
+      "key": "error.state.unexpected_first_event",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The core stream did not begin with a started event.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when the core stream repeats its started event.",
+      "key": "error.state.unexpected_started_event",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The core stream produced more than one started event.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when core event sequence numbers are out of order.",
+      "key": "error.state.non_increasing_sequence",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The core stream produced an out-of-order event.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State error shown when the core stream emits after termination.",
+      "key": "error.state.event_after_terminal",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 2,
+      "status": "source",
+      "value": {
+        "template": "The core stream produced an event after termination.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 1
+  "sourceRevision": 2
 }

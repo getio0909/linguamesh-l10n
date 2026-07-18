@@ -126,6 +126,76 @@
       "status": "draft",
       "template": "تحقق من بيانات اعتماد {provider} وحاول مرة أخرى."
     },
+    "error.category.authentication": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "المصادقة"
+    },
+    "error.category.cancellation": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "إلغاء"
+    },
+    "error.category.internal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "خطأ داخلي"
+    },
+    "error.category.invalid_configuration": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "إعداد غير صالح"
+    },
+    "error.category.invalid_endpoint": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "نقطة نهاية غير صالحة"
+    },
+    "error.category.malformed_response": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "استجابة غير سليمة"
+    },
+    "error.category.model_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "النموذج غير متاح"
+    },
+    "error.category.network": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "الشبكة"
+    },
+    "error.category.persistence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "الحفظ"
+    },
+    "error.category.protocol_incompatible": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "البروتوكول غير متوافق"
+    },
+    "error.category.secret_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "السر غير متاح"
+    },
+    "error.category.secure_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "التخزين الآمن غير متاح"
+    },
+    "error.category.timeout": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "انتهاء المهلة"
+    },
+    "error.category.unsupported_capability": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "إمكانات غير مدعومة"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -187,6 +257,91 @@
         "two": "أعد المحاولة بعد ثانيتين ({seconds}).",
         "zero": "أعد المحاولة الآن ({seconds} ثانية)."
       }
+    },
+    "error.state.busy": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "هناك ترجمة قيد التشغيل بالفعل."
+    },
+    "error.state.connecting": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "لا يزال الاتصال بموفر الخدمة قيد التنفيذ."
+    },
+    "error.state.event_after_terminal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "أنتج تدفق النواة حدثًا بعد الإنهاء."
+    },
+    "error.state.invalid_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "ملف موفر الخدمة معطل."
+    },
+    "error.state.invalid_saved_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "ملف موفر الخدمة المحفوظ لا يطابق هذه العملية."
+    },
+    "error.state.missing_model": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "اختر نموذجًا قبل الترجمة."
+    },
+    "error.state.missing_provider": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "اتصل بموفر خدمة قبل الترجمة."
+    },
+    "error.state.missing_source": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "أدخل النص المصدر قبل الترجمة."
+    },
+    "error.state.model_selection_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "لا يزال اختيار النموذج قيد التأكيد."
+    },
+    "error.state.non_increasing_sequence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "أنتج تدفق النواة حدثًا خارج الترتيب."
+    },
+    "error.state.profile_deletion_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "لا يزال حذف ملف التعريف المحفوظ قيد التأكيد."
+    },
+    "error.state.profile_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "تخزين ملفات التعريف المحفوظة غير متاح."
+    },
+    "error.state.unexpected_first_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "لم يبدأ تدفق النواة بحدث البدء."
+    },
+    "error.state.unexpected_model_selection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "نتيجة اختيار النموذج قديمة أو غير متوقعة."
+    },
+    "error.state.unexpected_profile_deletion": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "نتيجة حذف ملف التعريف المحفوظ قديمة أو غير متوقعة."
+    },
+    "error.state.unexpected_provider_connection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "نتيجة اتصال موفر الخدمة قديمة أو غير متوقعة."
+    },
+    "error.state.unexpected_started_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "أنتج تدفق النواة أكثر من حدث بدء واحد."
     },
     "error.unknown": {
       "sourceRevision": 1,
@@ -633,7 +788,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 1,
+    "sourceRevision": 2,
     "status": "draft"
   }
 }

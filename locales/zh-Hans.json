@@ -111,6 +111,76 @@
       "status": "draft",
       "template": "请检查 {provider} 的凭据，然后重试。"
     },
+    "error.category.authentication": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "身份验证"
+    },
+    "error.category.cancellation": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "取消"
+    },
+    "error.category.internal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "内部错误"
+    },
+    "error.category.invalid_configuration": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "配置无效"
+    },
+    "error.category.invalid_endpoint": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "端点无效"
+    },
+    "error.category.malformed_response": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "响应格式错误"
+    },
+    "error.category.model_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "模型不可用"
+    },
+    "error.category.network": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "网络"
+    },
+    "error.category.persistence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "持久化"
+    },
+    "error.category.protocol_incompatible": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "协议不兼容"
+    },
+    "error.category.secret_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "机密不可用"
+    },
+    "error.category.secure_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "安全存储不可用"
+    },
+    "error.category.timeout": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "超时"
+    },
+    "error.category.unsupported_capability": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "不支持的能力"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -167,6 +237,91 @@
       "variants": {
         "other": "请在 {seconds} 秒后重试。"
       }
+    },
+    "error.state.busy": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "翻译已在运行。"
+    },
+    "error.state.connecting": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "提供商连接仍在进行中。"
+    },
+    "error.state.event_after_terminal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "核心流在终止后仍产生了事件。"
+    },
+    "error.state.invalid_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "提供商配置已禁用。"
+    },
+    "error.state.invalid_saved_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "已保存的提供商配置与当前操作不匹配。"
+    },
+    "error.state.missing_model": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "翻译前请选择模型。"
+    },
+    "error.state.missing_provider": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "翻译前请先连接提供商。"
+    },
+    "error.state.missing_source": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "翻译前请输入源文本。"
+    },
+    "error.state.model_selection_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "模型选择仍在等待确认。"
+    },
+    "error.state.non_increasing_sequence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "核心流产生了乱序事件。"
+    },
+    "error.state.profile_deletion_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "已保存配置删除仍在等待确认。"
+    },
+    "error.state.profile_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "已保存配置存储不可用。"
+    },
+    "error.state.unexpected_first_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "核心流未以 started 事件开始。"
+    },
+    "error.state.unexpected_model_selection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "模型选择结果已过期或异常。"
+    },
+    "error.state.unexpected_profile_deletion": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "已保存配置删除结果已过期或异常。"
+    },
+    "error.state.unexpected_provider_connection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "提供商连接结果已过期或异常。"
+    },
+    "error.state.unexpected_started_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "核心流产生了多个 started 事件。"
     },
     "error.unknown": {
       "sourceRevision": 1,
@@ -613,7 +768,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 1,
+    "sourceRevision": 2,
     "status": "draft"
   }
 }

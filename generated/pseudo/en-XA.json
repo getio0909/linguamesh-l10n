@@ -114,6 +114,76 @@
       "status": "draft",
       "template": "［Çħëçķ ŧħë çŕëðëñŧïåŀš ƒøŕ {provider} åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
     },
+    "error.category.authentication": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Åûŧħëñŧïçåŧïøñ~~~~］"
+    },
+    "error.category.cancellation": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Çåñçëŀŀåŧïøñ~~~~］"
+    },
+    "error.category.internal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ïñŧëŕñåŀ~~］"
+    },
+    "error.category.invalid_configuration": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ïñṽåŀïð çøñƒïĝûŕåŧïøñ~~~~~~~］"
+    },
+    "error.category.invalid_endpoint": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ïñṽåŀïð ëñðþøïñŧ~~~~~］"
+    },
+    "error.category.malformed_response": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ṁåŀƒøŕṁëð ŕëšþøñšë~~~~~~］"
+    },
+    "error.category.model_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ṁøðëŀ ûñåṽåïŀåƀŀë~~~~~］"
+    },
+    "error.category.network": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ñëŧŵøŕķ~~］"
+    },
+    "error.category.persistence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Þëŕšïšŧëñçë~~~］"
+    },
+    "error.category.protocol_incompatible": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Þŕøŧøçøŀ ïñçøṁþåŧïƀŀë~~~~~~~］"
+    },
+    "error.category.secret_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Šëçŕëŧ ûñåṽåïŀåƀŀë~~~~~~］"
+    },
+    "error.category.secure_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Šëçûŕë šŧøŕåĝë ûñåṽåïŀåƀŀë~~~~~~~~］"
+    },
+    "error.category.timeout": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧïṁëøûŧ~~］"
+    },
+    "error.category.unsupported_capability": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ûñšûþþøŕŧëð çåþåƀïŀïŧÿ~~~~~~~］"
+    },
     "error.file_open": {
       "sourceRevision": 1,
       "status": "draft",
@@ -171,6 +241,91 @@
         "one": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñð.~~~~~~~~~~］",
         "other": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñðš.~~~~~~~~~~］"
       }
+    },
+    "error.state.busy": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Å ŧŕåñšŀåŧïøñ ïš åŀŕëåðÿ ŕûññïñĝ.~~~~~~~~~~~］"
+    },
+    "error.state.connecting": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Å þŕøṽïðëŕ çøññëçŧïøñ ïš šŧïŀŀ ïñ þŕøĝŕëšš.~~~~~~~~~~~~~~］"
+    },
+    "error.state.event_after_terminal": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë šŧŕëåṁ þŕøðûçëð åñ ëṽëñŧ åƒŧëŕ ŧëŕṁïñåŧïøñ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.invalid_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë þŕøṽïðëŕ þŕøƒïŀë ïš ðïšåƀŀëð.~~~~~~~~~~~］"
+    },
+    "error.state.invalid_saved_profile": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë šåṽëð þŕøṽïðëŕ þŕøƒïŀë ðøëš ñøŧ ṁåŧçħ ŧħïš øþëŕåŧïøñ.~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.missing_model": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Šëŀëçŧ å ṁøðëŀ ƀëƒøŕë ŧŕåñšŀåŧïñĝ.~~~~~~~~~~~］"
+    },
+    "error.state.missing_provider": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Çøññëçŧ å þŕøṽïðëŕ ƀëƒøŕë ŧŕåñšŀåŧïñĝ.~~~~~~~~~~~~］"
+    },
+    "error.state.missing_source": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ëñŧëŕ šøûŕçë ŧëẋŧ ƀëƒøŕë ŧŕåñšŀåŧïñĝ.~~~~~~~~~~~~］"
+    },
+    "error.state.model_selection_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Å ṁøðëŀ šëŀëçŧïøñ ïš šŧïŀŀ ƀëïñĝ çøñƒïŕṁëð.~~~~~~~~~~~~~~］"
+    },
+    "error.state.non_increasing_sequence": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë šŧŕëåṁ þŕøðûçëð åñ øûŧ-øƒ-øŕðëŕ ëṽëñŧ.~~~~~~~~~~~~~~~］"
+    },
+    "error.state.profile_deletion_pending": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Å šåṽëð þŕøƒïŀë ðëŀëŧïøñ ïš šŧïŀŀ ƀëïñĝ çøñƒïŕṁëð.~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.profile_storage_unavailable": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀë šŧøŕåĝë ïš ûñåṽåïŀåƀŀë.~~~~~~~~~~~~］"
+    },
+    "error.state.unexpected_first_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë šŧŕëåṁ ðïð ñøŧ ƀëĝïñ ŵïŧħ å šŧåŕŧëð ëṽëñŧ.~~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.unexpected_model_selection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë ṁøðëŀ šëŀëçŧïøñ ŕëšûŀŧ ïš šŧåŀë øŕ ûñëẋþëçŧëð.~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.unexpected_profile_deletion": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë šåṽëð þŕøƒïŀë ðëŀëŧïøñ ŕëšûŀŧ ïš šŧåŀë øŕ ûñëẋþëçŧëð.~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.unexpected_provider_connection": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë þŕøṽïðëŕ çøññëçŧïøñ ŕëšûŀŧ ïš šŧåŀë øŕ ûñëẋþëçŧëð.~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.state.unexpected_started_event": {
+      "sourceRevision": 2,
+      "status": "draft",
+      "template": "［Ŧħë çøŕë šŧŕëåṁ þŕøðûçëð ṁøŕë ŧħåñ øñë šŧåŕŧëð ëṽëñŧ.~~~~~~~~~~~~~~~~~］"
     },
     "error.unknown": {
       "sourceRevision": 1,
@@ -617,7 +772,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 1,
+    "sourceRevision": 2,
     "status": "draft"
   }
 }
