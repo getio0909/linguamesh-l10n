@@ -32,7 +32,7 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `msgfmt --check --check-format -o /dev/null generated/linux/*/LC_MESSAGES/linguamesh.po` was run for each of the 14 official/pseudo PO catalogs; all passed without warnings.
 - Android AAPT2 `2.20-15703166` compiled all 14 generated Android resource files; parsing all 28 generated Android and Windows XML files with Python `xml.etree.ElementTree` also succeeded.
 - `jq` confirmed 83 native message keys in the macOS String Catalog, 45 files in the generated manifest, and 107 canonical entries in every official locale pack; the Linux PO catalogs contain the new status, text-import, provider-profile, onboarding, active-provider, notification, and draft-note keys.
-- Two consecutive unchanged builds produced SHA-256 `f156183ee8083b6b587a64a5be0e4e8d5f0ae5338c35dbb1cfd11c6f17d00338` for `dist/linguamesh-l10n-0.1.0.zip` after adding the active-provider, notification, and draft-locale messages.
+- Two consecutive unchanged builds produced SHA-256 `9eb7acda3347cf9fede9eadf158cda2c233cfbd8399b45ffc4497f0802e32777` for `dist/linguamesh-l10n-0.1.0.zip` after adding the active-provider, notification, and draft-locale messages.
 - `git diff --check` exited successfully.
 - The first `make check` run correctly detected stale generated resources after the catalog edit; `make generate` refreshed them and the subsequent full `make check` passed.
 - GitHub Actions foundation run `29552975874` and localization run `29552975875` passed
