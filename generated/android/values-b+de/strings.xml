@@ -21,8 +21,8 @@
     <string name="accessibility_stop_translation">Übersetzung stoppen</string>
     <string name="locale_current">Oberflächensprache: %1$s</string>
     <string name="error_network_unavailable">Prüfen Sie die Netzwerkverbindung und versuchen Sie es erneut.</string>
-    <string name="onboarding_title">Connect a translation provider</string>
-    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
+    <string name="onboarding_title">Übersetzungsanbieter verbinden</string>
+    <string name="onboarding_description">Ihre Inhalte werden direkt an den konfigurierten Anbieter gesendet. LinguaMesh enthält niemals einen API-Schlüssel.</string>
     <string name="provider_name">Anbietername</string>
     <string name="field_endpoint">Endpunkt</string>
     <string name="field_model">Modell</string>

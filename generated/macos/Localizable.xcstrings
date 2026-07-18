@@ -2972,7 +2972,7 @@
         "ar": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "يُرسل محتواك مباشرةً إلى المزوّد الذي تضبطه. لا يتضمن LinguaMesh أي مفتاح API."
           }
         },
         "ar-XB": {
@@ -2984,7 +2984,7 @@
         "de": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "Ihre Inhalte werden direkt an den konfigurierten Anbieter gesendet. LinguaMesh enthält niemals einen API-Schlüssel."
           }
         },
         "en": {
@@ -3002,55 +3002,55 @@
         "es": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "Tu contenido se envía directamente al proveedor que configures. LinguaMesh nunca incluye una clave de API."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "Votre contenu est envoyé directement au fournisseur que vous configurez. LinguaMesh n’intègre jamais de clé API."
           }
         },
         "hi": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "आपकी सामग्री सीधे आपके कॉन्फ़िगर किए गए प्रदाता के पास जाती है। LinguaMesh में कोई API कुंजी शामिल नहीं होती।"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "コンテンツは設定したプロバイダーに直接送信されます。LinguaMesh に API キーは組み込まれていません。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "콘텐츠는 설정한 제공업체로 직접 전송됩니다. LinguaMesh에는 API 키가 포함되어 있지 않습니다."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "Seu conteúdo vai diretamente para o provedor configurado. O LinguaMesh nunca inclui uma chave de API."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "Ваш контент отправляется напрямую настроенному поставщику. LinguaMesh не содержит встроенных ключей API."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "new",
-            "value": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+            "value": "你的內容會直接傳送給你設定的服務供應商。LinguaMesh 不內建任何 API 金鑰。"
           }
         }
       }
@@ -3062,7 +3062,7 @@
         "ar": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "الاتصال بمزوّد ترجمة"
           }
         },
         "ar-XB": {
@@ -3074,7 +3074,7 @@
         "de": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "Übersetzungsanbieter verbinden"
           }
         },
         "en": {
@@ -3092,55 +3092,55 @@
         "es": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "Conectar un proveedor de traducción"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "Connecter un fournisseur de traduction"
           }
         },
         "hi": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "अनुवाद प्रदाता से कनेक्ट करें"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "翻訳プロバイダーに接続"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "번역 제공업체 연결"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "Conectar um provedor de tradução"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "Подключить поставщика перевода"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "连接翻译服务提供商"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "new",
-            "value": "Connect a translation provider"
+            "value": "連接翻譯服務供應商"
           }
         }
       }

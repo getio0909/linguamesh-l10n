@@ -21,8 +21,8 @@
     <string name="accessibility_stop_translation">अनुवाद रोकें</string>
     <string name="locale_current">इंटरफ़ेस भाषा: %1$s</string>
     <string name="error_network_unavailable">अपना नेटवर्क कनेक्शन जाँचें और फिर से कोशिश करें।</string>
-    <string name="onboarding_title">Connect a translation provider</string>
-    <string name="onboarding_description">Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</string>
+    <string name="onboarding_title">अनुवाद प्रदाता से कनेक्ट करें</string>
+    <string name="onboarding_description">आपकी सामग्री सीधे आपके कॉन्फ़िगर किए गए प्रदाता के पास जाती है। LinguaMesh में कोई API कुंजी शामिल नहीं होती।</string>
     <string name="provider_name">प्रदाता का नाम</string>
     <string name="field_endpoint">एंडपॉइंट</string>
     <string name="field_model">मॉडल</string>

@@ -108,13 +108,13 @@ msgstr "请检查网络连接，然后重试。"
 #, fuzzy
 msgctxt "onboarding.title"
 msgid "Connect a translation provider"
-msgstr "Connect a translation provider"
+msgstr "连接翻译服务提供商"
 
 #. Privacy explanation shown during initial provider setup.
 #, fuzzy
 msgctxt "onboarding.description"
 msgid "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
-msgstr "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+msgstr "你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。"
 
 #. Label for the provider profile name field.
 #, fuzzy

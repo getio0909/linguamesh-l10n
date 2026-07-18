@@ -205,7 +205,7 @@
     "onboarding.description": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "Your content goes directly to the provider you configure. LinguaMesh never bundles an API key."
+      "template": "你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。"
     },
     "onboarding.detail.configure_empty": {
       "sourceRevision": 1,
@@ -295,7 +295,7 @@
     "onboarding.title": {
       "sourceRevision": 1,
       "status": "draft",
-      "template": "Connect a translation provider"
+      "template": "连接翻译服务提供商"
     },
     "option.model.select": {
       "sourceRevision": 1,

@@ -73,11 +73,11 @@
         <comment>Actionable error shown when a remote provider cannot be reached. Translation status: draft.</comment>
     </data>
     <data name="onboarding.title" xml:space="preserve">
-        <value>Connect a translation provider</value>
+        <value>连接翻译服务提供商</value>
         <comment>Heading for the initial provider setup screen. Translation status: draft.</comment>
     </data>
     <data name="onboarding.description" xml:space="preserve">
-        <value>Your content goes directly to the provider you configure. LinguaMesh never bundles an API key.</value>
+        <value>你的内容会直接发送给你配置的服务提供商。LinguaMesh 不内置任何 API 密钥。</value>
         <comment>Privacy explanation shown during initial provider setup. Translation status: draft.</comment>
     </data>
     <data name="provider.name" xml:space="preserve">
