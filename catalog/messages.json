@@ -6044,9 +6044,159 @@
         "template": "Reject candidates that cannot return real streamed deltas",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the provider allowlist routing constraint.",
+      "key": "label.routing_provider_allowlist",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Provider allowlist",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the provider denylist routing constraint.",
+      "key": "label.routing_provider_denylist",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Provider denylist",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the model allowlist routing constraint.",
+      "key": "label.routing_model_allowlist",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Model allowlist",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the model denylist routing constraint.",
+      "key": "label.routing_model_denylist",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Model denylist",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the minimum quality tier routing constraint.",
+      "key": "label.routing_minimum_quality",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Minimum quality tier",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the maximum request byte routing constraint.",
+      "key": "label.routing_max_request_bytes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Maximum request bytes",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for comma-separated provider and model routing identifier lists.",
+      "key": "tooltip.routing_identifier_list",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Comma-separated provider or model identifiers; leave blank for no list",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the minimum quality tier routing constraint.",
+      "key": "tooltip.routing_minimum_quality",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Leave blank to accept every quality tier",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the maximum request byte routing constraint.",
+      "key": "tooltip.routing_max_request_bytes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Leave blank for no profile-level request size limit; otherwise use a positive byte count",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Error shown when routing list or numeric constraint input is invalid.",
+      "key": "error.routing_constraints_invalid",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 36,
+      "status": "source",
+      "value": {
+        "template": "Use comma-separated ASCII identifiers and positive numeric limits.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 35
+  "sourceRevision": 36
 }

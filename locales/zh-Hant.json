@@ -703,6 +703,11 @@
         "other": "請在 {seconds} 秒後再試一次。"
       }
     },
+    "error.routing_constraints_invalid": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Use comma-separated ASCII identifiers and positive numeric limits."
+    },
     "error.routing_profile_id_exists": {
       "sourceRevision": 33,
       "status": "draft",
@@ -1027,6 +1032,26 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.routing_max_request_bytes": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Maximum request bytes"
+    },
+    "label.routing_minimum_quality": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Minimum quality tier"
+    },
+    "label.routing_model_allowlist": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Model allowlist"
+    },
+    "label.routing_model_denylist": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Model denylist"
+    },
     "label.routing_preference": {
       "sourceRevision": 35,
       "status": "draft",
@@ -1036,6 +1061,16 @@
       "sourceRevision": 32,
       "status": "draft",
       "template": "路由設定 ID"
+    },
+    "label.routing_provider_allowlist": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Provider allowlist"
+    },
+    "label.routing_provider_denylist": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Provider denylist"
     },
     "label.saved_profile": {
       "sourceRevision": 1,
@@ -1822,10 +1857,25 @@
       "status": "draft",
       "template": "允許此設定檔向非本機提供者傳送內容"
     },
+    "tooltip.routing_identifier_list": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Comma-separated provider or model identifiers; leave blank for no list"
+    },
     "tooltip.routing_local_only": {
       "sourceRevision": 35,
       "status": "draft",
       "template": "拒絕非本機回環端點的已儲存提供者"
+    },
+    "tooltip.routing_max_request_bytes": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Leave blank for no profile-level request size limit; otherwise use a positive byte count"
+    },
+    "tooltip.routing_minimum_quality": {
+      "sourceRevision": 36,
+      "status": "draft",
+      "template": "Leave blank to accept every quality tier"
     },
     "tooltip.routing_preference": {
       "sourceRevision": 35,
@@ -1913,7 +1963,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 35,
+    "sourceRevision": 36,
     "status": "draft"
   }
 }

@@ -4,6 +4,14 @@ Status date: 2026-07-19
 
 ## Implemented
 
+- Added nine Linux-only routing constraint messages at source revision 36 for provider/model
+  allowlists and denylists, minimum quality, maximum request bytes, list/limit tooltips, and invalid
+  input errors. All twelve official packs carry the keys, and the catalog now contains 387 messages.
+- `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte
+  regeneration, deterministic bundle build, and foundation validation after the routing constraint
+  update. The first test run correctly detected stale generated resources; `make generate` refreshed
+  all 59 artifacts before the passing run.
+
 - Added seventeen Linux-only routing preference and privacy/capability constraint messages at source
   revision 35. All twelve official packs carry the keys, and the catalog now contains 377 messages.
 - `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte
