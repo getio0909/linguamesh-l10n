@@ -4,7 +4,7 @@ Status date: 2026-07-19
 
 ## Implemented
 
-- Added nine Linux-only routing constraint messages at source revision 36 for provider/model
+- Added ten Linux-only routing constraint messages at source revision 36 for provider/model
   allowlists and denylists, minimum quality, maximum request bytes, list/limit tooltips, and invalid
   input errors. All twelve official packs carry the keys, and the catalog now contains 387 messages.
 - `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte
