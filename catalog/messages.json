@@ -5331,9 +5331,24 @@
         "template": "Drag fixture",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for the built-in Linux native Ollama provider profile.",
+      "key": "profile.default_ollama_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 26,
+      "status": "source",
+      "value": {
+        "template": "Local Ollama provider",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 25
+  "sourceRevision": 26
 }

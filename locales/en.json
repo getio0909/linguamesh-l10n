@@ -1201,6 +1201,11 @@
       "status": "source",
       "template": "Local OpenAI-compatible provider"
     },
+    "profile.default_ollama_name": {
+      "sourceRevision": 26,
+      "status": "source",
+      "template": "Local Ollama provider"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "source",
@@ -1697,7 +1702,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 25,
+    "sourceRevision": 26,
     "status": "source"
   }
 }

@@ -5,7 +5,7 @@ Status date: 2026-07-19
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 333 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, the localized default provider name, request-level glossary controls, Secret Service prompt dismissal errors, the Linux GTK drag-fixture label, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 334 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, localized default provider names, request-level glossary controls, Secret Service prompt dismissal errors, the Linux GTK drag-fixture label, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -111,6 +111,24 @@ while the credential and prompt result remain outside logs and localization payl
 
 Native consumers must pin this revision before claiming runtime evidence. Human review,
 complete production copy coverage, and stable release qualification remain open.
+
+## 2026-07-19 — Linux built-in Ollama profile-name localization checkpoint
+
+Assumption: built-in provider display names are user-visible Linux form values, so both the
+OpenAI-compatible and native Ollama defaults must resolve through the canonical catalog while
+user-edited names remain untouched.
+
+- Added the Linux-only `profile.default_ollama_name` message at source revision 26 and routed
+  built-in profile initialization/switching through the localized default-name helper.
+- Regenerated all 59 deterministic native resources and both pseudo-locales. Bundle SHA-256 is
+  `028d25b3637fbc19d41d497a860b414353615b9576db6f852a9f236bcbe770ce`.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup,
+  formatting, schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle
+  build, and foundation validation.
+
+Native Linux must pin this revision before claiming the updated provider-name evidence. Human
+translated-copy review, visual/RTL review, Orca speech review, and stable-release qualification
+remain open.
 
 ## 2026-07-19 — Linux GTK fixture localization checkpoint
 

@@ -1217,6 +1217,11 @@
       "status": "draft",
       "template": "⁧⟦Local OpenAI-compatible provider⟧⁩"
     },
+    "profile.default_ollama_name": {
+      "sourceRevision": 26,
+      "status": "draft",
+      "template": "⁧⟦Local Ollama provider⟧⁩"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1713,7 +1718,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 25,
+    "sourceRevision": 26,
     "status": "draft"
   }
 }

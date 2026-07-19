@@ -1197,6 +1197,11 @@
       "status": "draft",
       "template": "本機 OpenAI 相容提供商"
     },
+    "profile.default_ollama_name": {
+      "sourceRevision": 26,
+      "status": "draft",
+      "template": "本地 Ollama 提供者"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1693,7 +1698,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 25,
+    "sourceRevision": 26,
     "status": "draft"
   }
 }

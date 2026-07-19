@@ -1201,6 +1201,11 @@
       "status": "draft",
       "template": "［Ŀøçåŀ ØþëñÅÏ-çøṁþåŧïƀŀë þŕøṽïðëŕ~~~~~~~~~~］"
     },
+    "profile.default_ollama_name": {
+      "sourceRevision": 26,
+      "status": "draft",
+      "template": "［Ŀøçåŀ Øŀŀåṁå þŕøṽïðëŕ~~~~~~~］"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1697,7 +1702,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 25,
+    "sourceRevision": 26,
     "status": "draft"
   }
 }
