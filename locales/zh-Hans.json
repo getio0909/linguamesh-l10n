@@ -703,6 +703,11 @@
         "other": "请在 {seconds} 秒后重试。"
       }
     },
+    "error.routing_profile_id_exists": {
+      "sourceRevision": 33,
+      "status": "draft",
+      "template": "具有此 ID 的路由配置已存在。请编辑它或选择其他 ID。"
+    },
     "error.routing_profile_id_invalid": {
       "sourceRevision": 32,
       "status": "draft",
@@ -1818,7 +1823,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 32,
+    "sourceRevision": 33,
     "status": "draft"
   }
 }

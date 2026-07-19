@@ -5708,6 +5708,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Fixed error shown when a new Linux routing planner profile reuses an existing identifier.",
+      "key": "error.routing_profile_id_exists",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 33,
+      "status": "source",
+      "value": {
+        "template": "A routing profile with this ID already exists. Edit it or choose another ID.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Localized label for manual routing mode.",
       "key": "routing.mode.manual",
       "placeholders": {},
@@ -5754,5 +5769,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 32
+  "sourceRevision": 33
 }

@@ -723,6 +723,11 @@
         "zero": "⁧⟦Try again in {seconds} seconds.⟧⁩"
       }
     },
+    "error.routing_profile_id_exists": {
+      "sourceRevision": 33,
+      "status": "draft",
+      "template": "⁧⟦A routing profile with this ID already exists. Edit it or choose another ID.⟧⁩"
+    },
     "error.routing_profile_id_invalid": {
       "sourceRevision": 32,
       "status": "draft",
@@ -1838,7 +1843,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 32,
+    "sourceRevision": 33,
     "status": "draft"
   }
 }

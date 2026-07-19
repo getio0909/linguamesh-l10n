@@ -4,12 +4,16 @@ Status date: 2026-07-19
 
 ## Implemented
 
+- Added the Linux-only duplicate routing-profile ID error at source revision 33. All 12 official
+  packs carry the key, and the 359-message catalog regenerates all 59 deterministic resources.
+- `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte
+  regeneration, deterministic bundle build, and foundation validation.
 - A Linux-only routing-profile ID field with Core-compatible 1–128 byte ASCII validation;
   source revision 32 adds the label and invalid-ID error to all 12 official locale packs.
-- Regenerated 59 deterministic native resources and both pseudo-locales for the 358-message
+- Regenerated 59 deterministic native resources and both pseudo-locales for the 359-message
   catalog; `make check` passes all 26 tests and foundation validation.
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 358 messages, including Linux-only status announcements, document-job row metadata and state labels, stored-entry metadata, active-provider mode summaries, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, localized default provider names, request-level glossary controls, Secret Service prompt dismissal errors, Linux GTK drag-fixture and text-retry actions, routing-profile editing and IDs, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 359 messages, including Linux-only status announcements, document-job row metadata and state labels, stored-entry metadata, active-provider mode summaries, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, localized default provider names, request-level glossary controls, Secret Service prompt dismissal errors, Linux GTK drag-fixture and text-retry actions, routing-profile editing, IDs, and duplicate-ID protection, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
