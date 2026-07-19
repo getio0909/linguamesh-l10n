@@ -5,7 +5,7 @@ Status date: 2026-07-19
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 334 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, localized default provider names, request-level glossary controls, Secret Service prompt dismissal errors, the Linux GTK drag-fixture label, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 336 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, localized default provider names, request-level glossary controls, Secret Service prompt dismissal errors, Linux GTK drag-fixture and text-retry actions, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -45,6 +45,18 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 
 This checkpoint remains a development bundle rather than a stable release. Native-consumer
 evidence remains pending until each client revision passes its own ingestion checks.
+
+## 2026-07-19 — Linux text retry action checkpoint
+
+Assumption: a failed or cancelled ordinary text request must be explicitly retryable without
+creating a document job or changing the confirmed provider/model selection.
+
+- Added Linux-only `action.retry_translation` and `tooltip.retry_translation` messages to all
+  official packs and both pseudo-locales; non-English values remain machine-generated drafts.
+- Regenerated the 59 deterministic native resources. `make lint`, `make test` (26 tests), and
+  `make generate-check` passed after refreshing the generated tree.
+- Linux consumes this catalog through its immutable revision and exposes the action only for
+  failed/cancelled text requests; human copy review, other clients, and stable release remain open.
 
 ## 2026-07-19 — Linux optional OCR localization checkpoint
 
