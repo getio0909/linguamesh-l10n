@@ -48,3 +48,15 @@ provider profiles; richer CSV/TBX import and cross-platform glossary UX remain l
 - [x] Regenerate all 59 deterministic native resource artifacts and pseudo-locales.
 - [x] Validate the 211-message catalog and deterministic bundle checksum
   `116a9cdedd8b0a3d31171b365969b745681e50257e183b40aa2c37c77f1e6d91`.
+
+## Linux glossary rule-validation copy
+
+Assumption: request-level glossary syntax, credential-like data rejection, and conflicting-rule
+errors are stable user-facing Linux messages and should use dedicated catalog keys rather than
+falling back to the generic English diagnostic.
+
+- [x] Add three Linux-only canonical validation messages and draft values to all official packs.
+- [x] Regenerate all 59 deterministic native resources and both pseudo-locales.
+- [x] Run `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check`; schema lint,
+  26 tests, regeneration, bundle build, and foundation validation passed.
+- [x] Bundle checksum: `c8bd6b0464ebbfa015988a4fc0cfd30b1f9e28d9e1aad19b8c50d36976128e8f`.

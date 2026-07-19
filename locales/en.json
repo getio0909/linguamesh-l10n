@@ -389,6 +389,21 @@
       "status": "source",
       "template": "The glossary CSV could not be imported."
     },
+    "error.glossary_rule_conflict": {
+      "sourceRevision": 19,
+      "status": "source",
+      "template": "Glossary entries conflict."
+    },
+    "error.glossary_rule_invalid": {
+      "sourceRevision": 19,
+      "status": "source",
+      "template": "Glossary entries contain invalid or credential-like data."
+    },
+    "error.glossary_rule_syntax": {
+      "sourceRevision": 19,
+      "status": "source",
+      "template": "Glossary entries must use the form source => target."
+    },
     "error.history_export": {
       "sourceRevision": 11,
       "status": "source",
@@ -1462,7 +1477,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 18,
+    "sourceRevision": 19,
     "status": "source"
   }
 }
