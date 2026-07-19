@@ -116,6 +116,16 @@
       "status": "draft",
       "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
     },
+    "action.move_candidate_down": {
+      "sourceRevision": 30,
+      "status": "draft",
+      "template": "［Ṁøṽë çåñðïðåŧë ðøŵñ~~~~~~］"
+    },
+    "action.move_candidate_up": {
+      "sourceRevision": 30,
+      "status": "draft",
+      "template": "［Ṁøṽë çåñðïðåŧë ûþ~~~~~］"
+    },
     "action.open_output": {
       "sourceRevision": 17,
       "status": "draft",
@@ -1792,7 +1802,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 29,
+    "sourceRevision": 30,
     "status": "draft"
   }
 }

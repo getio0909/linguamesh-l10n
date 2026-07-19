@@ -5514,6 +5514,36 @@
       }
     },
     {
+      "accessibilityContext": "button",
+      "description": "Accessible label for moving a Linux routing candidate down in the Ordered sequence.",
+      "key": "action.move_candidate_down",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 30,
+      "status": "source",
+      "value": {
+        "template": "Move candidate down",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "button",
+      "description": "Accessible label for moving a Linux routing candidate up in the Ordered sequence.",
+      "key": "action.move_candidate_up",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 30,
+      "status": "source",
+      "value": {
+        "template": "Move candidate up",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": null,
       "description": "Selects one saved Linux routing planner profile for ordinary text translation.",
       "key": "action.use_routing_profile",
@@ -5664,5 +5694,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 29
+  "sourceRevision": 30
 }

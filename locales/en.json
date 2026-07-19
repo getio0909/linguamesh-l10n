@@ -116,6 +116,16 @@
       "status": "source",
       "template": "Import glossary"
     },
+    "action.move_candidate_down": {
+      "sourceRevision": 30,
+      "status": "source",
+      "template": "Move candidate down"
+    },
+    "action.move_candidate_up": {
+      "sourceRevision": 30,
+      "status": "source",
+      "template": "Move candidate up"
+    },
     "action.open_output": {
       "sourceRevision": 17,
       "status": "source",
@@ -1792,7 +1802,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 29,
+    "sourceRevision": 30,
     "status": "source"
   }
 }
