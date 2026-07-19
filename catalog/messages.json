@@ -5214,6 +5214,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Label for the most recent ordinary-text routing decision.",
+      "key": "diagnostics.routing_decision",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 29,
+      "status": "source",
+      "value": {
+        "template": "Routing decision",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Label for the application status in diagnostics.",
       "key": "diagnostics.status",
       "placeholders": {},
@@ -5500,6 +5515,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Selects one saved Linux routing planner profile for ordinary text translation.",
+      "key": "action.use_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 29,
+      "status": "source",
+      "value": {
+        "template": "Use",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Title of the Linux routing planner profile dialog.",
       "key": "dialog.routing_profiles",
       "placeholders": {},
@@ -5634,5 +5664,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 28
+  "sourceRevision": 29
 }

@@ -172,6 +172,11 @@
       "status": "draft",
       "template": "Traduire"
     },
+    "action.use_routing_profile": {
+      "sourceRevision": 29,
+      "status": "draft",
+      "template": "Use"
+    },
     "action.view_history": {
       "sourceRevision": 11,
       "status": "draft",
@@ -256,6 +261,11 @@
       "sourceRevision": 22,
       "status": "draft",
       "template": "Provider saved"
+    },
+    "diagnostics.routing_decision": {
+      "sourceRevision": 29,
+      "status": "draft",
+      "template": "Routing decision"
     },
     "diagnostics.saved_model": {
       "sourceRevision": 22,
@@ -1785,7 +1795,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 28,
+    "sourceRevision": 29,
     "status": "draft"
   }
 }
