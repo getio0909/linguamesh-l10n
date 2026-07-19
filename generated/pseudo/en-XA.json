@@ -1171,6 +1171,41 @@
       "status": "draft",
       "template": "［Ðïšçøññëçŧëð~~~~］"
     },
+    "status.document_job_cancelled": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Çåñçëŀŀëð~~~］"
+    },
+    "status.document_job_completed": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Çøṁþŀëŧëð~~~］"
+    },
+    "status.document_job_failed": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Ƒåïŀëð~~］"
+    },
+    "status.document_job_paused": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Þåûšëð~~］"
+    },
+    "status.document_job_pending": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Þëñðïñĝ~~］"
+    },
+    "status.document_job_row": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［{source} · {format} · {state} · {completed}/{total}~~~~~~~~~~~~~~~~~］"
+    },
+    "status.document_job_running": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "［Ŕûññïñĝ~~］"
+    },
     "status.document_jobs_empty": {
       "sourceRevision": 16,
       "status": "draft",
@@ -1477,7 +1512,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 19,
+    "sourceRevision": 20,
     "status": "draft"
   }
 }

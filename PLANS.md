@@ -60,3 +60,15 @@ falling back to the generic English diagnostic.
 - [x] Run `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check`; schema lint,
   26 tests, regeneration, bundle build, and foundation validation passed.
 - [x] Bundle checksum: `c8bd6b0464ebbfa015988a4fc0cfd30b1f9e28d9e1aad19b8c50d36976128e8f`.
+
+## Linux document-job metadata localization
+
+Assumption: persisted document-job rows must not expose Rust enum debug names as user-facing copy;
+the source filename and technical format names remain data, while lifecycle state labels and the
+row summary use the canonical Linux catalog.
+
+- [x] Add one row-summary template and six document-job state labels at source revision 20.
+- [x] Regenerate all 59 deterministic resources and both pseudo-locales.
+- [x] Run `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check`; 296 messages,
+  26 tests, generation, bundle build, and foundation validation passed.
+- [x] Bundle checksum: `d2f4fd439b5fbc8fc6d48f1be0a91ee92f558c70b851271d643829cfe8590e9b`.

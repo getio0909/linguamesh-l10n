@@ -4650,9 +4650,135 @@
         "template": "Glossary entries must use the form source => target.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Metadata summary shown for each persisted document job row.",
+      "key": "status.document_job_row",
+      "placeholders": {
+        "completed": {
+          "example": 3,
+          "type": "integer"
+        },
+        "format": {
+          "example": "DOCX",
+          "type": "string"
+        },
+        "source": {
+          "example": "notes.docx",
+          "type": "string"
+        },
+        "state": {
+          "example": "Running",
+          "type": "string"
+        },
+        "total": {
+          "example": 10,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "{source} · {format} · {state} · {completed}/{total}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a document job that has not started.",
+      "key": "status.document_job_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Pending",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a document job currently translating.",
+      "key": "status.document_job_running",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Running",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a paused document job.",
+      "key": "status.document_job_paused",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Paused",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a completed document job.",
+      "key": "status.document_job_completed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Completed",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a cancelled document job.",
+      "key": "status.document_job_cancelled",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Cancelled",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "State label for a failed document job.",
+      "key": "status.document_job_failed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 20,
+      "status": "source",
+      "value": {
+        "template": "Failed",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 19
+  "sourceRevision": 20
 }

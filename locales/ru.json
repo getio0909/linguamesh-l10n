@@ -1178,6 +1178,41 @@
       "status": "draft",
       "template": "Отключено"
     },
+    "status.document_job_cancelled": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Cancelled"
+    },
+    "status.document_job_completed": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Completed"
+    },
+    "status.document_job_failed": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Failed"
+    },
+    "status.document_job_paused": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Paused"
+    },
+    "status.document_job_pending": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Pending"
+    },
+    "status.document_job_row": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "{source} · {format} · {state} · {completed}/{total}"
+    },
+    "status.document_job_running": {
+      "sourceRevision": 20,
+      "status": "draft",
+      "template": "Running"
+    },
     "status.document_jobs_empty": {
       "sourceRevision": 16,
       "status": "draft",
@@ -1484,7 +1519,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 19,
+    "sourceRevision": 20,
     "status": "draft"
   }
 }

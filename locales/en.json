@@ -1171,6 +1171,41 @@
       "status": "source",
       "template": "Disconnected"
     },
+    "status.document_job_cancelled": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Cancelled"
+    },
+    "status.document_job_completed": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Completed"
+    },
+    "status.document_job_failed": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Failed"
+    },
+    "status.document_job_paused": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Paused"
+    },
+    "status.document_job_pending": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Pending"
+    },
+    "status.document_job_row": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "{source} · {format} · {state} · {completed}/{total}"
+    },
+    "status.document_job_running": {
+      "sourceRevision": 20,
+      "status": "source",
+      "template": "Running"
+    },
     "status.document_jobs_empty": {
       "sourceRevision": 16,
       "status": "source",
@@ -1477,7 +1512,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 19,
+    "sourceRevision": 20,
     "status": "source"
   }
 }
