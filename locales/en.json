@@ -86,6 +86,11 @@
       "status": "source",
       "template": "Document jobs"
     },
+    "action.edit_routing_profile": {
+      "sourceRevision": 31,
+      "status": "source",
+      "template": "Edit"
+    },
     "action.enable_fallback": {
       "sourceRevision": 18,
       "status": "source",
@@ -170,6 +175,11 @@
       "sourceRevision": 1,
       "status": "source",
       "template": "Save provider"
+    },
+    "action.save_routing_profile": {
+      "sourceRevision": 31,
+      "status": "source",
+      "template": "Save routing profile"
     },
     "action.select_document_job": {
       "sourceRevision": 16,
@@ -1802,7 +1812,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 30,
+    "sourceRevision": 31,
     "status": "source"
   }
 }

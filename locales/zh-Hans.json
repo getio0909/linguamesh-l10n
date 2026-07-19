@@ -84,6 +84,11 @@
       "status": "draft",
       "template": "Document jobs"
     },
+    "action.edit_routing_profile": {
+      "sourceRevision": 31,
+      "status": "draft",
+      "template": "编辑"
+    },
     "action.enable_fallback": {
       "sourceRevision": 18,
       "status": "draft",
@@ -168,6 +173,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "保存提供商"
+    },
+    "action.save_routing_profile": {
+      "sourceRevision": 31,
+      "status": "draft",
+      "template": "保存路由配置"
     },
     "action.select_document_job": {
       "sourceRevision": 16,
@@ -1798,7 +1808,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 30,
+    "sourceRevision": 31,
     "status": "draft"
   }
 }

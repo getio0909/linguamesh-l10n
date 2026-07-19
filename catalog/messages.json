@@ -5500,6 +5500,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Loads one saved Linux routing planner profile into the editor.",
+      "key": "action.edit_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 31,
+      "status": "source",
+      "value": {
+        "template": "Edit",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Deletes one saved Linux routing planner profile.",
       "key": "action.delete_routing_profile",
       "placeholders": {},
@@ -5510,6 +5525,21 @@
       "status": "source",
       "value": {
         "template": "Delete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Saves the current Linux routing planner profile editor values.",
+      "key": "action.save_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 31,
+      "status": "source",
+      "value": {
+        "template": "Save routing profile",
         "type": "text"
       }
     },
@@ -5694,5 +5724,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 30
+  "sourceRevision": 31
 }
