@@ -5452,9 +5452,187 @@
         "template": "Active provider: {provider} ({mode})",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that opens non-secret Linux routing planner profiles.",
+      "key": "action.routing_profiles",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Routing profiles",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Creates the bounded Linux local-first routing planner profile.",
+      "key": "action.create_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Create local-first profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Deletes one saved Linux routing planner profile.",
+      "key": "action.delete_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Delete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux routing planner profile dialog.",
+      "key": "dialog.routing_profiles",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Routing profiles",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux routing planner profile action.",
+      "key": "tooltip.routing_profiles",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Create, inspect, and delete non-secret routing planner profiles",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Empty state for the Linux routing planner profile dialog.",
+      "key": "status.routing_profile_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "No routing profiles are saved.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Metadata summary for one Linux routing planner profile.",
+      "key": "status.routing_profile_row",
+      "placeholders": {
+        "candidates": {
+          "example": 2,
+          "type": "integer"
+        },
+        "id": {
+          "example": "linux-default",
+          "type": "string"
+        },
+        "mode": {
+          "example": "Automatic",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "{id} · {mode} · {candidates} candidates",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Fixed error shown when no saved provider can become a routing candidate.",
+      "key": "error.routing_profile_no_candidates",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Save at least one provider profile before creating a routing profile.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Localized label for manual routing mode.",
+      "key": "routing.mode.manual",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Manual",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Localized label for ordered routing mode.",
+      "key": "routing.mode.ordered",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Ordered",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Localized label for automatic routing mode.",
+      "key": "routing.mode.automatic",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 28,
+      "status": "source",
+      "value": {
+        "template": "Automatic",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 27
+  "sourceRevision": 28
 }

@@ -69,6 +69,11 @@
       "status": "draft",
       "template": "⁧⟦Connect⟧⁩"
     },
+    "action.create_routing_profile": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Create local-first profile⟧⁩"
+    },
     "action.delete_history_entry": {
       "sourceRevision": 11,
       "status": "draft",
@@ -76,6 +81,11 @@
     },
     "action.delete_memory_entry": {
       "sourceRevision": 13,
+      "status": "draft",
+      "template": "⁧⟦Delete⟧⁩"
+    },
+    "action.delete_routing_profile": {
+      "sourceRevision": 28,
       "status": "draft",
       "template": "⁧⟦Delete⟧⁩"
     },
@@ -148,6 +158,11 @@
       "sourceRevision": 19,
       "status": "draft",
       "template": "⁧⟦Retry translation⟧⁩"
+    },
+    "action.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Routing profiles⟧⁩"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -338,6 +353,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "⁧⟦Open text file⟧⁩"
+    },
+    "dialog.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Routing profiles⟧⁩"
     },
     "dialog.save": {
       "sourceRevision": 5,
@@ -672,6 +692,11 @@
         "two": "⁧⟦Try again in {seconds} seconds.⟧⁩",
         "zero": "⁧⟦Try again in {seconds} seconds.⟧⁩"
       }
+    },
+    "error.routing_profile_no_candidates": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Save at least one provider profile before creating a routing profile.⟧⁩"
     },
     "error.runtime.start_failed": {
       "sourceRevision": 7,
@@ -1297,6 +1322,21 @@
       "status": "draft",
       "template": "⁧⟦Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect.⟧⁩"
     },
+    "routing.mode.automatic": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Automatic⟧⁩"
+    },
+    "routing.mode.manual": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Manual⟧⁩"
+    },
+    "routing.mode.ordered": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Ordered⟧⁩"
+    },
     "section.provider_profiles": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1542,6 +1582,16 @@
       "status": "draft",
       "template": "⁧⟦Removing saved profile⟧⁩"
     },
+    "status.routing_profile_empty": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦No routing profiles are saved.⟧⁩"
+    },
+    "status.routing_profile_row": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦{id} · {mode} · {candidates} candidates⟧⁩"
+    },
     "status.selecting_model": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1682,6 +1732,11 @@
       "status": "draft",
       "template": "⁧⟦Retry the last failed or cancelled text translation⟧⁩"
     },
+    "tooltip.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "⁧⟦Create, inspect, and delete non-secret routing planner profiles⟧⁩"
+    },
     "tooltip.save_history": {
       "sourceRevision": 12,
       "status": "draft",
@@ -1743,7 +1798,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 27,
+    "sourceRevision": 28,
     "status": "draft"
   }
 }

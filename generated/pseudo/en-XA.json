@@ -61,6 +61,11 @@
       "status": "draft",
       "template": "［Çøññëçŧ~~］"
     },
+    "action.create_routing_profile": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Çŕëåŧë ŀøçåŀ-ƒïŕšŧ þŕøƒïŀë~~~~~~~~］"
+    },
     "action.delete_history_entry": {
       "sourceRevision": 11,
       "status": "draft",
@@ -68,6 +73,11 @@
     },
     "action.delete_memory_entry": {
       "sourceRevision": 13,
+      "status": "draft",
+      "template": "［Ðëŀëŧë~~］"
+    },
+    "action.delete_routing_profile": {
+      "sourceRevision": 28,
       "status": "draft",
       "template": "［Ðëŀëŧë~~］"
     },
@@ -140,6 +150,11 @@
       "sourceRevision": 19,
       "status": "draft",
       "template": "［Ŕëŧŕÿ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
+    "action.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Ŕøûŧïñĝ þŕøƒïŀëš~~~~~］"
     },
     "action.save_provider": {
       "sourceRevision": 1,
@@ -330,6 +345,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
+    },
+    "dialog.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Ŕøûŧïñĝ þŕøƒïŀëš~~~~~］"
     },
     "dialog.save": {
       "sourceRevision": 5,
@@ -656,6 +676,11 @@
         "one": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñð.~~~~~~~~~~］",
         "other": "［Ŧŕÿ åĝåïñ ïñ {seconds} šëçøñðš.~~~~~~~~~~］"
       }
+    },
+    "error.routing_profile_no_candidates": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Šåṽë åŧ ŀëåšŧ øñë þŕøṽïðëŕ þŕøƒïŀë ƀëƒøŕë çŕëåŧïñĝ å ŕøûŧïñĝ þŕøƒïŀë.~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "error.runtime.start_failed": {
       "sourceRevision": 7,
@@ -1281,6 +1306,21 @@
       "status": "draft",
       "template": "［Šåṽëð ñøñ-šëçŕëŧ þŕøƒïŀëš ŵëŕë ŕëšŧøŕëð. Çħøøšë øñë, ëñŧëŕ ïŧš çŕëðëñŧïåŀ ïƒ ŕëǫûïŕëð, ŧħëñ çøññëçŧ.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "routing.mode.automatic": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Åûŧøṁåŧïç~~~］"
+    },
+    "routing.mode.manual": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Ṁåñûåŀ~~］"
+    },
+    "routing.mode.ordered": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Øŕðëŕëð~~］"
+    },
     "section.provider_profiles": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1526,6 +1566,16 @@
       "status": "draft",
       "template": "［Ŕëṁøṽïñĝ šåṽëð þŕøƒïŀë~~~~~~~］"
     },
+    "status.routing_profile_empty": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Ñø ŕøûŧïñĝ þŕøƒïŀëš åŕë šåṽëð.~~~~~~~~~~］"
+    },
+    "status.routing_profile_row": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［{id} · {mode} · {candidates} çåñðïðåŧëš~~~~~~~~~~~~~］"
+    },
     "status.selecting_model": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1666,6 +1716,11 @@
       "status": "draft",
       "template": "［Ŕëŧŕÿ ŧħë ŀåšŧ ƒåïŀëð øŕ çåñçëŀŀëð ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.routing_profiles": {
+      "sourceRevision": 28,
+      "status": "draft",
+      "template": "［Çŕëåŧë, ïñšþëçŧ, åñð ðëŀëŧë ñøñ-šëçŕëŧ ŕøûŧïñĝ þŀåññëŕ þŕøƒïŀëš~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.save_history": {
       "sourceRevision": 12,
       "status": "draft",
@@ -1727,7 +1782,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 27,
+    "sourceRevision": 28,
     "status": "draft"
   }
 }
