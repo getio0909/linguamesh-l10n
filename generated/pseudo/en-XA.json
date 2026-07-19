@@ -842,6 +842,11 @@
       "status": "draft",
       "template": "［Ŧħë þŕøƒïŀë ðåŧåƀåšë þåŧħ çåññøŧ çøñŧåïñ šÿṁƀøŀïç ŀïñķš.~~~~~~~~~~~~~~~~~~］"
     },
+    "error.storage.prompt_dismissed": {
+      "sourceRevision": 23,
+      "status": "draft",
+      "template": "［Ŧħë Šëçŕëŧ Šëŕṽïçë þŕøṁþŧ ŵåš ðïšṁïššëð.~~~~~~~~~~~~~］"
+    },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
       "status": "draft",
@@ -1662,7 +1667,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 22,
+    "sourceRevision": 23,
     "status": "draft"
   }
 }

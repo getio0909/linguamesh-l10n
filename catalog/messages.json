@@ -2551,6 +2551,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Secure-storage error shown when the user dismisses the Secret Service prompt.",
+      "key": "error.storage.prompt_dismissed",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 23,
+      "status": "source",
+      "value": {
+        "template": "The Secret Service prompt was dismissed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Storage guidance shown when only session-only mode is available.",
       "key": "error.storage.session_only",
       "placeholders": {},
@@ -5230,5 +5245,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 22
+  "sourceRevision": 23
 }

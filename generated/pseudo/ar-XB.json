@@ -858,6 +858,11 @@
       "status": "draft",
       "template": "⁧⟦The profile database path cannot contain symbolic links.⟧⁩"
     },
+    "error.storage.prompt_dismissed": {
+      "sourceRevision": 23,
+      "status": "draft",
+      "template": "⁧⟦The Secret Service prompt was dismissed.⟧⁩"
+    },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
       "status": "draft",
@@ -1678,7 +1683,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 22,
+    "sourceRevision": 23,
     "status": "draft"
   }
 }

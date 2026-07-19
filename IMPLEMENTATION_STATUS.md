@@ -5,7 +5,7 @@ Status date: 2026-07-19
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 306 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, the localized default provider name, request-level glossary controls, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 327 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, the localized default provider name, request-level glossary controls, Secret Service prompt dismissal errors, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -31,7 +31,7 @@ Validated locally on Debian Linux with `/home/wangtinghu/miniconda3/envs/py313/b
 - `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup, canonical JSON format checking for 20 files, schema/catalog lint, all 26 tests, byte-for-byte regeneration, deterministic bundle build, and foundation validation.
 - `msgfmt --check --check-format -o /dev/null generated/linux/*/LC_MESSAGES/linguamesh.po` was run for each of the 14 official/pseudo PO catalogs; all passed without warnings. GNU `msgunfmt` read the generated Simplified Chinese MO and confirmed the fixed state-error context and translation.
 - Android AAPT2 `2.20-15703166` compiled all 14 generated Android resource files; parsing all 28 generated Android and Windows XML files with Python `xml.etree.ElementTree` also succeeded.
-- `jq` confirmed 83 native message keys in the macOS String Catalog, 59 files in the generated manifest, and 306 canonical entries in every official locale pack; the Linux PO/MO catalogs contain the new status, document-job row/state, text-import, image-only PDF OCR, glossary CSV and rule-validation, translation-export, provider-profile, onboarding, active-provider, notification, draft-note, locale-name, fixed-error, state-error/category, worker/file/storage/provider-error, runtime/storage-error, default-provider-name, and request-level glossary keys.
+- `jq` confirmed 83 native message keys in the macOS String Catalog, 59 files in the generated manifest, and 327 canonical entries in every official locale pack; the Linux PO/MO catalogs contain the new status, document-job row/state, text-import, image-only PDF OCR, glossary CSV and rule-validation, translation-export, provider-profile, onboarding, active-provider, notification, draft-note, locale-name, fixed-error, state-error/category, worker/file/storage/provider-error, runtime/storage-error, default-provider-name, request-level glossary, and Secret Service prompt-dismissal keys.
 - Two consecutive unchanged builds produced SHA-256 `6fc6839fce3a449eaf37d2efb9a52fa0ede1eab3a39fecdaff68682a79d8a4f8` for `dist/linguamesh-l10n-0.1.0.zip` after adding deterministic Linux OCR controls and error resources.
 - `git diff --check` exited successfully.
 - The first `make check` run correctly detected stale generated resources after the catalog edit; `make generate` refreshed them and the subsequent full `make check` passed.
@@ -93,3 +93,21 @@ row summary use the canonical Linux catalog.
 - `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup,
   formatting, lint, 26 tests, generation, deterministic bundle build, and foundation validation.
 - Bundle SHA-256: `d2f4fd439b5fbc8fc6d48f1be0a91ee92f558c70b851271d643829cfe8590e9b`.
+
+## 2026-07-19 — Linux Secret Service prompt localization checkpoint
+
+Assumption: Secret Service approval and dismissal are user-visible Linux security
+interactions, so the prompt-dismissed failure must resolve through the canonical catalog
+while the credential and prompt result remain outside logs and localization payloads.
+
+- Added the Linux-only `error.storage.prompt_dismissed` message at source revision 23,
+  raising the catalog to 327 messages and the Linux-only source count to 222. All official
+  non-English values remain machine-generated draft translations.
+- Regenerated all 59 deterministic native resources and both pseudo-locales.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup,
+  formatting, schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic
+  bundle build, and foundation validation.
+- Bundle SHA-256: `53821e2397e6697b7551693c6f5787cc1f88e24d96b3077ac590645a848f1977`.
+
+Native consumers must pin this revision before claiming runtime evidence. Human review,
+complete production copy coverage, and stable release qualification remain open.

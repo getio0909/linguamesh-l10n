@@ -838,6 +838,11 @@
       "status": "draft",
       "template": "配置数据库路径不能包含符号链接。"
     },
+    "error.storage.prompt_dismissed": {
+      "sourceRevision": 23,
+      "status": "draft",
+      "template": "Secret Service 提示已被关闭。"
+    },
     "error.storage.remove_failed": {
       "sourceRevision": 3,
       "status": "draft",
@@ -1658,7 +1663,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 22,
+    "sourceRevision": 23,
     "status": "draft"
   }
 }
