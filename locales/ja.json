@@ -947,6 +947,11 @@
       "status": "draft",
       "template": "Fallback provider"
     },
+    "label.provider_preset": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "Provider preset"
+    },
     "label.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1236,6 +1241,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "プロバイダー名"
+    },
+    "provider.preset.ollama": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "Ollama (native /api)"
+    },
+    "provider.preset.openai": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "OpenAI-compatible"
     },
     "provider.saved_restored": {
       "sourceRevision": 1,
@@ -1547,6 +1562,11 @@
       "status": "draft",
       "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint"
     },
+    "tooltip.endpoint.ollama": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "HTTPS or loopback HTTP native Ollama /api endpoint"
+    },
     "tooltip.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1591,6 +1611,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Session-only provider display name"
+    },
+    "tooltip.provider_preset": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "Choose the provider protocol used for model discovery and streaming"
     },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
@@ -1663,7 +1688,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 23,
+    "sourceRevision": 24,
     "status": "draft"
   }
 }

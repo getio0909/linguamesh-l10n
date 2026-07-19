@@ -951,6 +951,11 @@
       "status": "draft",
       "template": "［Ƒåŀŀƀåçķ þŕøṽïðëŕ~~~~~］"
     },
+    "label.provider_preset": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ þŕëšëŧ~~~~~］"
+    },
     "label.saved_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1240,6 +1245,16 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Þŕøṽïðëŕ ñåṁë~~~~］"
+    },
+    "provider.preset.ollama": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "［Øŀŀåṁå (ñåŧïṽë /åþï)~~~~~~］"
+    },
+    "provider.preset.openai": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "［ØþëñÅÏ-çøṁþåŧïƀŀë~~~~~］"
     },
     "provider.saved_restored": {
       "sourceRevision": 1,
@@ -1551,6 +1566,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ØþëñÅÏ-çøṁþåŧïƀŀë ƀåšë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.endpoint.ollama": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ñåŧïṽë Øŀŀåṁå /åþï ëñðþøïñŧ~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1595,6 +1615,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Šëššïøñ-øñŀÿ þŕøṽïðëŕ ðïšþŀåÿ ñåṁë~~~~~~~~~~~］"
+    },
+    "tooltip.provider_preset": {
+      "sourceRevision": 24,
+      "status": "draft",
+      "template": "［Çħøøšë ŧħë þŕøṽïðëŕ þŕøŧøçøŀ ûšëð ƒøŕ ṁøðëŀ ðïšçøṽëŕÿ åñð šŧŕëåṁïñĝ~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
@@ -1667,7 +1692,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 23,
+    "sourceRevision": 24,
     "status": "draft"
   }
 }

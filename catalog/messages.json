@@ -348,6 +348,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Display label for the OpenAI-compatible provider preset in the Linux provider form.",
+      "key": "provider.preset.openai",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 24,
+      "status": "source",
+      "value": {
+        "template": "OpenAI-compatible",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Display label for the native Ollama provider preset in the Linux provider form.",
+      "key": "provider.preset.ollama",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 24,
+      "status": "source",
+      "value": {
+        "template": "Ollama (native /api)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Label for the provider endpoint field.",
       "key": "field.endpoint",
       "placeholders": {},
@@ -1167,6 +1197,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Tooltip for the Linux native Ollama endpoint field.",
+      "key": "tooltip.endpoint.ollama",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 24,
+      "status": "source",
+      "value": {
+        "template": "HTTPS or loopback HTTP native Ollama /api endpoint",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux provider protocol preset selector.",
+      "key": "tooltip.provider_preset",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 24,
+      "status": "source",
+      "value": {
+        "template": "Choose the provider protocol used for model discovery and streaming",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Tooltip for the Linux provider credential field.",
       "key": "tooltip.credential",
       "placeholders": {},
@@ -1252,6 +1312,21 @@
       "status": "source",
       "value": {
         "template": "Source language",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux provider protocol preset selector.",
+      "key": "label.provider_preset",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 24,
+      "status": "source",
+      "value": {
+        "template": "Provider preset",
         "type": "text"
       }
     },
@@ -5245,5 +5320,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 23
+  "sourceRevision": 24
 }
