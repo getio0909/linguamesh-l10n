@@ -83,4 +83,5 @@ plugin work and page-marked text output; they do not promise high-fidelity PDF r
 - [x] Run the full deterministic bundle check; 306 messages, 26 tests, generation, bundle build,
   and foundation validation passed.
 - [x] Bundle checksum: `6fc6839fce3a449eaf37d2efb9a52fa0ede1eab3a39fecdaff68682a79d8a4f8`.
-- [ ] Publish the pinned revision and record GitHub Actions evidence after Linux sync.
+- [x] Publish the pinned revision `cacc1577bc1a19a94c11faeffa7a63016d54d64e` and record Foundation
+  `29668388992` plus Localization `29668388983` evidence.

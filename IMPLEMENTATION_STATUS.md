@@ -59,8 +59,8 @@ claim of pixel-identical PDF reconstruction.
   formatting, lint, 26 tests, byte-for-byte generation, deterministic bundle build, and
   foundation validation.
 - Bundle SHA-256: `6fc6839fce3a449eaf37d2efb9a52fa0ede1eab3a39fecdaff68682a79d8a4f8`.
-- GitHub Actions foundation and localization evidence remains pending until this revision is
-  pushed.
+- GitHub Actions Foundation run `29668388992` and Localization run `29668388983` passed for this
+  revision; Linux consumes the pinned revision after its own synchronization gate.
 
 ## 2026-07-19 — Linux document-job metadata localization checkpoint
 
