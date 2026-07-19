@@ -1031,6 +1031,11 @@
       "status": "source",
       "template": "Provider preset"
     },
+    "label.routing_preference": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Automatic preference"
+    },
     "label.routing_profile_id": {
       "sourceRevision": 32,
       "status": "source",
@@ -1241,6 +1246,31 @@
       "status": "source",
       "template": "Remember profile, model, and credential in Secret Service"
     },
+    "option.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Allow remote candidates"
+    },
+    "option.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Local candidates only"
+    },
+    "option.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Protect privacy-sensitive requests"
+    },
+    "option.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Require document support"
+    },
+    "option.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Require streamed output"
+    },
     "option.source.auto": {
       "sourceRevision": 1,
       "status": "source",
@@ -1365,6 +1395,31 @@
       "sourceRevision": 28,
       "status": "source",
       "template": "Ordered"
+    },
+    "routing.preference.cost": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Lowest cost"
+    },
+    "routing.preference.latency": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Lowest latency"
+    },
+    "routing.preference.local": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Local first"
+    },
+    "routing.preference.none": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "No preference"
+    },
+    "routing.preference.quality": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Quality first"
     },
     "section.provider_profiles": {
       "sourceRevision": 1,
@@ -1766,10 +1821,40 @@
       "status": "source",
       "template": "Retry the last failed or cancelled text translation"
     },
+    "tooltip.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Permit this profile to send content to non-local providers"
+    },
+    "tooltip.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Reject saved providers that are not local loopback endpoints"
+    },
+    "tooltip.routing_preference": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Choose the first ranking preference used by Automatic routing"
+    },
+    "tooltip.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "When a request is marked privacy-sensitive, reject remote candidates"
+    },
     "tooltip.routing_profiles": {
       "sourceRevision": 28,
       "status": "source",
       "template": "Create, inspect, and delete non-secret routing planner profiles"
+    },
+    "tooltip.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Keep only candidates that advertise document translation"
+    },
+    "tooltip.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "source",
+      "template": "Reject candidates that cannot return real streamed deltas"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,
@@ -1832,7 +1917,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 34,
+    "sourceRevision": 35,
     "status": "source"
   }
 }

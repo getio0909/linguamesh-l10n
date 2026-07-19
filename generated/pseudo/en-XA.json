@@ -1031,6 +1031,11 @@
       "status": "draft",
       "template": "［Þŕøṽïðëŕ þŕëšëŧ~~~~~］"
     },
+    "label.routing_preference": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Åûŧøṁåŧïç þŕëƒëŕëñçë~~~~~~］"
+    },
     "label.routing_profile_id": {
       "sourceRevision": 32,
       "status": "draft",
@@ -1241,6 +1246,31 @@
       "status": "draft",
       "template": "［Ŕëṁëṁƀëŕ þŕøƒïŀë, ṁøðëŀ, åñð çŕëðëñŧïåŀ ïñ Šëçŕëŧ Šëŕṽïçë~~~~~~~~~~~~~~~~~~~］"
     },
+    "option.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Åŀŀøŵ ŕëṁøŧë çåñðïðåŧëš~~~~~~~］"
+    },
+    "option.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŀøçåŀ çåñðïðåŧëš øñŀÿ~~~~~~~］"
+    },
+    "option.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Þŕøŧëçŧ þŕïṽåçÿ-šëñšïŧïṽë ŕëǫûëšŧš~~~~~~~~~~~］"
+    },
+    "option.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŕëǫûïŕë ðøçûṁëñŧ šûþþøŕŧ~~~~~~~~］"
+    },
+    "option.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŕëǫûïŕë šŧŕëåṁëð øûŧþûŧ~~~~~~~］"
+    },
     "option.source.auto": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1365,6 +1395,31 @@
       "sourceRevision": 28,
       "status": "draft",
       "template": "［Øŕðëŕëð~~］"
+    },
+    "routing.preference.cost": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŀøŵëšŧ çøšŧ~~~］"
+    },
+    "routing.preference.latency": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŀøŵëšŧ ŀåŧëñçÿ~~~~］"
+    },
+    "routing.preference.local": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŀøçåŀ ƒïŕšŧ~~~］"
+    },
+    "routing.preference.none": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ñø þŕëƒëŕëñçë~~~~］"
+    },
+    "routing.preference.quality": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ǫûåŀïŧÿ ƒïŕšŧ~~~~］"
     },
     "section.provider_profiles": {
       "sourceRevision": 1,
@@ -1766,10 +1821,40 @@
       "status": "draft",
       "template": "［Ŕëŧŕÿ ŧħë ŀåšŧ ƒåïŀëð øŕ çåñçëŀŀëð ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Þëŕṁïŧ ŧħïš þŕøƒïŀë ŧø šëñð çøñŧëñŧ ŧø ñøñ-ŀøçåŀ þŕøṽïðëŕš~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŕëĵëçŧ šåṽëð þŕøṽïðëŕš ŧħåŧ åŕë ñøŧ ŀøçåŀ ŀøøþƀåçķ ëñðþøïñŧš~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.routing_preference": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Çħøøšë ŧħë ƒïŕšŧ ŕåñķïñĝ þŕëƒëŕëñçë ûšëð ƀÿ Åûŧøṁåŧïç ŕøûŧïñĝ~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŵħëñ å ŕëǫûëšŧ ïš ṁåŕķëð þŕïṽåçÿ-šëñšïŧïṽë, ŕëĵëçŧ ŕëṁøŧë çåñðïðåŧëš~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.routing_profiles": {
       "sourceRevision": 28,
       "status": "draft",
       "template": "［Çŕëåŧë, ïñšþëçŧ, åñð ðëŀëŧë ñøñ-šëçŕëŧ ŕøûŧïñĝ þŀåññëŕ þŕøƒïŀëš~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ķëëþ øñŀÿ çåñðïðåŧëš ŧħåŧ åðṽëŕŧïšë ðøçûṁëñŧ ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "［Ŕëĵëçŧ çåñðïðåŧëš ŧħåŧ çåññøŧ ŕëŧûŕñ ŕëåŀ šŧŕëåṁëð ðëŀŧåš~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,
@@ -1832,7 +1917,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 34,
+    "sourceRevision": 35,
     "status": "draft"
   }
 }

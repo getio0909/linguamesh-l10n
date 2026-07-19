@@ -1027,6 +1027,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.routing_preference": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "自動路由偏好"
+    },
     "label.routing_profile_id": {
       "sourceRevision": 32,
       "status": "draft",
@@ -1237,6 +1242,31 @@
       "status": "draft",
       "template": "透過 Secret Service 記住設定、模型和憑證"
     },
+    "option.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "允許遠端候選"
+    },
+    "option.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "僅限本機候選"
+    },
+    "option.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "保護隱私敏感請求"
+    },
+    "option.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "要求文件支援"
+    },
+    "option.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "要求串流輸出"
+    },
     "option.source.auto": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1361,6 +1391,31 @@
       "sourceRevision": 28,
       "status": "draft",
       "template": "Ordered"
+    },
+    "routing.preference.cost": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "最低成本優先"
+    },
+    "routing.preference.latency": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "最低延遲優先"
+    },
+    "routing.preference.local": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "本機優先"
+    },
+    "routing.preference.none": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "無偏好"
+    },
+    "routing.preference.quality": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "品質優先"
     },
     "section.provider_profiles": {
       "sourceRevision": 1,
@@ -1762,10 +1817,40 @@
       "status": "draft",
       "template": "Retry the last failed or cancelled text translation"
     },
+    "tooltip.routing_allow_remote": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "允許此設定檔向非本機提供者傳送內容"
+    },
+    "tooltip.routing_local_only": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "拒絕非本機回環端點的已儲存提供者"
+    },
+    "tooltip.routing_preference": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "選擇自動路由使用的首要排名偏好"
+    },
+    "tooltip.routing_privacy_sensitive": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "請求標記為隱私敏感時拒絕遠端候選"
+    },
     "tooltip.routing_profiles": {
       "sourceRevision": 28,
       "status": "draft",
       "template": "Create, inspect, and delete non-secret routing planner profiles"
+    },
+    "tooltip.routing_require_document": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "僅保留宣告支援文件翻譯的候選"
+    },
+    "tooltip.routing_require_streaming": {
+      "sourceRevision": 35,
+      "status": "draft",
+      "template": "拒絕無法回傳真實串流增量的候選"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,
@@ -1828,7 +1913,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 34,
+    "sourceRevision": 35,
     "status": "draft"
   }
 }

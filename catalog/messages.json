@@ -5789,9 +5789,264 @@
         "template": "Automatic",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the automatic routing preference selector.",
+      "key": "label.routing_preference",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Automatic preference",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Checkbox label allowing remote routing candidates.",
+      "key": "option.routing_allow_remote",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Allow remote candidates",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Checkbox label restricting routing to local candidates.",
+      "key": "option.routing_local_only",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Local candidates only",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Checkbox label protecting privacy-sensitive requests from remote routing.",
+      "key": "option.routing_privacy_sensitive",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Protect privacy-sensitive requests",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Checkbox label requiring document-capable routing candidates.",
+      "key": "option.routing_require_document",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Require document support",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Checkbox label requiring real streamed output from routing candidates.",
+      "key": "option.routing_require_streaming",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Require streamed output",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic routing preference for lowest estimated cost.",
+      "key": "routing.preference.cost",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Lowest cost",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic routing preference for lowest estimated latency.",
+      "key": "routing.preference.latency",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Lowest latency",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic routing preference for local candidates.",
+      "key": "routing.preference.local",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Local first",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic routing preference with no secondary ranking preference.",
+      "key": "routing.preference.none",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "No preference",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Automatic routing preference for highest quality tier.",
+      "key": "routing.preference.quality",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Quality first",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the remote-candidate routing constraint.",
+      "key": "tooltip.routing_allow_remote",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Permit this profile to send content to non-local providers",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the local-only routing constraint.",
+      "key": "tooltip.routing_local_only",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Reject saved providers that are not local loopback endpoints",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the automatic routing preference selector.",
+      "key": "tooltip.routing_preference",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Choose the first ranking preference used by Automatic routing",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining privacy-sensitive request routing.",
+      "key": "tooltip.routing_privacy_sensitive",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "When a request is marked privacy-sensitive, reject remote candidates",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the document-capability routing constraint.",
+      "key": "tooltip.routing_require_document",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Keep only candidates that advertise document translation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the streaming-capability routing constraint.",
+      "key": "tooltip.routing_require_streaming",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 35,
+      "status": "source",
+      "value": {
+        "template": "Reject candidates that cannot return real streamed deltas",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 34
+  "sourceRevision": 35
 }
