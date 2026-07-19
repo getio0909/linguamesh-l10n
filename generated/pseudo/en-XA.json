@@ -429,6 +429,41 @@
       "status": "draft",
       "template": "［Çħëçķ ÿøûŕ ñëŧŵøŕķ çøññëçŧïøñ åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~］"
     },
+    "error.ocr_failed": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŧħë øþŧïøñåŀ ØÇŔ þŕøçëšš ƒåïŀëð.~~~~~~~~~~］"
+    },
+    "error.ocr_invalid_document": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŧħë ÞÐƑ çøûŀð ñøŧ ƀë ŕëñðëŕëð ƒøŕ ØÇŔ.~~~~~~~~~~~~］"
+    },
+    "error.ocr_no_text": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［ØÇŔ ðïð ñøŧ ƒïñð ŕëåðåƀŀë ŧëẋŧ.~~~~~~~~~~］"
+    },
+    "error.ocr_output_too_large": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŧħë ØÇŔ øûŧþûŧ ëẋçëëðš ŧħë šåƒëŧÿ ŀïṁïŧ.~~~~~~~~~~~~~］"
+    },
+    "error.ocr_timed_out": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［ØÇŔ ŧïṁëð øûŧ ƀëƒøŕë çøṁþŀëŧïñĝ.~~~~~~~~~~］"
+    },
+    "error.ocr_too_many_pages": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŧħë ÞÐƑ ħåš ŧøø ṁåñÿ þåĝëš ƒøŕ ØÇŔ.~~~~~~~~~~~］"
+    },
+    "error.ocr_unavailable": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ØÇŔ ŧøøŀš åŕë ûñåṽåïŀåƀŀë.~~~~~~~~~~~］"
+    },
     "error.output_open": {
       "sourceRevision": 17,
       "status": "draft",
@@ -1111,6 +1146,11 @@
       "status": "draft",
       "template": "［Þŕøṽïðëŕ þŕøƒïŀëš~~~~~］"
     },
+    "settings.enable_ocr": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ëñåƀŀë ØÇŔ ƒøŕ ïṁåĝë-øñŀÿ ÞÐƑ~~~~~~~~~］"
+    },
     "settings.incognito": {
       "sourceRevision": 9,
       "status": "draft",
@@ -1321,6 +1361,11 @@
       "status": "draft",
       "template": "［Ŧħë ŧŕåñšŀåŧïøñ çøṁþŀëŧëð, ƀûŧ ŀøçåŀ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "status.ocr_running": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŕûññïñĝ ØÇŔ~~~］"
+    },
     "status.partial_output": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1390,6 +1435,11 @@
       "sourceRevision": 16,
       "status": "draft",
       "template": "［Ïñšþëçŧ þëŕšïšŧëð ðøçûṁëñŧ ĵøƀš åñð ŧħëïŕ þŕøĝŕëšš~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.enable_ocr": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "［Ŵħëñ ëñåƀŀëð, ûšë ŧħë øþŧïøñåŀ Ŧëššëŕåçŧ þŀûĝïñ ƒøŕ ïṁåĝë-øñŀÿ ÞÐƑ þåĝëš åñð ïṁþøŕŧ þåĝë-ṁåŕķëð ŧëẋŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.endpoint": {
       "sourceRevision": 1,
@@ -1512,7 +1562,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 20,
+    "sourceRevision": 21,
     "status": "draft"
   }
 }

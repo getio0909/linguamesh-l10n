@@ -72,3 +72,15 @@ row summary use the canonical Linux catalog.
 - [x] Run `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check`; 296 messages,
   26 tests, generation, bundle build, and foundation validation passed.
 - [x] Bundle checksum: `d2f4fd439b5fbc8fc6d48f1be0a91ee92f558c70b851271d643829cfe8590e9b`.
+
+## Linux optional OCR copy
+
+Assumption: OCR is an explicit opt-in Linux capability. Its messages describe bounded external
+plugin work and page-marked text output; they do not promise high-fidelity PDF reconstruction.
+
+- [x] Add OCR toggle, progress, and fixed-error messages at source revision 21.
+- [x] Regenerate all 59 deterministic native resources and both pseudo-locales.
+- [x] Run the full deterministic bundle check; 306 messages, 26 tests, generation, bundle build,
+  and foundation validation passed.
+- [x] Bundle checksum: `6fc6839fce3a449eaf37d2efb9a52fa0ede1eab3a39fecdaff68682a79d8a4f8`.
+- [ ] Publish the pinned revision and record GitHub Actions evidence after Linux sync.

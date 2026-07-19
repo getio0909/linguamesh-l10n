@@ -426,6 +426,41 @@
       "status": "draft",
       "template": "請檢查網路連線，然後再試一次。"
     },
+    "error.ocr_failed": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "The optional OCR process failed."
+    },
+    "error.ocr_invalid_document": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "The PDF could not be rendered for OCR."
+    },
+    "error.ocr_no_text": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "OCR did not find readable text."
+    },
+    "error.ocr_output_too_large": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "The OCR output exceeds the safety limit."
+    },
+    "error.ocr_timed_out": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "OCR timed out before completing."
+    },
+    "error.ocr_too_many_pages": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "The PDF has too many pages for OCR."
+    },
+    "error.ocr_unavailable": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "Optional OCR tools are unavailable."
+    },
     "error.output_open": {
       "sourceRevision": 17,
       "status": "draft",
@@ -1107,6 +1142,11 @@
       "status": "draft",
       "template": "提供者設定"
     },
+    "settings.enable_ocr": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "Enable OCR for image-only PDF"
+    },
     "settings.incognito": {
       "sourceRevision": 9,
       "status": "draft",
@@ -1317,6 +1357,11 @@
       "status": "draft",
       "template": "The translation completed, but local translation memory could not be saved."
     },
+    "status.ocr_running": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "Running OCR"
+    },
     "status.partial_output": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1386,6 +1431,11 @@
       "sourceRevision": 16,
       "status": "draft",
       "template": "Inspect persisted document jobs and their progress"
+    },
+    "tooltip.enable_ocr": {
+      "sourceRevision": 21,
+      "status": "draft",
+      "template": "When enabled, use the optional Tesseract plugin for image-only PDF pages and import page-marked text"
     },
     "tooltip.endpoint": {
       "sourceRevision": 1,
@@ -1508,7 +1558,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 20,
+    "sourceRevision": 21,
     "status": "draft"
   }
 }
