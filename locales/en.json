@@ -166,15 +166,115 @@
       "status": "source",
       "template": "LinguaMesh"
     },
+    "diagnostics.locale": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Locale"
+    },
+    "diagnostics.model_selected": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Model selected"
+    },
+    "diagnostics.model_selection_pending": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Model selection pending"
+    },
+    "diagnostics.no": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "No"
+    },
+    "diagnostics.onboarding": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Onboarding"
+    },
+    "diagnostics.output_bytes": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Output bytes"
+    },
+    "diagnostics.persisted_active_profile": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Persisted active profile"
+    },
+    "diagnostics.profile_deletion_pending": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Profile deletion pending"
+    },
+    "diagnostics.profile_storage": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Profile storage"
+    },
+    "diagnostics.profile_storage_available": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Available"
+    },
+    "diagnostics.profile_storage_pending": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Pending"
+    },
+    "diagnostics.profile_storage_unavailable": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Unavailable"
+    },
+    "diagnostics.provider": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Provider"
+    },
+    "diagnostics.provider_saved": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Provider saved"
+    },
+    "diagnostics.saved_model": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Saved model"
+    },
+    "diagnostics.saved_profile": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Saved profile"
+    },
+    "diagnostics.saved_profiles": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Saved profiles"
+    },
+    "diagnostics.status": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Status"
+    },
     "diagnostics.summary": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Core ABI {core_abi} · Protocol {protocol}"
     },
+    "diagnostics.theme": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Theme"
+    },
     "diagnostics.title": {
       "sourceRevision": 1,
       "status": "source",
       "template": "Diagnostics"
+    },
+    "diagnostics.yes": {
+      "sourceRevision": 22,
+      "status": "source",
+      "template": "Yes"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1562,7 +1662,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 21,
+    "sourceRevision": 22,
     "status": "source"
   }
 }

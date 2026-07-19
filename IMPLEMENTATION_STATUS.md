@@ -62,6 +62,25 @@ claim of pixel-identical PDF reconstruction.
 - GitHub Actions Foundation run `29668388992` and Localization run `29668388983` passed for this
   revision; Linux consumes the pinned revision after its own synchronization gate.
 
+## 2026-07-19 — Linux diagnostics-label localization checkpoint
+
+Assumption: the non-sensitive diagnostics panel is Linux-visible UI, so its fixed field labels,
+boolean values, onboarding/status/theme/locale values, and profile-storage states must resolve
+through the canonical catalog while provider identifiers, paths, endpoints, and output content
+remain excluded.
+
+- Added 20 Linux-only diagnostics messages, raising the catalog to 326 messages and the Linux-only
+  source count to 221. Simplified Chinese, Traditional Chinese, and Arabic draft values cover the
+  new labels; all other non-English packs retain explicit English fallback drafts.
+- Regenerated all 59 deterministic native resources and both pseudo-locales. Bundle SHA-256 is
+  `054d6749397cbbf652e099784f2c7d0e3650779a3c17c98e68d25560d286b2d3`.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup,
+  formatting, schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle
+  build, and foundation validation.
+
+Native consumers must pin the resulting revision before claiming runtime evidence. Human review,
+complete production copy coverage, and stable release qualification remain open.
+
 ## 2026-07-19 — Linux document-job metadata localization checkpoint
 
 Assumption: persisted document-job rows must not expose Rust enum debug names as user-facing copy;

@@ -4926,9 +4926,309 @@
         "template": "The optional OCR process failed.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the onboarding stage in the non-sensitive diagnostics panel.",
+      "key": "diagnostics.onboarding",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Onboarding",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the active-provider state in the diagnostics panel.",
+      "key": "diagnostics.provider",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for whether the active provider is saved.",
+      "key": "diagnostics.provider_saved",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Provider saved",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the profile storage state in diagnostics.",
+      "key": "diagnostics.profile_storage",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Profile storage",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the saved-profile count in diagnostics.",
+      "key": "diagnostics.saved_profiles",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Saved profiles",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for whether a saved profile is selected.",
+      "key": "diagnostics.saved_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Saved profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the persisted active-profile marker.",
+      "key": "diagnostics.persisted_active_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Persisted active profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for whether a saved model is present.",
+      "key": "diagnostics.saved_model",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Saved model",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for whether a model is selected.",
+      "key": "diagnostics.model_selected",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Model selected",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for pending model selection in diagnostics.",
+      "key": "diagnostics.model_selection_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Model selection pending",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for pending profile deletion in diagnostics.",
+      "key": "diagnostics.profile_deletion_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Profile deletion pending",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the application status in diagnostics.",
+      "key": "diagnostics.status",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Status",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the selected theme in diagnostics.",
+      "key": "diagnostics.theme",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Theme",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the active locale in diagnostics.",
+      "key": "diagnostics.locale",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Locale",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for output byte count in diagnostics.",
+      "key": "diagnostics.output_bytes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Output bytes",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Affirmative value in the diagnostics panel.",
+      "key": "diagnostics.yes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Yes",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Negative value in the diagnostics panel.",
+      "key": "diagnostics.no",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "No",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Diagnostic label for pending profile storage initialization.",
+      "key": "diagnostics.profile_storage_pending",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Pending",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Diagnostic label for available profile storage.",
+      "key": "diagnostics.profile_storage_available",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Available",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Diagnostic label for unavailable profile storage.",
+      "key": "diagnostics.profile_storage_unavailable",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 22,
+      "status": "source",
+      "value": {
+        "template": "Unavailable",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 21
+  "sourceRevision": 22
 }

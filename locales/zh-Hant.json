@@ -164,15 +164,115 @@
       "status": "draft",
       "template": "LinguaMesh"
     },
+    "diagnostics.locale": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "介面語言"
+    },
+    "diagnostics.model_selected": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已選取模型"
+    },
+    "diagnostics.model_selection_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "模型選取待處理"
+    },
+    "diagnostics.no": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "否"
+    },
+    "diagnostics.onboarding": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "導覽"
+    },
+    "diagnostics.output_bytes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "輸出位元組數"
+    },
+    "diagnostics.persisted_active_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "持久化作用中設定檔"
+    },
+    "diagnostics.profile_deletion_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "設定檔刪除待處理"
+    },
+    "diagnostics.profile_storage": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "設定檔儲存"
+    },
+    "diagnostics.profile_storage_available": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "可用"
+    },
+    "diagnostics.profile_storage_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "待處理"
+    },
+    "diagnostics.profile_storage_unavailable": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "不可用"
+    },
+    "diagnostics.provider": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "提供者"
+    },
+    "diagnostics.provider_saved": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "提供者已儲存"
+    },
+    "diagnostics.saved_model": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已儲存模型"
+    },
+    "diagnostics.saved_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已儲存設定檔"
+    },
+    "diagnostics.saved_profiles": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已儲存設定檔數量"
+    },
+    "diagnostics.status": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "狀態"
+    },
     "diagnostics.summary": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Core ABI {core_abi} · 通訊協定 {protocol}"
     },
+    "diagnostics.theme": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "佈景主題"
+    },
     "diagnostics.title": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "診斷"
+    },
+    "diagnostics.yes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "是"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1558,7 +1658,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 21,
+    "sourceRevision": 22,
     "status": "draft"
   }
 }

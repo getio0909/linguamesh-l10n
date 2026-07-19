@@ -164,15 +164,115 @@
       "status": "draft",
       "template": "LinguaMesh"
     },
+    "diagnostics.locale": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "界面语言"
+    },
+    "diagnostics.model_selected": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已选择模型"
+    },
+    "diagnostics.model_selection_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "模型选择待处理"
+    },
+    "diagnostics.no": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "否"
+    },
+    "diagnostics.onboarding": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "引导"
+    },
+    "diagnostics.output_bytes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "输出字节数"
+    },
+    "diagnostics.persisted_active_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "持久化活动配置"
+    },
+    "diagnostics.profile_deletion_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "配置删除待处理"
+    },
+    "diagnostics.profile_storage": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "配置存储"
+    },
+    "diagnostics.profile_storage_available": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "可用"
+    },
+    "diagnostics.profile_storage_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "待处理"
+    },
+    "diagnostics.profile_storage_unavailable": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "不可用"
+    },
+    "diagnostics.provider": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "提供商"
+    },
+    "diagnostics.provider_saved": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "提供商已保存"
+    },
+    "diagnostics.saved_model": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已保存模型"
+    },
+    "diagnostics.saved_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已保存配置"
+    },
+    "diagnostics.saved_profiles": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "已保存配置数量"
+    },
+    "diagnostics.status": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "状态"
+    },
     "diagnostics.summary": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Core ABI {core_abi} · 协议 {protocol}"
     },
+    "diagnostics.theme": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "主题"
+    },
     "diagnostics.title": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "诊断"
+    },
+    "diagnostics.yes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "是"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1558,7 +1658,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 21,
+    "sourceRevision": 22,
     "status": "draft"
   }
 }

@@ -174,15 +174,115 @@
       "status": "draft",
       "template": "LinguaMesh"
     },
+    "diagnostics.locale": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "اللغة المحلية"
+    },
+    "diagnostics.model_selected": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "النموذج المحدد"
+    },
+    "diagnostics.model_selection_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "اختيار النموذج قيد الانتظار"
+    },
+    "diagnostics.no": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "لا"
+    },
+    "diagnostics.onboarding": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "الإعداد"
+    },
+    "diagnostics.output_bytes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "بايتات الإخراج"
+    },
+    "diagnostics.persisted_active_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "الملف الشخصي النشط المحفوظ"
+    },
+    "diagnostics.profile_deletion_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "حذف الملف الشخصي قيد الانتظار"
+    },
+    "diagnostics.profile_storage": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "تخزين الملف الشخصي"
+    },
+    "diagnostics.profile_storage_available": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "متاح"
+    },
+    "diagnostics.profile_storage_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "معلّق"
+    },
+    "diagnostics.profile_storage_unavailable": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "غير متاح"
+    },
+    "diagnostics.provider": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "المزوّد"
+    },
+    "diagnostics.provider_saved": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "المزوّد محفوظ"
+    },
+    "diagnostics.saved_model": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "النموذج المحفوظ"
+    },
+    "diagnostics.saved_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "الملف الشخصي المحفوظ"
+    },
+    "diagnostics.saved_profiles": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "الملفات الشخصية المحفوظة"
+    },
+    "diagnostics.status": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "الحالة"
+    },
     "diagnostics.summary": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "Core ABI {core_abi} · البروتوكول {protocol}"
     },
+    "diagnostics.theme": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "السمة"
+    },
     "diagnostics.title": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "التشخيص"
+    },
+    "diagnostics.yes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "نعم"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1578,7 +1678,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 21,
+    "sourceRevision": 22,
     "status": "draft"
   }
 }

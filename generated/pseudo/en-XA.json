@@ -166,15 +166,115 @@
       "status": "draft",
       "template": "［ĿïñĝûåṀëšħ~~~］"
     },
+    "diagnostics.locale": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ŀøçåŀë~~］"
+    },
+    "diagnostics.model_selected": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ṁøðëŀ šëŀëçŧëð~~~~］"
+    },
+    "diagnostics.model_selection_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ṁøðëŀ šëŀëçŧïøñ þëñðïñĝ~~~~~~~］"
+    },
+    "diagnostics.no": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ñø~~］"
+    },
+    "diagnostics.onboarding": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Øñƀøåŕðïñĝ~~~］"
+    },
+    "diagnostics.output_bytes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Øûŧþûŧ ƀÿŧëš~~~~］"
+    },
+    "diagnostics.persisted_active_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þëŕšïšŧëð åçŧïṽë þŕøƒïŀë~~~~~~~~］"
+    },
+    "diagnostics.profile_deletion_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þŕøƒïŀë ðëŀëŧïøñ þëñðïñĝ~~~~~~~~］"
+    },
+    "diagnostics.profile_storage": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þŕøƒïŀë šŧøŕåĝë~~~~~］"
+    },
+    "diagnostics.profile_storage_available": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Åṽåïŀåƀŀë~~~］"
+    },
+    "diagnostics.profile_storage_pending": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þëñðïñĝ~~］"
+    },
+    "diagnostics.profile_storage_unavailable": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ûñåṽåïŀåƀŀë~~~］"
+    },
+    "diagnostics.provider": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ~~］"
+    },
+    "diagnostics.provider_saved": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ šåṽëð~~~~］"
+    },
+    "diagnostics.saved_model": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Šåṽëð ṁøðëŀ~~~］"
+    },
+    "diagnostics.saved_profile": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀë~~~~］"
+    },
+    "diagnostics.saved_profiles": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Šåṽëð þŕøƒïŀëš~~~~］"
+    },
+    "diagnostics.status": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Šŧåŧûš~~］"
+    },
     "diagnostics.summary": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Çøŕë ÅƁÏ {core_abi} · Þŕøŧøçøŀ {protocol}~~~~~~~~~~~~~］"
     },
+    "diagnostics.theme": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ŧħëṁë~~］"
+    },
     "diagnostics.title": {
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ðïåĝñøšŧïçš~~~］"
+    },
+    "diagnostics.yes": {
+      "sourceRevision": 22,
+      "status": "draft",
+      "template": "［Ÿëš~~］"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1562,7 +1662,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 21,
+    "sourceRevision": 22,
     "status": "draft"
   }
 }
