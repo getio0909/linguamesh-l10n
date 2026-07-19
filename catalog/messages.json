@@ -5316,9 +5316,24 @@
         "template": "Unavailable",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Identifies the draggable file fixture in automated GTK interaction tests.",
+      "description": "Accessible label for the draggable file fixture button used by Linux GTK interaction tests.",
+      "key": "fixture.drag_file",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 25,
+      "status": "source",
+      "value": {
+        "template": "Drag fixture",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 24
+  "sourceRevision": 25
 }

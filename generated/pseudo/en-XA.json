@@ -927,6 +927,11 @@
       "status": "draft",
       "template": "［Ŧëẋŧ ƒïŀëš~~~］"
     },
+    "fixture.drag_file": {
+      "sourceRevision": 25,
+      "status": "draft",
+      "template": "［Ðŕåĝ ƒïẋŧûŕë~~~~］"
+    },
     "history.mode": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1692,7 +1697,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 24,
+    "sourceRevision": 25,
     "status": "draft"
   }
 }

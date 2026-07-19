@@ -927,6 +927,11 @@
       "status": "source",
       "template": "Text files"
     },
+    "fixture.drag_file": {
+      "sourceRevision": 25,
+      "status": "source",
+      "template": "Drag fixture"
+    },
     "history.mode": {
       "sourceRevision": 1,
       "status": "source",
@@ -1692,7 +1697,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 24,
+    "sourceRevision": 25,
     "status": "source"
   }
 }

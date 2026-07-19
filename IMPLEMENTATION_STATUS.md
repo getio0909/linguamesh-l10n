@@ -5,7 +5,7 @@ Status date: 2026-07-19
 ## Implemented
 
 - Versioned JSON Schema contracts for the canonical catalog and data-only locale packs.
-- A `0.1.0` English source catalog with 327 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, the localized default provider name, request-level glossary controls, Secret Service prompt dismissal errors, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
+- A `0.1.0` English source catalog with 333 messages, including Linux-only status announcements, document-job row metadata and state labels, opt-in image-only PDF OCR controls and errors, text-file import, glossary CSV import/export and rule-validation errors, and translation-export labels, provider-profile controls, onboarding-stage copy, active-provider summaries, completion notifications, draft-locale notes, locale selector language names, fixed user-facing error messages, fixed state-error/category copy, fixed worker/file/storage/provider errors, production runtime/storage error coverage, the localized default provider name, request-level glossary controls, Secret Service prompt dismissal errors, the Linux GTK drag-fixture label, and the Android vertical-slice UI, covering typed string and integer placeholders, plurals, selects, platform applicability, accessibility context, and per-message source revisions.
 - All 12 required official BCP 47 locale packs. English is source; the other 11 packs are explicitly machine-generated, draft, and unreviewed.
 - Generated `en-XA` accented and `ar-XB` RTL pseudo-locales that preserve placeholders.
 - Strict rejection of missing or unknown keys, malformed placeholders, incompatible plural/select branches, native resource-identifier collisions, stale revisions, invalid fallback/direction metadata, unsafe paths or text, and dishonest review status.
@@ -111,3 +111,19 @@ while the credential and prompt result remain outside logs and localization payl
 
 Native consumers must pin this revision before claiming runtime evidence. Human review,
 complete production copy coverage, and stable release qualification remain open.
+
+## 2026-07-19 — Linux GTK fixture localization checkpoint
+
+Assumption: the automated GTK drag-and-drop fixture button is still user-visible UI and must
+resolve through the canonical catalog, even though it is only enabled for interaction-test runs.
+
+- Added the Linux-only `fixture.drag_file` source message at catalog revision 25; all 12 official
+  locale packs carry the key, with non-English values remaining machine-generated drafts.
+- Regenerated all 59 deterministic native resources and both pseudo-locales. Bundle SHA-256 is
+  `61a054d99935b256e79d5be7feb4d929fc8cf61af663a02b8fd10475745d70bd`.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passed setup,
+  formatting, schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle
+  build, and foundation validation.
+
+Linux must pin this revision before claiming the updated visible-string audit. Human translated
+copy review, visual/RTL review, Orca speech review, and stable-release qualification remain open.
