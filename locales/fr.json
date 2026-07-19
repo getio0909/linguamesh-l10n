@@ -137,6 +137,11 @@
       "status": "draft",
       "template": "Retry document"
     },
+    "action.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "Retry translation"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1643,6 +1648,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Remove the selected saved profile without disconnecting its current session"
+    },
+    "tooltip.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "Retry the last failed or cancelled text translation"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,

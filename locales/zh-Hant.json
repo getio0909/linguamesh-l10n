@@ -134,6 +134,11 @@
       "status": "draft",
       "template": "Retry document"
     },
+    "action.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "Retry translation"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1636,6 +1641,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "移除選取的已儲存設定，但不會中斷目前工作階段"
+    },
+    "tooltip.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "Retry the last failed or cancelled text translation"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,

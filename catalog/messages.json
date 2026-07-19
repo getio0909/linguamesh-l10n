@@ -4463,6 +4463,21 @@
       }
     },
     {
+      "accessibilityContext": "Announced as the explicit retry action for the text workspace.",
+      "description": "Action that retries a failed or cancelled text translation.",
+      "key": "action.retry_translation",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 19,
+      "status": "source",
+      "value": {
+        "template": "Retry translation",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": null,
       "description": "Action that selects a persisted document job.",
       "key": "action.select_document_job",
@@ -4474,6 +4489,21 @@
       "status": "source",
       "value": {
         "template": "Select document job",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains when the text retry action is available.",
+      "description": "Tooltip for retrying the last failed or cancelled text translation.",
+      "key": "tooltip.retry_translation",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 19,
+      "status": "source",
+      "value": {
+        "template": "Retry the last failed or cancelled text translation",
         "type": "text"
       }
     },

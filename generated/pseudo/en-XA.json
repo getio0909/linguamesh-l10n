@@ -136,6 +136,11 @@
       "status": "draft",
       "template": "［Ŕëŧŕÿ ðøçûṁëñŧ~~~~］"
     },
+    "action.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "［Ŕëŧŕÿ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1640,6 +1645,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Ŕëṁøṽë ŧħë šëŀëçŧëð šåṽëð þŕøƒïŀë ŵïŧħøûŧ ðïšçøññëçŧïñĝ ïŧš çûŕŕëñŧ šëššïøñ~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.retry_translation": {
+      "sourceRevision": 19,
+      "status": "draft",
+      "template": "［Ŕëŧŕÿ ŧħë ŀåšŧ ƒåïŀëð øŕ çåñçëŀŀëð ŧëẋŧ ŧŕåñšŀåŧïøñ~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.save_history": {
       "sourceRevision": 12,
