@@ -17,6 +17,9 @@ In order, these commands verify Python and imports; check JSON formatting; valid
 
 `make check` runs all commands above and the repository foundation check. Formatting changes can be applied with `make format`; native resources can be refreshed with `make generate`.
 
+The catalog test suite also verifies the source-revision-34 text-metrics message and its typed
+integer placeholders for character and approximate-token counts.
+
 The tests parse every generated Android and Windows XML document, load the macOS String Catalog as JSON, inspect Linux PO escaping/review metadata and GNU MO tables, validate pseudo-locales and Arabic quantities, verify all manifest hashes, and compare generated output against a fresh tree. Safety tests reject resource-identifier collisions, unsafe select branches, invalid XML characters, overstated review metadata, symbolic-link inputs and outputs, oversized JSON, and unsafe bundle versions. Fixtures under `tests/fixtures/` prove that unknown keys, placeholder drift, missing plural categories, and incompatible select branches fail validation.
 
 Default tests use no provider, network access, paid credential, or private translation content.

@@ -1638,6 +1638,11 @@
       "status": "draft",
       "template": "Запуск…"
     },
+    "status.text_metrics": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "Characters: {characters} · Estimated tokens: {tokens}"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1834,7 +1839,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 33,
+    "sourceRevision": 34,
     "status": "draft"
   }
 }

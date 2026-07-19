@@ -1627,6 +1627,11 @@
       "status": "draft",
       "template": "正在启动"
     },
+    "status.text_metrics": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "字符数：{characters} · 预计 token 数：{tokens}"
+    },
     "status.translating": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1823,7 +1828,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 33,
+    "sourceRevision": 34,
     "status": "draft"
   }
 }

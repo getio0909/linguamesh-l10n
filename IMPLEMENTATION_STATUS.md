@@ -4,6 +4,11 @@ Status date: 2026-07-19
 
 ## Implemented
 
+- Added the Linux-only `status.text_metrics` message at source revision 34. The Linux editor
+  can expose character counts and clearly approximate token counts without logging text content;
+  all 12 official packs carry the key and the catalog now contains 360 messages.
+- `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte
+  regeneration, deterministic bundle build, and foundation validation after the metrics update.
 - Added the Linux-only duplicate routing-profile ID error at source revision 33. All 12 official
   packs carry the key, and the 359-message catalog regenerates all 59 deterministic resources.
 - `make check` passes setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte

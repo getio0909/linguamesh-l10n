@@ -942,6 +942,30 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Live source or translation text size summary with a clearly approximate token estimate.",
+      "key": "status.text_metrics",
+      "placeholders": {
+        "characters": {
+          "example": 42,
+          "type": "integer"
+        },
+        "tokens": {
+          "example": 11,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "Characters: {characters} · Estimated tokens: {tokens}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Status shown while the application is starting.",
       "key": "status.starting",
       "placeholders": {},
@@ -5769,5 +5793,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 33
+  "sourceRevision": 34
 }
