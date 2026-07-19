@@ -1301,6 +1301,21 @@
       }
     },
     {
+      "accessibilityContext": "label",
+      "description": "Label for the Linux routing planner profile identifier field.",
+      "key": "label.routing_profile_id",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 32,
+      "status": "source",
+      "value": {
+        "template": "Routing profile ID",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": null,
       "description": "Label for the Linux source-language selector.",
       "key": "label.source_language",
@@ -5678,6 +5693,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Fixed error shown when a Linux routing planner profile identifier violates Core bounds.",
+      "key": "error.routing_profile_id_invalid",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 32,
+      "status": "source",
+      "value": {
+        "template": "Use 1-128 ASCII letters, numbers, '.', '_' or '-' for the routing profile ID.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Localized label for manual routing mode.",
       "key": "routing.mode.manual",
       "placeholders": {},
@@ -5724,5 +5754,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 31
+  "sourceRevision": 32
 }

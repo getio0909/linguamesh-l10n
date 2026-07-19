@@ -703,6 +703,11 @@
         "other": "請在 {seconds} 秒後再試一次。"
       }
     },
+    "error.routing_profile_id_invalid": {
+      "sourceRevision": 32,
+      "status": "draft",
+      "template": "路由設定 ID 必須使用 1-128 個 ASCII 字母、數字、點、底線或連字號。"
+    },
     "error.routing_profile_no_candidates": {
       "sourceRevision": 28,
       "status": "draft",
@@ -1016,6 +1021,11 @@
       "sourceRevision": 24,
       "status": "draft",
       "template": "Provider preset"
+    },
+    "label.routing_profile_id": {
+      "sourceRevision": 32,
+      "status": "draft",
+      "template": "路由設定 ID"
     },
     "label.saved_profile": {
       "sourceRevision": 1,
@@ -1808,7 +1818,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 31,
+    "sourceRevision": 32,
     "status": "draft"
   }
 }

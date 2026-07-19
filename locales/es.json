@@ -710,6 +710,11 @@
         "other": "Inténtalo de nuevo en {seconds} segundos."
       }
     },
+    "error.routing_profile_id_invalid": {
+      "sourceRevision": 32,
+      "status": "draft",
+      "template": "Use 1-128 ASCII letters, numbers, '.', '_' or '-' for the routing profile ID."
+    },
     "error.routing_profile_no_candidates": {
       "sourceRevision": 28,
       "status": "draft",
@@ -1023,6 +1028,11 @@
       "sourceRevision": 24,
       "status": "draft",
       "template": "Provider preset"
+    },
+    "label.routing_profile_id": {
+      "sourceRevision": 32,
+      "status": "draft",
+      "template": "Routing profile ID"
     },
     "label.saved_profile": {
       "sourceRevision": 1,
@@ -1815,7 +1825,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 31,
+    "sourceRevision": 32,
     "status": "draft"
   }
 }
