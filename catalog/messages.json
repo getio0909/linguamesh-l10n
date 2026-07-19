@@ -5376,9 +5376,85 @@
         "template": "Local Ollama provider",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Shown in Linux history and translation-memory rows.",
+      "description": "Localized metadata summary for a stored translation entry.",
+      "key": "status.translation_entry_metadata",
+      "placeholders": {
+        "created_at": {
+          "example": "2026-07-19 13:55:00 UTC",
+          "type": "string"
+        },
+        "model": {
+          "example": "demo-model",
+          "type": "string"
+        },
+        "source": {
+          "example": "English",
+          "type": "string"
+        },
+        "target": {
+          "example": "Chinese",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 27,
+      "status": "source",
+      "value": {
+        "template": "{source} → {target} · {model} · {created_at}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Identifies a persisted Linux document job without exposing its source path.",
+      "key": "status.document_job_id",
+      "placeholders": {
+        "id": {
+          "example": "job-123",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 27,
+      "status": "source",
+      "value": {
+        "template": "Job: {id}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Announced when a provider is active and its persistence mode is visible.",
+      "description": "Active provider summary with the localized persistence mode.",
+      "key": "provider.active_with_mode",
+      "placeholders": {
+        "mode": {
+          "example": "saved",
+          "type": "string"
+        },
+        "provider": {
+          "example": "Local test provider",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 27,
+      "status": "source",
+      "value": {
+        "template": "Active provider: {provider} ({mode})",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 26
+  "sourceRevision": 27
 }

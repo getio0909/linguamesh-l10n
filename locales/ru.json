@@ -1238,6 +1238,11 @@
       "status": "draft",
       "template": "Active provider remains {active} ({active_mode}); connecting {pending} ({pending_mode})."
     },
+    "provider.active_with_mode": {
+      "sourceRevision": 27,
+      "status": "draft",
+      "template": "Active provider: {provider} ({mode})"
+    },
     "provider.connecting": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1367,6 +1372,11 @@
       "sourceRevision": 20,
       "status": "draft",
       "template": "Failed"
+    },
+    "status.document_job_id": {
+      "sourceRevision": 27,
+      "status": "draft",
+      "template": "Job: {id}"
     },
     "status.document_job_paused": {
       "sourceRevision": 20,
@@ -1537,6 +1547,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Выполняется перевод…"
+    },
+    "status.translation_entry_metadata": {
+      "sourceRevision": 27,
+      "status": "draft",
+      "template": "{source} → {target} · {model} · {created_at}"
     },
     "status.unavailable": {
       "sourceRevision": 1,
@@ -1719,7 +1734,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 26,
+    "sourceRevision": 27,
     "status": "draft"
   }
 }
