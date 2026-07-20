@@ -196,6 +196,11 @@
       "status": "source",
       "template": "Select document job"
     },
+    "action.test_connection": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Test connection"
+    },
     "action.translate": {
       "sourceRevision": 1,
       "status": "source",
@@ -1636,6 +1641,11 @@
       "status": "source",
       "template": "Connecting"
     },
+    "status.connection_tested": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Connection test passed for {provider}; {model_count} models are available."
+    },
     "status.disconnected": {
       "sourceRevision": 1,
       "status": "source",
@@ -2075,6 +2085,11 @@
       "sourceRevision": 1,
       "status": "source",
       "template": "Choose a saved non-secret profile or create a new profile"
+    },
+    "tooltip.test_connection": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Check the provider model endpoint without switching or saving the active profile"
     },
     "tooltip.translation_preset": {
       "sourceRevision": 41,

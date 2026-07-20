@@ -194,6 +194,11 @@
       "status": "draft",
       "template": "Select document job"
     },
+    "action.test_connection": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "測試連線"
+    },
     "action.translate": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1632,6 +1637,11 @@
       "status": "draft",
       "template": "正在連線"
     },
+    "status.connection_tested": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "已通過 {provider} 的連線測試；可用模型數：{model_count}。"
+    },
     "status.disconnected": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2071,6 +2081,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "選擇不含秘密的已儲存設定，或新增設定"
+    },
+    "tooltip.test_connection": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "檢查提供者模型端點，不切換或儲存作用中的設定"
     },
     "tooltip.translation_preset": {
       "sourceRevision": 41,

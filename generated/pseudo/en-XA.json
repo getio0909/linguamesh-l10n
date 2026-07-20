@@ -196,6 +196,11 @@
       "status": "draft",
       "template": "［Šëŀëçŧ ðøçûṁëñŧ ĵøƀ~~~~~~］"
     },
+    "action.test_connection": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Ŧëšŧ çøññëçŧïøñ~~~~~］"
+    },
     "action.translate": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1636,6 +1641,11 @@
       "status": "draft",
       "template": "［Çøññëçŧïñĝ~~~］"
     },
+    "status.connection_tested": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çøññëçŧïøñ ŧëšŧ þåššëð ƒøŕ {provider}; {model_count} ṁøðëŀš åŕë åṽåïŀåƀŀë.~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "status.disconnected": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2075,6 +2085,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Çħøøšë å šåṽëð ñøñ-šëçŕëŧ þŕøƒïŀë øŕ çŕëåŧë å ñëŵ þŕøƒïŀë~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.test_connection": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "［Çħëçķ ŧħë þŕøṽïðëŕ ṁøðëŀ ëñðþøïñŧ ŵïŧħøûŧ šŵïŧçħïñĝ øŕ šåṽïñĝ ŧħë åçŧïṽë þŕøƒïŀë~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.translation_preset": {
       "sourceRevision": 41,

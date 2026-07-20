@@ -897,6 +897,30 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Result shown after an explicit provider connection test succeeds.",
+      "key": "status.connection_tested",
+      "placeholders": {
+        "model_count": {
+          "example": 3,
+          "type": "integer"
+        },
+        "provider": {
+          "example": "Local test provider",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Connection test passed for {provider}; {model_count} models are available.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Status label shown while cancellation is being finalized.",
       "key": "status.cancelling",
       "placeholders": {},
@@ -1356,6 +1380,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Tooltip explaining that an explicit provider test does not change the active session.",
+      "key": "tooltip.test_connection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Check the provider model endpoint without switching or saving the active profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Action that validates and connects a Linux provider profile.",
       "key": "action.connect",
       "placeholders": {},
@@ -1366,6 +1405,21 @@
       "status": "source",
       "value": {
         "template": "Connect",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that tests a Linux provider endpoint without switching or saving the active profile.",
+      "key": "action.test_connection",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Test connection",
         "type": "text"
       }
     },
