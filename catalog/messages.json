@@ -5427,6 +5427,46 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Non-sensitive details of the most recent routing decision.",
+      "key": "diagnostics.routing_decision_details",
+      "placeholders": {
+        "eligible": {
+          "example": "provider-a@model-a",
+          "type": "string"
+        },
+        "fallback": {
+          "example": "provider-b@model-b",
+          "type": "string"
+        },
+        "profile": {
+          "example": "linux-default",
+          "type": "string"
+        },
+        "ranking": {
+          "example": "provider-a@model-a [1,0]",
+          "type": "string"
+        },
+        "rejected": {
+          "example": "provider-c@model-c (ContextTooSmall)",
+          "type": "string"
+        },
+        "selected": {
+          "example": "provider-a@model-a",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 42,
+      "status": "source",
+      "value": {
+        "template": "{profile} → {selected}; eligible: {eligible}; rejected: {rejected}; ranking: {ranking}; fallback: {fallback}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Label for the application status in diagnostics.",
       "key": "diagnostics.status",
       "placeholders": {},
@@ -6777,5 +6817,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 41
+  "sourceRevision": 42
 }

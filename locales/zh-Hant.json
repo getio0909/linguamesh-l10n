@@ -299,6 +299,11 @@
       "status": "draft",
       "template": "Routing decision"
     },
+    "diagnostics.routing_decision_details": {
+      "sourceRevision": 42,
+      "status": "draft",
+      "template": "{profile} → {selected}；合格：{eligible}；拒絕：{rejected}；排名：{ranking}；回退：{fallback}"
+    },
     "diagnostics.saved_model": {
       "sourceRevision": 22,
       "status": "draft",
@@ -2153,7 +2158,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 41,
+    "sourceRevision": 42,
     "status": "draft"
   }
 }

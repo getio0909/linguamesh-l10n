@@ -301,6 +301,11 @@
       "status": "draft",
       "template": "［Ŕøûŧïñĝ ðëçïšïøñ~~~~~］"
     },
+    "diagnostics.routing_decision_details": {
+      "sourceRevision": 42,
+      "status": "draft",
+      "template": "［{profile} → {selected}; ëŀïĝïƀŀë: {eligible}; ŕëĵëçŧëð: {rejected}; ŕåñķïñĝ: {ranking}; ƒåŀŀƀåçķ: {fallback}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "diagnostics.saved_model": {
       "sourceRevision": 22,
       "status": "draft",
@@ -2157,7 +2162,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 41,
+    "sourceRevision": 42,
     "status": "draft"
   }
 }
