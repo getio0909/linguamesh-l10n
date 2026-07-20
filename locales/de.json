@@ -399,6 +399,11 @@
       "status": "draft",
       "template": "The active provider ID is unavailable."
     },
+    "error.anthropic_model_required": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Enter an Anthropic model ID before connecting."
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1271,6 +1276,11 @@
       "status": "draft",
       "template": "No fallback"
     },
+    "option.model.manual": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Enter a model ID manually..."
+    },
     "option.model.select": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1336,6 +1346,11 @@
       "status": "draft",
       "template": "Japanese"
     },
+    "profile.default_anthropic_name": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Anthropic Messages provider"
+    },
     "profile.default_name": {
       "sourceRevision": 6,
       "status": "draft",
@@ -1400,6 +1415,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Anbietername"
+    },
+    "provider.preset.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Anthropic Messages"
     },
     "provider.preset.ollama": {
       "sourceRevision": 24,
@@ -1786,6 +1806,11 @@
       "status": "draft",
       "template": "HTTPS or loopback HTTP OpenAI-compatible base endpoint"
     },
+    "tooltip.endpoint.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "HTTPS Anthropic Messages /v1 endpoint"
+    },
     "tooltip.endpoint.ollama": {
       "sourceRevision": 24,
       "status": "draft",
@@ -1820,6 +1845,11 @@
       "sourceRevision": 9,
       "status": "draft",
       "template": "Do not persist source, output, history, or translation-memory data for this request"
+    },
+    "tooltip.model.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Enter the Anthropic model ID before connecting; model discovery is manual for this preset"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -1967,7 +1997,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 36,
+    "sourceRevision": 37,
     "status": "draft"
   }
 }

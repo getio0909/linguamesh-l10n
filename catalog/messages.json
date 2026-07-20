@@ -348,6 +348,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Display label for the Anthropic Messages provider preset in the Linux provider form.",
+      "key": "provider.preset.anthropic",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Anthropic Messages",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Display label for the OpenAI-compatible provider preset in the Linux provider form.",
       "key": "provider.preset.openai",
       "placeholders": {},
@@ -679,6 +694,21 @@
       "status": "source",
       "value": {
         "template": "Enter a provider name, endpoint, and model.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation error shown when an Anthropic provider has no manually selected model.",
+      "key": "error.anthropic_model_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Enter an Anthropic model ID before connecting.",
         "type": "text"
       }
     },
@@ -1221,6 +1251,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Tooltip for the Linux Anthropic Messages endpoint field.",
+      "key": "tooltip.endpoint.anthropic",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "HTTPS Anthropic Messages /v1 endpoint",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Tooltip for the Linux native Ollama endpoint field.",
       "key": "tooltip.endpoint.ollama",
       "placeholders": {},
@@ -1261,6 +1306,21 @@
       "status": "source",
       "value": {
         "template": "Optional credential; it is kept in memory unless remembered through Secret Service",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux manually entered Anthropic model identifier.",
+      "key": "tooltip.model.anthropic",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Enter the Anthropic model ID before connecting; model discovery is manual for this preset",
         "type": "text"
       }
     },
@@ -1396,6 +1456,21 @@
       "status": "source",
       "value": {
         "template": "Endpoint (loopback example)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder for the Linux Anthropic model identifier entered before connection.",
+      "key": "option.model.manual",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Enter a model ID manually...",
         "type": "text"
       }
     },
@@ -3275,6 +3350,21 @@
       "status": "source",
       "value": {
         "template": "Local OpenAI-compatible provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for the Linux Anthropic Messages provider profile.",
+      "key": "profile.default_anthropic_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Anthropic Messages provider",
         "type": "text"
       }
     },
@@ -6198,5 +6288,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 36
+  "sourceRevision": 37
 }

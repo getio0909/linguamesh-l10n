@@ -399,6 +399,11 @@
       "status": "draft",
       "template": "［Ŧħë åçŧïṽë þŕøṽïðëŕ ÏÐ ïš ûñåṽåïŀåƀŀë.~~~~~~~~~~~~］"
     },
+    "error.anthropic_model_required": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Ëñŧëŕ åñ Åñŧħŕøþïç ṁøðëŀ ÏÐ ƀëƒøŕë çøññëçŧïñĝ.~~~~~~~~~~~~~~~］"
+    },
     "error.authentication": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1271,6 +1276,11 @@
       "status": "draft",
       "template": "［Ñø ƒåŀŀƀåçķ~~~］"
     },
+    "option.model.manual": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Ëñŧëŕ å ṁøðëŀ ÏÐ ṁåñûåŀŀÿ...~~~~~~~~~］"
+    },
     "option.model.select": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1336,6 +1346,11 @@
       "status": "draft",
       "template": "［Ĵåþåñëšë~~］"
     },
+    "profile.default_anthropic_name": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Åñŧħŕøþïç Ṁëššåĝëš þŕøṽïðëŕ~~~~~~~~~］"
+    },
     "profile.default_name": {
       "sourceRevision": 6,
       "status": "draft",
@@ -1400,6 +1415,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "［Þŕøṽïðëŕ ñåṁë~~~~］"
+    },
+    "provider.preset.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Åñŧħŕøþïç Ṁëššåĝëš~~~~~~］"
     },
     "provider.preset.ollama": {
       "sourceRevision": 24,
@@ -1786,6 +1806,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ØþëñÅÏ-çøṁþåŧïƀŀë ƀåšë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.endpoint.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ Åñŧħŕøþïç Ṁëššåĝëš /ṽ1 ëñðþøïñŧ~~~~~~~~~~~~］"
+    },
     "tooltip.endpoint.ollama": {
       "sourceRevision": 24,
       "status": "draft",
@@ -1820,6 +1845,11 @@
       "sourceRevision": 9,
       "status": "draft",
       "template": "［Ðø ñøŧ þëŕšïšŧ šøûŕçë, øûŧþûŧ, ħïšŧøŕÿ, øŕ ŧŕåñšŀåŧïøñ-ṁëṁøŕÿ ðåŧå ƒøŕ ŧħïš ŕëǫûëšŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.model.anthropic": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Ëñŧëŕ ŧħë Åñŧħŕøþïç ṁøðëŀ ÏÐ ƀëƒøŕë çøññëçŧïñĝ; ṁøðëŀ ðïšçøṽëŕÿ ïš ṁåñûåŀ ƒøŕ ŧħïš þŕëšëŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -1967,7 +1997,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 36,
+    "sourceRevision": 37,
     "status": "draft"
   }
 }
