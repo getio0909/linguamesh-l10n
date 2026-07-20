@@ -1117,6 +1117,11 @@
       "status": "draft",
       "template": "لغة المصدر"
     },
+    "label.translation_preset": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "إعداد ترجمة مسبق"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2052,6 +2057,11 @@
       "status": "draft",
       "template": "اختر ملفاً محفوظاً بلا أسرار أو أنشئ ملفاً جديداً"
     },
+    "tooltip.translation_preset": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "يطبّق على الطلب التالي تفضيلًا محدودًا للمجال والنبرة والرسمية والجمهور"
+    },
     "tooltip.view_history": {
       "sourceRevision": 11,
       "status": "draft",
@@ -2061,6 +2071,21 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "Inspect, export, or delete individual local translation memory entries"
+    },
+    "translation.preset.general": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "عام"
+    },
+    "translation.preset.marketing": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "تسويقي"
+    },
+    "translation.preset.technical": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "تقني"
     },
     "translation.progress": {
       "sourceRevision": 1,
@@ -2098,7 +2123,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 40,
+    "sourceRevision": 41,
     "status": "draft"
   }
 }

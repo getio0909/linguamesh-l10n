@@ -1097,6 +1097,11 @@
       "status": "draft",
       "template": "源语言"
     },
+    "label.translation_preset": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "翻译预设"
+    },
     "locale.current": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2032,6 +2037,11 @@
       "status": "draft",
       "template": "选择不含秘密的已保存配置，或新建配置"
     },
+    "tooltip.translation_preset": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "为下一次请求应用限定的领域、语气、正式程度和受众偏好"
+    },
     "tooltip.view_history": {
       "sourceRevision": 11,
       "status": "draft",
@@ -2041,6 +2051,21 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "Inspect, export, or delete individual local translation memory entries"
+    },
+    "translation.preset.general": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "通用"
+    },
+    "translation.preset.marketing": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "营销"
+    },
+    "translation.preset.technical": {
+      "sourceRevision": 41,
+      "status": "draft",
+      "template": "技术"
     },
     "translation.progress": {
       "sourceRevision": 1,
@@ -2078,7 +2103,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 40,
+    "sourceRevision": 41,
     "status": "draft"
   }
 }

@@ -6539,9 +6539,84 @@
         "template": "Models are discovered from the OpenAI Responses-compatible endpoint",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the Linux translation preset selector.",
+      "key": "label.translation_preset",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 41,
+      "status": "source",
+      "value": {
+        "template": "Translation preset",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "General translation preset with no domain-specific preference.",
+      "key": "translation.preset.general",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 41,
+      "status": "source",
+      "value": {
+        "template": "General",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Marketing translation preset for audience-focused copy.",
+      "key": "translation.preset.marketing",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 41,
+      "status": "source",
+      "value": {
+        "template": "Marketing",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Technical translation preset for terminology-focused content.",
+      "key": "translation.preset.technical",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 41,
+      "status": "source",
+      "value": {
+        "template": "Technical",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the bounded translation preset preferences.",
+      "key": "tooltip.translation_preset",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 41,
+      "status": "source",
+      "value": {
+        "template": "Apply a bounded domain, tone, formality, and audience preference to the next request",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 40
+  "sourceRevision": 41
 }
