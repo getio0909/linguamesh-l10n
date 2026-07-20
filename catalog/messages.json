@@ -6284,6 +6284,51 @@
         "template": "Use comma-separated ASCII identifiers and positive numeric limits.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Display label for the Google Gemini provider preset in the Linux provider form.",
+      "key": "provider.preset.gemini",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Google Gemini",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for a Google Gemini provider profile.",
+      "key": "profile.default_gemini_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "Google Gemini provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Endpoint tooltip for the Google Gemini Generate Content provider preset.",
+      "key": "tooltip.endpoint.gemini",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 37,
+      "status": "source",
+      "value": {
+        "template": "HTTPS or loopback HTTP Gemini Generate Content /v1beta endpoint",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

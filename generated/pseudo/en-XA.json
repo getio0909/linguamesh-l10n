@@ -1351,6 +1351,11 @@
       "status": "draft",
       "template": "［Åñŧħŕøþïç Ṁëššåĝëš þŕøṽïðëŕ~~~~~~~~~］"
     },
+    "profile.default_gemini_name": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Ĝøøĝŀë Ĝëṁïñï þŕøṽïðëŕ~~~~~~~］"
+    },
     "profile.default_name": {
       "sourceRevision": 6,
       "status": "draft",
@@ -1420,6 +1425,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "［Åñŧħŕøþïç Ṁëššåĝëš~~~~~~］"
+    },
+    "provider.preset.gemini": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［Ĝøøĝŀë Ĝëṁïñï~~~~］"
     },
     "provider.preset.ollama": {
       "sourceRevision": 24,
@@ -1810,6 +1820,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "［ĦŦŦÞŠ Åñŧħŕøþïç Ṁëššåĝëš /ṽ1 ëñðþøïñŧ~~~~~~~~~~~~］"
+    },
+    "tooltip.endpoint.gemini": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ Ĝëṁïñï Ĝëñëŕåŧë Çøñŧëñŧ /ṽ1ƀëŧå ëñðþøïñŧ~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.endpoint.ollama": {
       "sourceRevision": 24,

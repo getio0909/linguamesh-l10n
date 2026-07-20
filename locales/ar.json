@@ -1367,6 +1367,11 @@
       "status": "draft",
       "template": "Anthropic Messages provider"
     },
+    "profile.default_gemini_name": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Google Gemini provider"
+    },
     "profile.default_name": {
       "sourceRevision": 6,
       "status": "draft",
@@ -1436,6 +1441,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "Anthropic Messages"
+    },
+    "provider.preset.gemini": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "Google Gemini"
     },
     "provider.preset.ollama": {
       "sourceRevision": 24,
@@ -1826,6 +1836,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "HTTPS Anthropic Messages /v1 endpoint"
+    },
+    "tooltip.endpoint.gemini": {
+      "sourceRevision": 37,
+      "status": "draft",
+      "template": "HTTPS or loopback HTTP Gemini Generate Content /v1beta endpoint"
     },
     "tooltip.endpoint.ollama": {
       "sourceRevision": 24,
