@@ -1049,6 +1049,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "Mode de qualité"
+    },
     "label.routing_max_request_bytes": {
       "sourceRevision": 36,
       "status": "draft",
@@ -1473,6 +1478,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect."
+    },
+    "quality.mode.balanced": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "Équilibré"
+    },
+    "quality.mode.best": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "Meilleur"
+    },
+    "quality.mode.fast": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "Rapide"
     },
     "routing.mode.automatic": {
       "sourceRevision": 28,
@@ -1934,6 +1954,11 @@
       "status": "draft",
       "template": "Choose the provider protocol used for model discovery and streaming"
     },
+    "tooltip.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "Rapide utilise une passe directe ; Équilibré ajoute des contrôles structurels déterministes ; Meilleur demande une critique et une révision internes."
+    },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2060,7 +2085,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 39,
+    "sourceRevision": 40,
     "status": "draft"
   }
 }

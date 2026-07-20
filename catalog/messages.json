@@ -6032,6 +6032,81 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Label for the Linux text translation quality-mode selector.",
+      "key": "label.quality_mode",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 40,
+      "status": "source",
+      "value": {
+        "template": "Quality mode",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Fast quality mode uses one direct translation pass.",
+      "key": "quality.mode.fast",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 40,
+      "status": "source",
+      "value": {
+        "template": "Fast",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Balanced quality mode adds deterministic structural validation.",
+      "key": "quality.mode.balanced",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 40,
+      "status": "source",
+      "value": {
+        "template": "Balanced",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Best quality mode requests an internal critique and revision before output.",
+      "key": "quality.mode.best",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 40,
+      "status": "source",
+      "value": {
+        "template": "Best",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Explains the Linux translation quality-mode trade-offs.",
+      "key": "tooltip.quality_mode",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 40,
+      "status": "source",
+      "value": {
+        "template": "Fast uses one direct pass; Balanced adds deterministic structure checks; Best asks for an internal critique and revision.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Automatic routing preference for highest quality tier.",
       "key": "routing.preference.quality",
       "placeholders": {},
@@ -6468,5 +6543,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 39
+  "sourceRevision": 40
 }

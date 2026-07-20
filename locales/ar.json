@@ -1062,6 +1062,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "وضع الجودة"
+    },
     "label.routing_max_request_bytes": {
       "sourceRevision": 36,
       "status": "draft",
@@ -1486,6 +1491,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "تمت استعادة ملفات التعريف المحفوظة غير السرية. اختر واحداً وأعد إدخال بيانات الاعتماد عند الحاجة ثم اتصل."
+    },
+    "quality.mode.balanced": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "متوازن"
+    },
+    "quality.mode.best": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "الأفضل"
+    },
+    "quality.mode.fast": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "سريع"
     },
     "routing.mode.automatic": {
       "sourceRevision": 28,
@@ -1947,6 +1967,11 @@
       "status": "draft",
       "template": "Choose the provider protocol used for model discovery and streaming"
     },
+    "tooltip.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "يستخدم السريع ترجمة مباشرة واحدة؛ ويضيف المتوازن فحوصاً بنيوية حتمية؛ ويطلب الأفضل نقداً ومراجعة داخليين قبل الإخراج."
+    },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2073,7 +2098,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 39,
+    "sourceRevision": 40,
     "status": "draft"
   }
 }

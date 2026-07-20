@@ -1042,6 +1042,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "품질 모드"
+    },
     "label.routing_max_request_bytes": {
       "sourceRevision": 36,
       "status": "draft",
@@ -1466,6 +1471,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Saved non-secret profiles were restored. Choose one, enter its credential if required, then connect."
+    },
+    "quality.mode.balanced": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "균형"
+    },
+    "quality.mode.best": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "최상"
+    },
+    "quality.mode.fast": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "빠름"
     },
     "routing.mode.automatic": {
       "sourceRevision": 28,
@@ -1927,6 +1947,11 @@
       "status": "draft",
       "template": "Choose the provider protocol used for model discovery and streaming"
     },
+    "tooltip.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "빠름은 한 번의 직접 번역을 사용합니다. 균형은 결정적 구조 검사를 추가하고, 최상은 출력 전에 내부 검토와 수정을 요청합니다."
+    },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2053,7 +2078,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 39,
+    "sourceRevision": 40,
     "status": "draft"
   }
 }

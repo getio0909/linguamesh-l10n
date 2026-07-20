@@ -1,5 +1,16 @@
 # Implementation Status
 
+## 2026-07-20 — Linux translation quality-mode copy
+
+Assumption: the three quality modes are Linux-only UI controls for this checkpoint; non-English
+strings remain explicitly unreviewed drafts and English remains the source fallback.
+
+- Added five Linux-only source messages at source revision 40 for the quality-mode label, Fast,
+  Balanced, Best, and the trade-off tooltip. All twelve official locale packs carry the keys with
+  draft provenance outside English, and pseudo-locales plus Linux PO/MO resources were regenerated.
+- The catalog now contains 410 messages. `make check` passes formatting, schema/catalog lint, all
+  26 tests, deterministic regeneration, bundle construction, and foundation validation.
+
 ## 2026-07-20 — Azure OpenAI Linux provider copy
 
 Assumption: Azure OpenAI deployment names are user-entered model identifiers; no live credentials

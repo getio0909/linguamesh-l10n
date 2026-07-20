@@ -1042,6 +1042,11 @@
       "status": "draft",
       "template": "提供商预设"
     },
+    "label.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "质量模式"
+    },
     "label.routing_max_request_bytes": {
       "sourceRevision": 36,
       "status": "draft",
@@ -1466,6 +1471,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "已恢复非敏感的已保存配置。请选择一个配置；如有需要输入凭据，然后连接。"
+    },
+    "quality.mode.balanced": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "平衡"
+    },
+    "quality.mode.best": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "最佳"
+    },
+    "quality.mode.fast": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "快速"
     },
     "routing.mode.automatic": {
       "sourceRevision": 28,
@@ -1927,6 +1947,11 @@
       "status": "draft",
       "template": "选择用于模型发现和流式输出的提供商协议"
     },
+    "tooltip.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "快速使用一次直接翻译；平衡模式增加确定性结构检查；最佳模式要求内部批评和修订。"
+    },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2053,7 +2078,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 39,
+    "sourceRevision": 40,
     "status": "draft"
   }
 }

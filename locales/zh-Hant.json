@@ -1042,6 +1042,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "品質模式"
+    },
     "label.routing_max_request_bytes": {
       "sourceRevision": 36,
       "status": "draft",
@@ -1466,6 +1471,21 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "已還原非敏感的已儲存設定。請選擇一個設定；如有需要輸入憑證，然後連線。"
+    },
+    "quality.mode.balanced": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "平衡"
+    },
+    "quality.mode.best": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "最佳"
+    },
+    "quality.mode.fast": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "快速"
     },
     "routing.mode.automatic": {
       "sourceRevision": 28,
@@ -1927,6 +1947,11 @@
       "status": "draft",
       "template": "Choose the provider protocol used for model discovery and streaming"
     },
+    "tooltip.quality_mode": {
+      "sourceRevision": 40,
+      "status": "draft",
+      "template": "快速使用一次直接翻譯；平衡模式增加確定性結構檢查；最佳模式要求內部批評和修訂。"
+    },
     "tooltip.remember_profile": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2053,7 +2078,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 39,
+    "sourceRevision": 40,
     "status": "draft"
   }
 }
