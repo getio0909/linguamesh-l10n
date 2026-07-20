@@ -116,10 +116,20 @@
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
     },
+    "action.export_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ~~］"
+    },
     "action.import_glossary": {
       "sourceRevision": 8,
       "status": "draft",
       "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
+    },
+    "action.import_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ïṁþøŕŧ þŕøƒïŀë~~~~］"
     },
     "action.move_candidate_down": {
       "sourceRevision": 30,
@@ -346,6 +356,11 @@
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
     },
+    "dialog.export_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŕøûŧïñĝ þŕøƒïŀë~~~~~~~］"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -370,6 +385,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "［Ïṁþøŕŧ ĝŀøššåŕÿ~~~~~］"
+    },
+    "dialog.open_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ïṁþøŕŧ ŕøûŧïñĝ þŕøƒïŀë~~~~~~~］"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -722,6 +742,11 @@
       "status": "draft",
       "template": "［Ûšë çøṁṁå-šëþåŕåŧëð ÅŠÇÏÏ ïðëñŧïƒïëŕš åñð þøšïŧïṽë ñûṁëŕïç ŀïṁïŧš.~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "error.routing_profile_export": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ŧħë ŕøûŧïñĝ þŕøƒïŀë ĴŠØÑ çøûŀð ñøŧ ƀë šåṽëð.~~~~~~~~~~~~~~］"
+    },
     "error.routing_profile_id_exists": {
       "sourceRevision": 33,
       "status": "draft",
@@ -731,6 +756,11 @@
       "sourceRevision": 32,
       "status": "draft",
       "template": "［Ûšë 1-128 ÅŠÇÏÏ ŀëŧŧëŕš, ñûṁƀëŕš, '.', '_' øŕ '-' ƒøŕ ŧħë ŕøûŧïñĝ þŕøƒïŀë ÏÐ.~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "error.routing_profile_import": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "［Ŧħë ŕøûŧïñĝ þŕøƒïŀë ĴŠØÑ çøûŀð ñøŧ ƀë ïṁþøŕŧëð.~~~~~~~~~~~~~~~］"
     },
     "error.routing_profile_no_candidates": {
       "sourceRevision": 28,

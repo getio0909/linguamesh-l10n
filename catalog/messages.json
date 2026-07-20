@@ -5629,6 +5629,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Imports one non-secret Linux routing planner profile from a JSON exchange file.",
+      "key": "action.import_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "Import profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Exports one non-secret Linux routing planner profile to a JSON exchange file.",
+      "key": "action.export_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "Export",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Loads one saved Linux routing planner profile into the editor.",
       "key": "action.edit_routing_profile",
       "placeholders": {},
@@ -5749,6 +5779,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Title of the Linux routing planner profile JSON import dialog.",
+      "key": "dialog.open_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "Import routing profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Title of the Linux routing planner profile JSON export dialog.",
+      "key": "dialog.export_routing_profile",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "Export routing profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Empty state for the Linux routing planner profile dialog.",
       "key": "status.routing_profile_empty",
       "placeholders": {},
@@ -5832,6 +5892,36 @@
       "status": "source",
       "value": {
         "template": "A routing profile with this ID already exists. Edit it or choose another ID.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Fixed error shown when a Linux routing planner profile JSON file cannot be imported.",
+      "key": "error.routing_profile_import",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "The routing profile JSON could not be imported.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Fixed error shown when a Linux routing planner profile JSON file cannot be exported.",
+      "key": "error.routing_profile_export",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "The routing profile JSON could not be saved.",
         "type": "text"
       }
     },

@@ -116,10 +116,20 @@
       "status": "draft",
       "template": "Export translation"
     },
+    "action.export_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "Export"
+    },
     "action.import_glossary": {
       "sourceRevision": 8,
       "status": "draft",
       "template": "Import glossary"
+    },
+    "action.import_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "Import profile"
     },
     "action.move_candidate_down": {
       "sourceRevision": 30,
@@ -346,6 +356,11 @@
       "status": "draft",
       "template": "Export translation memory"
     },
+    "dialog.export_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "Export routing profile"
+    },
     "dialog.export_translation": {
       "sourceRevision": 5,
       "status": "draft",
@@ -370,6 +385,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "Import glossary"
+    },
+    "dialog.open_routing_profile": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "Import routing profile"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -722,6 +742,11 @@
       "status": "draft",
       "template": "Use comma-separated ASCII identifiers and positive numeric limits."
     },
+    "error.routing_profile_export": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "The routing profile JSON could not be saved."
+    },
     "error.routing_profile_id_exists": {
       "sourceRevision": 33,
       "status": "draft",
@@ -731,6 +756,11 @@
       "sourceRevision": 32,
       "status": "draft",
       "template": "Use 1-128 ASCII letters, numbers, '.', '_' or '-' for the routing profile ID."
+    },
+    "error.routing_profile_import": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "The routing profile JSON could not be imported."
     },
     "error.routing_profile_no_candidates": {
       "sourceRevision": 28,
