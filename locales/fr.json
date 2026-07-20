@@ -416,6 +416,11 @@
       "status": "draft",
       "template": "Vérifiez les identifiants de {provider}, puis réessayez."
     },
+    "error.azure_openai_deployment_required": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "Enter an Azure OpenAI deployment name before connecting."
+    },
     "error.category.authentication": {
       "sourceRevision": 2,
       "status": "draft",
@@ -1354,6 +1359,11 @@
       "status": "draft",
       "template": "Anthropic Messages provider"
     },
+    "profile.default_azure_openai_name": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "Azure OpenAI provider"
+    },
     "profile.default_gemini_name": {
       "sourceRevision": 37,
       "status": "draft",
@@ -1428,6 +1438,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "Anthropic Messages"
+    },
+    "provider.preset.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "Azure OpenAI"
     },
     "provider.preset.gemini": {
       "sourceRevision": 37,
@@ -1824,6 +1839,11 @@
       "status": "draft",
       "template": "HTTPS Anthropic Messages /v1 endpoint"
     },
+    "tooltip.endpoint.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "HTTPS Azure OpenAI resource endpoint; enter the deployment name as the model"
+    },
     "tooltip.endpoint.gemini": {
       "sourceRevision": 37,
       "status": "draft",
@@ -1868,6 +1888,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "Enter the Anthropic model ID before connecting; model discovery is manual for this preset"
+    },
+    "tooltip.model.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "Enter the Azure OpenAI deployment name before connecting; model discovery is manual for this preset"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -2015,7 +2040,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 37,
+    "sourceRevision": 38,
     "status": "draft"
   }
 }

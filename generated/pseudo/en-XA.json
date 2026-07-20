@@ -414,6 +414,11 @@
       "status": "draft",
       "template": "［Çħëçķ ŧħë çŕëðëñŧïåŀš ƒøŕ {provider} åñð ŧŕÿ åĝåïñ.~~~~~~~~~~~~~~~~~］"
     },
+    "error.azure_openai_deployment_required": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "［Ëñŧëŕ åñ Åžûŕë ØþëñÅÏ ðëþŀøÿṁëñŧ ñåṁë ƀëƒøŕë çøññëçŧïñĝ.~~~~~~~~~~~~~~~~~~］"
+    },
     "error.category.authentication": {
       "sourceRevision": 2,
       "status": "draft",
@@ -1351,6 +1356,11 @@
       "status": "draft",
       "template": "［Åñŧħŕøþïç Ṁëššåĝëš þŕøṽïðëŕ~~~~~~~~~］"
     },
+    "profile.default_azure_openai_name": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "［Åžûŕë ØþëñÅÏ þŕøṽïðëŕ~~~~~~~］"
+    },
     "profile.default_gemini_name": {
       "sourceRevision": 37,
       "status": "draft",
@@ -1425,6 +1435,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "［Åñŧħŕøþïç Ṁëššåĝëš~~~~~~］"
+    },
+    "provider.preset.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "［Åžûŕë ØþëñÅÏ~~~~］"
     },
     "provider.preset.gemini": {
       "sourceRevision": 37,
@@ -1821,6 +1836,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ Åñŧħŕøþïç Ṁëššåĝëš /ṽ1 ëñðþøïñŧ~~~~~~~~~~~~］"
     },
+    "tooltip.endpoint.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ Åžûŕë ØþëñÅÏ ŕëšøûŕçë ëñðþøïñŧ; ëñŧëŕ ŧħë ðëþŀøÿṁëñŧ ñåṁë åš ŧħë ṁøðëŀ~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.endpoint.gemini": {
       "sourceRevision": 37,
       "status": "draft",
@@ -1865,6 +1885,11 @@
       "sourceRevision": 37,
       "status": "draft",
       "template": "［Ëñŧëŕ ŧħë Åñŧħŕøþïç ṁøðëŀ ÏÐ ƀëƒøŕë çøññëçŧïñĝ; ṁøðëŀ ðïšçøṽëŕÿ ïš ṁåñûåŀ ƒøŕ ŧħïš þŕëšëŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.model.azure_openai": {
+      "sourceRevision": 38,
+      "status": "draft",
+      "template": "［Ëñŧëŕ ŧħë Åžûŕë ØþëñÅÏ ðëþŀøÿṁëñŧ ñåṁë ƀëƒøŕë çøññëçŧïñĝ; ṁøðëŀ ðïšçøṽëŕÿ ïš ṁåñûåŀ ƒøŕ ŧħïš þŕëšëŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -2012,7 +2037,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 37,
+    "sourceRevision": 38,
     "status": "draft"
   }
 }

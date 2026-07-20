@@ -6329,9 +6329,84 @@
         "template": "HTTPS or loopback HTTP Gemini Generate Content /v1beta endpoint",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Display label for the Azure OpenAI provider preset in the Linux provider form.",
+      "key": "provider.preset.azure_openai",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 38,
+      "status": "source",
+      "value": {
+        "template": "Azure OpenAI",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for an Azure OpenAI provider profile.",
+      "key": "profile.default_azure_openai_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 38,
+      "status": "source",
+      "value": {
+        "template": "Azure OpenAI provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Endpoint tooltip for the Azure OpenAI Chat Completions provider preset.",
+      "key": "tooltip.endpoint.azure_openai",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 38,
+      "status": "source",
+      "value": {
+        "template": "HTTPS Azure OpenAI resource endpoint; enter the deployment name as the model",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux manually entered Azure OpenAI deployment identifier.",
+      "key": "tooltip.model.azure_openai",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 38,
+      "status": "source",
+      "value": {
+        "template": "Enter the Azure OpenAI deployment name before connecting; model discovery is manual for this preset",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Validation error shown when an Azure OpenAI provider has no deployment name.",
+      "key": "error.azure_openai_deployment_required",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 38,
+      "status": "source",
+      "value": {
+        "template": "Enter an Azure OpenAI deployment name before connecting.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 37
+  "sourceRevision": 38
 }

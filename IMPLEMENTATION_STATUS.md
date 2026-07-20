@@ -1,5 +1,15 @@
 # Implementation Status
 
+## 2026-07-20 — Azure OpenAI Linux provider copy
+
+Assumption: Azure OpenAI deployment names are user-entered model identifiers; no live credentials
+or account behavior are exercised by the deterministic localization checkpoint.
+
+- Added five Linux-only source messages for the Azure OpenAI preset, resource endpoint guidance,
+  manual deployment field, default profile name, and missing-deployment validation. The catalog
+  now contains 401 messages at source revision 38, and all twelve official packs plus generated
+  native resources carry the new keys as unreviewed drafts outside English.
+
 Status date: 2026-07-19
 
 ## Implemented
