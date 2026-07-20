@@ -1376,6 +1376,11 @@
       "status": "draft",
       "template": "［Ŀøçåŀ Øŀŀåṁå þŕøṽïðëŕ~~~~~~~］"
     },
+    "profile.default_openai_responses_name": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "［ØþëñÅÏ Ŕëšþøñšëš þŕøṽïðëŕ~~~~~~~~］"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1455,6 +1460,11 @@
       "sourceRevision": 24,
       "status": "draft",
       "template": "［ØþëñÅÏ-çøṁþåŧïƀŀë~~~~~］"
+    },
+    "provider.preset.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "［ØþëñÅÏ Ŕëšþøñšëš~~~~~］"
     },
     "provider.saved_restored": {
       "sourceRevision": 1,
@@ -1851,6 +1861,11 @@
       "status": "draft",
       "template": "［ĦŦŦÞŠ øŕ ŀøøþƀåçķ ĦŦŦÞ ñåŧïṽë Øŀŀåṁå /åþï ëñðþøïñŧ~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.endpoint.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "［ĦŦŦÞŠ ØþëñÅÏ Ŕëšþøñšëš /ṽ1 ëñðþøïñŧ ŵïŧħ ŧÿþëð šŧŕëåṁïñĝ ëṽëñŧš~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1890,6 +1905,11 @@
       "sourceRevision": 38,
       "status": "draft",
       "template": "［Ëñŧëŕ ŧħë Åžûŕë ØþëñÅÏ ðëþŀøÿṁëñŧ ñåṁë ƀëƒøŕë çøññëçŧïñĝ; ṁøðëŀ ðïšçøṽëŕÿ ïš ṁåñûåŀ ƒøŕ ŧħïš þŕëšëŧ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.model.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "［Ṁøðëŀš åŕë ðïšçøṽëŕëð ƒŕøṁ ŧħë ØþëñÅÏ Ŕëšþøñšëš-çøṁþåŧïƀŀë ëñðþøïñŧ~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -2037,7 +2057,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 38,
+    "sourceRevision": 39,
     "status": "draft"
   }
 }

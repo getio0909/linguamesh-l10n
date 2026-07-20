@@ -1372,6 +1372,11 @@
       "status": "draft",
       "template": "本地 Ollama 提供商"
     },
+    "profile.default_openai_responses_name": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "OpenAI Responses provider"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1451,6 +1456,11 @@
       "sourceRevision": 24,
       "status": "draft",
       "template": "OpenAI 兼容"
+    },
+    "provider.preset.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "OpenAI Responses"
     },
     "provider.saved_restored": {
       "sourceRevision": 1,
@@ -1847,6 +1857,11 @@
       "status": "draft",
       "template": "HTTPS 或回环 HTTP 原生 Ollama /api 端点"
     },
+    "tooltip.endpoint.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "HTTPS OpenAI Responses /v1 endpoint with typed streaming events"
+    },
     "tooltip.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1886,6 +1901,11 @@
       "sourceRevision": 38,
       "status": "draft",
       "template": "Enter the Azure OpenAI deployment name before connecting; model discovery is manual for this preset"
+    },
+    "tooltip.model.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "Models are discovered from the OpenAI Responses-compatible endpoint"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -2033,7 +2053,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 38,
+    "sourceRevision": 39,
     "status": "draft"
   }
 }

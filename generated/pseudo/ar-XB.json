@@ -1392,6 +1392,11 @@
       "status": "draft",
       "template": "⁧⟦Local Ollama provider⟧⁩"
     },
+    "profile.default_openai_responses_name": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "⁧⟦OpenAI Responses provider⟧⁩"
+    },
     "profile.new": {
       "sourceRevision": 1,
       "status": "draft",
@@ -1471,6 +1476,11 @@
       "sourceRevision": 24,
       "status": "draft",
       "template": "⁧⟦OpenAI-compatible⟧⁩"
+    },
+    "provider.preset.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "⁧⟦OpenAI Responses⟧⁩"
     },
     "provider.saved_restored": {
       "sourceRevision": 1,
@@ -1867,6 +1877,11 @@
       "status": "draft",
       "template": "⁧⟦HTTPS or loopback HTTP native Ollama /api endpoint⟧⁩"
     },
+    "tooltip.endpoint.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "⁧⟦HTTPS OpenAI Responses /v1 endpoint with typed streaming events⟧⁩"
+    },
     "tooltip.export_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -1906,6 +1921,11 @@
       "sourceRevision": 38,
       "status": "draft",
       "template": "⁧⟦Enter the Azure OpenAI deployment name before connecting; model discovery is manual for this preset⟧⁩"
+    },
+    "tooltip.model.openai_responses": {
+      "sourceRevision": 39,
+      "status": "draft",
+      "template": "⁧⟦Models are discovered from the OpenAI Responses-compatible endpoint⟧⁩"
     },
     "tooltip.open_output": {
       "sourceRevision": 17,
@@ -2053,7 +2073,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 38,
+    "sourceRevision": 39,
     "status": "draft"
   }
 }

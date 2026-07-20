@@ -6404,9 +6404,69 @@
         "template": "Enter an Azure OpenAI deployment name before connecting.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Display label for the OpenAI Responses provider preset in the Linux provider form.",
+      "key": "provider.preset.openai_responses",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 39,
+      "status": "source",
+      "value": {
+        "template": "OpenAI Responses",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Default display name for an OpenAI Responses provider profile.",
+      "key": "profile.default_openai_responses_name",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 39,
+      "status": "source",
+      "value": {
+        "template": "OpenAI Responses provider",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Endpoint tooltip for the OpenAI Responses provider preset.",
+      "key": "tooltip.endpoint.openai_responses",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 39,
+      "status": "source",
+      "value": {
+        "template": "HTTPS OpenAI Responses /v1 endpoint with typed streaming events",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip for the Linux OpenAI Responses model selector.",
+      "key": "tooltip.model.openai_responses",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 39,
+      "status": "source",
+      "value": {
+        "template": "Models are discovered from the OpenAI Responses-compatible endpoint",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 38
+  "sourceRevision": 39
 }
