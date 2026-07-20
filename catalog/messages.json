@@ -3775,6 +3775,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Native file chooser filter for routing profile JSON files.",
+      "key": "file.filter.json",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 34,
+      "status": "source",
+      "value": {
+        "template": "JSON files",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Safe error shown when a glossary CSV cannot be written.",
       "key": "error.glossary_export",
       "placeholders": {},

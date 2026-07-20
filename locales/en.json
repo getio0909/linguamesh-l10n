@@ -1037,6 +1037,11 @@
       "status": "source",
       "template": "CSV glossary files"
     },
+    "file.filter.json": {
+      "sourceRevision": 34,
+      "status": "source",
+      "template": "JSON files"
+    },
     "file.filter.text": {
       "sourceRevision": 1,
       "status": "source",

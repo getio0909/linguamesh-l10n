@@ -1213,6 +1213,11 @@ msgctxt "error.glossary_import"
 msgid "The glossary CSV could not be imported."
 msgstr "The glossary CSV could not be imported."
 
+#. Native file chooser filter for routing profile JSON files.
+msgctxt "file.filter.json"
+msgid "JSON files"
+msgstr "JSON files"
+
 #. Safe error shown when a glossary CSV cannot be written.
 msgctxt "error.glossary_export"
 msgid "The glossary CSV could not be saved."

@@ -1033,6 +1033,11 @@
       "status": "draft",
       "template": "CSV 词汇表文件"
     },
+    "file.filter.json": {
+      "sourceRevision": 34,
+      "status": "draft",
+      "template": "JSON files"
+    },
     "file.filter.text": {
       "sourceRevision": 1,
       "status": "draft",
