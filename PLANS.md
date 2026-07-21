@@ -85,3 +85,12 @@ plugin work and page-marked text output; they do not promise high-fidelity PDF r
 - [x] Bundle checksum: `6fc6839fce3a449eaf37d2efb9a52fa0ede1eab3a39fecdaff68682a79d8a4f8`.
 - [x] Publish the pinned revision `cacc1577bc1a19a94c11faeffa7a63016d54d64e` and record Foundation
   `29668388992` plus Localization `29668388983` evidence.
+
+## Linux normalized usage labels
+
+Assumption: usage counts are non-sensitive metadata; provider-reported, locally estimated, and
+unknown sources must remain visibly distinct in Linux UI.
+
+- [x] Add source-revision-43 usage total and source-label messages to all official locale packs.
+- [x] Regenerate the 59 native resources and pseudo-locales; `make check` passes all 26 tests,
+  deterministic regeneration, bundle construction, and foundation validation.

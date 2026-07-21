@@ -6813,9 +6813,98 @@
         "template": "Apply a bounded domain, tone, formality, and audience preference to the next request",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Announced below completed translation output without exposing source or translated content.",
+      "description": "Reports normalized token usage and identifies whether it was provider-reported or locally estimated.",
+      "key": "status.usage",
+      "placeholders": {
+        "source": {
+          "example": "locally estimated",
+          "type": "string"
+        },
+        "total_tokens": {
+          "example": 42,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 43,
+      "status": "source",
+      "value": {
+        "template": "Usage: {total_tokens} tokens ({source})",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Announced below completed translation output when no token count is available.",
+      "description": "Reports that normalized token usage is unavailable and identifies the reason category.",
+      "key": "status.usage_unknown",
+      "placeholders": {
+        "source": {
+          "example": "unknown",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 43,
+      "status": "source",
+      "value": {
+        "template": "Usage: unavailable ({source})",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Spoken source label for normalized usage metadata.",
+      "description": "Source label for usage counts reported by the provider.",
+      "key": "usage.source.provider_reported",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 43,
+      "status": "source",
+      "value": {
+        "template": "provider reported",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Spoken source label for normalized usage metadata.",
+      "description": "Source label for usage counts estimated from local text lengths.",
+      "key": "usage.source.locally_estimated",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 43,
+      "status": "source",
+      "value": {
+        "template": "locally estimated",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Spoken source label for normalized usage metadata.",
+      "description": "Source label for usage metadata that cannot be attributed to a provider or local estimate.",
+      "key": "usage.source.unknown",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 43,
+      "status": "source",
+      "value": {
+        "template": "unknown",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 42
+  "sourceRevision": 43
 }

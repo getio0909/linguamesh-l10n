@@ -14,6 +14,10 @@ catalog + official packs -> validation -> pseudo-locales -> native generators ->
 
 Generators produce Android `strings.xml`/`plurals`, Windows RESW entries, one macOS XCStrings catalog, and paired Linux PO/MO catalogs. The PO files remain reviewable source resources; the deterministic GNU MO files are the runtime lookup resources. Platforms without an arbitrary select primitive receive stable branch-suffixed identifiers such as `history.mode.incognito`; the client chooses the branch through its typed localization layer.
 
+Linux usage labels identify whether a normalized count was provider-reported, locally estimated, or
+unknown. Localization carries only the category and bounded numeric count; it never carries source
+or translated text, credentials, or pricing data.
+
 ## Determinism and trust
 
 Generation starts in an empty staging directory, uses stable ordering and UTF-8/LF output, then records every artifact size and SHA-256 in `generated/manifest.json`. `./tools/l10n generate --check` regenerates independently and compares every byte.

@@ -1871,6 +1871,16 @@
       "status": "draft",
       "template": "अनुपलब्ध"
     },
+    "status.usage": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "Usage: {total_tokens} tokens ({source})"
+    },
+    "status.usage_unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "Usage: unavailable ({source})"
+    },
     "theme.dark": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2131,6 +2141,21 @@
       "status": "draft",
       "template": "{total} में से {completed} खंडों का अनुवाद हुआ"
     },
+    "usage.source.locally_estimated": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "locally estimated"
+    },
+    "usage.source.provider_reported": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "provider reported"
+    },
+    "usage.source.unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "unknown"
+    },
     "warning.pdf_image_only_pages": {
       "sourceRevision": 15,
       "status": "draft",
@@ -2162,7 +2187,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 42,
+    "sourceRevision": 43,
     "status": "draft"
   }
 }

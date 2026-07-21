@@ -1,5 +1,23 @@
 # Implementation Status
 
+## 2026-07-21 — Linux usage-source metadata
+
+Assumption: Linux displays normalized token counts as non-sensitive metadata; local estimates are
+clearly labeled, provider-reported counts remain distinct, and missing counts remain unknown.
+
+- Added five Linux-only source messages at source revision 43 for usage totals, unavailable usage,
+  and provider/local/unknown source labels. All twelve official locale packs carry the keys;
+  non-English values remain machine-generated drafts.
+- Regenerated all 59 deterministic native resources and both pseudo-locales. The catalog now
+  contains 431 messages.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passes setup,
+  formatting, schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle
+  build, and foundation validation.
+
+Native consumers must pin this localization revision before claiming runtime usage-label evidence.
+Human translation review, native visual/RTL/Orca review, and stable-release qualification remain
+open.
+
 ## 2026-07-20 — Linux translation quality-mode copy
 
 Assumption: the three quality modes are Linux-only UI controls for this checkpoint; non-English

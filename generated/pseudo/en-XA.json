@@ -1871,6 +1871,16 @@
       "status": "draft",
       "template": "［Ûñåṽåïŀåƀŀë~~~］"
     },
+    "status.usage": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "［Ûšåĝë: {total_tokens} ŧøķëñš ({source})~~~~~~~~~~~~~］"
+    },
+    "status.usage_unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "［Ûšåĝë: ûñåṽåïŀåƀŀë ({source})~~~~~~~~~］"
+    },
     "theme.dark": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2131,6 +2141,21 @@
       "status": "draft",
       "template": "［{completed} øƒ {total} šëĝṁëñŧš ŧŕåñšŀåŧëð~~~~~~~~~~~~~~］"
     },
+    "usage.source.locally_estimated": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "［ŀøçåŀŀÿ ëšŧïṁåŧëð~~~~~］"
+    },
+    "usage.source.provider_reported": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "［þŕøṽïðëŕ ŕëþøŕŧëð~~~~~］"
+    },
+    "usage.source.unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "［ûñķñøŵñ~~］"
+    },
     "warning.pdf_image_only_pages": {
       "sourceRevision": 15,
       "status": "draft",
@@ -2162,7 +2187,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 42,
+    "sourceRevision": 43,
     "status": "draft"
   }
 }

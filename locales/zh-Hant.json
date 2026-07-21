@@ -1867,6 +1867,16 @@
       "status": "draft",
       "template": "無法使用"
     },
+    "status.usage": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "用量：{total_tokens} 個令牌（{source}）"
+    },
+    "status.usage_unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "用量：無法使用（{source}）"
+    },
     "theme.dark": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2127,6 +2137,21 @@
       "status": "draft",
       "template": "已翻譯 {completed}/{total} 個片段"
     },
+    "usage.source.locally_estimated": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "本機估算"
+    },
+    "usage.source.provider_reported": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "提供商回報"
+    },
+    "usage.source.unknown": {
+      "sourceRevision": 43,
+      "status": "draft",
+      "template": "未知"
+    },
     "warning.pdf_image_only_pages": {
       "sourceRevision": 15,
       "status": "draft",
@@ -2158,7 +2183,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 42,
+    "sourceRevision": 43,
     "status": "draft"
   }
 }

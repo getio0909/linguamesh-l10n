@@ -1871,6 +1871,16 @@
       "status": "source",
       "template": "Unavailable"
     },
+    "status.usage": {
+      "sourceRevision": 43,
+      "status": "source",
+      "template": "Usage: {total_tokens} tokens ({source})"
+    },
+    "status.usage_unknown": {
+      "sourceRevision": 43,
+      "status": "source",
+      "template": "Usage: unavailable ({source})"
+    },
     "theme.dark": {
       "sourceRevision": 1,
       "status": "source",
@@ -2131,6 +2141,21 @@
       "status": "source",
       "template": "{completed} of {total} segments translated"
     },
+    "usage.source.locally_estimated": {
+      "sourceRevision": 43,
+      "status": "source",
+      "template": "locally estimated"
+    },
+    "usage.source.provider_reported": {
+      "sourceRevision": 43,
+      "status": "source",
+      "template": "provider reported"
+    },
+    "usage.source.unknown": {
+      "sourceRevision": 43,
+      "status": "source",
+      "template": "unknown"
+    },
     "warning.pdf_image_only_pages": {
       "sourceRevision": 15,
       "status": "source",
@@ -2162,7 +2187,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 42,
+    "sourceRevision": 43,
     "status": "source"
   }
 }
