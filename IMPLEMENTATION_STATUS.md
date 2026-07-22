@@ -1,5 +1,22 @@
 # Implementation Status
 
+## 2026-07-22 — Linux provider profile notes copy
+
+Assumption: profile notes are optional, non-secret, and Linux-only for this checkpoint; they are
+stored as draft English fallback text in non-English packs until human translation review.
+
+- Added three source-revision-47 messages for the Linux provider-profile notes label, placeholder,
+  and safety tooltip. All twelve official locale packs and generated native resources include the
+  keys without claiming translation approval.
+- Regenerated the deterministic bundle; the catalog now contains 444 messages.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passes formatting,
+  schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle build, and
+  foundation validation.
+
+Native Linux consumers must pin localization revision 47 before claiming the notes UI evidence.
+Human translation review, native visual/RTL/Orca review, and stable-release qualification remain
+open.
+
 ## 2026-07-22 — Linux document translation report copy
 
 Assumption: the first report surface is Linux-only and emits a redacted TSV snapshot; provider

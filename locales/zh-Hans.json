@@ -1112,6 +1112,11 @@
       "status": "draft",
       "template": "回退提供商"
     },
+    "label.provider_notes": {
+      "sourceRevision": 47,
+      "status": "draft",
+      "template": "Profile notes"
+    },
     "label.provider_preset": {
       "sourceRevision": 24,
       "status": "draft",
@@ -1431,6 +1436,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "日语"
+    },
+    "placeholder.provider_notes": {
+      "sourceRevision": 47,
+      "status": "draft",
+      "template": "Optional non-secret note for this saved profile"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2057,6 +2067,11 @@
       "status": "draft",
       "template": "仅用于本次会话的提供商显示名称"
     },
+    "tooltip.provider_notes": {
+      "sourceRevision": 47,
+      "status": "draft",
+      "template": "Optional non-secret note for this saved profile"
+    },
     "tooltip.provider_preset": {
       "sourceRevision": 24,
       "status": "draft",
@@ -2233,7 +2248,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 46,
+    "sourceRevision": 47,
     "status": "draft"
   }
 }

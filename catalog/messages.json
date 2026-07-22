@@ -7069,9 +7069,54 @@
         "template": "Show application and shared-core version information",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the optional non-secret note field for a saved Linux provider profile.",
+      "description": "Label for the user-authored note attached to a saved provider profile.",
+      "key": "label.provider_notes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 47,
+      "status": "source",
+      "value": {
+        "template": "Profile notes",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Placeholder explaining that profile notes must not contain secrets.",
+      "description": "Placeholder for the optional non-secret note field in the Linux provider form.",
+      "key": "placeholder.provider_notes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 47,
+      "status": "source",
+      "value": {
+        "template": "Optional non-secret note for this saved profile",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the safety boundary for saved provider profile notes.",
+      "description": "Tooltip for the optional non-secret note field in the Linux provider form.",
+      "key": "tooltip.provider_notes",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 47,
+      "status": "source",
+      "value": {
+        "template": "Optional non-secret note for this saved profile",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 46
+  "sourceRevision": 47
 }

@@ -1116,6 +1116,11 @@
       "status": "source",
       "template": "Fallback provider"
     },
+    "label.provider_notes": {
+      "sourceRevision": 47,
+      "status": "source",
+      "template": "Profile notes"
+    },
     "label.provider_preset": {
       "sourceRevision": 24,
       "status": "source",
@@ -1435,6 +1440,11 @@
       "sourceRevision": 1,
       "status": "source",
       "template": "Japanese"
+    },
+    "placeholder.provider_notes": {
+      "sourceRevision": 47,
+      "status": "source",
+      "template": "Optional non-secret note for this saved profile"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2061,6 +2071,11 @@
       "status": "source",
       "template": "Session-only provider display name"
     },
+    "tooltip.provider_notes": {
+      "sourceRevision": 47,
+      "status": "source",
+      "template": "Optional non-secret note for this saved profile"
+    },
     "tooltip.provider_preset": {
       "sourceRevision": 24,
       "status": "source",
@@ -2237,7 +2252,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 46,
+    "sourceRevision": 47,
     "status": "source"
   }
 }
