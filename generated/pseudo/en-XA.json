@@ -1151,6 +1151,11 @@
       "status": "draft",
       "template": "［Ŕëĝïøñ~~］"
     },
+    "label.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "draft",
+      "template": "［Çûšŧøṁ ħëåðëŕš (šëçŕëŧ ĴŠØÑ)~~~~~~~~~］"
+    },
     "label.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -1495,6 +1500,11 @@
       "sourceRevision": 50,
       "status": "draft",
       "template": "［Øþŧïøñåŀ þŕøṽïðëŕ ŕëĝïøñ øŕ ðëþŀøÿṁëñŧ ĝëøĝŕåþħÿ~~~~~~~~~~~~~~~~］"
+    },
+    "placeholder.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ĴŠØÑ øƀĵëçŧ øƒ šëçŕëŧ ŕëǫûëšŧ ħëåðëŕš~~~~~~~~~~~~~~~］"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2156,6 +2166,11 @@
       "status": "draft",
       "template": "［Øþŧïøñåŀ ñøñ-šëçŕëŧ ŕëĝïøñ ïðëñŧïƒïëŕ ûšëð ƀÿ ŧħë þŕøṽïðëŕ åççøûñŧ~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ƀøûñðëð šëçŕëŧ ħëåðëŕš; šŧøŕëð ïñ Šëçŕëŧ Šëŕṽïçë ŵħëñ ŕëṁëṁƀëŕëð åñð øŧħëŕŵïšë ķëþŧ ƒøŕ ŧħïš šëššïøñ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -2327,7 +2342,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 51,
+    "sourceRevision": 52,
     "status": "draft"
   }
 }

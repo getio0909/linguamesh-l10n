@@ -7339,9 +7339,54 @@
         "template": "Optional bounded non-secret headers; authorization and credential headers are rejected",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the bounded secret custom request headers field.",
+      "description": "Label for optional secret custom request headers in the Linux provider form.",
+      "key": "label.provider_secret_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 52,
+      "status": "source",
+      "value": {
+        "template": "Custom headers (secret JSON)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that secret custom request headers are entered as a bounded JSON object.",
+      "description": "Placeholder for optional secret custom request headers in the Linux provider form.",
+      "key": "placeholder.provider_secret_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 52,
+      "status": "source",
+      "value": {
+        "template": "Optional JSON object of secret request headers",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains how secret custom request headers are stored and scoped.",
+      "description": "Tooltip for optional bounded secret custom request headers.",
+      "key": "tooltip.provider_secret_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 52,
+      "status": "source",
+      "value": {
+        "template": "Optional bounded secret headers; stored in Secret Service when remembered and otherwise kept for this session",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 51
+  "sourceRevision": 52
 }

@@ -1151,6 +1151,11 @@
       "status": "source",
       "template": "Region"
     },
+    "label.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "source",
+      "template": "Custom headers (secret JSON)"
+    },
     "label.quality_mode": {
       "sourceRevision": 40,
       "status": "source",
@@ -1495,6 +1500,11 @@
       "sourceRevision": 50,
       "status": "source",
       "template": "Optional provider region or deployment geography"
+    },
+    "placeholder.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "source",
+      "template": "Optional JSON object of secret request headers"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2156,6 +2166,11 @@
       "status": "source",
       "template": "Optional non-secret region identifier used by the provider account"
     },
+    "tooltip.provider_secret_custom_headers": {
+      "sourceRevision": 52,
+      "status": "source",
+      "template": "Optional bounded secret headers; stored in Secret Service when remembered and otherwise kept for this session"
+    },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
       "status": "source",
@@ -2327,7 +2342,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 51,
+    "sourceRevision": 52,
     "status": "source"
   }
 }
