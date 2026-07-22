@@ -7296,6 +7296,51 @@
       }
     },
     {
+      "accessibilityContext": "Names the optional provider proxy URL field.",
+      "description": "Label for the optional proxy URL in the Linux provider form.",
+      "key": "label.provider_proxy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 53,
+      "status": "source",
+      "value": {
+        "template": "Proxy URL",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the proxy URL is optional and cannot contain credentials.",
+      "description": "Placeholder for the optional provider proxy URL in the Linux provider form.",
+      "key": "placeholder.provider_proxy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 53,
+      "status": "source",
+      "value": {
+        "template": "Optional proxy URL, for example http://127.0.0.1:8080",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the supported proxy schemes and credential safety boundary.",
+      "description": "Tooltip for the optional provider proxy URL.",
+      "key": "tooltip.provider_proxy",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 53,
+      "status": "source",
+      "value": {
+        "template": "Optional HTTP, HTTPS, SOCKS5, or SOCKS5H proxy without embedded credentials",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Names the bounded non-secret custom request headers field.",
       "description": "Label for optional custom request headers in the Linux provider form.",
       "key": "label.provider_custom_headers",
@@ -7388,5 +7433,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 52
+  "sourceRevision": 53
 }

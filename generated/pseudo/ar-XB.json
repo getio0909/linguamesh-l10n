@@ -1162,6 +1162,11 @@
       "status": "draft",
       "template": "⁧⟦Project⟧⁩"
     },
+    "label.provider_proxy": {
+      "sourceRevision": 53,
+      "status": "draft",
+      "template": "⁧⟦Proxy URL⟧⁩"
+    },
     "label.provider_region": {
       "sourceRevision": 50,
       "status": "draft",
@@ -1511,6 +1516,11 @@
       "sourceRevision": 49,
       "status": "draft",
       "template": "⁧⟦Optional OpenAI project ID⟧⁩"
+    },
+    "placeholder.provider_proxy": {
+      "sourceRevision": 53,
+      "status": "draft",
+      "template": "⁧⟦Optional proxy URL, for example http://127.0.0.1:8080⟧⁩"
     },
     "placeholder.provider_region": {
       "sourceRevision": 50,
@@ -2177,6 +2187,11 @@
       "status": "draft",
       "template": "⁧⟦Optional project identifier sent to OpenAI-compatible endpoints⟧⁩"
     },
+    "tooltip.provider_proxy": {
+      "sourceRevision": 53,
+      "status": "draft",
+      "template": "⁧⟦Optional HTTP, HTTPS, SOCKS5, or SOCKS5H proxy without embedded credentials⟧⁩"
+    },
     "tooltip.provider_region": {
       "sourceRevision": 50,
       "status": "draft",
@@ -2358,7 +2373,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 52,
+    "sourceRevision": 53,
     "status": "draft"
   }
 }
