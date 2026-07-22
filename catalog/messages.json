@@ -7131,6 +7131,21 @@
       }
     },
     {
+      "accessibilityContext": "Names the optional non-secret project identifier field for an OpenAI-compatible provider.",
+      "description": "Label for the optional project identifier in the Linux provider form.",
+      "key": "label.provider_project",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 49,
+      "status": "source",
+      "value": {
+        "template": "Project",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Explains that the organization identifier is optional and non-secret.",
       "description": "Placeholder for the optional organization identifier in the Linux provider form.",
       "key": "placeholder.provider_organization",
@@ -7142,6 +7157,21 @@
       "status": "source",
       "value": {
         "template": "Optional OpenAI organization ID",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the project identifier is optional and non-secret.",
+      "description": "Placeholder for the optional project identifier in the Linux provider form.",
+      "key": "placeholder.provider_project",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 49,
+      "status": "source",
+      "value": {
+        "template": "Optional OpenAI project ID",
         "type": "text"
       }
     },
@@ -7159,9 +7189,24 @@
         "template": "Optional organization identifier sent to OpenAI-compatible endpoints",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Explains that the project identifier is sent only to OpenAI-compatible endpoints.",
+      "description": "Tooltip for the optional project identifier in the Linux provider form.",
+      "key": "tooltip.provider_project",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 49,
+      "status": "source",
+      "value": {
+        "template": "Optional project identifier sent to OpenAI-compatible endpoints",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 48
+  "sourceRevision": 49
 }

@@ -1127,6 +1127,11 @@
       "status": "draft",
       "template": "Provider preset"
     },
+    "label.provider_project": {
+      "sourceRevision": 49,
+      "status": "draft",
+      "template": "Project"
+    },
     "label.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -1451,6 +1456,11 @@
       "sourceRevision": 48,
       "status": "draft",
       "template": "Optional OpenAI organization ID"
+    },
+    "placeholder.provider_project": {
+      "sourceRevision": 49,
+      "status": "draft",
+      "template": "Optional OpenAI project ID"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2092,6 +2102,11 @@
       "status": "draft",
       "template": "Choose the provider protocol used for model discovery and streaming"
     },
+    "tooltip.provider_project": {
+      "sourceRevision": 49,
+      "status": "draft",
+      "template": "Optional project identifier sent to OpenAI-compatible endpoints"
+    },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -2263,7 +2278,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 48,
+    "sourceRevision": 49,
     "status": "draft"
   }
 }
