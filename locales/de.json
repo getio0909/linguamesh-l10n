@@ -1116,6 +1116,11 @@
       "status": "draft",
       "template": "Fallback provider"
     },
+    "label.provider_account_identifier": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Account identifier"
+    },
     "label.provider_notes": {
       "sourceRevision": 47,
       "status": "draft",
@@ -1135,6 +1140,11 @@
       "sourceRevision": 49,
       "status": "draft",
       "template": "Project"
+    },
+    "label.provider_region": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Region"
     },
     "label.quality_mode": {
       "sourceRevision": 40,
@@ -1451,6 +1461,11 @@
       "status": "draft",
       "template": "Japanese"
     },
+    "placeholder.provider_account_identifier": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Optional non-secret account or tenant identifier"
+    },
     "placeholder.provider_notes": {
       "sourceRevision": 47,
       "status": "draft",
@@ -1465,6 +1480,11 @@
       "sourceRevision": 49,
       "status": "draft",
       "template": "Optional OpenAI project ID"
+    },
+    "placeholder.provider_region": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Optional provider region or deployment geography"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2086,6 +2106,11 @@
       "status": "draft",
       "template": "Review the licenses and third-party notices included with this build"
     },
+    "tooltip.provider_account_identifier": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Optional account identifier used to distinguish provider tenants"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2110,6 +2135,11 @@
       "sourceRevision": 49,
       "status": "draft",
       "template": "Optional project identifier sent to OpenAI-compatible endpoints"
+    },
+    "tooltip.provider_region": {
+      "sourceRevision": 50,
+      "status": "draft",
+      "template": "Optional non-secret region identifier used by the provider account"
     },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
@@ -2282,7 +2312,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 49,
+    "sourceRevision": 50,
     "status": "draft"
   }
 }

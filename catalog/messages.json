@@ -7204,9 +7204,99 @@
         "template": "Optional project identifier sent to OpenAI-compatible endpoints",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the optional non-secret provider region field.",
+      "description": "Label for the optional provider region or deployment geography in the Linux provider form.",
+      "key": "label.provider_region",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Region",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Names the optional non-secret account or tenant identifier field.",
+      "description": "Label for the optional provider account identifier in the Linux provider form.",
+      "key": "label.provider_account_identifier",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Account identifier",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the provider region is optional and non-secret.",
+      "description": "Placeholder for the optional provider region in the Linux provider form.",
+      "key": "placeholder.provider_region",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Optional provider region or deployment geography",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the account identifier is optional and non-secret.",
+      "description": "Placeholder for the optional provider account identifier in the Linux provider form.",
+      "key": "placeholder.provider_account_identifier",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Optional non-secret account or tenant identifier",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the safety boundary for the optional provider region.",
+      "description": "Tooltip for the optional provider region in the Linux provider form.",
+      "key": "tooltip.provider_region",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Optional non-secret region identifier used by the provider account",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the safety boundary for the optional provider account identifier.",
+      "description": "Tooltip for the optional provider account identifier in the Linux provider form.",
+      "key": "tooltip.provider_account_identifier",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 50,
+      "status": "source",
+      "value": {
+        "template": "Optional account identifier used to distinguish provider tenants",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 49
+  "sourceRevision": 50
 }
