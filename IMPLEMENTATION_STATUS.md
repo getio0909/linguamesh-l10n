@@ -1,5 +1,23 @@
 # Implementation Status
 
+## 2026-07-22 — Linux provider custom-header copy
+
+Assumption: custom request headers are optional, bounded, non-secret metadata for Linux provider
+profiles; authorization, credential-shaped values, and built-in request metadata remain rejected.
+
+- Added three source-revision-51 messages for the custom-header label, placeholder, and safety
+  tooltip. All twelve official locale packs and generated native resources include the keys;
+  non-English values remain machine-generated drafts pending qualified human review.
+- Regenerated 59 deterministic native resources and both pseudo-locales. The catalog now contains
+  459 messages.
+- `PYTHON_BIN=/home/wangtinghu/miniconda3/envs/py313/bin/python make check` passes formatting,
+  schema/catalog lint, all 26 tests, byte-for-byte generation, deterministic bundle build, and
+  foundation validation.
+
+Native Linux consumers must pin localization revision 51 before claiming the custom-header UI
+evidence. Human translation review, native visual/RTL/Orca review, and stable-release qualification
+remain open.
+
 ## 2026-07-22 — Linux provider profile notes copy
 
 Assumption: profile notes are optional, non-secret, and Linux-only for this checkpoint; they are

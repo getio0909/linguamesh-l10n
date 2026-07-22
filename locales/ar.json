@@ -1137,6 +1137,11 @@
       "status": "draft",
       "template": "Account identifier"
     },
+    "label.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "Custom headers (non-secret JSON)"
+    },
     "label.provider_notes": {
       "sourceRevision": 47,
       "status": "draft",
@@ -1481,6 +1486,11 @@
       "sourceRevision": 50,
       "status": "draft",
       "template": "Optional non-secret account or tenant identifier"
+    },
+    "placeholder.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "Optional JSON object of non-secret request headers"
     },
     "placeholder.provider_notes": {
       "sourceRevision": 47,
@@ -2127,6 +2137,11 @@
       "status": "draft",
       "template": "Optional account identifier used to distinguish provider tenants"
     },
+    "tooltip.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "Optional bounded non-secret headers; authorization and credential headers are rejected"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2328,7 +2343,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 50,
+    "sourceRevision": 51,
     "status": "draft"
   }
 }

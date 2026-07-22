@@ -1121,6 +1121,11 @@
       "status": "draft",
       "template": "［Åççøûñŧ ïðëñŧïƒïëŕ~~~~~~］"
     },
+    "label.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "［Çûšŧøṁ ħëåðëŕš (ñøñ-šëçŕëŧ ĴŠØÑ)~~~~~~~~~~］"
+    },
     "label.provider_notes": {
       "sourceRevision": 47,
       "status": "draft",
@@ -1465,6 +1470,11 @@
       "sourceRevision": 50,
       "status": "draft",
       "template": "［Øþŧïøñåŀ ñøñ-šëçŕëŧ åççøûñŧ øŕ ŧëñåñŧ ïðëñŧïƒïëŕ~~~~~~~~~~~~~~~~］"
+    },
+    "placeholder.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ĴŠØÑ øƀĵëçŧ øƒ ñøñ-šëçŕëŧ ŕëǫûëšŧ ħëåðëŕš~~~~~~~~~~~~~~~~］"
     },
     "placeholder.provider_notes": {
       "sourceRevision": 47,
@@ -2111,6 +2121,11 @@
       "status": "draft",
       "template": "［Øþŧïøñåŀ åççøûñŧ ïðëñŧïƒïëŕ ûšëð ŧø ðïšŧïñĝûïšħ þŕøṽïðëŕ ŧëñåñŧš~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.provider_custom_headers": {
+      "sourceRevision": 51,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ƀøûñðëð ñøñ-šëçŕëŧ ħëåðëŕš; åûŧħøŕïžåŧïøñ åñð çŕëðëñŧïåŀ ħëåðëŕš åŕë ŕëĵëçŧëð~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2312,7 +2327,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 50,
+    "sourceRevision": 51,
     "status": "draft"
   }
 }

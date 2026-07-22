@@ -7294,9 +7294,54 @@
         "template": "Optional account identifier used to distinguish provider tenants",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the bounded non-secret custom request headers field.",
+      "description": "Label for optional custom request headers in the Linux provider form.",
+      "key": "label.provider_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 51,
+      "status": "source",
+      "value": {
+        "template": "Custom headers (non-secret JSON)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that custom request headers must be a bounded non-secret JSON object.",
+      "description": "Placeholder for optional custom request headers in the Linux provider form.",
+      "key": "placeholder.provider_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 51,
+      "status": "source",
+      "value": {
+        "template": "Optional JSON object of non-secret request headers",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that authentication and credential headers are rejected from the non-secret field.",
+      "description": "Tooltip for optional bounded non-secret custom request headers.",
+      "key": "tooltip.provider_custom_headers",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 51,
+      "status": "source",
+      "value": {
+        "template": "Optional bounded non-secret headers; authorization and credential headers are rejected",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 50
+  "sourceRevision": 51
 }
