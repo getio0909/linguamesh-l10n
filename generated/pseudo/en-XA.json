@@ -31,6 +31,11 @@
       "status": "draft",
       "template": "［Šŧŕëåṁëð ŧŕåñšŀåŧïøñ øûŧþûŧ~~~~~~~~~］"
     },
+    "action.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "［Åƀøûŧ ĿïñĝûåṀëšħ~~~~~］"
+    },
     "action.cancel": {
       "sourceRevision": 1,
       "status": "draft",
@@ -355,6 +360,16 @@
       "sourceRevision": 22,
       "status": "draft",
       "template": "［Ÿëš~~］"
+    },
+    "dialog.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "［Åƀøûŧ ĿïñĝûåṀëšħ~~~~~］"
+    },
+    "dialog.about_details": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "［Ṽëŕšïøñ: {version}\nÇøŕë: {core}\nÅƁÏ: {abi}\nÞŕøŧøçøŀ: {protocol}~~~~~~~~~~~~~~~~~~~~~］"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1916,6 +1931,11 @@
       "status": "draft",
       "template": "［Šÿšŧëṁ~~］"
     },
+    "tooltip.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "［Šħøŵ åþþŀïçåŧïøñ åñð šħåŕëð-çøŕë ṽëŕšïøñ ïñƒøŕṁåŧïøñ~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.clear_history": {
       "sourceRevision": 10,
       "status": "draft",
@@ -2217,7 +2237,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 45,
+    "sourceRevision": 46,
     "status": "draft"
   }
 }

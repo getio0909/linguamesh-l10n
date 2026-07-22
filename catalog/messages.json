@@ -6992,9 +6992,86 @@
         "template": "Review the licenses and third-party notices included with this build",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Focusable action that opens the Linux application and compatibility information.",
+      "description": "Action in the Linux settings controls that opens the application About dialog.",
+      "key": "action.about",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 46,
+      "status": "source",
+      "value": {
+        "template": "About LinguaMesh",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Title of the Linux application About dialog.",
+      "description": "Dialog title for application and shared-core compatibility information.",
+      "key": "dialog.about",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 46,
+      "status": "source",
+      "value": {
+        "template": "About LinguaMesh",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Read-only version and compatibility details shown in the Linux About dialog.",
+      "description": "Application and shared-core version details in the About dialog.",
+      "key": "dialog.about_details",
+      "placeholders": {
+        "abi": {
+          "example": "1",
+          "type": "string"
+        },
+        "core": {
+          "example": "0.1.0-alpha.2",
+          "type": "string"
+        },
+        "protocol": {
+          "example": "1",
+          "type": "string"
+        },
+        "version": {
+          "example": "0.1.0-alpha.2",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 46,
+      "status": "source",
+      "value": {
+        "template": "Version: {version}\nCore: {core}\nABI: {abi}\nProtocol: {protocol}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the action opens application and shared-core version information.",
+      "description": "Tooltip for the Linux About action.",
+      "key": "tooltip.about",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 46,
+      "status": "source",
+      "value": {
+        "template": "Show application and shared-core version information",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 45
+  "sourceRevision": 46
 }

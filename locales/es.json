@@ -32,6 +32,11 @@
       "status": "draft",
       "template": "Salida de traducción en streaming"
     },
+    "action.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "About LinguaMesh"
+    },
     "action.cancel": {
       "sourceRevision": 1,
       "status": "draft",
@@ -356,6 +361,16 @@
       "sourceRevision": 22,
       "status": "draft",
       "template": "Yes"
+    },
+    "dialog.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "About LinguaMesh"
+    },
+    "dialog.about_details": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "Version: {version}\nCore: {core}\nABI: {abi}\nProtocol: {protocol}"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -1919,6 +1934,11 @@
       "status": "draft",
       "template": "Sistema"
     },
+    "tooltip.about": {
+      "sourceRevision": 46,
+      "status": "draft",
+      "template": "Show application and shared-core version information"
+    },
     "tooltip.clear_history": {
       "sourceRevision": 10,
       "status": "draft",
@@ -2220,7 +2240,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 45,
+    "sourceRevision": 46,
     "status": "draft"
   }
 }
