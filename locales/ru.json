@@ -159,6 +159,11 @@
       "status": "draft",
       "template": "Открыть текстовый файл"
     },
+    "action.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "Open-source licenses"
+    },
     "action.pause_document": {
       "sourceRevision": 16,
       "status": "draft",
@@ -408,6 +413,11 @@
       "sourceRevision": 34,
       "status": "draft",
       "template": "Import routing profile"
+    },
+    "dialog.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "Open-source licenses"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -2028,6 +2038,11 @@
       "status": "draft",
       "template": "Загрузить текстовый файл UTF-8 в редактор исходного текста"
     },
+    "tooltip.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "Review the licenses and third-party notices included with this build"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2209,7 +2224,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 44,
+    "sourceRevision": 45,
     "status": "draft"
   }
 }

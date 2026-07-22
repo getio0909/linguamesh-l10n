@@ -156,6 +156,11 @@
       "status": "source",
       "template": "Open text file"
     },
+    "action.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "source",
+      "template": "Open-source licenses"
+    },
     "action.pause_document": {
       "sourceRevision": 16,
       "status": "source",
@@ -405,6 +410,11 @@
       "sourceRevision": 34,
       "status": "source",
       "template": "Import routing profile"
+    },
+    "dialog.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "source",
+      "template": "Open-source licenses"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -2021,6 +2031,11 @@
       "status": "source",
       "template": "Load a UTF-8 text file into the source editor"
     },
+    "tooltip.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "source",
+      "template": "Review the licenses and third-party notices included with this build"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "source",
@@ -2202,7 +2217,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 44,
+    "sourceRevision": 45,
     "status": "source"
   }
 }

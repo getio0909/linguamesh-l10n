@@ -156,6 +156,11 @@
       "status": "draft",
       "template": "［Øþëñ ŧëẋŧ ƒïŀë~~~~］"
     },
+    "action.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "［Øþëñ-šøûŕçë ŀïçëñšëš~~~~~~］"
+    },
     "action.pause_document": {
       "sourceRevision": 16,
       "status": "draft",
@@ -405,6 +410,11 @@
       "sourceRevision": 34,
       "status": "draft",
       "template": "［Ïṁþøŕŧ ŕøûŧïñĝ þŕøƒïŀë~~~~~~~］"
+    },
+    "dialog.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "［Øþëñ-šøûŕçë ŀïçëñšëš~~~~~~］"
     },
     "dialog.open_text_file": {
       "sourceRevision": 1,
@@ -2021,6 +2031,11 @@
       "status": "draft",
       "template": "［Ŀøåð å ÛŦƑ-8 ŧëẋŧ ƒïŀë ïñŧø ŧħë šøûŕçë ëðïŧøŕ~~~~~~~~~~~~~~~］"
     },
+    "tooltip.open_source_licenses": {
+      "sourceRevision": 45,
+      "status": "draft",
+      "template": "［Ŕëṽïëŵ ŧħë ŀïçëñšëš åñð ŧħïŕð-þåŕŧÿ ñøŧïçëš ïñçŀûðëð ŵïŧħ ŧħïš ƀûïŀð~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.provider_name": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2202,7 +2217,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 44,
+    "sourceRevision": 45,
     "status": "draft"
   }
 }
