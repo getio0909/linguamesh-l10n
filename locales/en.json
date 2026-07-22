@@ -1121,6 +1121,11 @@
       "status": "source",
       "template": "Profile notes"
     },
+    "label.provider_organization": {
+      "sourceRevision": 48,
+      "status": "source",
+      "template": "Organization"
+    },
     "label.provider_preset": {
       "sourceRevision": 24,
       "status": "source",
@@ -1445,6 +1450,11 @@
       "sourceRevision": 47,
       "status": "source",
       "template": "Optional non-secret note for this saved profile"
+    },
+    "placeholder.provider_organization": {
+      "sourceRevision": 48,
+      "status": "source",
+      "template": "Optional OpenAI organization ID"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2076,6 +2086,11 @@
       "status": "source",
       "template": "Optional non-secret note for this saved profile"
     },
+    "tooltip.provider_organization": {
+      "sourceRevision": 48,
+      "status": "source",
+      "template": "Optional organization identifier sent to OpenAI-compatible endpoints"
+    },
     "tooltip.provider_preset": {
       "sourceRevision": 24,
       "status": "source",
@@ -2252,7 +2267,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 47,
+    "sourceRevision": 48,
     "status": "source"
   }
 }

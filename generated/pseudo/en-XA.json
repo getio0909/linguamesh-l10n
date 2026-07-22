@@ -1121,6 +1121,11 @@
       "status": "draft",
       "template": "［Þŕøƒïŀë ñøŧëš~~~~］"
     },
+    "label.provider_organization": {
+      "sourceRevision": 48,
+      "status": "draft",
+      "template": "［Øŕĝåñïžåŧïøñ~~~~］"
+    },
     "label.provider_preset": {
       "sourceRevision": 24,
       "status": "draft",
@@ -1445,6 +1450,11 @@
       "sourceRevision": 47,
       "status": "draft",
       "template": "［Øþŧïøñåŀ ñøñ-šëçŕëŧ ñøŧë ƒøŕ ŧħïš šåṽëð þŕøƒïŀë~~~~~~~~~~~~~~~］"
+    },
+    "placeholder.provider_organization": {
+      "sourceRevision": 48,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ØþëñÅÏ øŕĝåñïžåŧïøñ ÏÐ~~~~~~~~~~］"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2076,6 +2086,11 @@
       "status": "draft",
       "template": "［Øþŧïøñåŀ ñøñ-šëçŕëŧ ñøŧë ƒøŕ ŧħïš šåṽëð þŕøƒïŀë~~~~~~~~~~~~~~~］"
     },
+    "tooltip.provider_organization": {
+      "sourceRevision": 48,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ øŕĝåñïžåŧïøñ ïðëñŧïƒïëŕ šëñŧ ŧø ØþëñÅÏ-çøṁþåŧïƀŀë ëñðþøïñŧš~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.provider_preset": {
       "sourceRevision": 24,
       "status": "draft",
@@ -2252,7 +2267,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 47,
+    "sourceRevision": 48,
     "status": "draft"
   }
 }

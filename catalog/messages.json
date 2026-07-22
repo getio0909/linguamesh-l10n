@@ -7114,9 +7114,54 @@
         "template": "Optional non-secret note for this saved profile",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the optional non-secret organization identifier field for an OpenAI-compatible provider.",
+      "description": "Label for the optional organization identifier in the Linux provider form.",
+      "key": "label.provider_organization",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 48,
+      "status": "source",
+      "value": {
+        "template": "Organization",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the organization identifier is optional and non-secret.",
+      "description": "Placeholder for the optional organization identifier in the Linux provider form.",
+      "key": "placeholder.provider_organization",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 48,
+      "status": "source",
+      "value": {
+        "template": "Optional OpenAI organization ID",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that the organization identifier is sent only to OpenAI-compatible endpoints.",
+      "description": "Tooltip for the optional organization identifier in the Linux provider form.",
+      "key": "tooltip.provider_organization",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 48,
+      "status": "source",
+      "value": {
+        "template": "Optional organization identifier sent to OpenAI-compatible endpoints",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 47
+  "sourceRevision": 48
 }
