@@ -116,6 +116,11 @@
       "status": "draft",
       "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ~~~~~~］"
     },
+    "action.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "［Ëẋþøŕŧ ŧŕåñšŀåŧïøñ ŕëþøŕŧ~~~~~~~~］"
+    },
     "action.export_routing_profile": {
       "sourceRevision": 34,
       "status": "draft",
@@ -1831,6 +1836,11 @@
       "status": "draft",
       "template": "［Ŕëṁøṽïñĝ šåṽëð þŕøƒïŀë~~~~~~~］"
     },
+    "status.report_exported": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "［Ŧŕåñšŀåŧïøñ ŕëþøŕŧ šåṽëð ŧø ŧħë šëŀëçŧëð ƒïŀë.~~~~~~~~~~~~~~~］"
+    },
     "status.routing_profile_empty": {
       "sourceRevision": 28,
       "status": "draft",
@@ -1960,6 +1970,11 @@
       "sourceRevision": 5,
       "status": "draft",
       "template": "［Šåṽë ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ŧø å ñëŵ ƒïŀë~~~~~~~~~~~~~］"
+    },
+    "tooltip.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "［Šåṽë å ŕëðåçŧëð ŦŠṼ ŕëþøŕŧ ƒøŕ ŧħïš ðøçûṁëñŧ ĵøƀ~~~~~~~~~~~~~~~~］"
     },
     "tooltip.fallback": {
       "sourceRevision": 18,
@@ -2187,7 +2202,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 43,
+    "sourceRevision": 44,
     "status": "draft"
   }
 }

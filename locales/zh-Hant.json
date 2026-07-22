@@ -114,6 +114,11 @@
       "status": "draft",
       "template": "匯出翻譯"
     },
+    "action.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "匯出翻譯報告"
+    },
     "action.export_routing_profile": {
       "sourceRevision": 34,
       "status": "draft",
@@ -1827,6 +1832,11 @@
       "status": "draft",
       "template": "正在移除已儲存的設定檔"
     },
+    "status.report_exported": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "翻譯報告已儲存到選取的檔案。"
+    },
     "status.routing_profile_empty": {
       "sourceRevision": 28,
       "status": "draft",
@@ -1956,6 +1966,11 @@
       "sourceRevision": 5,
       "status": "draft",
       "template": "將譯文儲存到新檔案"
+    },
+    "tooltip.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "儲存此文件工作項目的已去識別 TSV 報告"
     },
     "tooltip.fallback": {
       "sourceRevision": 18,
@@ -2183,7 +2198,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 43,
+    "sourceRevision": 44,
     "status": "draft"
   }
 }

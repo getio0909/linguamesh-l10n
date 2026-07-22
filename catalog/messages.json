@@ -3304,6 +3304,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Action that exports a redacted TSV report for a Linux document translation job.",
+      "key": "action.export_report",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 44,
+      "status": "source",
+      "value": {
+        "template": "Export translation report",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining that a document report contains metadata without credentials or source text.",
+      "key": "tooltip.export_report",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 44,
+      "status": "source",
+      "value": {
+        "template": "Save a redacted TSV report for this document job",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Title for the Linux translation export dialog.",
       "key": "dialog.export_translation",
       "placeholders": {},
@@ -3344,6 +3374,21 @@
       "status": "source",
       "value": {
         "template": "Translation saved to the selected file.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status shown after a redacted document translation report is written successfully.",
+      "key": "status.report_exported",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 44,
+      "status": "source",
+      "value": {
+        "template": "Translation report saved to the selected file.",
         "type": "text"
       }
     },
@@ -6906,5 +6951,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 43
+  "sourceRevision": 44
 }

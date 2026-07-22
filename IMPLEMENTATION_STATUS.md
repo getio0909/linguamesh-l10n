@@ -1,5 +1,23 @@
 # Implementation Status
 
+## 2026-07-22 — Linux document translation report copy
+
+Assumption: the first report surface is Linux-only and emits a redacted TSV snapshot; provider
+usage and retry counts remain explicitly unknown until document-job persistence records them.
+
+- Added three Linux-only source messages at source revision 44 for the document report action,
+  tooltip, and success status. All twelve official locale packs carry the keys; Simplified and
+  Traditional Chinese include localized draft copy and the other non-English values remain
+  machine-generated drafts.
+- Regenerated all 59 deterministic native resources and both pseudo-locales. The catalog now
+  contains 434 messages.
+- ./tools/l10n lint, ./tools/l10n test (26 tests), ./tools/l10n generate --check, and
+  ./tools/l10n build all pass after generation.
+
+Native consumers must pin this localization revision before claiming report-export evidence.
+Human translation review, native visual/RTL/Orca review, and stable-release qualification remain
+open.
+
 ## 2026-07-21 — Linux usage-source metadata
 
 Assumption: Linux displays normalized token counts as non-sensitive metadata; local estimates are

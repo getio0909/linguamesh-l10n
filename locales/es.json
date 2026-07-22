@@ -117,6 +117,11 @@
       "status": "draft",
       "template": "Export translation"
     },
+    "action.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "Export translation report"
+    },
     "action.export_routing_profile": {
       "sourceRevision": 34,
       "status": "draft",
@@ -1834,6 +1839,11 @@
       "status": "draft",
       "template": "Eliminando perfil guardado"
     },
+    "status.report_exported": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "Translation report saved to the selected file."
+    },
     "status.routing_profile_empty": {
       "sourceRevision": 28,
       "status": "draft",
@@ -1963,6 +1973,11 @@
       "sourceRevision": 5,
       "status": "draft",
       "template": "Save the translated output to a new file"
+    },
+    "tooltip.export_report": {
+      "sourceRevision": 44,
+      "status": "draft",
+      "template": "Save a redacted TSV report for this document job"
     },
     "tooltip.fallback": {
       "sourceRevision": 18,
@@ -2190,7 +2205,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 43,
+    "sourceRevision": 44,
     "status": "draft"
   }
 }
