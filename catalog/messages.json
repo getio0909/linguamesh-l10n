@@ -7519,9 +7519,54 @@
         "template": "Optional bounded secret headers; stored in Secret Service when remembered and otherwise kept for this session",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the optional custom trusted certificate bundle in the Linux provider form.",
+      "description": "Label for an optional PEM certificate bundle that augments system trust without disabling TLS verification.",
+      "key": "label.provider_trusted_certificates_pem",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 57,
+      "status": "source",
+      "value": {
+        "template": "Trusted certificates (PEM)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the optional PEM certificate bundle field in the Linux provider form.",
+      "description": "Placeholder for a custom trusted certificate PEM bundle.",
+      "key": "placeholder.provider_trusted_certificates_pem",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 57,
+      "status": "source",
+      "value": {
+        "template": "Optional PEM certificate bundle; TLS verification remains enabled",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that custom trusted certificates augment system roots and never disable TLS verification.",
+      "description": "Tooltip for the optional custom trusted certificate PEM bundle.",
+      "key": "tooltip.provider_trusted_certificates_pem",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 57,
+      "status": "source",
+      "value": {
+        "template": "Optional trusted certificate PEM bundle; system roots remain trusted and TLS verification stays enabled",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 56
+  "sourceRevision": 57
 }

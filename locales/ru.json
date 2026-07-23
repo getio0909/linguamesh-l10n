@@ -1183,6 +1183,11 @@
       "status": "draft",
       "template": "Streaming idle timeout (seconds)"
     },
+    "label.provider_trusted_certificates_pem": {
+      "sourceRevision": 57,
+      "status": "draft",
+      "template": "Trusted certificates (PEM)"
+    },
     "label.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -1537,6 +1542,11 @@
       "sourceRevision": 52,
       "status": "draft",
       "template": "Optional JSON object of secret request headers"
+    },
+    "placeholder.provider_trusted_certificates_pem": {
+      "sourceRevision": 57,
+      "status": "draft",
+      "template": "Optional PEM certificate bundle; TLS verification remains enabled"
     },
     "profile.default_anthropic_name": {
       "sourceRevision": 37,
@@ -2223,6 +2233,11 @@
       "status": "draft",
       "template": "Provider streaming idle timeout in seconds, from 1 to 300"
     },
+    "tooltip.provider_trusted_certificates_pem": {
+      "sourceRevision": 57,
+      "status": "draft",
+      "template": "Optional trusted certificate PEM bundle; system roots remain trusted and TLS verification stays enabled"
+    },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -2394,7 +2409,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 56,
+    "sourceRevision": 57,
     "status": "draft"
   }
 }
