@@ -51,6 +51,11 @@
       "status": "draft",
       "template": "［Çŀëåŕ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
     },
+    "action.clear_workspace": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "［Çŀëåŕ ŵøŕķšþåçë~~~~~］"
+    },
     "action.close": {
       "sourceRevision": 11,
       "status": "draft",
@@ -2150,6 +2155,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.clear_workspace": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "［Çŀëåŕ ŧħë šøûŕçë ŧëẋŧ, ŧŕåñšŀåŧëð øûŧþûŧ, åñð ŕëǫûëšŧ ðïåĝñøšŧïçš~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.copy_output": {
       "sourceRevision": 63,

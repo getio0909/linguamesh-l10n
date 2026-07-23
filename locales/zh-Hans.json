@@ -49,6 +49,11 @@
       "status": "draft",
       "template": "Clear translation memory"
     },
+    "action.clear_workspace": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "清空工作区"
+    },
     "action.close": {
       "sourceRevision": 11,
       "status": "draft",
@@ -2146,6 +2151,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "Delete all locally stored translation memory entries"
+    },
+    "tooltip.clear_workspace": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "清空源文本、译文和请求诊断信息"
     },
     "tooltip.copy_output": {
       "sourceRevision": 63,

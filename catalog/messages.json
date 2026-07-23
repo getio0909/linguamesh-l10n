@@ -3304,6 +3304,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Action that clears the Linux text workspace source, output, and request diagnostics.",
+      "key": "action.clear_workspace",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 64,
+      "status": "source",
+      "value": {
+        "template": "Clear workspace",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Action that exports the current translated output to a user-selected file.",
       "key": "action.export_output",
       "placeholders": {},
@@ -3329,6 +3344,21 @@
       "status": "source",
       "value": {
         "template": "Copy the translated output to the system clipboard",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining that clear removes the Linux text workspace content and request diagnostics.",
+      "key": "tooltip.clear_workspace",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 64,
+      "status": "source",
+      "value": {
+        "template": "Clear the source text, translated output, and request diagnostics",
         "type": "text"
       }
     },
