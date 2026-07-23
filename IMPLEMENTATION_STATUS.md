@@ -1,5 +1,17 @@
 # Implementation Status
 
+## 2026-07-23 — Linux regional and script preference messages
+
+Assumption: the Linux translation-preset selector is the bounded client surface for Core's
+regional-locale and script fields; cross-client parity and qualified human translation review
+remain open.
+
+- Added two source-revision-61 Linux messages for United States English and Mainland China
+  Simplified Chinese preset labels. All twelve official locale packs, pseudo-locales, and
+  deterministic native resources now carry the catalog's 494 messages.
+- `make check` is the required final gate for this revision; non-English values remain
+  machine-generated drafts pending qualified human translation and native visual/Orca review.
+
 ## 2026-07-23 — Linux glossary-library selector messages
 
 Assumption: the Linux GTK glossary-library selector is a bounded client surface; TBX import and

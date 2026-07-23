@@ -7834,9 +7834,39 @@
         "template": "No local glossary libraries are stored.",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Translation preset that prefers United States English regional conventions and Latin script.",
+      "key": "translation.preset.english_us",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 61,
+      "status": "source",
+      "value": {
+        "template": "English (United States)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Translation preset that prefers Mainland China regional conventions and Simplified Chinese script.",
+      "key": "translation.preset.chinese_simplified",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 61,
+      "status": "source",
+      "value": {
+        "template": "Chinese (Simplified, Mainland China)",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 60
+  "sourceRevision": 61
 }

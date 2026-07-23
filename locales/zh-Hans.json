@@ -2422,6 +2422,16 @@
       "status": "draft",
       "template": "Inspect, export, or delete individual local translation memory entries"
     },
+    "translation.preset.chinese_simplified": {
+      "sourceRevision": 61,
+      "status": "draft",
+      "template": "中文（简体，中国大陆）"
+    },
+    "translation.preset.english_us": {
+      "sourceRevision": 61,
+      "status": "draft",
+      "template": "英语（美国）"
+    },
     "translation.preset.general": {
       "sourceRevision": 41,
       "status": "draft",
@@ -2488,7 +2498,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 60,
+    "sourceRevision": 61,
     "status": "draft"
   }
 }
