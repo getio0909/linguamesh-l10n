@@ -72,6 +72,11 @@
       "status": "draft",
       "template": "Create local-first profile"
     },
+    "action.delete_glossary": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Delete"
+    },
     "action.delete_history_entry": {
       "sourceRevision": 11,
       "status": "draft",
@@ -131,6 +136,11 @@
       "sourceRevision": 34,
       "status": "draft",
       "template": "Export"
+    },
+    "action.glossary_libraries": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Glossary libraries"
     },
     "action.import_glossary": {
       "sourceRevision": 8,
@@ -197,6 +207,11 @@
       "status": "draft",
       "template": "Routing profiles"
     },
+    "action.save_glossary": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Save glossary library"
+    },
     "action.save_provider": {
       "sourceRevision": 1,
       "status": "draft",
@@ -221,6 +236,11 @@
       "sourceRevision": 1,
       "status": "draft",
       "template": "Traducir"
+    },
+    "action.use_glossary": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Use"
     },
     "action.use_routing_profile": {
       "sourceRevision": 29,
@@ -402,6 +422,11 @@
       "status": "draft",
       "template": "Export translation"
     },
+    "dialog.glossary_libraries": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Glossary libraries"
+    },
     "dialog.history": {
       "sourceRevision": 11,
       "status": "draft",
@@ -446,6 +471,11 @@
       "sourceRevision": 5,
       "status": "draft",
       "template": "Save"
+    },
+    "dialog.save_glossary": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Save glossary library"
     },
     "document.file_count": {
       "sourceRevision": 1,
@@ -1118,6 +1148,11 @@
       "sourceRevision": 18,
       "status": "draft",
       "template": "Fallback provider"
+    },
+    "label.glossary_id": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Glossary library ID"
     },
     "label.provider_account_identifier": {
       "sourceRevision": 50,
@@ -2144,6 +2179,11 @@
       "status": "draft",
       "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation."
     },
+    "tooltip.glossary_libraries": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Inspect, select, and delete reusable local glossary libraries"
+    },
     "tooltip.import_glossary": {
       "sourceRevision": 8,
       "status": "draft",
@@ -2334,6 +2374,11 @@
       "status": "draft",
       "template": "Reject candidates that cannot return real streamed deltas"
     },
+    "tooltip.save_glossary": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Save the current validated glossary as a reusable local library"
+    },
     "tooltip.save_history": {
       "sourceRevision": 12,
       "status": "draft",
@@ -2435,7 +2480,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 59,
+    "sourceRevision": 60,
     "status": "draft"
   }
 }

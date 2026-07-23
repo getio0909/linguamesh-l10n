@@ -3784,6 +3784,66 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Opens the bounded local glossary-library selector in the Linux text workspace.",
+      "key": "action.glossary_libraries",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Glossary libraries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Saves the validated request glossary as a reusable local library on Linux.",
+      "key": "action.save_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Save glossary library",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Loads a selected reusable glossary library into the Linux request editor.",
+      "key": "action.use_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Use",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Deletes a selected reusable glossary library by its stable ID.",
+      "key": "action.delete_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Delete",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Accessible tooltip for importing a glossary CSV.",
       "key": "tooltip.import_glossary",
       "placeholders": {},
@@ -3814,6 +3874,36 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Accessible tooltip for inspecting, loading, and deleting local glossary libraries.",
+      "key": "tooltip.glossary_libraries",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Inspect, select, and delete reusable local glossary libraries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accessible tooltip for saving the current validated glossary library.",
+      "key": "tooltip.save_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Save the current validated glossary as a reusable local library",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Native file dialog title for importing a glossary CSV.",
       "key": "dialog.open_glossary",
       "placeholders": {},
@@ -3839,6 +3929,51 @@
       "status": "source",
       "value": {
         "template": "Export glossary",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Modal dialog title for listing and selecting local glossary libraries.",
+      "key": "dialog.glossary_libraries",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Glossary libraries",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Modal dialog title for naming a reusable local glossary library.",
+      "key": "dialog.save_glossary",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Save glossary library",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Label for the stable identifier field used when saving a local glossary library.",
+      "key": "label.glossary_id",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Glossary library ID",
         "type": "text"
       }
     },
@@ -7658,5 +7793,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 59
+  "sourceRevision": 60
 }
