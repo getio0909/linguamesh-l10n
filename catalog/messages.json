@@ -7356,6 +7356,36 @@
       }
     },
     {
+      "accessibilityContext": "Names the bounded total provider request timeout field.",
+      "description": "Label for the provider request timeout in seconds in the Linux provider form.",
+      "key": "label.provider_request_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 54,
+      "status": "source",
+      "value": {
+        "template": "Request timeout (seconds)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the bounded provider request timeout range.",
+      "description": "Tooltip for the provider request timeout in the Linux provider form.",
+      "key": "tooltip.provider_request_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 54,
+      "status": "source",
+      "value": {
+        "template": "Total provider request timeout in seconds, from 1 to 600",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Explains that custom request headers must be a bounded non-secret JSON object.",
       "description": "Placeholder for optional custom request headers in the Linux provider form.",
       "key": "placeholder.provider_custom_headers",
@@ -7433,5 +7463,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 53
+  "sourceRevision": 54
 }

@@ -1172,6 +1172,11 @@
       "status": "draft",
       "template": "Region"
     },
+    "label.provider_request_timeout": {
+      "sourceRevision": 54,
+      "status": "draft",
+      "template": "Request timeout (seconds)"
+    },
     "label.provider_secret_custom_headers": {
       "sourceRevision": 52,
       "status": "draft",
@@ -2197,6 +2202,11 @@
       "status": "draft",
       "template": "Optional non-secret region identifier used by the provider account"
     },
+    "tooltip.provider_request_timeout": {
+      "sourceRevision": 54,
+      "status": "draft",
+      "template": "Total provider request timeout in seconds, from 1 to 600"
+    },
     "tooltip.provider_secret_custom_headers": {
       "sourceRevision": 52,
       "status": "draft",
@@ -2373,7 +2383,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 53,
+    "sourceRevision": 54,
     "status": "draft"
   }
 }
