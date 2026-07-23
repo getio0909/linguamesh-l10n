@@ -1156,6 +1156,11 @@
       "status": "draft",
       "template": "［Þŕøẋÿ ÛŔĿ~~~］"
     },
+    "label.provider_proxy_credentials": {
+      "sourceRevision": 58,
+      "status": "draft",
+      "template": "［Þŕøẋÿ çŕëðëñŧïåŀš~~~~~］"
+    },
     "label.provider_region": {
       "sourceRevision": 50,
       "status": "draft",
@@ -1525,6 +1530,11 @@
       "sourceRevision": 53,
       "status": "draft",
       "template": "［Øþŧïøñåŀ þŕøẋÿ ÛŔĿ, ƒøŕ ëẋåṁþŀë ħŧŧþ://127.0.0.1:8080~~~~~~~~~~~~~~~~~］"
+    },
+    "placeholder.provider_proxy_credentials": {
+      "sourceRevision": 58,
+      "status": "draft",
+      "template": "［Øþŧïøñåŀ ûšëŕñåṁë:þåššŵøŕð ƒøŕ ŧħë þŕøẋÿ~~~~~~~~~~~~~］"
     },
     "placeholder.provider_region": {
       "sourceRevision": 50,
@@ -2206,6 +2216,11 @@
       "status": "draft",
       "template": "［Øþŧïøñåŀ ĦŦŦÞ, ĦŦŦÞŠ, ŠØÇĶŠ5, øŕ ŠØÇĶŠ5Ħ þŕøẋÿ ŵïŧħøûŧ ëṁƀëððëð çŕëðëñŧïåŀš~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.provider_proxy_credentials": {
+      "sourceRevision": 58,
+      "status": "draft",
+      "template": "［Šŧøŕëð ïñ Šëçŕëŧ Šëŕṽïçë ŵħëñ ŕëṁëṁƀëŕëð åñð ñëṽëŕ ëṁƀëððëð ïñ ŧħë þŕøẋÿ ÛŔĿ~~~~~~~~~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.provider_region": {
       "sourceRevision": 50,
       "status": "draft",
@@ -2402,7 +2417,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 57,
+    "sourceRevision": 58,
     "status": "draft"
   }
 }

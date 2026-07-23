@@ -7341,6 +7341,51 @@
       }
     },
     {
+      "accessibilityContext": "Names the optional proxy authentication field.",
+      "description": "Label for optional proxy username and password input in the Linux provider form.",
+      "key": "label.provider_proxy_credentials",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 58,
+      "status": "source",
+      "value": {
+        "template": "Proxy credentials",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Shows the expected proxy authentication format without putting credentials in the URL.",
+      "description": "Placeholder for optional proxy username and password input.",
+      "key": "placeholder.provider_proxy_credentials",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 58,
+      "status": "source",
+      "value": {
+        "template": "Optional username:password for the proxy",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains that proxy credentials are stored by the host secret service when remembered.",
+      "description": "Tooltip for optional proxy authentication input.",
+      "key": "tooltip.provider_proxy_credentials",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 58,
+      "status": "source",
+      "value": {
+        "template": "Stored in Secret Service when remembered and never embedded in the proxy URL",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Names the bounded non-secret custom request headers field.",
       "description": "Label for optional custom request headers in the Linux provider form.",
       "key": "label.provider_custom_headers",
@@ -7568,5 +7613,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 57
+  "sourceRevision": 58
 }
