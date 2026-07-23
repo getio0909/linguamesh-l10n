@@ -1681,6 +1681,16 @@
       "status": "source",
       "template": "No provider connected. Credentials stay session-only unless remembered through Secret Service."
     },
+    "provider.health.failure": {
+      "sourceRevision": 64,
+      "status": "source",
+      "template": "Last provider health check failed: {category}"
+    },
+    "provider.health.success": {
+      "sourceRevision": 64,
+      "status": "source",
+      "template": "Last provider health check: {timestamp}"
+    },
     "provider.mode.pending_saved": {
       "sourceRevision": 1,
       "status": "source",
@@ -2517,7 +2527,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 63,
+    "sourceRevision": 64,
     "status": "source"
   }
 }

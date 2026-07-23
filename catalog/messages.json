@@ -7909,9 +7909,49 @@
         "template": "Manual",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Last successful provider health-check timestamp shown in the Linux Provider Hub.",
+      "key": "provider.health.success",
+      "placeholders": {
+        "timestamp": {
+          "example": "2026-07-23T13:40:00Z",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 64,
+      "status": "source",
+      "value": {
+        "template": "Last provider health check: {timestamp}",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Normalized provider health failure category shown in the Linux Provider Hub.",
+      "key": "provider.health.failure",
+      "placeholders": {
+        "category": {
+          "example": "Authentication",
+          "type": "string"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 64,
+      "status": "source",
+      "value": {
+        "template": "Last provider health check failed: {category}",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 63
+  "sourceRevision": 64
 }

@@ -1677,6 +1677,16 @@
       "status": "draft",
       "template": "未连接提供商。除非通过 Secret Service 记住，否则凭据仅保留在本次会话中。"
     },
+    "provider.health.failure": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "上次提供商健康检查失败：{category}"
+    },
+    "provider.health.success": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "上次提供商健康检查：{timestamp}"
+    },
     "provider.mode.pending_saved": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2513,7 +2523,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 63,
+    "sourceRevision": 64,
     "status": "draft"
   }
 }

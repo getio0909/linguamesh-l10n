@@ -1681,6 +1681,16 @@
       "status": "draft",
       "template": "［Ñø þŕøṽïðëŕ çøññëçŧëð. Çŕëðëñŧïåŀš šŧåÿ šëššïøñ-øñŀÿ ûñŀëšš ŕëṁëṁƀëŕëð ŧħŕøûĝħ Šëçŕëŧ Šëŕṽïçë.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "provider.health.failure": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "［Ŀåšŧ þŕøṽïðëŕ ħëåŀŧħ çħëçķ ƒåïŀëð: {category}~~~~~~~~~~~~~~~］"
+    },
+    "provider.health.success": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "［Ŀåšŧ þŕøṽïðëŕ ħëåŀŧħ çħëçķ: {timestamp}~~~~~~~~~~~~~］"
+    },
     "provider.mode.pending_saved": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2517,7 +2527,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 63,
+    "sourceRevision": 64,
     "status": "draft"
   }
 }

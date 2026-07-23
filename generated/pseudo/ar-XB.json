@@ -1697,6 +1697,16 @@
       "status": "draft",
       "template": "⁧⟦No provider connected. Credentials stay session-only unless remembered through Secret Service.⟧⁩"
     },
+    "provider.health.failure": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "⁧⟦Last provider health check failed: {category}⟧⁩"
+    },
+    "provider.health.success": {
+      "sourceRevision": 64,
+      "status": "draft",
+      "template": "⁧⟦Last provider health check: {timestamp}⟧⁩"
+    },
     "provider.mode.pending_saved": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2533,7 +2543,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 63,
+    "sourceRevision": 64,
     "status": "draft"
   }
 }
