@@ -1187,6 +1187,11 @@
       "status": "draft",
       "template": "Custom headers (secret JSON)"
     },
+    "label.provider_streaming_idle_timeout": {
+      "sourceRevision": 56,
+      "status": "draft",
+      "template": "Streaming idle timeout (seconds)"
+    },
     "label.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -2222,6 +2227,11 @@
       "status": "draft",
       "template": "Optional bounded secret headers; stored in Secret Service when remembered and otherwise kept for this session"
     },
+    "tooltip.provider_streaming_idle_timeout": {
+      "sourceRevision": 56,
+      "status": "draft",
+      "template": "Provider streaming idle timeout in seconds, from 1 to 300"
+    },
     "tooltip.quality_mode": {
       "sourceRevision": 40,
       "status": "draft",
@@ -2393,7 +2403,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 55,
+    "sourceRevision": 56,
     "status": "draft"
   }
 }

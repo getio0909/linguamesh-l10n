@@ -7416,6 +7416,36 @@
       }
     },
     {
+      "accessibilityContext": "Names the bounded provider streaming idle timeout field.",
+      "description": "Label for the provider streaming idle timeout in seconds in the Linux provider form.",
+      "key": "label.provider_streaming_idle_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 56,
+      "status": "source",
+      "value": {
+        "template": "Streaming idle timeout (seconds)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the bounded provider streaming idle timeout range.",
+      "description": "Tooltip for the provider streaming idle timeout in the Linux provider form.",
+      "key": "tooltip.provider_streaming_idle_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 56,
+      "status": "source",
+      "value": {
+        "template": "Provider streaming idle timeout in seconds, from 1 to 300",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Explains that custom request headers must be a bounded non-secret JSON object.",
       "description": "Placeholder for optional custom request headers in the Linux provider form.",
       "key": "placeholder.provider_custom_headers",
@@ -7493,5 +7523,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 55
+  "sourceRevision": 56
 }
