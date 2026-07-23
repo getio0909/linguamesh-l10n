@@ -1,5 +1,19 @@
 # Implementation Status
 
+## 2026-07-23 — Linux proxy credential messages
+
+Assumption: Linux consumes proxy credentials through a separate SecretRef field; localized copy
+must describe the username:password format and the Secret Service boundary without exposing values.
+
+- Commit `f0b1c507d73f540f298a534303d0e6e63d44e87b` adds three source-revision-58 Linux messages
+  for proxy credentials and updates all twelve official locale packs plus pseudo-locales and
+  deterministic native resources. The catalog now contains 477 messages.
+- `make check` passed formatting, schema/catalog lint, all 26 tests, byte-for-byte generation,
+  deterministic bundle build, and foundation validation. Localization/Foundation runs
+  `29975220462` and `29975220469` passed for the exact commit.
+- Non-English values remain machine-generated drafts pending qualified human translation review;
+  native visual/RTL/Orca review and stable-release qualification remain open.
+
 ## 2026-07-22 — Linux provider custom-header copy
 
 Assumption: custom request headers are optional, bounded, non-secret metadata for Linux provider
