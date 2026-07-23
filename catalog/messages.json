@@ -3979,31 +3979,31 @@
     },
     {
       "accessibilityContext": null,
-      "description": "Native file chooser filter for glossary CSV files.",
+      "description": "Native file chooser filter for glossary CSV and TBX files.",
       "key": "file.filter.csv",
       "placeholders": {},
       "platforms": [
         "linux"
       ],
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "source",
       "value": {
-        "template": "CSV glossary files",
+        "template": "CSV and TBX glossary files",
         "type": "text"
       }
     },
     {
       "accessibilityContext": null,
-      "description": "Safe error shown when a glossary CSV cannot be read or validated.",
+      "description": "Safe error shown when a glossary CSV or TBX cannot be read or validated.",
       "key": "error.glossary_import",
       "placeholders": {},
       "platforms": [
         "linux"
       ],
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "source",
       "value": {
-        "template": "The glossary CSV could not be imported.",
+        "template": "The glossary file could not be imported.",
         "type": "text"
       }
     },
@@ -7868,5 +7868,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 61
+  "sourceRevision": 62
 }

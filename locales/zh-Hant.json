@@ -637,9 +637,9 @@
       "template": "請先輸入或匯入詞彙表規則。"
     },
     "error.glossary_import": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "無法匯入詞彙表 CSV。"
+      "template": "無法匯入詞彙表檔案。"
     },
     "error.glossary_rule_conflict": {
       "sourceRevision": 19,
@@ -1099,9 +1099,9 @@
       "template": "譯文"
     },
     "file.filter.csv": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "CSV 詞彙表檔案"
+      "template": "CSV 和 TBX 詞彙表檔案"
     },
     "file.filter.json": {
       "sourceRevision": 34,
@@ -2498,7 +2498,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 61,
+    "sourceRevision": 62,
     "status": "draft"
   }
 }

@@ -640,9 +640,9 @@
       "template": "［Ëñŧëŕ øŕ ïṁþøŕŧ ĝŀøššåŕÿ ŕûŀëš ƀëƒøŕë ëẋþøŕŧïñĝ.~~~~~~~~~~~~~~~~］"
     },
     "error.glossary_import": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "［Ŧħë ĝŀøššåŕÿ ÇŠṼ çøûŀð ñøŧ ƀë ïṁþøŕŧëð.~~~~~~~~~~~~~］"
+      "template": "［Ŧħë ĝŀøššåŕÿ ƒïŀë çøûŀð ñøŧ ƀë ïṁþøŕŧëð.~~~~~~~~~~~~~］"
     },
     "error.glossary_rule_conflict": {
       "sourceRevision": 19,
@@ -1103,9 +1103,9 @@
       "template": "［Ŧŕåñšŀåŧïøñ~~~］"
     },
     "file.filter.csv": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "［ÇŠṼ ĝŀøššåŕÿ ƒïŀëš~~~~~~］"
+      "template": "［ÇŠṼ åñð ŦƁẊ ĝŀøššåŕÿ ƒïŀëš~~~~~~~~］"
     },
     "file.filter.json": {
       "sourceRevision": 34,
@@ -2502,7 +2502,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 61,
+    "sourceRevision": 62,
     "status": "draft"
   }
 }

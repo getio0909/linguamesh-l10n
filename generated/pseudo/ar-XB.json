@@ -652,9 +652,9 @@
       "template": "⁧⟦Enter or import glossary rules before exporting.⟧⁩"
     },
     "error.glossary_import": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "⁧⟦The glossary CSV could not be imported.⟧⁩"
+      "template": "⁧⟦The glossary file could not be imported.⟧⁩"
     },
     "error.glossary_rule_conflict": {
       "sourceRevision": 19,
@@ -1119,9 +1119,9 @@
       "template": "⁧⟦Translation⟧⁩"
     },
     "file.filter.csv": {
-      "sourceRevision": 8,
+      "sourceRevision": 62,
       "status": "draft",
-      "template": "⁧⟦CSV glossary files⟧⁩"
+      "template": "⁧⟦CSV and TBX glossary files⟧⁩"
     },
     "file.filter.json": {
       "sourceRevision": 34,
@@ -2518,7 +2518,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 61,
+    "sourceRevision": 62,
     "status": "draft"
   }
 }

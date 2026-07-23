@@ -1,5 +1,18 @@
 # Implementation Status
 
+## 2026-07-23 — Linux TBX glossary import messages
+
+Assumption: the existing Linux glossary message keys remain stable while their copy expands from
+CSV-only to the bounded CSV/TBX import contract; no other client consumes these Linux-only keys.
+
+- Catalog source revision 62 now labels the native chooser as **CSV and TBX glossary files** and
+  reports a format-neutral import error. Official locale packs, pseudo-locales, Linux PO/MO files,
+  and the manifest were regenerated deterministically; no credentials or translation content were
+  added.
+- `make check` passed: Python doctor, format check, schema/lint (494 messages, 12 official packs),
+  all 26 tests, byte-for-byte generation check, bundle build, and foundation validation. Release
+  remains `unreleased`.
+
 ## 2026-07-23 — Linux regional and script preference messages
 
 Assumption: the Linux translation-preset selector is the bounded client surface for Core's
