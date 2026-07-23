@@ -3319,6 +3319,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Action that swaps the supported Linux text workspace source and target languages.",
+      "key": "action.swap_languages",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 65,
+      "status": "source",
+      "value": {
+        "template": "Swap languages",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Action that exports the current translated output to a user-selected file.",
       "key": "action.export_output",
       "placeholders": {},
@@ -3359,6 +3374,21 @@
       "status": "source",
       "value": {
         "template": "Clear the source text, translated output, and request diagnostics",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining that the language action swaps the supported source and target selections.",
+      "key": "tooltip.swap_languages",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 65,
+      "status": "source",
+      "value": {
+        "template": "Swap the source and target languages",
         "type": "text"
       }
     },
@@ -8028,5 +8058,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 64
+  "sourceRevision": 65
 }

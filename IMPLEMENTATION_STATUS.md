@@ -1,5 +1,19 @@
 # Implementation Status
 
+## 2026-07-23 — Linux language-swap messages
+
+Assumption: the Linux text workspace swaps only the supported English/Chinese source-target pair;
+Auto-source and Japanese-target combinations remain intentionally unchanged until their semantics
+are defined.
+
+- Added Linux-only `action.swap_languages` and `tooltip.swap_languages` at catalog source revision
+  65. Simplified Chinese and Traditional Chinese drafts are supplied; other non-English packs use
+  explicit English fallback text pending qualified review.
+- Regenerated pseudo-locales, deterministic Linux PO/MO resources, the manifest, and the development
+  bundle. The catalog now contains 506 messages across 12 official locale packs.
+- `PYTHON_BIN=python3 make check` passed doctor, formatting, schema/lint, all 26 tests,
+  deterministic generation, bundle build, and foundation validation. Release remains `unreleased`.
+
 ## 2026-07-23 — Linux provider rate-limit category
 
 Assumption: HTTP 429 is the stable provider signal for temporary request throttling; provider

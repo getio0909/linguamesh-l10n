@@ -234,6 +234,11 @@
       "status": "draft",
       "template": "Select document job"
     },
+    "action.swap_languages": {
+      "sourceRevision": 65,
+      "status": "draft",
+      "template": "Swap languages"
+    },
     "action.test_connection": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2452,6 +2457,11 @@
       "status": "draft",
       "template": "Choose a saved non-secret profile or create a new profile"
     },
+    "tooltip.swap_languages": {
+      "sourceRevision": 65,
+      "status": "draft",
+      "template": "Swap the source and target languages"
+    },
     "tooltip.test_connection": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2548,7 +2558,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 64,
+    "sourceRevision": 65,
     "status": "draft"
   }
 }

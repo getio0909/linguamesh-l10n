@@ -12,6 +12,15 @@ Assumption: English is the reviewed canonical source. The other eleven required 
 
 Assumption: This development bundle may define a small representative UI catalog that exercises plain text, typed placeholders, plurals, selects, platform filtering, and accessibility context. It does not claim complete product copy or a stable release.
 
+## Linux language-swap copy checkpoint
+
+Assumption: Linux exposes a local, request-free swap action for the supported English/Chinese pair;
+unsupported Auto or Japanese combinations remain disabled until product semantics are specified.
+
+- [x] Add localized action and tooltip messages at source revision 65.
+- [x] Regenerate and validate all official packs, pseudo-locales, and native resources.
+- [x] Keep non-English translations explicitly unreviewed and release status `unreleased`.
+
 ## Work
 
 - [x] Confirm repository scope and pinned global-goal revision.

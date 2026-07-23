@@ -234,6 +234,11 @@
       "status": "draft",
       "template": "Select document job"
     },
+    "action.swap_languages": {
+      "sourceRevision": 65,
+      "status": "draft",
+      "template": "交換語言"
+    },
     "action.test_connection": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2452,6 +2457,11 @@
       "status": "draft",
       "template": "選擇不含秘密的已儲存設定，或新增設定"
     },
+    "tooltip.swap_languages": {
+      "sourceRevision": 65,
+      "status": "draft",
+      "template": "交換來源語言和目標語言"
+    },
     "tooltip.test_connection": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2548,7 +2558,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 64,
+    "sourceRevision": 65,
     "status": "draft"
   }
 }
