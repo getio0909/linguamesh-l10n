@@ -7789,6 +7789,51 @@
         "template": "Kept in memory for the connection and stored in Secret Service only when remembered",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Placeholder for the allowed stable identifier characters of a glossary library.",
+      "key": "placeholder.glossary_id",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "letters, numbers, '.', '_' or '-'",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Accessible tooltip for the stable glossary library identifier field.",
+      "key": "tooltip.glossary_id",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "Use 1-128 ASCII letters, numbers, '.', '_' or '-' for the glossary library ID.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Empty-state message shown when no reusable glossary libraries are stored.",
+      "key": "status.glossary_libraries_empty",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 60,
+      "status": "source",
+      "value": {
+        "template": "No local glossary libraries are stored.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,

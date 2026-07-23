@@ -5,9 +5,9 @@
 Assumption: the Linux GTK glossary-library selector is a bounded client surface; TBX import and
 cross-client library parity remain outside this localization checkpoint.
 
-- Added nine source-revision-60 Linux messages for listing, saving, loading, deleting, naming, and
-  describing reusable glossary libraries. All twelve official locale packs, pseudo-locales, and
-  deterministic native resources now carry the catalog's 489 messages.
+- Added twelve source-revision-60 Linux messages for listing, saving, loading, deleting, naming,
+  and describing reusable glossary libraries. All twelve official locale packs, pseudo-locales,
+  and deterministic native resources now carry the catalog's 492 messages.
 - `make check` passed setup, formatting, schema/catalog lint, all 26 tests, byte-for-byte resource
   generation, deterministic bundle build, and foundation validation. Non-English values remain
   machine-generated drafts pending qualified human translation and native visual/Orca review.

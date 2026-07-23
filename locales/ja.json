@@ -1537,6 +1537,11 @@
       "status": "draft",
       "template": "Japanese"
     },
+    "placeholder.glossary_id": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "letters, numbers, '.', '_' or '-'"
+    },
     "placeholder.provider_account_identifier": {
       "sourceRevision": 50,
       "status": "draft",
@@ -1912,6 +1917,11 @@
       "status": "draft",
       "template": "The approved fallback provider was selected; content may be sent there."
     },
+    "status.glossary_libraries_empty": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "No local glossary libraries are stored."
+    },
     "status.glossary_ready": {
       "sourceRevision": 8,
       "status": "draft",
@@ -2171,6 +2181,11 @@
       "sourceRevision": 8,
       "status": "draft",
       "template": "Optional semicolon-separated source => target glossary rules; entries stay in memory for this translation."
+    },
+    "tooltip.glossary_id": {
+      "sourceRevision": 60,
+      "status": "draft",
+      "template": "Use 1-128 ASCII letters, numbers, '.', '_' or '-' for the glossary library ID."
     },
     "tooltip.glossary_libraries": {
       "sourceRevision": 60,
