@@ -3289,6 +3289,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Action that copies the current translated output to the system clipboard.",
+      "key": "action.copy_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 63,
+      "status": "source",
+      "value": {
+        "template": "Copy translation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Action that exports the current translated output to a user-selected file.",
       "key": "action.export_output",
       "placeholders": {},
@@ -3299,6 +3314,21 @@
       "status": "source",
       "value": {
         "template": "Export translation",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining that copy places translated output on the system clipboard.",
+      "key": "tooltip.copy_output",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 63,
+      "status": "source",
+      "value": {
+        "template": "Copy the translated output to the system clipboard",
         "type": "text"
       }
     },

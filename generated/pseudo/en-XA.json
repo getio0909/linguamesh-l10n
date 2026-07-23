@@ -66,6 +66,11 @@
       "status": "draft",
       "template": "［Çøññëçŧ~~］"
     },
+    "action.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "［Çøþÿ ŧŕåñšŀåŧïøñ~~~~~］"
+    },
     "action.create_routing_profile": {
       "sourceRevision": 28,
       "status": "draft",
@@ -2145,6 +2150,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "［Çøþÿ ŧħë ŧŕåñšŀåŧëð øûŧþûŧ ŧø ŧħë šÿšŧëṁ çŀïþƀøåŕð~~~~~~~~~~~~~~~~］"
     },
     "tooltip.credential": {
       "sourceRevision": 1,

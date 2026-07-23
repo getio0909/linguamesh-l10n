@@ -64,6 +64,11 @@
       "status": "draft",
       "template": "連線"
     },
+    "action.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "複製譯文"
+    },
     "action.create_routing_profile": {
       "sourceRevision": 28,
       "status": "draft",
@@ -2141,6 +2146,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "Delete all locally stored translation memory entries"
+    },
+    "tooltip.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "將譯文複製到系統剪貼簿"
     },
     "tooltip.credential": {
       "sourceRevision": 1,

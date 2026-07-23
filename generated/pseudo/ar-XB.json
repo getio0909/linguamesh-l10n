@@ -74,6 +74,11 @@
       "status": "draft",
       "template": "⁧⟦Connect⟧⁩"
     },
+    "action.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "⁧⟦Copy translation⟧⁩"
+    },
     "action.create_routing_profile": {
       "sourceRevision": 28,
       "status": "draft",
@@ -2161,6 +2166,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "⁧⟦Delete all locally stored translation memory entries⟧⁩"
+    },
+    "tooltip.copy_output": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "⁧⟦Copy the translated output to the system clipboard⟧⁩"
     },
     "tooltip.credential": {
       "sourceRevision": 1,
