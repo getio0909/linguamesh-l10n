@@ -1372,6 +1372,21 @@
       "status": "draft",
       "template": "تم تحميل موارد الصينية المبسطة من كتالوج التشغيل المثبت؛ ما زالت الترجمات مسودات غير مراجعة."
     },
+    "model.source.catalog": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "Catalog"
+    },
+    "model.source.discovered": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "Discovered"
+    },
+    "model.source.manual": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "Manual"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2518,7 +2533,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 62,
+    "sourceRevision": 63,
     "status": "draft"
   }
 }

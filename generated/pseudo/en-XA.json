@@ -1356,6 +1356,21 @@
       "status": "draft",
       "template": "［Šïṁþŀïƒïëð Çħïñëšë ŕëšøûŕçëš åŕë ŀøåðëð ƒŕøṁ ŧħë þïññëð ŕûñŧïṁë çåŧåŀøĝ; ŧŕåñšŀåŧïøñš ŕëṁåïñ ûñŕëṽïëŵëð ðŕåƒŧš.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "model.source.catalog": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "［Çåŧåŀøĝ~~］"
+    },
+    "model.source.discovered": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "［Ðïšçøṽëŕëð~~~］"
+    },
+    "model.source.manual": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "［Ṁåñûåŀ~~］"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2502,7 +2517,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 62,
+    "sourceRevision": 63,
     "status": "draft"
   }
 }

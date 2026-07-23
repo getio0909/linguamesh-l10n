@@ -7864,9 +7864,54 @@
         "template": "Chinese (Simplified, Mainland China)",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Source label shown beside a model discovered from a provider endpoint.",
+      "key": "model.source.discovered",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 63,
+      "status": "source",
+      "value": {
+        "template": "Discovered",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Source label shown beside a model supplied by the bundled provider catalog.",
+      "key": "model.source.catalog",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 63,
+      "status": "source",
+      "value": {
+        "template": "Catalog",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Source label shown beside a model entered manually by the user.",
+      "key": "model.source.manual",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 63,
+      "status": "source",
+      "value": {
+        "template": "Manual",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 62
+  "sourceRevision": 63
 }

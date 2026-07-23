@@ -1352,6 +1352,21 @@
       "status": "draft",
       "template": "简体中文资源已从固定的运行时目录加载；翻译仍是未经审核的草稿。"
     },
+    "model.source.catalog": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "目录"
+    },
+    "model.source.discovered": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "已发现"
+    },
+    "model.source.manual": {
+      "sourceRevision": 63,
+      "status": "draft",
+      "template": "手动"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "draft",
@@ -2498,7 +2513,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 62,
+    "sourceRevision": 63,
     "status": "draft"
   }
 }

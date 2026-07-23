@@ -1356,6 +1356,21 @@
       "status": "source",
       "template": "Simplified Chinese resources are loaded from the pinned runtime catalog; translations remain unreviewed drafts."
     },
+    "model.source.catalog": {
+      "sourceRevision": 63,
+      "status": "source",
+      "template": "Catalog"
+    },
+    "model.source.discovered": {
+      "sourceRevision": 63,
+      "status": "source",
+      "template": "Discovered"
+    },
+    "model.source.manual": {
+      "sourceRevision": 63,
+      "status": "source",
+      "template": "Manual"
+    },
     "nav.text_translation": {
       "sourceRevision": 1,
       "status": "source",
@@ -2502,7 +2517,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 62,
+    "sourceRevision": 63,
     "status": "source"
   }
 }
