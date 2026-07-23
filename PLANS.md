@@ -38,6 +38,15 @@ sentences emitted by the worker are catalog-backed and can be localized without 
 - [x] Verify deterministic development bundle checksum
   `a8c5535b23eb27f02ff5fd3bb4c4c1c6948718f1233321305c173b1741b27e6f`.
 
+## Linux provider rate-limit category
+
+Assumption: HTTP 429 is the stable cross-provider signal for temporary throttling; provider quota
+and billing semantics remain outside this Linux-first checkpoint.
+
+- [x] Add the typed Linux category to the canonical catalog and every official locale pack.
+- [x] Regenerate pseudo-locales and deterministic Linux PO/MO resources.
+- [x] Run the full localization check and keep non-English translations explicitly unreviewed.
+
 ## Linux request-level glossary copy
 
 Assumption: Linux initially exposes a bounded, semicolon-separated request-level glossary in the

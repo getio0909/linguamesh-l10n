@@ -1,5 +1,17 @@
 # Implementation Status
 
+## 2026-07-23 — Linux provider rate-limit category
+
+Assumption: HTTP 429 is the stable provider signal for temporary request throttling; provider
+quota semantics and billing remain outside this checkpoint.
+
+- Added the Linux-only `error.category.rate_limited` source message and draft translations to all
+  twelve official locale packs. The catalog now contains 500 messages.
+- Regenerated pseudo-locales plus deterministic Linux PO/MO resources and the manifest. English is
+  canonical; non-English values remain machine-generated drafts pending qualified review.
+- `PYTHON_BIN=python3 make check` passed doctor, formatting, schema/lint, all tests, deterministic
+  generation, bundle build, and foundation validation. Release remains `unreleased`.
+
 ## 2026-07-23 — Linux TBX glossary import messages
 
 Assumption: the existing Linux glossary message keys remain stable while their copy expands from

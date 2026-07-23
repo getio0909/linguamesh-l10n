@@ -561,6 +561,11 @@
       "status": "draft",
       "template": "Protocol incompatible"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Limite de débit"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "draft",

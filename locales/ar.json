@@ -571,6 +571,11 @@
       "status": "draft",
       "template": "البروتوكول غير متوافق"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "تم تجاوز معدل الطلبات"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "draft",

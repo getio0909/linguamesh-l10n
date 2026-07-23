@@ -2284,6 +2284,21 @@
     },
     {
       "accessibilityContext": null,
+      "description": "Error category shown before a provider rate-limit diagnostic.",
+      "key": "error.category.rate_limited",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 1,
+      "status": "source",
+      "value": {
+        "template": "Rate limited",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
       "description": "Error category shown before a timeout diagnostic.",
       "key": "error.category.timeout",
       "placeholders": {},

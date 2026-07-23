@@ -559,6 +559,11 @@
       "status": "source",
       "template": "Protocol incompatible"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "source",
+      "template": "Rate limited"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "source",

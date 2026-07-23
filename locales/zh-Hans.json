@@ -556,6 +556,11 @@
       "status": "draft",
       "template": "协议不兼容"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "请求受限"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "draft",

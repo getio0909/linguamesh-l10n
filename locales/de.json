@@ -559,6 +559,11 @@
       "status": "draft",
       "template": "Protocol incompatible"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "Ratenlimit erreicht"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "draft",

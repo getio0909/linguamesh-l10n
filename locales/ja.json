@@ -556,6 +556,11 @@
       "status": "draft",
       "template": "Protocol incompatible"
     },
+    "error.category.rate_limited": {
+      "sourceRevision": 1,
+      "status": "draft",
+      "template": "レート制限"
+    },
     "error.category.secret_unavailable": {
       "sourceRevision": 2,
       "status": "draft",
