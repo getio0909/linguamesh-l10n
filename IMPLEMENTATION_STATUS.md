@@ -1,5 +1,18 @@
 # Implementation Status
 
+## 2026-07-23 — Linux client-certificate identity messages
+
+Assumption: the Linux provider form accepts a combined PEM client certificate and private key
+identity; the value is session-only unless the user explicitly remembers it in Secret Service.
+
+- Added three source-revision-59 Linux messages for the masked client-certificate identity field.
+  All twelve official locale packs, pseudo-locales, and deterministic native resources now carry
+  the catalog's 480 messages.
+- `make check` passed formatting, schema/catalog lint, all 26 tests, byte-for-byte generation,
+  deterministic bundle build, and foundation validation.
+- Non-English values remain machine-generated drafts pending qualified human translation review;
+  native visual/RTL/Orca review and stable-release qualification remain open.
+
 ## 2026-07-23 — Linux proxy credential messages
 
 Assumption: Linux consumes proxy credentials through a separate SecretRef field; localized copy

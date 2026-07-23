@@ -1128,6 +1128,11 @@
       "status": "draft",
       "template": "Account identifier"
     },
+    "label.provider_client_certificate_identity": {
+      "sourceRevision": 59,
+      "status": "draft",
+      "template": "Client certificate identity (PEM)"
+    },
     "label.provider_connection_timeout": {
       "sourceRevision": 55,
       "status": "draft",
@@ -1512,6 +1517,11 @@
       "sourceRevision": 50,
       "status": "draft",
       "template": "Optional non-secret account or tenant identifier"
+    },
+    "placeholder.provider_client_certificate_identity": {
+      "sourceRevision": 59,
+      "status": "draft",
+      "template": "Optional PEM client certificate and private key identity"
     },
     "placeholder.provider_custom_headers": {
       "sourceRevision": 51,
@@ -2183,6 +2193,11 @@
       "status": "draft",
       "template": "Optional account identifier used to distinguish provider tenants"
     },
+    "tooltip.provider_client_certificate_identity": {
+      "sourceRevision": 59,
+      "status": "draft",
+      "template": "Kept in memory for the connection and stored in Secret Service only when remembered"
+    },
     "tooltip.provider_connection_timeout": {
       "sourceRevision": 55,
       "status": "draft",
@@ -2424,7 +2439,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 58,
+    "sourceRevision": 59,
     "status": "draft"
   }
 }

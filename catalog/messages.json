@@ -7609,9 +7609,54 @@
         "template": "Optional trusted certificate PEM bundle; system roots remain trusted and TLS verification stays enabled",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": "Names the optional client certificate and private key identity in the Linux provider form.",
+      "description": "Label for an optional PEM client certificate identity.",
+      "key": "label.provider_client_certificate_identity",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 59,
+      "status": "source",
+      "value": {
+        "template": "Client certificate identity (PEM)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Describes the PEM client certificate and private key identity input.",
+      "description": "Placeholder for an optional PEM client certificate and private key identity.",
+      "key": "placeholder.provider_client_certificate_identity",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 59,
+      "status": "source",
+      "value": {
+        "template": "Optional PEM client certificate and private key identity",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the secure lifetime and storage policy for the client certificate identity.",
+      "description": "Tooltip for the optional PEM client certificate identity.",
+      "key": "tooltip.provider_client_certificate_identity",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 59,
+      "status": "source",
+      "value": {
+        "template": "Kept in memory for the connection and stored in Secret Service only when remembered",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 58
+  "sourceRevision": 59
 }
