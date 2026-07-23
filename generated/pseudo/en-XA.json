@@ -1121,6 +1121,11 @@
       "status": "draft",
       "template": "［Åççøûñŧ ïðëñŧïƒïëŕ~~~~~~］"
     },
+    "label.provider_connection_timeout": {
+      "sourceRevision": 55,
+      "status": "draft",
+      "template": "［Çøññëçŧïøñ ŧïṁëøûŧ (šëçøñðš)~~~~~~~~~］"
+    },
     "label.provider_custom_headers": {
       "sourceRevision": 51,
       "status": "draft",
@@ -2146,6 +2151,11 @@
       "status": "draft",
       "template": "［Øþŧïøñåŀ åççøûñŧ ïðëñŧïƒïëŕ ûšëð ŧø ðïšŧïñĝûïšħ þŕøṽïðëŕ ŧëñåñŧš~~~~~~~~~~~~~~~~~~~~~］"
     },
+    "tooltip.provider_connection_timeout": {
+      "sourceRevision": 55,
+      "status": "draft",
+      "template": "［Þŕøṽïðëŕ çøññëçŧïøñ ŧïṁëøûŧ ïñ šëçøñðš, ƒŕøṁ 1 ŧø 120~~~~~~~~~~~~~~~~~］"
+    },
     "tooltip.provider_custom_headers": {
       "sourceRevision": 51,
       "status": "draft",
@@ -2367,7 +2377,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 54,
+    "sourceRevision": 55,
     "status": "draft"
   }
 }

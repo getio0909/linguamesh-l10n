@@ -7386,6 +7386,36 @@
       }
     },
     {
+      "accessibilityContext": "Names the bounded provider connection timeout field.",
+      "description": "Label for the provider connection timeout in seconds in the Linux provider form.",
+      "key": "label.provider_connection_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 55,
+      "status": "source",
+      "value": {
+        "template": "Connection timeout (seconds)",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": "Explains the bounded provider connection timeout range.",
+      "description": "Tooltip for the provider connection timeout in the Linux provider form.",
+      "key": "tooltip.provider_connection_timeout",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 55,
+      "status": "source",
+      "value": {
+        "template": "Provider connection timeout in seconds, from 1 to 120",
+        "type": "text"
+      }
+    },
+    {
       "accessibilityContext": "Explains that custom request headers must be a bounded non-secret JSON object.",
       "description": "Placeholder for optional custom request headers in the Linux provider form.",
       "key": "placeholder.provider_custom_headers",
@@ -7463,5 +7493,5 @@
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 54
+  "sourceRevision": 55
 }

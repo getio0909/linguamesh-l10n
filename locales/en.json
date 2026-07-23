@@ -1121,6 +1121,11 @@
       "status": "source",
       "template": "Account identifier"
     },
+    "label.provider_connection_timeout": {
+      "sourceRevision": 55,
+      "status": "source",
+      "template": "Connection timeout (seconds)"
+    },
     "label.provider_custom_headers": {
       "sourceRevision": 51,
       "status": "source",
@@ -2146,6 +2151,11 @@
       "status": "source",
       "template": "Optional account identifier used to distinguish provider tenants"
     },
+    "tooltip.provider_connection_timeout": {
+      "sourceRevision": 55,
+      "status": "source",
+      "template": "Provider connection timeout in seconds, from 1 to 120"
+    },
     "tooltip.provider_custom_headers": {
       "sourceRevision": 51,
       "status": "source",
@@ -2367,7 +2377,7 @@
   "translation": {
     "machineGenerated": false,
     "reviewStatus": "source",
-    "sourceRevision": 54,
+    "sourceRevision": 55,
     "status": "source"
   }
 }
