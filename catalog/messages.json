@@ -8054,9 +8054,89 @@
         "template": "Last provider health check failed: {category}",
         "type": "text"
       }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Action that removes LinguaMesh-owned temporary files from the Linux system temporary directory.",
+      "key": "action.clear_temporary_files",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 66,
+      "status": "source",
+      "value": {
+        "template": "Clear temporary files",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Tooltip explaining the bounded Linux temporary-file cleanup scope.",
+      "key": "tooltip.clear_temporary_files",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 66,
+      "status": "source",
+      "value": {
+        "template": "Delete LinguaMesh temporary OCR files and abandoned export files from the system temporary directory",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Confirmation dialog title for bounded Linux temporary-file cleanup.",
+      "key": "dialog.clear_temporary_files",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 66,
+      "status": "source",
+      "value": {
+        "template": "Clear LinguaMesh temporary files?",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Confirmation dialog detail for bounded Linux temporary-file cleanup.",
+      "key": "dialog.clear_temporary_files_detail",
+      "placeholders": {},
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 66,
+      "status": "source",
+      "value": {
+        "template": "Only LinguaMesh OCR and abandoned export items in the system temporary directory will be removed.",
+        "type": "text"
+      }
+    },
+    {
+      "accessibilityContext": null,
+      "description": "Status message reporting the number of Linux temporary items removed.",
+      "key": "status.temporary_files_cleared",
+      "placeholders": {
+        "count": {
+          "example": 2,
+          "type": "integer"
+        }
+      },
+      "platforms": [
+        "linux"
+      ],
+      "sourceRevision": 66,
+      "status": "source",
+      "value": {
+        "template": "Cleared {count} LinguaMesh temporary items.",
+        "type": "text"
+      }
     }
   ],
   "schemaVersion": 1,
   "sourceLocale": "en",
-  "sourceRevision": 65
+  "sourceRevision": 66
 }

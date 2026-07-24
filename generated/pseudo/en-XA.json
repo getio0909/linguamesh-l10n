@@ -51,6 +51,11 @@
       "status": "draft",
       "template": "［Çŀëåŕ ŧŕåñšŀåŧïøñ ṁëṁøŕÿ~~~~~~~~］"
     },
+    "action.clear_temporary_files": {
+      "sourceRevision": 66,
+      "status": "draft",
+      "template": "［Çŀëåŕ ŧëṁþøŕåŕÿ ƒïŀëš~~~~~~~］"
+    },
     "action.clear_workspace": {
       "sourceRevision": 64,
       "status": "draft",
@@ -405,6 +410,16 @@
       "sourceRevision": 46,
       "status": "draft",
       "template": "［Ṽëŕšïøñ: {version}\nÇøŕë: {core}\nÅƁÏ: {abi}\nÞŕøŧøçøŀ: {protocol}~~~~~~~~~~~~~~~~~~~~~］"
+    },
+    "dialog.clear_temporary_files": {
+      "sourceRevision": 66,
+      "status": "draft",
+      "template": "［Çŀëåŕ ĿïñĝûåṀëšħ ŧëṁþøŕåŕÿ ƒïŀëš?~~~~~~~~~~~］"
+    },
+    "dialog.clear_temporary_files_detail": {
+      "sourceRevision": 66,
+      "status": "draft",
+      "template": "［Øñŀÿ ĿïñĝûåṀëšħ ØÇŔ åñð åƀåñðøñëð ëẋþøŕŧ ïŧëṁš ïñ ŧħë šÿšŧëṁ ŧëṁþøŕåŕÿ ðïŕëçŧøŕÿ ŵïŀŀ ƀë ŕëṁøṽëð.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "dialog.document_jobs": {
       "sourceRevision": 16,
@@ -2101,6 +2116,11 @@
       "status": "draft",
       "template": "［Šŧåŕŧïñĝ~~］"
     },
+    "status.temporary_files_cleared": {
+      "sourceRevision": 66,
+      "status": "draft",
+      "template": "［Çŀëåŕëð {count} ĿïñĝûåṀëšħ ŧëṁþøŕåŕÿ ïŧëṁš.~~~~~~~~~~~~~~］"
+    },
     "status.text_metrics": {
       "sourceRevision": 34,
       "status": "draft",
@@ -2160,6 +2180,11 @@
       "sourceRevision": 13,
       "status": "draft",
       "template": "［Ðëŀëŧë åŀŀ ŀøçåŀŀÿ šŧøŕëð ŧŕåñšŀåŧïøñ ṁëṁøŕÿ ëñŧŕïëš~~~~~~~~~~~~~~~~~］"
+    },
+    "tooltip.clear_temporary_files": {
+      "sourceRevision": 66,
+      "status": "draft",
+      "template": "［Ðëŀëŧë ĿïñĝûåṀëšħ ŧëṁþøŕåŕÿ ØÇŔ ƒïŀëš åñð åƀåñðøñëð ëẋþøŕŧ ƒïŀëš ƒŕøṁ ŧħë šÿšŧëṁ ŧëṁþøŕåŕÿ ðïŕëçŧøŕÿ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~］"
     },
     "tooltip.clear_workspace": {
       "sourceRevision": 64,
@@ -2562,7 +2587,7 @@
   "translation": {
     "machineGenerated": true,
     "reviewStatus": "unreviewed",
-    "sourceRevision": 65,
+    "sourceRevision": 66,
     "status": "draft"
   }
 }
